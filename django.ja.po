@@ -49,7 +49,7 @@ msgstr "正常にインストールされました"
 
 #: apps/about/about.py:978
 msgid "Error: The submitted package file is empty"
-msgstr "エラー：提出されたパッケージファイルは空です"
+msgstr "エラー：サブミットしたパッケージファイルは空です"
 
 #: apps/about/about.py:985
 msgid "Package submission failed"
