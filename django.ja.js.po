@@ -20,7 +20,8 @@ msgstr ""
 
 #: static/js/SearchPlugin.js:27
 msgid "to"
-msgstr "に"
+#! msgstr "に"
+msgstr "から"
 
 #: static/js/SearchPlugin.js:62
 msgid "Filter …"
@@ -751,8 +752,7 @@ msgstr ""
 #: static/js/filtertable/FilterTable.js:51
 msgid "Invalid event specified (\"click\" or \"change\" events accepted)"
 msgstr ""
-#! "不正なイベントが指定されました（「クリック」か「変更」イベントが有効です）"
-"不正なイベントが指定されました（"click"か"change"イベントのみ有効です）"
+"不正なイベントが指定されました（「クリック」か「変更」イベントが有効です）"
 
 #: static/js/filtertable/FilterTable.js:323
 msgid "Drilldown table instance is not detectable."
@@ -794,7 +794,8 @@ msgstr "開始日より前の無効な終了日が指定されました。"
 
 #: static/js/filtertable/FilterTable.js:1236
 msgid "Undefined filter value"
-msgstr "フィルタが定義されませんでした"
+#! msgstr "フィルタが定義されませんでした"
+msgstr "定義されていないフィルタ"
 
 #: static/js/filtertable/FilterTable.js:1300
 #, javascript-format
@@ -832,12 +833,14 @@ msgstr "最後"
 #: static/js/filtertable/FilterTable.js:2158
 #, javascript-format
 msgid "\"%s\" is an invalid control type"
-msgstr "\"%s\" は無効なコントロールタイプ"
+#! msgstr "\"%s\" は無効なコントロールタイプ"
+msgstr "\"%s\" は無効なコントロールタイプです"
 
 #: static/js/filtertable/FilterTable.js:2232
 #, javascript-format
 msgid "\"%s\" is an invalid filter type"
-msgstr "\"%s\" は無効なフィルタタイプ"
+#! msgstr "\"%s\" は無効なフィルタタイプ"
+msgstr "\"%s\" は無効なフィルタタイプです"
 
 #: static/js/filtertable/FilterTable.js:2310
 msgid "Details"
@@ -866,7 +869,8 @@ msgstr "検索フィルタを表示する"
 
 #: static/js/filtertable/FilterTable.js:2585
 msgid "Invalid filter format detected"
-msgstr "正しくないフィルターフォーマットが検出されました"
+#! msgstr "正しくないフィルターフォーマットが検出されました"
+msgstr "フィルターフォーマットが正しくありません"
 
 #: static/js/filtertable/FilterTable.js:3607
 msgid ""
