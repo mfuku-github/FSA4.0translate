@@ -49,11 +49,13 @@ msgstr "正常にインストールされました"
 
 #: apps/about/about.py:978
 msgid "Error: The submitted package file is empty"
-msgstr "エラー：提出されたパッケージファイルは空です"
+#! msgstr "エラー：サブミットされたパッケージファイルは空です"
+msgstr "エラー：送信されたパッケージファイルは空です"
 
 #: apps/about/about.py:985
 msgid "Package submission failed"
-msgstr "パッケージ送信失敗"
+#! msgstr "パッケージ送信失敗"
+msgstr "パッケージの送信に失敗しました"
 
 #: apps/about/about.py:985
 msgid "Error: Package was not submitted. Please check Syslog for details"
@@ -62,20 +64,25 @@ msgstr ""
 
 #: apps/about/firmware/download.py:81
 msgid "Downloaded firmware image successfully Deleted."
-msgstr "ダウンロードされたVMイメージの削除に成功しました。"
+#! msgstr "ダウンロードされたVMイメージの削除に成功しました。"
+msgstr "ダウンロードされたファームウェアメージは正常に削除されました。"
 
 #: apps/about/firmware/download.py:83
 msgid "Unable to delete downloaded firmware image."
-msgstr "ダウンロードされたVMイメージを削除できません。"
+#! msgstr "ダウンロードされたVMイメージを削除できません。"
+msgstr "ダウンロードされたファームウェアイメージを削除できません。"
 
 #: apps/about/firmware/views.py:25
 msgid ""
 "<h2>Firmware Notification page is a new feature in V3.1.0</h2><br/"
 "><h3>Please upgrade your HACluster Master to V3.1.0 to view this page</h2>"
+#! msgstr ""
+#! "140/5000\n"
+#! "<h2>ファームウェア通知ページはV3.1.0の新機能です。</h2> <br/> <h3>このページ"
+#! "を表示するには、HAクラスタマスターをV3.1.0にアップグレードしてください。</h2>"
 msgstr ""
-"140/5000\n"
-"<h2>ファームウェア通知ページはV3.1.0の新機能です。</h2> <br/> <h3>このページ"
-"を表示するには、HAクラスタマスターをV3.1.0にアップグレードしてください。</h2>"
+"<h2>ファームウェア通知ページはV3.1.0の新機能です。</h2> "
+"<br/> <h3>このページを表示するには、HAクラスタマスターをV3.1.0にアップグレードしてください。</h2>"
 
 #: apps/about/officelicupload.py:24
 msgid "Microsoft "
@@ -91,7 +98,8 @@ msgstr "新規インポートに失敗しました"
 
 #: apps/about/officelicupload.py:66
 msgid " file was successfully imported. Rebooting system."
-msgstr " ファイルは正常にインポートされました。再起動システム"
+#! msgstr " ファイルは正常にインポートされました。再起動システム"
+msgstr " ファイルは正常にインポートされました。システムを再起動しています"
 
 #: apps/about/officelicupload.py:75
 msgid " file submission failed. "
@@ -111,7 +119,8 @@ msgstr "新しいVMライセンスをインポートできませんでした。 
 
 #: apps/about/vmlicupload.py:64
 msgid "VM license file was successfully imported. Rebooting system."
-msgstr "VMライセンスファイルは正常にインポートされました。再起動システム"
+#! msgstr "VMライセンスファイルは正常にインポートされました。再起動システム"
+msgstr "VMライセンスファイルは正常にインポートされました。システムを再起動しています。"
 
 #: apps/about/vmlicupload.py:74
 msgid "VM license file submission failed. "
@@ -156,7 +165,8 @@ msgstr "脅威分析"
 
 #: apps/admin_profiles/defs.py:22
 msgid "Scan Searches"
-msgstr "URLスキャンの検索"
+#! msgstr "URLスキャンの検索"
+msgstr "スキャン検索"
 
 #: apps/admin_profiles/defs.py:23 apps/dashboard/defs.py:39
 #: apps/dashboard/views.py:38 apps/widgets/models.py:29
@@ -234,6 +244,7 @@ msgstr "VMジョブ"
 #: apps/admin_profiles/defs.py:38 templates/main/tree_menu_def.html:135
 #: templates/scan/overridden_verdicts.html:17
 msgid "Overridden Verdicts"
+#! msgstr "オーバーライドされた判定"
 msgstr "オーバーライドされた評決"
 
 #: apps/admin_profiles/defs.py:39 templates/main/tree_menu_def.html:101
@@ -257,7 +268,8 @@ msgstr "スキャンポリシーとオブジェクト"
 
 #: apps/admin_profiles/defs.py:44
 msgid "Cluster"
-msgstr "HAクラスタ"
+#! msgstr "HAクラスタ"
+msgstr "クラスタ"
 
 #: apps/admin_profiles/defs.py:45 apps/hacluster/clibhc.py:23
 #: apps/hacluster/clibhc.py:36 templates/main/tree_menu_def.html:431
@@ -284,7 +296,8 @@ msgstr "URL検知"
 
 #: apps/admin_profiles/defs.py:50
 msgid "Log Events"
-msgstr "URLイベント"
+#! msgstr "URLイベント"
+msgstr "ログイベント"
 
 #: apps/admin_profiles/defs.py:51
 msgid "Local Log Config"
@@ -292,7 +305,8 @@ msgstr "ローカルログ設定"
 
 #: apps/admin_profiles/defs.py:52 templates/logs/diagnostic_logs.html:41
 msgid "Diagnostic Logs"
-msgstr "クリティカルログ"
+#! msgstr "クリティカルログ"
+msgstr "診断ログ"
 
 #: apps/admin_profiles/defs.py:53 templates/main/tree_menu_def.html:499
 msgid "Summary Report"
@@ -316,7 +330,8 @@ msgstr "オリジナルファイルのダウンロード"
 
 #: apps/admin_profiles/defs.py:62
 msgid "JSON API"
-msgstr "JSON API / CLI"
+#! msgstr "JSON API / CLI"
+msgstr "JSON API"
 
 #: apps/admin_profiles/defs.py:63
 msgid "Allow On-Demand Scan Interaction"
@@ -330,9 +345,13 @@ msgstr "オンデマンドスキャンビデオ録画を許可する"
 msgid ""
 "The action requires 'write' privileges. Please contact your system "
 "administrator for further assistance"
+#! msgstr ""
+#! "アクションには「書き込み」特権が必要です。詳細については、システム管理者にお"
+#! "問い合わせください"
 msgstr ""
-"アクションには「書き込み」特権が必要です。詳細については、システム管理者にお"
-"問い合わせください"
+"アクションには「書き込み」権限が必要です。詳細については、システム管理者に"
+"お問い合わせください"
+
 
 #: apps/admin_profiles/views.py:89
 msgid "Error happened while saving admin profile."
@@ -344,15 +363,20 @@ msgstr "プロファイルは正常に削除されました。"
 
 #: apps/admin_profiles/views.py:117
 msgid "Admin Profiles has been restored"
-msgstr "管理者名が使用されました"
+#!msgstr "管理者名が使用されました"
+msgstr "管理者プロファイルがリストアされました"
 
 #: apps/admin_profiles/views.py:121
 msgid ""
 "Admin Profiles has not been restored, please make sure you are using the "
 "correct file"
+#! msgstr ""
+#! "管理者プロファイルが復元されていません。正しいファイルを使用していることを確"
+#! "認してください"
 msgstr ""
-"管理者プロファイルが復元されていません。正しいファイルを使用していることを確"
-"認してください"
+"管理者プロファイルがリストアされていません。正しいファイルを使用していることを"
+"確認してください"
+
 
 #: apps/alerts/class_views/drilldown.py:111 apps/logs/class_views.py:247
 #: apps/report_center/csvfile/base.py:61
@@ -385,9 +409,11 @@ msgstr "VM内のファイルを強制的にスキャンする"
 
 #: apps/alerts/forms.py:76 apps/alerts/forms.py:133
 msgid "The job you have selected is a rescan. You cannot rescan a rescan."
+#! msgstr ""
+#! "選択したジョブが再スキャンされます。再スキャンを再スキャンすることはできませ"
+#! "ん。"
 msgstr ""
-"選択したジョブが再スキャンされます。再スキャンを再スキャンすることはできませ"
-"ん。"
+"選択したジョブは再スキャンです。再スキャンすることはできません"
 
 #: apps/alerts/forms.py:103 apps/scan/demand.py:1212
 msgid "File was submitted successfully"
@@ -397,7 +423,8 @@ msgstr "ファイルのサブミットに成功しました"
 #: apps/job_detail/gui/defs.py:48
 #: templates/alert/job-details/basics-panel.html:212
 msgid "Depth"
-msgstr "深さ"
+#! msgstr "深さ"
+msgstr "階層"
 
 #: apps/alerts/forms.py:109 apps/alerts/ondemand_forms/url.py:18
 #, fuzzy
@@ -417,19 +444,23 @@ msgstr "タイムアウト"
 #: apps/alerts/forms.py:114
 msgid ""
 "The time period to stop the scan in seconds (between 30 and 1200 seconds)."
-msgstr "スキャンの中止が可能な時間(秒) (30〜1200秒)"
+#! msgstr "スキャンの中止が可能な時間(秒) (30〜1200秒)"
+msgstr "スキャンを停止する時間(秒) (30〜1200秒)"
 
 #: apps/alerts/forms.py:136
 msgid "Depth value must be an integer between 0 - 10 levels."
-msgstr "深さは0〜10の間でなければなりません。"
+#! msgstr "深さは0〜10の間でなければなりません。"
+msgstr "階層は0〜10の間でなければなりません。"
 
 #: apps/alerts/forms.py:139 apps/scan/demand.py:614 apps/scan/demand.py:1259
 msgid "Timeout value must be a positive integer between 30 - 1200 seconds"
-msgstr "タイムアウト値は正数で30〜1200秒の間でなければなりません"
+#! msgstr "タイムアウト値は正数で30〜1200秒の間でなければなりません"
+msgstr "タイムアウト値は30〜1200秒の間でなければなりません"
 
 #: apps/alerts/forms.py:163
 msgid "Url was submitted successfully"
-msgstr "ファイルのサブミットに成功しました"
+#! msgstr "ファイルのサブミットに成功しました"
+msgstr "Urlのサブミットに成功しました"
 
 #: apps/alerts/models_alchemy.py:47 apps/forticlient/defs.py:8
 #: apps/ondemand/defs.py:6 apps/operation_center/defs.py:11
@@ -468,7 +499,8 @@ msgstr "ジョブID"
 #: templates/csearch/custom_filter_table.html:91
 #: templates/csearch/file_based_index.html:126
 msgid "Malware"
-msgstr "マルウエア"
+#! msgstr "マルウエア"
+msgstr "マルウェア"
 
 #: apps/alerts/models_alchemy.py:53 apps/operation_center/defs.py:17
 #: apps/table/config/defs.py:13 apps/widgets/utils/reports.py:265
@@ -521,7 +553,8 @@ msgstr "送信元"
 #: templates/csearch/custom_filter_table.html:155
 #: templates/csearch/url_based_index.html:134
 msgid "Submitted By"
-msgstr "サブミットしたユーザ名・方法"
+#! msgstr "サブミットしたユーザ名・方法"
+msgstr "からサブミット"
 
 #: apps/alerts/models_alchemy.py:57 apps/alerts/profile.py:378
 #: apps/alerts/profile.py:525 apps/alerts/profile.py:601
@@ -584,7 +617,8 @@ msgstr "URL"
 
 #: apps/alerts/models_alchemy.py:62
 msgid "Rated by"
-msgstr "Rated by"
+#! msgstr "Rated by"
+msgstr "によって評価"
 
 #: apps/alerts/models_alchemy.py:63 apps/job_detail/gui/defs.py:81
 #: apps/table/config/defs.py:19
@@ -645,9 +679,11 @@ msgstr "アーカイブ/オフィスファイルに使用可能なパスワー�
 msgid ""
 "One possible password for each line. Please use ASCII format password "
 "without empty space."
+#! msgstr ""
+#! "各行ごとに可能性のパスワードをひとつ。ASCIIフォーマットのパスワードのみがサ"
+#! "ポートされています。"
 msgstr ""
-"各行ごとに可能性のパスワードをひとつ。ASCIIフォーマットのパスワードのみがサ"
-"ポートされています。"
+"各行ごとに可能性のパスワードをひとつ。空欄のないASCII形式のパスワードを使用してください。"
 
 #: apps/alerts/ondemand_forms/file.py:22 apps/alerts/ondemand_forms/url.py:43
 #: apps/job_detail/gui/defs.py:50 apps/system/forms.py:155
@@ -679,11 +715,13 @@ msgstr "インタラクションを許可する"
 
 #: apps/alerts/ondemand_forms/file.py:47 apps/alerts/ondemand_forms/url.py:56
 msgid "Interact with VM during on-demand scan"
-msgstr "オンデマンドスキャン中にVMと対話する"
+#! msgstr "オンデマンドスキャン中にVMと対話する"
+msgstr "オンデマンドスキャン中にVMを操作する"
 
 #: apps/alerts/ondemand_forms/file.py:50 apps/alerts/ondemand_forms/url.py:59
 msgid "Record scan process in video if VMs involve"
-msgstr "VMが関与する場合、ビデオでスキャンプロセスを記録する"
+#! msgstr "VMが関与する場合、ビデオでスキャンプロセスを記録する"
+msgstr "VMが関与する場合、スキャンプロセスをビデオに記録する"
 
 #: apps/alerts/ondemand_forms/file.py:52 apps/alerts/ondemand_forms/url.py:61
 #: apps/system/forms.py:160
@@ -693,14 +731,17 @@ msgstr "脅威パッケージにサンプルを追加する"
 #: apps/alerts/ondemand_forms/file.py:52
 msgid ""
 "Add file to        Malware Package if it meets settings in Package Options"
+#! msgstr ""
+#! "パッケージオプションの設定を満たしている場合は、マルウェアパッケージにファイ"
+#! "ルを追加します。"
 msgstr ""
-"パッケージオプションの設定を満たしている場合は、マルウェアパッケージにファイ"
-"ルを追加します。"
+"パッケージオプションの設定を満たしている場合は、マルウェアパッケージにファイルを追加する"
 
 #: apps/alerts/ondemand_forms/file.py:55 apps/alerts/ondemand_forms/url.py:64
 #: apps/system/forms.py:161
 msgid "Enable AI"
-msgstr "AIを開く"
+#! msgstr "AIを開く"
+msgstr "AIを有効化"
 
 #: apps/alerts/ondemand_forms/file.py:55 apps/alerts/ondemand_forms/url.py:64
 msgid "Enable AI mode    for this scanning"
@@ -710,7 +751,8 @@ msgstr "このスキャンでAIモードを有効にする"
 msgid ""
 "The time period to stop the URLs scan,in seconds (between 30 and 1200 "
 "seconds)."
-msgstr "URLスキャンを停止する期間（秒）（30〜1200秒）。"
+#! msgstr "URLスキャンを停止する期間（秒）（30〜1200秒）。"
+msgstr "URLスキャンを停止までの時間（秒）（30〜1200秒）。"
 
 #: apps/alerts/ondemand_forms/url.py:27
 msgid "Direct URL"
@@ -718,11 +760,13 @@ msgstr "URLを直接入力"
 
 #: apps/alerts/ondemand_forms/url.py:28
 msgid "You can submit a url directly without submitting a file."
-msgstr "ファイル形式でなくても、URLを直接入力することが出来ます。"
+#! msgstr "ファイル形式でなくても、URLを直接入力することが出来ます。"
+msgstr "ファイルをサブミットせずにURLを直接サブミットできます。"
 
 #: apps/alerts/ondemand_forms/url.py:39
 msgid "Enter a url"
-msgstr "URL"
+#! msgstr "URL"
+msgstr "URLを入力"
 
 #: apps/alerts/ondemand_forms/url.py:49
 msgid "Force to scan the url inside VM"
@@ -748,7 +792,8 @@ msgstr "次のVMをスキャンします（6以下）"
 #: apps/alerts/profile.py:54 apps/alerts/profile.py:84
 #: apps/alerts/profile.py:520
 msgid "Malicious Files"
-msgstr "マルウェアファイル"
+#! msgstr "マルウェアファイル"
+msgstr "悪意のあるファイル"
 
 #: apps/alerts/profile.py:67 apps/alerts/profile.py:97
 #: apps/alerts/profile.py:521
@@ -770,7 +815,8 @@ msgstr "URLイベント"
 #: apps/alerts/profile.py:367 templates/alert/job-details/basics-panel.html:20
 #: templates/job_detail/header.html:17
 msgid "FortiGuard Encyclopedia Analysis"
-msgstr "FortiGuard エンサイクロペディア アナリシス"
+#! msgstr "FortiGuard エンサイクロペディア アナリシス"
+msgstr "FortiGuardエンサイクロペディア分析"
 
 #: apps/alerts/profile.py:370 apps/job_detail/gui/defs.py:34
 #: apps/logs/logutils.py:297 templates/alert/job-details/basics-panel.html:110
@@ -808,7 +854,8 @@ msgstr "デバイス名"
 #: apps/alerts/profile.py:527 apps/alerts/profile.py:603
 #: apps/logs/logutils.py:242 apps/logs/logutils.py:290
 msgid "Domain/Vdom"
-msgstr "Domain/Vdom"
+#! msgstr "Domain/Vdom"
+msgstr "ドメイン/Vdom"
 
 #: apps/alerts/profile.py:512
 msgid "Threat Target"
@@ -854,7 +901,8 @@ msgstr "無効"
 #: apps/alerts/profile.py:600
 #: templates/alert/scan_job_details_sections.html:248
 msgid "EMS Serial"
-msgstr "EMS シリアル"
+#! msgstr "EMS シリアル"
+msgstr "EMSシリアル"
 
 #: apps/alerts/profile.py:604 apps/forticlient/defs.py:11
 #: apps/logs/logutils.py:257 templates/scan/device_fct_main.html:40
@@ -871,11 +919,13 @@ msgstr "承認済み"
 
 #: apps/alerts/profile.py:609
 msgid "Last Modified"
-msgstr "最後の変更日"
+#! msgstr "最後の変更日"
+msgstr "最終更新日"
 
 #: apps/alerts/profile.py:612
 msgid "Last Seen"
-msgstr "最後の確認"
+#! msgstr "最後の確認"
+msgstr "最終確認日"
 
 #: apps/alerts/profile.py:618
 msgid "Authorization"
@@ -897,12 +947,14 @@ msgstr "PDFレポートを送信"
 #: apps/alerts/profile.py:630 apps/alerts/profile.py:654
 #: apps/alerts/profile.py:678 apps/alerts/profile.py:702
 msgid "Total Malicious Files"
-msgstr "マルウェアファイルの合計"
+#! msgstr "マルウェアファイルの合計"
+msgstr "悪意のあるファイルの総数"
 
 #: apps/alerts/profile.py:633 apps/alerts/profile.py:657
 #: apps/alerts/profile.py:681 apps/alerts/profile.py:705
 msgid "Total Suspicious Files"
-msgstr "疑わしいファイルの合計数"
+#! msgstr "疑わしいファイルの合計数"
+msgstr "疑わしいファイルの総数"
 
 #: apps/alerts/views.py:68 templates/admin/change_list_controls.html:76
 msgid "Attacker"
@@ -915,27 +967,33 @@ msgstr "ボットネット"
 
 #: apps/alerts/views.py:133
 msgid "Please configure rescan settings."
-msgstr "リスキャン設定をしてください。"
+#! msgstr "リスキャン設定をしてください。"
+msgstr "再スキャン設定をしてください。"
 
 #: apps/alerts/views.py:134
 msgid "Failed to launch rescan."
-msgstr "リスキャンが失敗しました。"
+#! msgstr "リスキャンが失敗しました。"
+msgstr "再スキャンの起動に失敗しました。"
 
 #: apps/alerts/views.py:138
 msgid ""
 "Rescan job has been scheduled. Result can be found later in the URL On-"
 "Demand page."
+#! msgstr ""
+#! "ジョブの再スキャンがスケジュールされました。結果はのちほどオンデマンドのペー"
+#! "ジで見つけることができます。"
 msgstr ""
-"ジョブの再スキャンがスケジュールされました。結果はのちほどオンデマンドのペー"
-"ジで見つけることができます。"
+"再スキャンジョブがスケジュールされました。結果は、後でURLオンデマンドページで確認できます。"
 
 #: apps/alerts/views.py:141
 msgid ""
 "Rescan job has been scheduled. Result can be found later in the File On-"
 "Demand page."
+#! msgstr ""
+#! "ジョブの再スキャンがスケジュールされました。結果はのちほどオンデマンドのペー"
+#! "ジで見つけることができます。"
 msgstr ""
-"ジョブの再スキャンがスケジュールされました。結果はのちほどオンデマンドのペー"
-"ジで見つけることができます。"
+"再スキャンジョブがスケジュールされました。結果は、後でファイルオンデマンドページで確認できます。"
 
 #: apps/alerts/views.py:154
 msgid " (original file does not exist)."
@@ -947,28 +1005,37 @@ msgid ""
 "formats are supported: \n"
 " .tar, .z, .xz, .gz, .tar.gz, .tgz, .zip, .bz2, .tar.bz2, .tar.Z, .7z, ."
 "rar, .lzh, .ace"
+#! msgstr ""
+#! "サンプルファイルまたはアーカイブされたサンプルファイルをアップロードしてくだ"
+#! "さい。以下のアーカイブ形式がサポートされます。\n"
+#! " .tar, .z, .xz, .gz, .tar.gz, .tgz, .zip, .bz2, .tar.bz2, .tar.Z, .7z, ."
+#! "rar, .lzh, .ace"
 msgstr ""
-"サンプルファイルまたはアーカイブされたサンプルファイルをアップロードしてくだ"
-"さい。以下のアーカイブ形式がサポートされます。\n"
-" .tar, .z, .xz, .gz, .tar.gz, .tgz, .zip, .bz2, .tar.bz2, .tar.Z, .7z, ."
-"rar, .lzh, .ace"
+"サンプルファイルまたはアーカイブされたサンプルファイルをアップロードしてください。"
+"以下のアーカイブ形式がサポートされます。\n"
+" .tar, .z, .xz, .gz, .tar.gz, .tgz, .zip, .bz2, .tar.bz2, .tar.Z, .7z,"
+".rar, .lzh, .ace"
 
 #: apps/alerts/views.py:193
 #: templates/alert/url/url_ondemand_filter_table.html:75
 msgid ""
 "Please upload a plain-text file containing a list of URLs (1 URL per line)."
+#! msgstr ""
+#! "URLのリストを含んだプレーンテキストファイルをアップロードしてください(1行にひ"
+#! "とつのURL)。"
 msgstr ""
-"URLのリストを含んだプレーンテキストファイルをアップロードしてください(1行にひ"
-"とつのURL)。"
+"URLのリストを含んだプレーンテキストファイルをアップロードしてください(1行に１つのURLを記載)。"
 
 #: apps/alerts/views.py:379
 msgid "Total Devices"
-msgstr "上位デバイス"
+#! msgstr "上位デバイス"
+msgstr "デバイス総数"
 
 #: apps/alerts/views.py:409 apps/alerts/views.py:434 apps/alerts/views.py:454
 #, python-format
 msgid "Threat Timeline Chart for %s"
-msgstr "脅威タイムラインチャート: %s"
+#! msgstr "脅威タイムラインチャート: %s"
+msgstr "%sの脅威タイムラインチャート"
 
 #: apps/alerts/views.py:535 apps/download_center/api.py:70
 #, python-format
@@ -1003,7 +1070,8 @@ msgstr "アーカイブし直しに失敗しました"
 #: apps/analysis/detail.py:530
 #, python-format
 msgid "Screenshot image for job %(jid)s does not exist."
-msgstr "ジョブ %(jid)s のスクリーンショットファイルは存在しません。"
+#! msgstr "ジョブ %(jid)s のスクリーンショットファイルは存在しません。"
+msgstr "ジョブ %(jid)s のスクリーンショットイメージは存在しません。"
 
 #: apps/analysis/detail.py:665
 #, fuzzy
@@ -1015,7 +1083,8 @@ msgstr "コメントは空欄に出来ません"
 #, fuzzy
 #| msgid "Feedback submission failed"
 msgid "Feedback submission has been scheduled"
-msgstr "フィードバックの送信に失敗しました"
+#! msgstr "フィードバックの送信に失敗しました"
+msgstr "フィードバックの送信が予定されています"
 
 #: apps/analysis/detail.py:678
 msgid "Feedback submission failed"
@@ -1045,17 +1114,20 @@ msgstr "システム情報"
 #, fuzzy
 #| msgid "VM License"
 msgid "Licenses"
-msgstr "VMライセンス"
+#! msgstr "VMライセンス"
+msgstr "ライセンス"
 
 #: apps/dashboard/defs.py:25
 msgid "Connectivity and Services"
-msgstr "コネクティビティとサービス"
+#! msgstr "コネクティビティとサービス"
+msgstr "接続性とサービス"
 
 #: apps/dashboard/defs.py:26
 #, fuzzy
 #| msgid " Status"
 msgid "Scan Status"
-msgstr " ステータス"
+#! msgstr " ステータス"
+msgstr "スキャンステータス"
 
 #: apps/dashboard/defs.py:27 apps/widgets/types.py:15
 msgid "System Resources"
@@ -1065,7 +1137,8 @@ msgstr "システムリソース"
 #, fuzzy
 #| msgid "System Resources"
 msgid "System Resources Usage"
-msgstr "システムリソース"
+#! msgstr "システムリソース"
+msgstr "システムリソース使用量"
 
 #: apps/dashboard/defs.py:29 apps/dashboard/defs.py:47
 #: apps/dashboard/defs.py:74
@@ -1134,7 +1207,8 @@ msgstr "ファイルベースの検知レポート"
 
 #: apps/dashboard/defs.py:61 apps/widgets/types.py:169
 msgid "Event Trend"
-msgstr "イベントのトレンド"
+#! msgstr "イベントのトレンド"
+msgstr "イベントトレンド"
 
 #: apps/dashboard/defs.py:62 apps/widgets/types.py:181
 #: apps/widgets/utils/netdet_data.py:137
@@ -1144,7 +1218,8 @@ msgstr "上位ネットワークアタック"
 #: apps/dashboard/defs.py:63 apps/widgets/types.py:196
 #: apps/widgets/utils/netdet_data.py:138
 msgid "Top Attacked Hosts"
-msgstr "上位アタックホスト"
+#! msgstr "上位アタックホスト"
+msgstr "攻撃された上位のホスト"
 
 #: apps/dashboard/defs.py:64 apps/widgets/types.py:211
 #: apps/widgets/utils/netdet_data.py:139
@@ -1159,12 +1234,14 @@ msgstr "上位ボットネット感染ホスト"
 #: apps/dashboard/defs.py:66 apps/widgets/types.py:241
 #: apps/widgets/utils/netdet_data.py:141
 msgid "Top Visited Suspicious Hosts"
-msgstr "アクセスのあった上位の疑わしいURLホスト"
+#! msgstr "アクセスのあった上位の疑わしいURLホスト"
+msgstr "アクセスのあった上位の疑わしいホスト"
 
 #: apps/dashboard/defs.py:67 apps/widgets/types.py:256
 #: apps/widgets/utils/netdet_data.py:142
 msgid "Top Hosts Visiting Suspicious URL"
-msgstr "上位の疑わしいURLホスト"
+#! msgstr "上位の疑わしいURLホスト"
+msgstr "疑わしいURLにアクセスしている上位のホスト"
 
 #: apps/dashboard/defs.py:69 apps/widgets/models.py:41
 msgid "Network Detection Reports"
@@ -1172,7 +1249,8 @@ msgstr "ネットワーク検知レポート"
 
 #: apps/dashboard/defs.py:76 apps/widgets/types.py:296
 msgid "Scanning Activity"
-msgstr "検査実施状況"
+#! msgstr "検査実施状況"
+msgstr "スキャンアクティビティ"
 
 #: apps/dashboard/defs.py:78 apps/widgets/models.py:47
 msgid "URL Detection Reports"
@@ -1189,15 +1267,18 @@ msgstr "詳細情報"
 #: apps/dashboard/defs.py:85
 #: templates/job_detail/tracer_behavior_detail.html:129
 msgid "Indicators"
-msgstr "ビヘイビア サマリー"
+#! msgstr "ビヘイビア サマリー"
+msgstr "指標"
 
 #: apps/dashboard/defs.py:86 templates/alert/scan_job_details_sections.html:393
 msgid "Behavior Summary"
-msgstr "ビヘイビア サマリー"
+#! msgstr "ビヘイビア サマリー"
+msgstr "ビヘイビアサマリー"
 
 #: apps/dashboard/defs.py:87
 msgid "Globe Attack"
-msgstr "グローバルアタック"
+#! msgstr "グローバルアタック"
+msgstr "グローブアタック"
 
 #: apps/dashboard/defs.py:88 apps/job_detail/gui/defs.py:10
 #: apps/job_detail/widgets/views.py:32 apps/job_detail/widgets/views.py:51
@@ -1235,7 +1316,8 @@ msgstr "直近の24時間"
 
 #: apps/dashboard/defs.py:121 templates/dashboard/settings/widget.html:45
 msgid "Last 3 Days"
-msgstr "直近の7日間"
+#! msgstr "直近の7日間"
+msgstr "直近の3日間"
 
 #: apps/dashboard/defs.py:122 apps/system/forms.py:67 apps/widgets/forms.py:11
 #: templates/admin/change_list_controls.html:37

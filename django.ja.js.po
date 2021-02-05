@@ -590,7 +590,7 @@ msgstr "直近の4週間"
 
 #: static/js/callback_filtertable_defs.js:210
 msgid "Export Data"
-msgstr "データのエクスポート"
+#!!! msgstr "データのエクスポート"
 
 #: static/js/change_list_controls.js:172
 #: static/js/filtertable/filtertable_helpers.js:97
@@ -614,16 +614,19 @@ msgstr "表示するデータがありません"
 #: static/js/circle_packing/drawing.js:1
 msgid "For Network Alert events, please go to Network Alerts page for details."
 msgstr ""
-"ネットワークアラートイベントについては、詳細についてネットワークアラートペー"
-"ジをご覧ください。"
+#! "ネットワークアラートイベントについては、詳細についてネットワークアラートペー"
+#! "ジをご覧ください。"
+"ネットワークアラートイベントの詳細は、ネットワークアラートページを確認してく"
+"ださい。"
 
 #: static/js/circle_packing/drawing.js:2
 msgid ""
 "For Network Share events, please go to Scan Input -> Network Share page for "
 "details."
 msgstr ""
-"ネットワーク共有イベントの詳細については、[入力のスキャン]-> [ネットワーク共"
-"有]ページにアクセスしてください。"
+#! "ネットワーク共有イベントの詳細については、[入力のスキャン]-> [ネットワーク共"
+#! "有]ページにアクセスしてください。"
+#!!! そんなのない。。
 
 #: static/js/dashboard/app.js:7
 msgid "Widget Selection"
@@ -647,23 +650,28 @@ msgstr "すべての機器"
 
 #: static/js/dashboard/app.js:370 static/js/dashboard/app.js:407
 msgid "Dashboard layout is successfully saved."
-msgstr "ダッシュボードのレイアウトが正常に保存されました。"
+#! msgstr "ダッシュボードのレイアウトが正常に保存されました。"
+msgstr "ダッシュボードのレイアウトが保存されました。"
 
 #: static/js/dashboard/app.js:382
 msgid "New widget is successfully added."
-msgstr "新しいウィジェットが正常に追加されました。"
+#! msgstr "新しいウィジェットが正常に追加されました。"
+msgstr "新しいウィジェットが追加されました。
 
 #: static/js/dashboard/app.js:433
 msgid "You will lose current layout if you reset, are you sure?"
-msgstr "リセットすれば現在のレイアウトを失います、よろしいですか？"
+#! msgstr "リセットすれば現在のレイアウトを失います、よろしいですか？"
+msgstr "レイアウト設定がリセットされます。続行しますか？"
 
 #: static/js/dashboard/app.js:440
 msgid "Dashboard layout is successfully reset."
-msgstr "ダッシュボードのレイアウトは正常にリセットされました。"
+#! msgstr "ダッシュボードのレイアウトは正常にリセットされました。"
+msgstr "ダッシュボードのレイアウトはリセットされました。"
 
 #: static/js/dashboard/app.js:463
 msgid "You will lose current layout if you clear, are you sure?"
-msgstr "クリアすれば現在のレイアウトを失います、よろしいですか？"
+#! msgstr "クリアすれば現在のレイアウトを失います、よろしいですか？"
+msgstr "レイアウト設定がクリアされます。続行しますか？"
 
 #: static/js/dashboard/widgets/chart/normal.js:22
 #: static/js/dashboard/widgets/chart/pie.js:43 static/js/drawCharts.js:12
@@ -680,7 +688,8 @@ msgstr "ウィジェットの設定が変更されました。"
 
 #: static/js/device_profiles/app.js:13
 msgid "Device group was successfully saved."
-msgstr "デバイスグループが正常に保存されました。"
+#! msgstr "デバイスグループが正常に保存されました。"
+msgstr "デバイスグループが保存されました。"
 
 #: static/js/device_profiles/main.js:50
 msgid "Please make sure group(s) is not used by any user"
@@ -716,7 +725,8 @@ msgstr "エラー"
 #: static/js/job_detail/tree_view_details.js:501
 #: static/js/scan_job_detail/tracer_behavior_detail.js:171
 msgid "Caution: The file may contain harmful software."
-msgstr "注意：ファイルには有害なソフトウェアが含まれている可能性があります。"
+#! msgstr "注意：ファイルには有害なソフトウェアが含まれている可能性があります。"
+msgstr "注意：このファイルには有害なソフトウェアが含まれている可能性があります。"
 
 #: static/js/drilldown_pdf_helpers.js:125
 #: static/js/drilldown_pdf_helpers.js:190
@@ -731,18 +741,18 @@ msgid ""
 "Center page after being finished. You can close this window now or wait till "
 "report is ready."
 msgstr ""
-"レポートが生成される予定です。 完了したら、ログとレポート>レポートセンター"
-"ページに表示されます。 今すぐこのウィンドウを閉じるか、レポートの準備ができる"
-"まで待つことができます。"
+#! "レポートが生成される予定です。 完了したら、ログとレポート>レポートセンター"
+#! "ページに表示されます。 今すぐこのウィンドウを閉じるか、レポートの準備ができる"
+#! "まで待つことができます。"
+"レポートが生成がされます。 レポート生成が完了したら、ログ&レポート>レポート"
+"センターページに表示されます。 今すぐこのウィンドウを閉じるか、レポートがで"
+"きるまでお待ちください。"
+
 
 #: static/js/filtertable/FilterTable.js:51
 msgid "Invalid event specified (\"click\" or \"change\" events accepted)"
 msgstr ""
-<<<<<<< Updated upstream
 "不正なイベントが指定されました（「クリック」か「変更」イベントが有効です）"
-=======
-#!!! "不正なイベントが指定されました（「クリック」か「変更」イベントが有効です）"
->>>>>>> Stashed changes
 
 #: static/js/filtertable/FilterTable.js:323
 msgid "Drilldown table instance is not detectable."
@@ -2239,11 +2249,13 @@ msgstr ""
 
 #: static/js/vmimages/main.js:600 static/js/vmimages/main.js:769
 msgid "Total Windows clone numbers cannot exceed "
-msgstr "Windowsの全クローン数を超えることはできません"
+#! msgstr "Windowsの全クローン数を超えることはできません"
+msgstr "Windowsのクローン総数を超えることはできません"
 
 #: static/js/vmimages/main.js:667
 msgid "VM type "
-msgstr " VMの種類"
+#! msgstr " VMの種類"
+msgstr " VMタイプ"
 
 #: static/js/vmimages/main.js:667
 msgid ""
@@ -2265,11 +2277,13 @@ msgstr ""
 
 #: static/js/vmimages/main.js:707
 msgid "No valid MACOSX contract"
-msgstr "有効なMAC OS X契約がない"
+#! msgstr "有効なMAC OS X契約がない"
+msgstr "MACOSX VMのコントラクトがありません"
 
 #: static/js/vmimages/main.js:722
 msgid "No valid WindowsCloudVM contract"
-msgstr "有効なWindowsCloudVMの契約がない"
+#! msgstr "有効なWindowsCloudVMの契約がない"
+msgstr "WindowsCloud VMのコントラクトがありません"
 
 #: static/js/vmimages/main.js:734 static/js/vmimages/main.js:749
 msgid "Please Enter Integer between 0 to "
@@ -2277,11 +2291,13 @@ msgstr "0から56の間の整数を入力してください。"
 
 #: static/js/vmimages/main.js:784
 msgid "Your total Keys is "
-msgstr "クローンの合計数は "
+#! msgstr "クローンの合計数は "
+msgstr "キーの総数は "
 
 #: static/js/vmimages/main.js:785
 msgid "Your total Clone Number is "
-msgstr "クローンの合計数は "
+#! msgstr "クローンの合計数は "
+msgstr "クローンの総数は "
 
 #: static/js/vmimages/main.js:786
 msgid "You have enabled "
@@ -2297,7 +2313,8 @@ msgstr "ローカルVMクローンを0にすることはできません"
 
 #: static/js/vmimages/main.js:834
 msgid "Total customized Clone number "
-msgstr "カスタマイズされたクローン数の合計"
+#! msgstr "カスタマイズされたクローン数の合計"
+msgstr "カスタムVMのクローン総数"
 
 #: static/js/vmimages/main.js:835 static/js/vmimages/main.js:849
 #: static/js/vmimages/main.js:866
@@ -2308,11 +2325,13 @@ msgstr "超えてはいけない"
 #, fuzzy
 #| msgid "Total Android Clone number "
 msgid "Total Android/Linux Clone number "
-msgstr "Android/Linuxクローンの総数"
+#! msgstr "Android/Linuxクローンの総数"
+msgstr "Android/LinuxVMのクローン総数"
 
 #: static/js/vmimages/main.js:865
 msgid "Total WindowsCloud&Customized Clone number "
-msgstr "合計WindowsCloud＆カスタマイズクローン数"
+#! msgstr "合計WindowsCloud＆カスタマイズクローン数"
+msgstr "WindowsCloudVM/カスタムVMのクローン総数"
 
 #: static/js/vmimages/main.js:881
 msgid "The Max Local Instances cannot exceed its limitation "
@@ -2325,7 +2344,8 @@ msgstr "変更を適用できませんでした："
 #: static/js/vmimages/server_check.js:47
 msgid ""
 "Another VM Image is being installed, please wait for it to complete first."
-msgstr "その他のVMイメージがインストールされます。完了するまでお待ち下さい。"
+#! msgstr "その他のVMイメージがインストールされます。完了するまでお待ち下さい。"
+msgstr "ほかのVMイメージをインストール中です。完了するまでお待ち下さい。"
 
 #: static/js/vmimages/server_check.js:67
 msgid ""
@@ -2348,29 +2368,37 @@ msgstr "ウィジェットをデフォルトに戻しますか？"
 
 #: static/lib/babel/babel.min.js:2
 msgid " "
-msgstr ""
+#! msgstr ""
+msgstr " "
 
 #: static/lib/babel/babel.min.js:15
 msgid "in"
-msgstr "に"
+#! msgstr "に"
+msgstr "in"
 
 #: static/lib/babel/babel.min.js:15
 msgid "await"
-msgstr "待つ"
+#! msgstr "待つ"
+msgstr "await"
 
 #: static/lib/kendoUI/js/kendo.all.min.js:44
 msgid ""
 "<td#=data.cssClass# role=\"gridcell\"><a tabindex=\"-1\" class=\"k-"
 "link#=data.linkClass#\" href=\"#=data.url#\" "
+#!msgstr ""
 msgstr ""
+"<td#=data.cssClass# role=\"gridcell\"><a tabindex=\"-1\" class=\"k-"
+"link#=data.linkClass#\" href=\"#=data.url#\" "
 
 #: static/lib/kendoUI/js/kendo.all.min.js:44
 msgid "<td role=\"gridcell\""
-msgstr ""
+#! msgstr ""
+msgstr "<td role=\"gridcell\""
 
 #: static/lib/kendoUI/js/kendo.all.min.js:44
 msgid "<td class=\"k-alt\">"
-msgstr ""
+#! msgstr ""
+msgstr "<td class=\"k-alt\">"
 
 #: static/lib/kendoUI/js/kendo.all.min.js:54
 msgid "GET"
@@ -2388,15 +2416,18 @@ msgstr "切断タイムアウト"
 #, fuzzy
 #| msgid "Delete"
 msgid "delete"
-msgstr "削除"
+#! msgstr "削除"
+msgstr "delete"
 
 #: static/lib/vuejs/polyfill.min.js:1
 msgid "has"
-msgstr "持つ"
+#! msgstr "持つ"
+msgstr "has"
 
 #: static/lib/vuejs/polyfill.min.js:1
 msgid "get"
-msgstr "取得する"
+#! msgstr "取得する"
+msgstr "get"
 
 #: static/lib/vuejs/polyfill.min.js:2
 msgid "Wrong offset!"
