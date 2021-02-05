@@ -1005,28 +1005,37 @@ msgid ""
 "formats are supported: \n"
 " .tar, .z, .xz, .gz, .tar.gz, .tgz, .zip, .bz2, .tar.bz2, .tar.Z, .7z, ."
 "rar, .lzh, .ace"
+#! msgstr ""
+#! "サンプルファイルまたはアーカイブされたサンプルファイルをアップロードしてくだ"
+#! "さい。以下のアーカイブ形式がサポートされます。\n"
+#! " .tar, .z, .xz, .gz, .tar.gz, .tgz, .zip, .bz2, .tar.bz2, .tar.Z, .7z, ."
+#! "rar, .lzh, .ace"
 msgstr ""
-"サンプルファイルまたはアーカイブされたサンプルファイルをアップロードしてくだ"
-"さい。以下のアーカイブ形式がサポートされます。\n"
-" .tar, .z, .xz, .gz, .tar.gz, .tgz, .zip, .bz2, .tar.bz2, .tar.Z, .7z, ."
-"rar, .lzh, .ace"
+"サンプルファイルまたはアーカイブされたサンプルファイルをアップロードしてください。"
+"以下のアーカイブ形式がサポートされます。\n"
+" .tar, .z, .xz, .gz, .tar.gz, .tgz, .zip, .bz2, .tar.bz2, .tar.Z, .7z,"
+".rar, .lzh, .ace"
 
 #: apps/alerts/views.py:193
 #: templates/alert/url/url_ondemand_filter_table.html:75
 msgid ""
 "Please upload a plain-text file containing a list of URLs (1 URL per line)."
+#! msgstr ""
+#! "URLのリストを含んだプレーンテキストファイルをアップロードしてください(1行にひ"
+#! "とつのURL)。"
 msgstr ""
-"URLのリストを含んだプレーンテキストファイルをアップロードしてください(1行にひ"
-"とつのURL)。"
+"URLのリストを含んだプレーンテキストファイルをアップロードしてください(1行に１つのURLを記載)。"
 
 #: apps/alerts/views.py:379
 msgid "Total Devices"
-msgstr "上位デバイス"
+#! msgstr "上位デバイス"
+msgstr "デバイス総数"
 
 #: apps/alerts/views.py:409 apps/alerts/views.py:434 apps/alerts/views.py:454
 #, python-format
 msgid "Threat Timeline Chart for %s"
-msgstr "脅威タイムラインチャート: %s"
+#! msgstr "脅威タイムラインチャート: %s"
+msgstr "%sの脅威タイムラインチャート"
 
 #: apps/alerts/views.py:535 apps/download_center/api.py:70
 #, python-format
@@ -1061,7 +1070,8 @@ msgstr "アーカイブし直しに失敗しました"
 #: apps/analysis/detail.py:530
 #, python-format
 msgid "Screenshot image for job %(jid)s does not exist."
-msgstr "ジョブ %(jid)s のスクリーンショットファイルは存在しません。"
+#! msgstr "ジョブ %(jid)s のスクリーンショットファイルは存在しません。"
+msgstr "ジョブ %(jid)s のスクリーンショットイメージは存在しません。"
 
 #: apps/analysis/detail.py:665
 #, fuzzy
@@ -1073,7 +1083,8 @@ msgstr "コメントは空欄に出来ません"
 #, fuzzy
 #| msgid "Feedback submission failed"
 msgid "Feedback submission has been scheduled"
-msgstr "フィードバックの送信に失敗しました"
+#! msgstr "フィードバックの送信に失敗しました"
+msgstr "フィードバックの送信が予定されています"
 
 #: apps/analysis/detail.py:678
 msgid "Feedback submission failed"
@@ -1103,17 +1114,20 @@ msgstr "システム情報"
 #, fuzzy
 #| msgid "VM License"
 msgid "Licenses"
-msgstr "VMライセンス"
+#! msgstr "VMライセンス"
+msgstr "ライセンス"
 
 #: apps/dashboard/defs.py:25
 msgid "Connectivity and Services"
-msgstr "コネクティビティとサービス"
+#! msgstr "コネクティビティとサービス"
+msgstr "接続性とサービス"
 
 #: apps/dashboard/defs.py:26
 #, fuzzy
 #| msgid " Status"
 msgid "Scan Status"
-msgstr " ステータス"
+#! msgstr " ステータス"
+msgstr "スキャンステータス"
 
 #: apps/dashboard/defs.py:27 apps/widgets/types.py:15
 msgid "System Resources"
@@ -1123,7 +1137,8 @@ msgstr "システムリソース"
 #, fuzzy
 #| msgid "System Resources"
 msgid "System Resources Usage"
-msgstr "システムリソース"
+#! msgstr "システムリソース"
+msgstr "システムリソース使用量"
 
 #: apps/dashboard/defs.py:29 apps/dashboard/defs.py:47
 #: apps/dashboard/defs.py:74
@@ -1192,7 +1207,8 @@ msgstr "ファイルベースの検知レポート"
 
 #: apps/dashboard/defs.py:61 apps/widgets/types.py:169
 msgid "Event Trend"
-msgstr "イベントのトレンド"
+#! msgstr "イベントのトレンド"
+msgstr "イベントトレンド"
 
 #: apps/dashboard/defs.py:62 apps/widgets/types.py:181
 #: apps/widgets/utils/netdet_data.py:137
@@ -1202,7 +1218,8 @@ msgstr "上位ネットワークアタック"
 #: apps/dashboard/defs.py:63 apps/widgets/types.py:196
 #: apps/widgets/utils/netdet_data.py:138
 msgid "Top Attacked Hosts"
-msgstr "上位アタックホスト"
+#! msgstr "上位アタックホスト"
+msgstr "攻撃された上位のホスト"
 
 #: apps/dashboard/defs.py:64 apps/widgets/types.py:211
 #: apps/widgets/utils/netdet_data.py:139
@@ -1217,12 +1234,14 @@ msgstr "上位ボットネット感染ホスト"
 #: apps/dashboard/defs.py:66 apps/widgets/types.py:241
 #: apps/widgets/utils/netdet_data.py:141
 msgid "Top Visited Suspicious Hosts"
-msgstr "アクセスのあった上位の疑わしいURLホスト"
+#! msgstr "アクセスのあった上位の疑わしいURLホスト"
+msgstr "アクセスのあった上位の疑わしいホスト"
 
 #: apps/dashboard/defs.py:67 apps/widgets/types.py:256
 #: apps/widgets/utils/netdet_data.py:142
 msgid "Top Hosts Visiting Suspicious URL"
-msgstr "上位の疑わしいURLホスト"
+#! msgstr "上位の疑わしいURLホスト"
+msgstr "疑わしいURLにアクセスしている上位のホスト"
 
 #: apps/dashboard/defs.py:69 apps/widgets/models.py:41
 msgid "Network Detection Reports"
@@ -1230,7 +1249,8 @@ msgstr "ネットワーク検知レポート"
 
 #: apps/dashboard/defs.py:76 apps/widgets/types.py:296
 msgid "Scanning Activity"
-msgstr "検査実施状況"
+#! msgstr "検査実施状況"
+msgstr "スキャンアクティビティ"
 
 #: apps/dashboard/defs.py:78 apps/widgets/models.py:47
 msgid "URL Detection Reports"
@@ -1247,15 +1267,18 @@ msgstr "詳細情報"
 #: apps/dashboard/defs.py:85
 #: templates/job_detail/tracer_behavior_detail.html:129
 msgid "Indicators"
-msgstr "ビヘイビア サマリー"
+#! msgstr "ビヘイビア サマリー"
+msgstr "指標"
 
 #: apps/dashboard/defs.py:86 templates/alert/scan_job_details_sections.html:393
 msgid "Behavior Summary"
-msgstr "ビヘイビア サマリー"
+#! msgstr "ビヘイビア サマリー"
+msgstr "ビヘイビアサマリー"
 
 #: apps/dashboard/defs.py:87
 msgid "Globe Attack"
-msgstr "グローバルアタック"
+#! msgstr "グローバルアタック"
+msgstr "グローブアタック"
 
 #: apps/dashboard/defs.py:88 apps/job_detail/gui/defs.py:10
 #: apps/job_detail/widgets/views.py:32 apps/job_detail/widgets/views.py:51
@@ -1293,7 +1316,8 @@ msgstr "直近の24時間"
 
 #: apps/dashboard/defs.py:121 templates/dashboard/settings/widget.html:45
 msgid "Last 3 Days"
-msgstr "直近の7日間"
+#! msgstr "直近の7日間"
+msgstr "直近の3日間"
 
 #: apps/dashboard/defs.py:122 apps/system/forms.py:67 apps/widgets/forms.py:11
 #: templates/admin/change_list_controls.html:37
