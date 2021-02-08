@@ -1370,20 +1370,24 @@ msgstr "ダッシュボードのデフォルトのレイアウトjsonファイ�
 #: apps/dashboard/utils.py:55
 #, python-format
 msgid "Can't find the default layout with container key: %s."
-msgstr ""
-"コンテナキー%sを使用してデフォルトレイアウトを見つけることができません。"
+#! msgstr ""
+#! "コンテナキー%sを使用してデフォルトレイアウトを見つけることができません。"
+msgstr "コンテナキー％sのデフォルトレイアウトが見つかりません。"
 
 #: apps/dashboard/views.py:50
 msgid "Error happened while saving dashboard layout:"
-msgstr "ファイルスキャンプロファイルの保存でエラーが発生しました："
+#! msgstr "ファイルスキャンプロファイルの保存でエラーが発生しました："
+msgstr "ダッシュボードレイアウトの保存中にエラーが発生しました："
 
 #: apps/dashboard/views.py:64
 msgid "Error happened while saving default dashboard layout:"
-msgstr "ファイルスキャンプロファイルの保存でエラーが発生しました："
+#! msgstr "ファイルスキャンプロファイルの保存でエラーが発生しました："
+msgstr "デフォルトのダッシュボードレイアウトの保存中にエラーが発生しました："
 
 #: apps/dashboard/views.py:75
 msgid "Error happened while resetting dashboard layout:"
-msgstr "アダプターフラグを取得する時にでエラーが発生しました："
+#! msgstr "アダプターフラグを取得する時にでエラーが発生しました："
+msgstr "ダッシュボードレイアウトのリセット中にエラーが発生しました："
 
 #: apps/dashboard/views.py:84
 msgid "Click on a widget to fill the box"
@@ -1391,35 +1395,41 @@ msgstr "ボックスを記入するためウィジェットをクリックして
 
 #: apps/dashboard/views.py:108
 msgid "Error happened while removing dashboard widget:"
-msgstr "ファイルスキャンプロファイルの保存でエラーが発生しました："
+#! msgstr "ファイルスキャンプロファイルの保存でエラーが発生しました："
+msgstr "ダッシュボードウィジェットの削除中にエラーが発生しました："
 
 #: apps/dashboard/views.py:128
 msgid "Error happened while updating dashboard widget:"
-msgstr "ホワイトリストのアップデートでエラーが発生しました："
+#! msgstr "ホワイトリストのアップデートでエラーが発生しました："
+msgstr "ダッシュボードウィジェットの更新中にエラーが発生しました："
 
 #: apps/download_center/api.py:26
 #, fuzzy
 #| msgid "Failed to generate report."
 msgid "Failed to generate job PDF report. "
-msgstr "レポートを生成できませんでした。"
+#! msgstr "レポートを生成できませんでした。"
+msgstr "ジョブPDFレポートの生成に失敗しました。"
 
 #: apps/download_center/api.py:41
 #, fuzzy
 #| msgid "Stop the report generating successfully"
 msgid "Job PDF report is generated successfully."
-msgstr "レポート生成を正常に停止する"
+#! msgstr "レポート生成を正常に停止する"
+msgstr "ジョブPDFレポートが正常に生成されます。"
 
 #: apps/download_center/api.py:44
 #, fuzzy, python-format
 #| msgid "Detailed report %s does not exist."
 msgid "Job PDF report %s does not exist."
-msgstr "%s の詳細レポートは存在しません。"
+#! msgstr "%s の詳細レポートは存在しません。"
+msgstr "ジョブPDFレポート%sは存在しません。"
 
 #: apps/download_center/api.py:47
 #, fuzzy
 #| msgid "Failed to generate report."
 msgid "Failed to generate job PDF report file. "
-msgstr "レポートを生成できませんでした。"
+#! msgstr "レポートを生成できませんでした。"
+msgstr "ジョブPDFレポートファイルの生成に失敗しました。"
 
 #: apps/extra/forms.py:6
 msgid "Failed to read the configuration file."
@@ -1435,8 +1445,9 @@ msgstr "ログイン時に免責事項の表示"
 
 #: apps/extra/forms.py:20
 msgid "Disclaimer text is not defined. Please update accordingly."
-msgstr ""
-"免責事項のテキストが定義されていません。それに応じて、更新してください。"
+#! msgstr ""
+#! "免責事項のテキストが定義されていません。それに応じて、更新してください。"
+msgstr "免責事項のテキストは定義されていません。必要に応じて、更新してください。"
 
 #: apps/extra/forms.py:29
 msgid "Restore file"
@@ -1469,7 +1480,8 @@ msgstr "ログインしてください。"
 
 #: apps/extra/views/fsb_main.py:150
 msgid "User Profile not defined, please contact administrator."
-msgstr "管理者の削除に失敗しました。"
+#! msgstr "管理者の削除に失敗しました。"
+msgstr "ユーザープロファイルが定義されていません。管理者に連絡してください。"
 
 #: apps/extra/views/fsb_main.py:497
 msgid "Disclaimer successfully updated"
@@ -1486,7 +1498,8 @@ msgstr "ログイン免責事項"
 
 #: apps/extra/views/fsb_main.py:650
 msgid "Too many login failures, please wait and try again in a few minutes..."
-msgstr "多くのログインに失敗しました。数分後にやり直してください.."
+#! msgstr "多くのログインに失敗しました。数分後にやり直してください.."
+msgstr "ログイン失敗が多すぎます。しばらく待ってから、数分後にもう一度お試しください..."
 
 #: apps/extra/views/fsb_main.py:652
 msgid "Authentication failure. Please try again..."
@@ -1512,16 +1525,22 @@ msgstr "FortiSandboxのアップグレード"
 msgid ""
 "The appliance firmware is being upgraded, you will be redirected to the "
 "login page when the system has restarted."
+#! msgstr ""
+#! "アプライアンスのファームウェアをアップグレード中です。システムが再起動したと"
+#! "きにログインページにリダイレクトされます。"
 msgstr ""
-"アプライアンスのファームウェアをアップグレード中です。システムが再起動したと"
-"きにログインページにリダイレクトされます。"
+"アプライアンスのファームウェアをアップグレード中です。システムが再起動すると、"
+"ログインページにリダイレクトされます。"
 
 #: apps/extra/views/main.py:148
 msgid ""
 "System configuration restore process has been started, you will be "
 "redirected to the login page once it has completed."
+#! msgstr ""
+#! "システム設定の復元プロセスが開始されました。完了するとログインページにリダイ"
+#! "レクトされます。"
 msgstr ""
-"システム設定の復元プロセスが開始されました。完了するとログインページにリダイ"
+"システム設定のリストアプロセスが開始されました。完了するとログインページにリダイ"
 "レクトされます。"
 
 #: apps/extra/views/main.py:150
@@ -1569,7 +1588,8 @@ msgstr ""
 
 #: apps/extra/views/remote_backup.py:132
 msgid "The configuration has been successfully changed"
-msgstr "アーカイブ設定が正常に更新されました"
+#! msgstr "アーカイブ設定が正常に更新されました"
+msgstr "構成は正常に変更されました"
 
 #: apps/extra/views/remote_backup.py:157
 msgid "Server address incorrectly specified."
@@ -1581,7 +1601,8 @@ msgstr "パス/usr/bin/FHVが存在しません"
 
 #: apps/fhv/fhv_config.py:67
 msgid "FHV configuration is successfully saved."
-msgstr "DNS設定が正常に更新されました。"
+#! msgstr "DNS設定が正常に更新されました。"
+msgstr "FHV構成が正常に保存されました。"
 
 #: apps/fhv/fhv_config.py:73
 msgid "The connection is failed."
@@ -1589,11 +1610,13 @@ msgstr "接続に失敗しました。"
 
 #: apps/fhv/fhv_config.py:79
 msgid "Error happened when saving FHV configuration. "
-msgstr "FHV情報の保存でエラーが発生しました。 "
+#! msgstr "FHV情報の保存でエラーが発生しました。 "
+msgstr "FHV構成の保存中にエラーが発生しました。 "
 
 #: apps/fhv/views.py:19
 msgid "Configure FHV"
-msgstr "AWSの設定"
+#! msgstr "AWSの設定"
+msgstr "FHVの設定"
 
 #: apps/forticlient/data.py:81 apps/forticlient/data.py:196
 #: apps/scan/device_fgts.py:816
@@ -1602,19 +1625,22 @@ msgstr "無制限"
 
 #: apps/forticlient/data.py:87 apps/forticlient/data.py:201
 msgid "Over limit"
-msgstr "オーバーライド時間"
+#! msgstr "オーバーライド時間"
+msgstr "オーバーリミット"
 
 #: apps/forticlient/data.py:89 apps/forticlient/data.py:203
 #: apps/forticlient/data.py:207
 msgid "Allowed limit"
-msgstr "許可された条件"
+#! msgstr "許可された条件"
+msgstr "許容限度"
 
 #: apps/forticlient/data.py:123 templates/scan/devfgts.html:158
 #: templates/scan/devfgts.html:194 templates/scan/device_edit.html:339
 #: templates/scan/device_fct_main.html:52 templates/scan/device_main.html:93
 #: templates/scan/edit_devfgts.html:171 templates/scan/fct_edit.html:119
 msgid "Connected"
-msgstr "接続"
+#! msgstr "接続"
+msgstr "接続済み"
 
 #: apps/forticlient/data.py:123 templates/scan/devfgts.html:160
 #: templates/scan/devfgts.html:196 templates/scan/device_edit.html:341
@@ -1636,7 +1662,8 @@ msgstr "VDOM"
 
 #: apps/forticlient/defs.py:9
 msgid "FCT Serial Number"
-msgstr "シリアル番号"
+#! msgstr "シリアル番号"
+msgstr "FCTシリアル番号"
 
 #: apps/forticlient/defs.py:10 apps/logs/logutils.py:255
 #: apps/widgets/utils/sysinfo.py:25 templates/scan/device_fct_main.html:39
@@ -1669,17 +1696,21 @@ msgstr "FortiClientの削除中にエラーが発生しました。"
 
 #: apps/forticlient/helper.py:43
 msgid "Devices or Domains/Vdoms was successfully deleted"
-msgstr "デバイスまたはドメイン/ VDomsが正常に削除されました"
+#! msgstr "デバイスまたはドメイン/ VDomsが正常に削除されました"
+msgstr "デバイスまたはドメイン/VDomsが正常に削除されました"
 
 #: apps/forticlient/helper.py:46
 msgid "Error while deleting Devices or Domains/Vdoms."
-msgstr "デバイスまたはドメイン/ Vdomsの削除中にエラーが発生しました。"
+#! msgstr "デバイスまたはドメイン/ Vdomsの削除中にエラーが発生しました。"
+msgstr "デバイスまたはドメイン/Vdomsの削除中にエラーが発生しました。"
 
 #: apps/forticlient/views.py:54
 msgid ""
 "Virtual machines are not ready, please try to authorize new device later."
+#! msgstr ""
+#! "仮想マシンは準備ができていません、新しいデバイスを後で承認してください。"
 msgstr ""
-"仮想マシンは準備ができていません、新しいデバイスを後で承認してください。"
+"仮想マシンの準備ができていません。後で新しいデバイスを認証してみてください。"
 
 #: apps/hacluster/clibhc.py:21
 msgid "Standalone"
@@ -1689,7 +1720,8 @@ msgstr "スタンドアローン"
 #, fuzzy
 #| msgid "Primary Slave"
 msgid "Primary"
-msgstr "プライマリスレーブ"
+#! msgstr "プライマリスレーブ"
+msgstr "プライマリ"
 
 #: apps/hacluster/clibhc.py:24 apps/hacluster/clibhc.py:37
 msgid "Worker"
@@ -1789,15 +1821,18 @@ msgstr "インターフェースモニタリング設定の削除でエラーが
 
 #: apps/hacluster/views.py:256
 msgid "The monitoring setting for this interface has been set already"
-msgstr "このモニタリング設定は既に設定されています"
+#! msgstr "このモニタリング設定は既に設定されています"
+msgstr "このインターフェースのモニタリングの設定はすでに設定されています"
 
 #: apps/hacluster/views.py:258 apps/hacluster/views.py:310
 msgid "You have to choose one method: Ping or TCP Echo"
-msgstr "PingあるいはTCP Echoのどちらを選択する必要があります"
+#! msgstr "PingあるいはTCP Echoのどちらを選択する必要があります"
+msgstr "PingあるいはTCP Echoのどちら一つを選択する必要があります"
 
 #: apps/hacluster/views.py:271
 msgid "Error happened while adding new interface monitoring setting: "
-msgstr "新しいインターフェースモニタリング設定の追加でエラーが発生しました。 "
+#! msgstr "新しいインターフェースモニタリング設定の追加でエラーが発生しました。 "
+msgstr "新しいインターフェースモニタリング設定の追加でエラーが発生しました: "
 
 #: apps/hacluster/views.py:282
 msgid "New Interface Monitoring Setting"
@@ -1805,7 +1840,8 @@ msgstr "新しいインターフェースモニタリング設定"
 
 #: apps/hacluster/views.py:323
 msgid "Error happened while editing interface monitoring setting: "
-msgstr "インターフェースモニタリング設定の更新でエラーが発生しました。 "
+#! msgstr "インターフェースモニタリング設定の更新でエラーが発生しました。 "
+msgstr "インターフェースモニタリング設定の更新でエラーが発生しました: "
 
 #: apps/hacluster/views.py:336
 msgid "Can not find the setting for interface"
@@ -1813,17 +1849,22 @@ msgstr "インターフェースの設定が見つかりません"
 
 #: apps/hacluster/views.py:347
 msgid "Edit Interface Monitoring Setting"
-msgstr "インターフェース設定の編集"
+#! msgstr "インターフェース設定の編集"
+msgstr "インターフェイスモニタリング設定の編集"
 
 #: apps/hacluster/views.py:431
 msgid "Device is not in HA-Master mode, HA-Cluster queries are not supported"
+#! msgstr ""
+#! "HAマスターモードではないため、HAクラスタークエリはサポートされていません"
 msgstr ""
-"HAマスターモードではないため、HAクラスタークエリはサポートされていません"
+"デバイスはHAマスターモードではないため、HAクラスタークエリはサポートされていません"
 
 #: apps/hacluster/views.py:538
 msgid "Device is not in HA-Cluster mode, HA-Cluster queries are not supported"
+#! msgstr ""
+#! "HAクラスターモードではないため、HAクラスタークエリはサポートされていません"
 msgstr ""
-"HAクラスターモードではないため、HAクラスタークエリはサポートされていません"
+"デバイスはHAクラスターモードではないため、HAクラスタークエリはサポートされていません"
 
 #: apps/job_detail/data/base.py:269
 msgid "Clean File"
@@ -1843,29 +1884,35 @@ msgstr "OFF"
 
 #: apps/job_detail/data/base.py:540
 msgid "Reset back to suspicious"
-msgstr "リセットしてクリーンに戻す"
+#! msgstr "リセットしてクリーンに戻す"
+msgstr "疑わしいものにリセット"
 
 #: apps/job_detail/data/base.py:542
 msgid "Reset back to malicious"
-msgstr "リセットしてクリーンに戻す"
+#! msgstr "リセットしてクリーンに戻す"
+msgstr "悪意のあるものにリセット"
 
 #: apps/job_detail/data/base.py:544
 msgid "Reset back to suspicious/malicious"
-msgstr "リセットしてクリーンに戻す"
+#! msgstr "リセットしてクリーンに戻す"
+msgstr "疑わしい/悪意のあるものにリセット"
 
 #: apps/job_detail/data/base.py:547
 msgid "Reset back to clean"
-msgstr "リセットしてクリーンに戻す"
+#! msgstr "リセットしてクリーンに戻す"
+msgstr "クリーンにリセット"
 
 #: apps/job_detail/data/base.py:550
 msgid "Mark as clean (false positive)"
-msgstr "クリーンファイルとしてマークする"
+#! msgstr "クリーンファイルとしてマークする"
+msgstr "クリーンとしてマーク（誤検知）"
 
 #: apps/job_detail/data/base.py:553
 #, fuzzy
 #| msgid "Mark as suspicious (false negative)"
 msgid "Mark as malicious (false negative)"
-msgstr "疑わしいファイルとしてマークする"
+#! msgstr "疑わしいファイルとしてマークする"
+msgstr "悪意のあるものとしてマーク（偽陰性）"
 
 #: apps/job_detail/data/tracer.py:50
 #: templates/admin/extra/recovery/backup_restore.html:107
@@ -1874,7 +1921,8 @@ msgstr "疑わしいファイルとしてマークする"
 #: templates/scan/config-networkshare.html:63
 #: templates/scan/config-quarantine.html:43
 msgid "No"
-msgstr "いいえ"
+#! msgstr "いいえ"
+msgstr "No"
 
 #: apps/job_detail/data/tracer.py:54
 #: templates/admin/extra/recovery/backup_restore.html:106
@@ -1883,7 +1931,8 @@ msgstr "いいえ"
 #: templates/scan/config-networkshare.html:65
 #: templates/scan/config-quarantine.html:45
 msgid "Yes"
-msgstr "必要"
+#! msgstr "必要"
+msgstr "Yes"
 
 #: apps/job_detail/defs.py:167
 #: templates/job_detail/tracer_behavior_detail.html:464
@@ -1906,7 +1955,8 @@ msgstr "詳細"
 #: apps/job_detail/gui/defs.py:26
 #: templates/alert/job-details/basics-panel.html:30
 msgid "FPN Comment"
-msgstr "コメント"
+#! msgstr "コメント"
+msgstr "FPNコメント"
 
 #: apps/job_detail/gui/defs.py:27
 #: templates/alert/job-details/basics-panel.html:40
@@ -1922,12 +1972,14 @@ msgstr "開始"
 #: apps/table/config/defs.py:18
 #: templates/alert/job-details/basics-panel.html:70
 msgid "Rated By"
-msgstr "検知機能"
+#! msgstr "検知機能"
+msgstr "による評価"
 
 #: apps/job_detail/gui/defs.py:31
 #: templates/alert/job-details/basics-panel.html:79
 msgid "Submit Type"
-msgstr "サブミット タイプ"
+#! msgstr "サブミット タイプ"
+msgstr "サブミットタイプ"
 
 #: apps/job_detail/gui/defs.py:32 apps/job_detail/gui/defs.py:90
 #: templates/alert/job-details/basics-panel.html:89
@@ -1943,22 +1995,26 @@ msgstr "エンドポイントIP"
 #: apps/job_detail/gui/defs.py:35
 #: templates/alert/job-details/basics-panel.html:120
 msgid "X Forwarded For"
-msgstr "ダウンロード元"
+#! msgstr "ダウンロード元"
+msgstr "X Forwarded For"
 
 #: apps/job_detail/gui/defs.py:36 apps/logs/logutils.py:306
 #: templates/alert/job-details/basics-panel.html:130
 msgid "True Client IP"
-msgstr "クライアントIP"
+#! msgstr "クライアントIP"
+msgstr "真のクライアントIP"
 
 #: apps/job_detail/gui/defs.py:37 apps/logs/logutils.py:302
 #: templates/alert/job-details/basics-panel.html:140
 msgid "FortiClient UID"
-msgstr "FortiClient"
+#! msgstr "FortiClient"
+msgstr "FortiClient UID"
 
 #: apps/job_detail/gui/defs.py:38 apps/logs/logutils.py:303
 #: templates/alert/job-details/basics-panel.html:150
 msgid "Unauthorized User"
-msgstr "承認済み"
+#! msgstr "承認済み"
+msgstr "未承認のユーザ"
 
 #: apps/job_detail/gui/defs.py:39 apps/logs/logutils.py:304
 #: templates/alert/job-details/basics-panel.html:160
@@ -1977,7 +2033,8 @@ msgstr "AIモード"
 
 #: apps/job_detail/gui/defs.py:43
 msgid "Overwrite Message"
-msgstr "ショートメッセージ"
+#! msgstr "ショートメッセージ"
+msgstr "メッセージを上書きする"
 
 #: apps/job_detail/gui/defs.py:44
 msgid "SIMNET"
@@ -1995,13 +2052,15 @@ msgstr "Embedded URL"
 #, fuzzy
 #| msgid "US Region"
 msgid "Region"
-msgstr "US地域"
+#! msgstr "US地域"
+msgstr "地域"
 
 #: apps/job_detail/gui/defs.py:49
 #, fuzzy
 #| msgid "Timeout"
 msgid "Timeout Value"
-msgstr "タイムアウト"
+#! msgstr "タイムアウト"
+msgstr "タイムアウト値"
 
 #: apps/job_detail/gui/defs.py:58
 #: templates/alert/scan_job_details_sections.html:13
@@ -2016,7 +2075,8 @@ msgstr "ダウンロード元"
 
 #: apps/job_detail/gui/defs.py:61
 msgid "Target URL"
-msgstr "URLを解析する"
+#! msgstr "URLを解析する"
+msgstr "ターゲットURL"
 
 #: apps/job_detail/gui/defs.py:62 apps/logs/logutils.py:288
 #: templates/alert/scan_job_details_sections.html:47 utils/apilog.py:345
@@ -2081,7 +2141,8 @@ msgstr "スキャン開始時間"
 
 #: apps/job_detail/gui/defs.py:78
 msgid "Scan End Time"
-msgstr "スキャン終了時刻"
+#! msgstr "スキャン終了時刻"
+msgstr "スキャン終了時間"
 
 #: apps/job_detail/gui/defs.py:79
 msgid "Total Scan Time"
@@ -2091,7 +2152,8 @@ msgstr "総スキャン時間"
 #, fuzzy
 #| msgid "File Info"
 msgid "Email Info"
-msgstr "ファイル情報"
+#! msgstr "ファイル情報"
+msgstr "メール情報"
 
 #: apps/job_detail/gui/defs.py:85
 #: templates/alert/scan_job_details_sections.html:258
@@ -2105,25 +2167,29 @@ msgstr "VMの理由なし"
 #: apps/job_detail/gui/defs.py:87 apps/logs/logutils.py:265
 #: templates/alert/scan_job_details_sections.html:268
 msgid "Launched OS"
-msgstr "OSを立ち上げ"
+#! msgstr "OSを立ち上げ"
+msgstr "OSを起動"
 
 #: apps/job_detail/gui/defs.py:88
 #, fuzzy
 #| msgid "Anti Evasion Enabled"
 msgid "Anti Evasion Triggers"
-msgstr "回避対策有効"
+#! msgstr "回避対策有効"
+msgstr "回避対策トリガー"
 
 #: apps/job_detail/gui/defs.py:91 apps/reports/forms.py:13
 #: templates/alert/scan_job_details_sections.html:298
 msgid "From"
-msgstr "開始日時"
+#! msgstr "開始日時"
+msgstr "From"
 
 #: apps/job_detail/gui/defs.py:92 apps/reports/forms.py:14
 #: templates/alert/scan_job_details_sections.html:308
 #: templates/dashboard/settings/donut_chart.html:44
 #: templates/dashboard/settings/donut_chart.html:60
 msgid "To"
-msgstr "終了日時"
+#! msgstr "終了日時"
+msgstr "To"
 
 #: apps/job_detail/gui/defs.py:93
 #: templates/alert/scan_job_details_sections.html:318
@@ -2144,12 +2210,14 @@ msgstr "ユーザーアカウント"
 #: apps/job_detail/gui/defs.py:96
 #: templates/alert/scan_job_details_sections.html:348
 msgid "Adapter IP"
-msgstr "アダプタのIP"
+#! msgstr "アダプタのIP"
+msgstr "アダプタIP"
 
 #: apps/job_detail/gui/defs.py:97
 #: templates/alert/scan_job_details_sections.html:358
 msgid "Platform"
-msgstr "機種"
+#! msgstr "機種"
+msgstr "プラットフォーム"
 
 #: apps/job_detail/gui/defs.py:98
 msgid "VM Scan Start Time"
@@ -2157,7 +2225,8 @@ msgstr "スキャン開始時間"
 
 #: apps/job_detail/gui/defs.py:99
 msgid "VM Scan End Time"
-msgstr "VMスキャン終了時刻"
+#! msgstr "VMスキャン終了時刻"
+msgstr "VMスキャン終了時間"
 
 #: apps/job_detail/gui/defs.py:100
 msgid "VM Scan Time"
@@ -2171,31 +2240,36 @@ msgstr "BCC-Agent送信者"
 #, fuzzy
 #| msgid "Receiver"
 msgid "BCC-Agent Receiver"
-msgstr "受信者"
+#! msgstr "受信者"
+msgstr "BCC-Agent受信者"
 
 #: apps/job_detail/gui/defs.py:104
 #, fuzzy
 #| msgid "Client IP"
 msgid "BCC Client IP"
-msgstr "クライアントIP"
+#! msgstr "クライアントIP"
+msgstr "BCCクライアントIP"
 
 #: apps/job_detail/gui/defs.py:105
 #, fuzzy
 #| msgid "Email"
 msgid "Email From"
-msgstr "Eメール"
+#! msgstr "Eメール"
+msgstr "Email From"
 
 #: apps/job_detail/gui/defs.py:106
 #, fuzzy
 #| msgid "Email"
 msgid "Email To"
-msgstr "Eメール"
+#! msgstr "Eメール"
+msgstr "Email To"
 
 #: apps/job_detail/gui/defs.py:107
 #, fuzzy
 #| msgid "Email"
 msgid "Email CC"
-msgstr "Eメール"
+#! msgstr "Eメール"
+msgstr "Email CC"
 
 #: apps/job_detail/gui/defs.py:108 apps/logs/logutils.py:250
 #: templates/scan/mta_config.html:220
@@ -2212,7 +2286,8 @@ msgstr "スキャンジョブ詳細"
 
 #: apps/job_detail/widgets/views.py:18
 msgid "Globe"
-msgstr "グローバル"
+#! msgstr "グローバル"
+msgstr "Globe"
 
 #: apps/jsonrpc/rpccfgscan.py:321
 msgid "Failed to configure static file types."
@@ -2220,15 +2295,18 @@ msgstr "スタティックファイルタイプの設定に失敗しました。
 
 #: apps/jsonrpc/rpccfgscan.py:330
 msgid "Failed to configure URL setting."
-msgstr "URLの設定を構成できませんでした。"
+#! msgstr "URLの設定を構成できませんでした。"
+msgstr "URL設定の構成に失敗しました。"
 
 #: apps/jsonrpc/rpccfgscan.py:340
 msgid "Failed to configure user defined extentions setting."
-msgstr "ユーザ定義の拡張設定の設定に失敗しました。"
+#! msgstr "ユーザ定義の拡張設定の設定に失敗しました。"
+msgstr "ユーザ定義の拡張設定の構成に失敗しました。"
 
 #: apps/jsonrpc/rpccfgscan.py:349
 msgid "Failed to configure VM file extentions setting."
-msgstr "VMファイルの拡張設定を構成できませんでした。"
+#! msgstr "VMファイルの拡張設定を構成できませんでした。"
+msgstr "VMファイルの拡張設定の構成に失敗しました。"
 
 #: apps/jsonrpc/rpccfgscan.py:358
 msgid "Scan Profile configuration were successfully updated."
@@ -2236,7 +2314,8 @@ msgstr "スキャンプロファイルの設定が正常に更新されました
 
 #: apps/jsonrpc/rpccfgscan.py:386
 msgid "Category list should not be empty."
-msgstr "カテゴリリストは空であってはなりません。"
+#! msgstr "カテゴリリストは空であってはなりません。"
+msgstr "カテゴリリストは空欄にしないでください。"
 
 #: apps/jsonrpc/rpccfgscan.py:417
 msgid "Benign URL configuration were successfully updated."
