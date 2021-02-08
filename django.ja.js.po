@@ -1470,7 +1470,8 @@ msgstr "アクション"
 #: static/js/operation_center/column.js:62
 #: static/js/operation_center/controller.js:166
 msgid "Action Taken"
-msgstr "取られた行動"
+#! msgstr "取られた行動"
+msgid "実行したアクション"
 
 #: static/js/operation_center/column.js:63
 #: static/js/operation_center/controller.js:161
@@ -1533,13 +1534,15 @@ msgstr "生成を停止できませんでした。"
 
 #: static/js/report_center/index.js:217
 msgid "Are you sure you want to delete the selected reports?"
-msgstr ""
-"このレポート\n"
-"を削除してもよろしいですか"
+#! msgstr ""
+#! "このレポート\n"
+#! "を削除してもよろしいですか"
+msgstr "選択したレポートを削除してもよろしいですか"
 
 #: static/js/report_center/index.js:218
 msgid "You will not be able to recover these files!"
-msgstr "ファイルからリカバリーすることが出来ません。"
+#! msgstr "ファイルからリカバリーすることが出来ません。"
+msgstr "これらのファイルを復元することはできません。"
 
 #: static/js/report_center/index.js:250 static/js/report_center/index.js:252
 msgid "Failed to delete reports. "
@@ -1572,7 +1575,7 @@ msgstr "接続テスト結果"
 
 #: static/js/scan_input/fcont_main.js:133
 msgid "File | URL"
-msgstr "ファイル| URL"
+msgstr "ファイル | URL"
 
 #: static/js/scan_input/fcont_main.js:137
 msgid "View Setting"
@@ -1581,7 +1584,8 @@ msgstr "ビュー設定"
 #: static/js/scan_input/global_network_options.js:101
 #: static/js/scan_input/package_options.js:83
 msgid "Server name"
-msgstr "サーバーの名前"
+#! msgstr "サーバーの名前"
+msgstr "サーバ名"
 
 #: static/js/scan_input/global_network_options.js:101
 #: static/js/scan_input/global_network_options.js:104
@@ -1593,7 +1597,7 @@ msgstr "認証コード"
 #: static/js/scan_input/global_network_options.js:104
 #: static/js/scan_input/package_options.js:86
 msgid "Collector server address"
-msgstr "コレクタサーバーアドレス"
+msgstr "コレクタサーバアドレス"
 
 #: static/js/scan_input/global_network_options.js:104
 msgid "Slave Name"
@@ -1601,7 +1605,8 @@ msgstr "スレーブ名"
 
 #: static/js/scan_input/global_network_options.js:109
 msgid "Please enable at least one function under the Contributor mode"
-msgstr "投稿者モードでは少なくとも1つの機能を有効にしてください"
+#!!! msgstr "投稿者モードでは少なくとも1つの機能を有効にしてください"
+msgstr "コントリビュータモードで少なくとも1つの機能を有効にしてください"
 
 #: static/js/scan_input/global_network_options.js:141
 #: static/js/scan_input/package_options.js:112
@@ -1610,11 +1615,12 @@ msgstr "あなたの名前を入力してください "
 
 #: static/js/scan_input/icap_config.js:111
 msgid "Icap settings were successfully updated."
-msgstr "Icap設定が正常に更新されました。"
+msgstr "ICAP設定が更新されました。"
 
 #: static/js/scan_input/icap_validation.js:18
 msgid "Either Receive URL or Receive file need to be selected for icap method."
-msgstr "ICAPメソッドに関する受信URL/ファイル共に選択される必要がります。"
+#! msgstr "ICAPメソッドに関する受信URL/ファイル共に選択される必要がります。"
+msgstr "ICAPメソッドに関する受信URLもしくはファイルを選択してください。"
 
 #: static/js/scan_input/icap_validation.js:91
 msgid "Port and SSL Port cannot be the same."
@@ -1622,7 +1628,7 @@ msgstr "ポートとSSLポートは同じ番号にすることはできません
 
 #: static/js/scan_input/malpkg_config.js:17
 msgid "Malware/URL package configuration was successfully updated"
-msgstr "マルウェア/ URLパッケージの設定が正常に更新されました"
+msgstr "マルウェア/URLパッケージの設定が更新されました"
 
 #: static/js/scan_input/malpkg_config.js:108
 msgid "Hide Code"
@@ -1654,11 +1660,13 @@ msgstr "送信者"
 
 #: static/js/scan_input/mta_qt/column.js:29
 msgid "Receiver"
-msgstr "受信機"
+#! msgstr "受信機"
+msgstr "受信者"
 
 #: static/js/scan_input/mta_qt/column.js:40
 msgid "Submit Time"
-msgstr "時間を提出"
+#! msgstr "時間を提出"
+msgstr "サブミット時刻"
 
 #: static/js/scan_input/mta_qt/controller.js:92
 #: static/js/vm_status/controller.js:118
@@ -1671,7 +1679,8 @@ msgstr "リリース"
 
 #: static/js/scan_input/mta_qt/controller.js:136
 msgid "Delete"
-msgstr "削除する"
+#! msgstr "削除する"
+msgstr "削除"
 
 #: static/js/scan_input/mta_qt/controller.js:139
 msgid " selected emails?"
@@ -1679,7 +1688,8 @@ msgstr "選択したメール？"
 
 #: static/js/scan_input/mta_qt/controller.js:140
 msgid "Take Action"
-msgstr "行動を起こす"
+#! msgstr "行動を起こす"
+msgstr "アクションを実行"
 
 #: static/js/scan_input/mta_qt/controller.js:153
 msgid "Emails are "
