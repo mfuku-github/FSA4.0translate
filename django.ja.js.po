@@ -911,7 +911,7 @@ msgstr "ファイル名"
 
 #: static/js/filtertable/fTableSearchConfig.js:147
 msgid "Host or User"
-msgstr "ホスト:ユーザ名"
+#!!! msgstr "ホスト:ユーザ名"
 
 #: static/js/filtertable/fTableSearchConfig.js:192
 #: static/js/filtertable/fTableSearchConfig.js:357
@@ -954,7 +954,7 @@ msgstr "ドメイン"
 #: static/js/filtertable/fTableSearchConfig.js:808
 #: static/js/ondemand/column.js:24
 msgid "Submitted By"
-msgstr "サブミット方法"
+#!!! msgstr "サブミット方法"
 
 #: static/js/filtertable/fTableSearchConfig.js:586
 #: static/js/filtertable/fTableSearchConfig.js:628
@@ -968,7 +968,8 @@ msgstr "サブミットされたファイル名"
 #: static/js/filtertable/fTableSearchConfig.js:696
 #: static/js/filtertable/fTableSearchConfig.js:763
 msgid "Infected OS"
-msgstr "検査したOS"
+#! msgstr "検査したOS"
+msgstr "感染OS"
 
 #: static/js/filtertable/filtertable_helpers.js:5
 msgid "Critical"
@@ -1046,7 +1047,8 @@ msgstr "ハイリスク"
 
 #: static/js/forticlient/column.js:42
 msgid "Mid"
-msgstr "半ば"
+!#msgstr "半ば"
+msgstr "ミディアムリスク"
 
 #: static/js/forticlient/column.js:47 static/js/forticlient/column.js:129
 msgid "Low"
@@ -1114,7 +1116,7 @@ msgstr "表示するデータがありません"
 #: static/js/table/search/controllers/grid.js:9
 #: static/js/vm_status/controller.js:55 static/lib/babel/babel.min.js:15
 msgid "of"
-msgstr "の"
+#!!! msgstr "の"
 
 #: static/js/forticlient/controller.js:52 static/js/ondemand/controller.js:52
 #: static/js/operation_center/controller.js:52
@@ -1139,7 +1141,8 @@ msgstr "アクセス許可の更新エラー。"
 
 #: static/js/forticlient/controller.js:184
 msgid "Are you sure you want to delete the selected FortiClient(s)?"
-msgstr "このデバイスを削除してもよろしいですか？"
+#! msgstr "このデバイスを削除してもよろしいですか？"
+msgstr "選択したFortiClientを削除してもよろしいですか？"
 
 #: static/js/forticlient/controller.js:184
 msgid ""
@@ -1151,7 +1154,8 @@ msgstr ""
 
 #: static/js/forticlient/controller.js:192
 msgid "Are you sure you want to delete the selected "
-msgstr "このデバイスを削除してもよろしいですか"
+#! msgstr "このデバイスを削除してもよろしいですか"
+msgstr "選択したデバイスを削除してもよろしいですか"
 
 #: static/js/forticlient/controller.js:192
 msgid ""
@@ -1159,12 +1163,12 @@ msgid ""
 "of the following items and their related references will be deleted.)"
 msgstr ""
 "（注：削除されたデバイスのスキャンはシステムに保存されます。以下の項目および"
-"関連するすべてのリファレンスは削除されます。）"
+"関連するすべての参照は削除されます。）"
 
 #: static/js/forticlient/controller.js:199
 #: static/js/forticlient/controller.js:213
 msgid "Device:"
-msgstr "デバイス"
+msgstr "デバイス:"
 
 #: static/js/forticlient/controller.js:214
 msgid "(includes all Domains/Vdoms on device)"
@@ -1172,7 +1176,7 @@ msgstr "（デバイス上のすべてのDomains / Vdomsを含む）"
 
 #: static/js/forticlient/controller.js:218
 msgid " on "
-msgstr " に "
+#!!! msgstr " に "
 
 #: static/js/forticlient/controller.js:220
 msgid "), Alias:"
@@ -1194,19 +1198,26 @@ msgstr "無効なリモートサーバ"
 #: static/js/ha_cluster/health_check_edit.js:31
 msgid ""
 "Ping remote server failed, do you still want to config this remote server?"
-msgstr "リモートサーバへのpingに失敗しましたが、このリモートサーバを構成しますか？"
+#! msgstr "リモートサーバへのpingに失敗しましたが、このリモートサーバを構成しますか？"
+msgstr "リモートサーバへのpingに失敗しましたが、このリモートサーバの設定を続けますか？"
 
 #: static/js/ha_cluster/health_check_edit.js:33
 msgid ""
 "TCP Echo on remote server failed, do you still want to config this remote "
 "server?"
-msgstr "リモートサーバへのTCPエコーに失敗しましたが、このリモートサーバを構成しますか？"
+#! msgstr "リモートサーバへのTCPエコーに失敗しましたが、このリモートサーバを構成しますか？"
+msgstr ""
+"リモートサーバへのTCPエコーに失敗しましたが、このリモートサーバの設定を続けま"
+"すか？"
 
 #: static/js/ha_cluster/health_check_edit.js:35
 msgid ""
 "Ping and TCP Echo on remote server failed, do you still want to config this "
 "remote server?"
-msgstr "リモートサーバへのpingとTCPエコーに失敗しましたが、このリモートサーバを構成しますか？"
+#! msgstr "リモートサーバへのpingとTCPエコーに失敗しましたが、このリモートサーバを構成しますか？"
+msgstr ""
+"リモートサーバへのpingとTCPエコーに失敗しましたが、このリモートサーバの設定を続"
+"けますか？"
 
 #: static/js/ha_cluster/health_check_edit.js:48
 msgid "Warning"
@@ -1222,7 +1233,7 @@ msgstr "ファイルを使用してセカンダリのファームウェアをア
 #, fuzzy
 #| msgid "Are you sure you want to upgrade your firmware with file "
 msgid "Are you sure you want to upgrade secondaries fortiguard with file "
-msgstr "ファイルを使用してセカンダリのFortiguardをアップグレードしてもよろしいですか"
+#!!! msgstr "ファイルを使用してセカンダリのFortiguardをアップグレードしてもよろしいですか"
 
 #: static/js/ha_cluster/management.js:115
 #, fuzzy
@@ -1238,11 +1249,12 @@ msgstr "レポートをダウンロード"
 #, fuzzy
 #| msgid "Invalid IP: "
 msgid "Invalid email"
-msgstr "無効なemail"
+msgstr "無効なEメール"
 
 #: static/js/job_detail/app.js:141
 msgid "Comments can not be empty"
-msgstr "新しいエントリを空にすることはできません"
+#! msgstr "新しいエントリを空にすることはできません"
+msgstr "コメントを空にすることはできません"
 
 #: static/js/job_detail/app.js:147 static/js/scan_job_detail/helpers.js:693
 msgid ""
@@ -1366,7 +1378,8 @@ msgstr "ファイルの作成 …"
 
 #: static/js/logs/log_helpers.js:365
 msgid "Error happened when creating log file."
-msgstr "ジョブファイル作成時にエラーが発生しました"
+#! msgstr "ジョブファイル作成時にエラーが発生しました"
+msgstr "ログファイル作成時にエラーが発生しました"
 
 #: static/js/logs/log_helpers.js:374
 msgid "Download Log"
@@ -1378,7 +1391,7 @@ msgstr "すべて選択"
 
 #: static/js/navbar_controls/main.js:24
 msgid "not available or not up to date."
-msgstr "利用できないか、最新ではありません。"
+#!!! msgstr "利用できないか、最新ではありません。"
 
 #: static/js/navbar_controls/main.js:25
 msgid "Please configure and install "
@@ -1386,7 +1399,7 @@ msgstr "構成してインストールしてください"
 
 #: static/js/navbar_controls/main.js:25
 msgid " or wait for "
-msgstr " または待つ "
+#!!! msgstr " または待つ "
 
 #: static/js/navbar_controls/main.js:26
 msgid " to be updated to access to all FortiSanbox functionality."
@@ -1400,7 +1413,8 @@ msgstr "FortiSandboxは、将来のリリースでWindows XP OSのサポート�
 msgid ""
 "It's recommended to set its clone number to 0 and migrate to use Windows 7 "
 "OS or later"
-msgstr "クローン番号を0に設定し、Windows 7 OS以降を使用することをお勧めします。"
+#! msgstr "クローン番号を0に設定し、Windows 7 OS以降を使用することをお勧めします。"
+msgstr "クローン数を0に設定し、Windows 7 OS以降を使用することをお勧めします。"
 
 #: static/js/navbar_controls/main.js:38
 msgid "WARNING!!"
@@ -1408,11 +1422,13 @@ msgstr "警告！！"
 
 #: static/js/navbar_controls/main.js:41
 msgid "Accept"
-msgstr "受け入れる"
+#! msgstr "受け入れる"
+msgstr "許可"
 
 #: static/js/navbar_controls/searchbox.js:32
 msgid "What are you looking for?"
-msgstr "何をお探しですか？"
+#! msgstr "何をお探しですか？"
+msgstr "検索ボックス"
 
 #: static/js/ondemand/column.js:14
 msgid "Submission Time"
