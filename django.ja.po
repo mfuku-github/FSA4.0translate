@@ -3036,11 +3036,13 @@ msgstr "ICAP設定を取得できませんでした。"
 
 #: apps/scan/adapter/views.py:27 templates/scan/icap_config.html:9
 msgid "ICAP Settings"
-msgstr "ICAPの設定"
+#! msgstr "ICAPの設定"
+msgstr "ICAP設定"
 
 #: apps/scan/adapter/views.py:36
 msgid "ICAP settings saving failed. "
-msgstr "保存ICAPの設定に失敗しました。"
+#! msgstr "保存ICAPの設定に失敗しました。"
+msgstr "ICAP設定の保存に失敗しました。"
 
 #: apps/scan/adapter/views.py:48
 msgid "Failed to retrieve BCC settings."
@@ -3056,15 +3058,18 @@ msgstr "BCC設定の保存に失敗しました。"
 
 #: apps/scan/adapter/views.py:78
 msgid "Failed to retrieve MTA settings."
-msgstr "ICAP設定を取得できませんでした。"
+#! msgstr "ICAP設定を取得できませんでした。"
+msgstr "MTA設定を取得できませんでした。"
 
 #: apps/scan/adapter/views.py:87
 msgid "MTA Settings"
-msgstr "ICAPの設定"
+#! msgstr "ICAPの設定"
+msgstr "MTA設定"
 
 #: apps/scan/adapter/views.py:95
 msgid "MTA settings saving failed. "
-msgstr "保存ICAPの設定に失敗しました。"
+#! msgstr "保存ICAPの設定に失敗しました。"
+msgstr "MTA設定の保存に失敗しました。"
 
 #: apps/scan/adapter/views.py:102 apps/scan/adapter/views.py:113
 msgid "MTA Contracts Details"
@@ -3076,11 +3081,13 @@ msgstr "ボットネット情報の取得に失敗しました： "
 
 #: apps/scan/botnetpkg_operations.py:52
 msgid "The botnet is added to package successfully."
-msgstr "パッケージにURLが追加されました。"
+#! msgstr "パッケージにURLが追加されました。"
+msgstr "ボットネットが正常にパッケージに追加されました。"
 
 #: apps/scan/botnetpkg_operations.py:55
 msgid "The botnet is removed from package successfully."
-msgstr "パッケージからURLが削除されました。"
+#! msgstr "パッケージからURLが削除されました。"
+msgstr "ボットネットはパッケージから正常に削除されます。"
 
 #: apps/scan/botnetpkg_operations.py:63 apps/scan/malpkg_operations.py:63
 #: apps/scan/urlpkg_operations.py:61
@@ -3089,7 +3096,8 @@ msgstr "無効化されたフィールドの変更に失敗しました "
 
 #: apps/scan/botnetpkg_operations.py:95
 msgid "BOTNET Packages"
-msgstr "BOTNETパッケージ"
+#! msgstr "BOTNETパッケージ"
+msgstr "ボットネットパッケージ"
 
 #: apps/scan/clib.py:158
 msgid "Error happened when deleting FortiClient(s)."
@@ -3097,21 +3105,25 @@ msgstr "FortiClientの削除でエラーが発生しました。"
 
 #: apps/scan/cust_rating.py:38
 msgid "Customized Rating was successfully configured"
-msgstr "ファイルスキャンプロファイルの設定に成功しました。"
+#! msgstr "ファイルスキャンプロファイルの設定に成功しました。"
+msgstr "カスタマイズレーティングが正常に構成されました"
 
 #: apps/scan/cust_rating.py:46
 msgid "Error happened when saving Customized Rating"
-msgstr "カスタマイズ評価の保存中にエラーが発生しました"
+#! msgstr "カスタマイズ評価の保存中にエラーが発生しました"
+msgstr "カスタマイズレーティングの保存中にエラーが発生しました"
 
 #: apps/scan/cust_rating.py:58 templates/main/tree_menu_def.html:209
 #: utils/apilog.py:346
 msgid "Customized Rating"
-msgstr "カスタマイズした判定"
+#! msgstr "カスタマイズした判定"
+msgstr "カスタマイズレーティング"
 
 #: apps/scan/demand.py:86
 #, python-format
 msgid "Failed to move file %(full)s to %(dest)s in web folder."
-msgstr "%(full)s を %(dest)s への移動に失敗しました。"
+#! msgstr "%(full)s を %(dest)s への移動に失敗しました。"
+msgstr "ファイル %(full)s をWebフォルダー内の %(dest)s に移動できませんでした。"
 
 #: apps/scan/demand.py:158
 msgid "Failed to extract tar file."
@@ -3160,7 +3172,8 @@ msgstr "１行に１つ以上のURLが検出されました"
 
 #: apps/scan/demand.py:548
 msgid "invalid URL(s) detected (exceeds 10KB)"
-msgstr "無効なURL(s)が検出されました (1.5KBを超えています)"
+#! msgstr "無効なURL(s)が検出されました (1.5KBを超えています)"
+msgstr "無効なURL(s)が検出されました (10KBを超えています)"
 
 #: apps/scan/demand.py:591 apps/scan/demand.py:694
 msgid "Failed to process URLs."
@@ -3168,15 +3181,18 @@ msgstr "URLを処理できませんでした。"
 
 #: apps/scan/demand.py:602 apps/scan/demand.py:1245
 msgid "Depth value must be an integer between 0 - 10 levels"
-msgstr "深さは0〜10の間でなければなりません"
+#! msgstr "深さは0〜10の間でなければなりません"
+msgstr "階層は0〜10の間でなければなりません"
 
 #: apps/scan/demand.py:624
 msgid "URL was submitted successfully"
-msgstr "ファイルのサブミットに成功しました"
+#! msgstr "ファイルのサブミットに成功しました"
+msgstr "URLは正常にサブミットされました"
 
 #: apps/scan/demand.py:642
 msgid "invalid URL(s) detected (exceeds 3KB)"
-msgstr "無効なURL(s)が検出されました (1.5KBを超えています)"
+#! msgstr "無効なURL(s)が検出されました (1.5KBを超えています)"
+msgstr "無効なURL(s)が検出されました (3KBを超えています)"
 
 #: apps/scan/demand.py:718
 msgid "The uploaded file is not in plain text format."
@@ -3206,7 +3222,8 @@ msgstr ""
 #: apps/scan/demand.py:1279
 msgid ""
 "Submitted file is empty or doesn't exist, or you don't have read permission."
-msgstr "提出されたファイルが空であるか存在しないか、読み取り権限がありません."
+#! msgstr "提出されたファイルが空であるか存在しないか、読み取り権限がありません."
+msgstr "サブミットされたファイルが空であるか存在しないか、読み取り権限がありません."
 
 #: apps/scan/demand.py:1326
 msgid "File upload error, The file name is too long."
@@ -3215,7 +3232,8 @@ msgstr "ファイルのアップロードエラーが発生しました。ファ
 #: apps/scan/demand.py:1333 apps/scan/demand.py:1342
 #, python-format
 msgid "File upload error, %(error)s"
-msgstr "ファイルアップロードエラー, %(error)s"
+#! msgstr "ファイルアップロードエラー, %(error)s"
+msgstr "ファイルのアップロードエラー, %(error)s"
 
 #: apps/scan/devfgts.py:33 apps/scan/forms.py:767
 #: apps/scan/package_options.py:22 apps/table/query/val_options.py:93
@@ -3228,7 +3246,8 @@ msgstr "ファイルアップロードエラー, %(error)s"
 #: templates/scan/fcont_main.html:23 templates/scan/fct_drilldown.html:126
 #: templates/scan/mta_config.html:190
 msgid "Malicious"
-msgstr "マルウェア"
+#! msgstr "マルウェア"
+msgstr "悪意のある"
 
 #: apps/scan/devfgts.py:34 apps/scan/forms.py:767
 #: apps/scan/package_options.py:23 apps/table/query/val_options.py:90
@@ -3260,7 +3279,8 @@ msgstr "デバイス削除中にエラーが発生しました。 "
 
 #: apps/scan/devfgts.py:113 apps/scan/devfgts.py:133
 msgid "Error while deleting devices."
-msgstr "デバイス削除中にエラーが発生しました。"
+#" msgstr "デバイス削除中にエラーが発生しました。"
+msgstr "デバイス削除中のエラー。"
 
 #: apps/scan/devfgts.py:125
 msgid "FortiClient(s) were successfully deleted"
