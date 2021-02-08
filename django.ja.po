@@ -2319,7 +2319,8 @@ msgstr "カテゴリリストは空欄にしないでください。"
 
 #: apps/jsonrpc/rpccfgscan.py:417
 msgid "Benign URL configuration were successfully updated."
-msgstr "良性URLの設定のアップデートに成功しました。"
+#! msgstr "良性URLの設定のアップデートに成功しました。"
+msgstr "無害なURLの設定が正常に更新されました。"
 
 #: apps/jsonrpc/rpccfgscan.py:475
 msgid "Archive configuration was successfully updated."
@@ -2371,7 +2372,8 @@ msgstr "タイムゾーンが %s に正常に変更されました"
 
 #: apps/jsonrpc/rpccfgsystem.py:159
 msgid "Time and NTP configuration was changed successfully"
-msgstr "時刻とNTP 構成が正常に変更されました"
+#! msgstr "時刻とNTP 構成が正常に変更されました"
+msgstr "時刻とNTP構成が正常に変更されました"
 
 #: apps/jsonrpc/rpccfgsystem.py:208
 msgid "Network interface "
@@ -2415,7 +2417,8 @@ msgstr "LDAPサーバの情報が正常に更新されました。"
 
 #: apps/jsonrpc/rpccfgsystem.py:559 apps/system/config.py:2103
 msgid "LDAP servers were successfully deleted."
-msgstr "LDAPサーバの作成は削除されました。"
+#! msgstr "LDAPサーバの作成は削除されました。"
+msgstr "LDAPサーバは正常に削除されました。"
 
 #: apps/jsonrpc/rpccfgsystem.py:610
 msgid "New RADIUS server was successfully added."
@@ -2459,7 +2462,8 @@ msgstr "フィードバックのサブミットに成功しました"
 #: apps/logs/diagnostic_logs.py:177
 #, python-format
 msgid "Log file %s does not exist."
-msgstr "%s の詳細レポートは存在しません。"
+#! msgstr "%s の詳細レポートは存在しません。"
+msgstr "ログファイル %s は存在しません。"
 
 #: apps/logs/forms.py:14
 msgid "This value may contain only letters, numbers and ./_ characters."
@@ -2541,7 +2545,8 @@ msgstr "クリーンレーティングのジョブを含める"
 
 #: apps/logs/forms.py:54
 msgid "The same remote log server name has been used"
-msgstr "既に存在する管理者名が使用されました"
+#! msgstr "既に存在する管理者名が使用されました"
+msgstr "同じリモートログサーバー名が使用されています"
 
 #: apps/logs/logs.py:157
 msgid "New Remote Log Server"
@@ -2565,7 +2570,8 @@ msgstr "日付"
 
 #: apps/logs/logutils.py:225
 msgid "Time"
-msgstr "アルゴリズム"
+#! msgstr "アルゴリズム"
+msgstr "時間"
 
 #: apps/logs/logutils.py:226
 msgid "Log ID"
@@ -2641,18 +2647,21 @@ msgstr "ジョブカウント"
 
 #: apps/logs/logutils.py:246
 msgid "DB Identifier"
-msgstr "DB ID"
+#! msgstr "DB ID"
+msgstr "DB識別子"
 
 #: apps/logs/logutils.py:247 apps/system/forms.py:135
 msgid "Email"
-msgstr "Eメール"
+#! msgstr "Eメール"
+msgstr "メール"
 
 #: apps/logs/logutils.py:251 apps/report_center/views.py:51
 #: apps/scan/adapter/quarantine/defs.py:11
 #: templates/alert/ondemand_job_filter_table.html:112
 #: templates/alert/url/url_ondemand_job_filter_table.html:103
 msgid "Finish Time"
-msgstr "終了日時"
+#! msgstr "終了日時"
+msgstr "終了時間"
 
 #: apps/logs/logutils.py:252 apps/scan/forms.py:524
 #: templates/scan/networkshare-skipped-scan.html:22
@@ -2687,7 +2696,8 @@ msgstr "マルウエア名"
 #, fuzzy
 #| msgid "Malware Name"
 msgid "Malware Category"
-msgstr "マルウエア名"
+#! msgstr "マルウエア名"
+msgstr "マルウエアカテゴリ"
 
 #: apps/logs/logutils.py:263
 msgid "SNMP Object ID"
@@ -2766,7 +2776,8 @@ msgstr "サイズ"
 
 #: apps/logs/logutils.py:282
 msgid "Size of Configuration"
-msgstr "設定ファイルのサイズ"
+#! msgstr "設定ファイルのサイズ"
+msgstr "設定のサイズ"
 
 #: apps/logs/logutils.py:283
 msgid "SNMP Action"
@@ -2777,7 +2788,8 @@ msgstr "SNMPアクション"
 #: templates/alert/scan_job_details_sections.html:197
 #: templates/alert/url/url_ondemand_job_filter_table.html:96
 msgid "Start Time"
-msgstr "開始日時"
+#! msgstr "開始日時"
+msgstr "開始時間"
 
 #: apps/logs/logutils.py:285
 msgid "Job Source Type"
@@ -2806,15 +2818,18 @@ msgstr "VMキー"
 #, fuzzy
 #| msgid "Host Name"
 msgid "Allowlist Name"
-msgstr "ホスト名"
+#! msgstr "ホスト名"
+msgstr "許可リスト名"
 
 #: apps/logs/logutils.py:296
 msgid "Destination Port"
-msgstr "宛先IP"
+#! msgstr "宛先IP"
+msgstr "宛先ポート"
 
 #: apps/logs/logutils.py:298
 msgid "Source Port"
-msgstr "送信元IP"
+#! msgstr "送信元IP"
+msgstr "送信元ポート"
 
 #: apps/logs/logutils.py:305
 msgid "X-Forwarded-For"
@@ -2822,29 +2837,35 @@ msgstr "X-Forwarded-For"
 
 #: apps/logs/logutils.py:307
 msgid "Email Session ID"
-msgstr "サブミッションID"
+#! msgstr "サブミッションID"
+msgstr "メールセッションID"
 
 #: apps/report_center/data/network_alerts_data.py:37 utils/api_db_query.py:26
 msgid " does not exist."
-msgstr " FPN DBが存在しません。"
+#! msgstr " FPN DBが存在しません。"
+msgstr " が存在しません。"
 
 #: apps/report_center/data/od_submission_data.py:40
 msgid ""
 "No valid job can be exported, only jobs with status Done can be exported. "
+#! msgstr ""
+#! "有効なジョブをエクスポートすることはできません。ステータスDoneのジョブのみを"
+#! "エクスポートできます。"
 msgstr ""
-"有効なジョブをエクスポートすることはできません。ステータスDoneのジョブのみを"
-"エクスポートできます。"
+"有効なジョブはエクスポートできません。ステータスがDoneのジョブのみをエクスポートできます。"
 
 #: apps/report_center/pdf/contents/job_contents_base.py:223
 #: apps/widgets/utils/licenses.py:139
 #, fuzzy
 #| msgid "Active"
 msgid "Activated"
-msgstr "アクティブ"
+#! msgstr "アクティブ"
+msgstr "アクティブ化"
 
 #: apps/report_center/pdf/contents/job_contents_base.py:226
 msgid "License will expired soon"
-msgstr "ライセンスがもうすぐ有効期限切れとなります"
+#! msgstr "ライセンスがもうすぐ有効期限切れとなります"
+msgstr "ライセンスがもうすぐ期限切れとなります"
 
 #: apps/report_center/pdf/contents/job_contents_base.py:229
 #: apps/widgets/utils/licenses.py:149 apps/widgets/utils/licenses.py:171
@@ -2855,13 +2876,15 @@ msgstr "検出またはアクティブ化されていません"
 #, fuzzy
 #| msgid "Network Is Accessible"
 msgid "Accessible"
-msgstr "ネットワークはアクセス可能です"
+#! msgstr "ネットワークはアクセス可能です"
+msgstr "アクセス可能"
 
 #: apps/report_center/pdf/contents/job_contents_base.py:256
 #, fuzzy
 #| msgid "Network Is Accessible"
 msgid "Inaccessible"
-msgstr "ネットワークはアクセス可能です"
+#! msgstr "ネットワークはアクセス可能です"
+msgstr "アクセス不可能"
 
 #: apps/report_center/pdf/job_report.py:206
 msgid ""
@@ -2896,12 +2919,14 @@ msgstr "レポート生成を正常に停止する"
 #, fuzzy
 #| msgid "Report file %s does not exist."
 msgid "Report doesn't exist"
-msgstr "%sの詳細レポートは存在しません。"
+#! msgstr "%sの詳細レポートは存在しません。"
+msgstr "レポートが存在しません"
 
 #: apps/report_center/views.py:408 apps/report_center/views.py:432
 #, python-format
 msgid "Report file %s does not exist."
-msgstr "%sの詳細レポートは存在しません。"
+#! msgstr "%sの詳細レポートは存在しません。"
+msgstr "レポートファイル %s は存在しません。"
 
 #: apps/report_center/views.py:436
 msgid "Parameter jid is not valid."
@@ -2909,11 +2934,13 @@ msgstr "パラメーターjidは無効です。"
 
 #: apps/reports/defs.py:24 utils/pdf/report_db.py:45
 msgid "Executive Summary Report"
-msgstr "エグゼクティブサマリー"
+#! msgstr "エグゼクティブサマリー"
+msgstr "エグゼクティブサマリーレポート"
 
 #: apps/reports/defs.py:25 utils/pdf/report_db.py:46
 msgid "Threat Activity Report"
-msgstr "脅威アクティビティ"
+#! msgstr "脅威アクティビティ"
+msgstr "脅威アクティビティレポート"
 
 #: apps/reports/defs.py:29 utils/pdf/report_db.py:50
 msgid "Last Day"
@@ -2921,6 +2948,7 @@ msgstr "昨日"
 
 #: apps/reports/defs.py:30 utils/pdf/report_db.py:51
 msgid "Last Week"
+#! msgstr "先週"
 msgstr "先週"
 
 #: apps/reports/defs.py:31 utils/pdf/report_db.py:52
@@ -2961,25 +2989,29 @@ msgstr "レポート生成"
 #, fuzzy
 #| msgid "Interface:SMTP Port has conflict with MTA"
 msgid "Interface:SMTP Port has conflict with other services"
-msgstr "インターフェース：SMTPポートがMTAと競合しています"
+#! msgstr "インターフェース：SMTPポートがMTAと競合しています"
+msgstr "インターフェイス：SMTPポートが他のサービスと競合しています"
 
 #: apps/scan/adapter/config/icap.py:44
 #, fuzzy
 #| msgid "Interface:SMTP Port has conflict with MTA"
 msgid "Interface:Port has conflict with other service"
-msgstr "インターフェース：SMTPポートがMTAと競合しています"
+#! msgstr "インターフェース：SMTPポートがMTAと競合しています"
+msgstr "インターフェイス：ポートが他のサービスと競合しています"
 
 #: apps/scan/adapter/config/icap.py:46
 #, fuzzy
 #| msgid "Interface:SMTP Port has conflict with MTA"
 msgid "Interface:SSL Port has conflict with other service"
-msgstr "インターフェース：SMTPポートがMTAと競合しています"
+#! msgstr "インターフェース：SMTPポートがMTAと競合しています"
+msgstr "インターフェイス：SSLポートが他のサービスと競合しています"
 
 #: apps/scan/adapter/config/mta.py:36
 #, fuzzy
 #| msgid "Local Interface:Local SMTP Port has conflict with BCC"
 msgid "Local Interface:Local SMTP Port has conflict with other services"
-msgstr "ローカルインターフェイス：ローカルSMTPポートがBCCと競合しています"
+#! msgstr "ローカルインターフェイス：ローカルSMTPポートがBCCと競合しています"
+msgstr "ローカルインターフェイス：ローカルSMTPポートが他のサービスと競合しています"
 
 #: apps/scan/adapter/quarantine/defs.py:8
 msgid "Sender"
@@ -2991,7 +3023,8 @@ msgstr "受信者"
 
 #: apps/scan/adapter/quarantine/defs.py:10
 msgid "Submit Time"
-msgstr "時間を提出"
+#! msgstr "時間を提出"
+msgstr "サブミット時間"
 
 #: apps/scan/adapter/quarantine/defs.py:12
 msgid "SID"
