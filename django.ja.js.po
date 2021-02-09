@@ -1696,12 +1696,14 @@ msgstr "メールコンテンツテンプレートを空にすることはでき
 #: static/js/scan_input/mta_validation.js:83
 #: static/js/scan_input/mta_validation.js:102
 msgid "IP/Domain/Hostname"
-msgstr "IP /ドメイン/ホスト名"
+#! msgstr "IP /ドメイン/ホスト名"
+msgstr "IP/ドメイン/ホスト名"
 
 #: static/js/scan_input/mta_validation.js:88
 #: static/js/scan_input/mta_validation.js:109
 msgid " is not valid with value "
-msgstr " valueでは無効です "
+#! msgstr " valueでは無効です "
+msgstr "は無効な値です 
 
 #: static/js/scan_input/mta_validation.js:126
 msgid "Number"
@@ -1709,11 +1711,11 @@ msgstr "数"
 
 #: static/js/scan_input/mta_validation.js:131
 msgid " must be an integer between "
-msgstr " の整数でなければなりません"
+#!!! msgstr " の整数でなければなりません"
 
 #: static/js/scan_input/mta_validation.js:131
 msgid " and "
-msgstr " そして "
+#!!! msgstr " そして "
 
 #: static/js/scan_input/mta_validation.js:131
 msgid "."
