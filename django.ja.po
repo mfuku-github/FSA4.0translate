@@ -3714,9 +3714,12 @@ msgstr "変更された値"
 msgid ""
 "The given file must be a valid CSV file, we support one column of value, or "
 "4 columns (value, comment, expiry_date_epoch_time_stamp, status)"
+#! msgstr ""
+#! "指定されたファイルは有効なCSVファイルである必要があります。1列の値、または"
+#! "「「4列（値、コメント、expiry_date_epoch_time_stamp、ステータス）"
 msgstr ""
-"指定されたファイルは有効なCSVファイルである必要があります。1列の値、または"
-"「「4列（値、コメント、expiry_date_epoch_time_stamp、ステータス）"
+"指定されたファイルは有効なCSVファイルである必要があります。"
+"1列の値または4列（値、コメント、expiry_date_epoch_time_stamp、ステータス）をサポートしています。"
 
 #: apps/scan/filter_list/fl_file.py:85
 #, python-format
@@ -3731,9 +3734,11 @@ msgstr "行%sのレコードは無効です。エラー：コメントの最大�
 msgid ""
 "The record of line %(index)s is invalid. Error: expiry date %(d2)s is not in "
 "integer of Epoch time"
+#! msgstr ""
+#! "行%sのレコードは無効です。エラー：有効期限%sはエポック時間の整数ではありませ"
+#! "ん"
 msgstr ""
-"行%sのレコードは無効です。エラー：有効期限%sはエポック時間の整数ではありませ"
-"ん"
+"行%（index）sのレコードが無効です。エラー：有効期限%（d2）sがエポック時間の整数ではありません"
 
 #: apps/scan/filter_list/fl_file.py:95
 #, fuzzy, python-format
@@ -3743,9 +3748,11 @@ msgstr ""
 msgid ""
 "The record of line %(index)s  is invalid. Error: status must be 0 or 1, but "
 "it is %(d3)s"
+#! msgstr ""
+#! "行%sのレコードは無効です。エラー：ステータスは0または1でなければなりません"
+#! "が、%sです"
 msgstr ""
-"行%sのレコードは無効です。エラー：ステータスは0または1でなければなりません"
-"が、%sです"
+"行%（index）sのレコードが無効です。エラー：ステータスは0または1である必要がありますが、%（d3）sです"
 
 #: apps/scan/filter_list/fl_file.py:118
 msgid "The CSV file does not exists."
@@ -3755,118 +3762,142 @@ msgstr "CSVファイルは存在しません。"
 #, fuzzy
 #| msgid "The submitted white list file is empty"
 msgid "The submitted allowlist file is empty"
-msgstr "サブミットされたホワイトリストは空です"
+#! msgstr "サブミットされたホワイトリストは空です"
+msgstr "サブミットされた許可リストファイルは空です"
 
 #: apps/scan/filter_list/whitelist.py:38
 #, fuzzy
 #| msgid "Processing white list DOMAIN/URL file failed. "
 msgid "Processing allowlist DOMAIN/URL file failed. "
+#! msgstr ""
+#! "ホワイトリストのドメインのファイルを処理できませんでした。合計レコード数は "
 msgstr ""
-"ホワイトリストのドメインのファイルを処理できませんでした。合計レコード数は "
+"許可リストのドメイン/URLファイルの処理に失敗しました。"
 
 #: apps/scan/filter_list/whitelist.py:41
 #, fuzzy
 #| msgid "Processing white list URL REGEX file failed. "
 msgid "Processing allowlist URL REGEX file failed. "
+#! msgstr ""
+#! "ホワイトリストのドメインのファイルを処理できませんでした。合計レコード数は "
 msgstr ""
-"ホワイトリストのドメインのファイルを処理できませんでした。合計レコード数は "
+"許可リストURLREGEXファイルの処理に失敗しました。"
 
 #: apps/scan/filter_list/whitelist.py:44
 #, fuzzy
 #| msgid "Processing white list file failed. "
 msgid "Processing allowlist file failed. "
+#! msgstr ""
+#! "ホワイトリストのドメインのファイルを処理できませんでした。テキストファイルタ"
+#! "イプのみが許可されます。"
 msgstr ""
-"ホワイトリストのドメインのファイルを処理できませんでした。テキストファイルタ"
-"イプのみが許可されます。"
+"許可リストファイルの処理に失敗しました。"
 
 #: apps/scan/filter_list/whitelist.py:46
 #, fuzzy
 #| msgid "Black list was successfully processed. "
 msgid "Allowlist was successfully processed."
-msgstr "ブラックリストは正常に処理されました。"
+#! msgstr "ブラックリストは正常に処理されました。"
+msgstr "許可リストは正常に処理されました。"
 
 #: apps/scan/filter_list/whitelist.py:50
 #, fuzzy
 #| msgid "Black list was successfully processed. "
 msgid "Allowlist was successfully processed. "
-msgstr "ブラックリストは正常に処理されました。"
+#! msgstr "ブラックリストは正常に処理されました。"
+msgstr "許可リストは正常に処理されました。"
 
 #: apps/scan/filter_list/whitelist.py:56
 #, fuzzy
 #| msgid "Error happened when updating the white list"
 msgid "Error happened when updating the allowlist"
-msgstr "ホワイトリストのアップデートでエラーが発生しました"
+#! msgstr "ホワイトリストのアップデートでエラーが発生しました"
+msgstr "許可リストのアップデートでエラーが発生しました"
 
 #: apps/scan/filter_list/whitelist.py:75
 #, fuzzy
 #| msgid "Black List Upload"
 msgid "Allowlist Upload"
-msgstr "ブラックリストのアップロード"
+#! msgstr "ブラックリストのアップロード"
+msgstr "許可リストのアップロード"
 
 #: apps/scan/filter_list/whitelist.py:89 apps/scan/forms.py:668
 #, fuzzy
 #| msgid "The submitted black list file is empty"
 msgid "The submitted blocklist file is empty"
-msgstr "サブミットされたホワイトリストは空です"
+#! msgstr "サブミットされたホワイトリストは空です"
+msgstr "サブミットされたブロックリストファイルは空です"
 
 #: apps/scan/filter_list/whitelist.py:103
 #, fuzzy
 #| msgid "Processing black list DOMAIN/URL file failed. "
 msgid "Processing blocklist DOMAIN/URL file failed. "
+#! msgstr ""
+#! "ブラックリストドメインのファイルを処理できませんでした。合計レコード数は "
 msgstr ""
-"ブラックリストドメインのファイルを処理できませんでした。合計レコード数は "
+"ブロックリストのドメイン/URLファイルの処理に失敗しました。"
 
 #: apps/scan/filter_list/whitelist.py:106
 #, fuzzy
 #| msgid "Processing black list URL REGEX file failed. "
 msgid "Processing blocklist URL REGEX file failed. "
+#! msgstr ""
+#! "ブラックリストドメインのファイルを処理できませんでした。合計レコード数は "
 msgstr ""
-"ブラックリストドメインのファイルを処理できませんでした。合計レコード数は "
+"ブロックリストURLREGEXファイルの処理に失敗しました。"
 
 #: apps/scan/filter_list/whitelist.py:109
 #, fuzzy
 #| msgid "Processing black list file failed. "
 msgid "Processing blocklist file failed. "
+#! msgstr ""
+#! "ブラックリストドメインのファイルを処理できませんでした。テキストファイルタイ"
+#! "プのみが許可されます。"
 msgstr ""
-"ブラックリストドメインのファイルを処理できませんでした。テキストファイルタイ"
-"プのみが許可されます。"
+"ブロックリストファイルの処理に失敗しました。"
 
 #: apps/scan/filter_list/whitelist.py:111
 #: apps/scan/filter_list/whitelist.py:115
 #, fuzzy
 #| msgid "Black list was successfully processed. "
 msgid "Blocklist was successfully processed. "
-msgstr "ブラックリストは正常に処理されました。"
+#! msgstr "ブラックリストは正常に処理されました。"
+msgstr "ブロックリストは正常に処理されました。"
 
 #: apps/scan/filter_list/whitelist.py:118
 #, fuzzy
 #| msgid "Error happened when updating the black list. "
 msgid "Error happened when updating the blocklist. "
-msgstr "ブラックリストのアップデートでエラーが発生しました"
+#! msgstr "ブラックリストのアップデートでエラーが発生しました"
+msgstr "ブロックリストのアップデートでエラーが発生しました"
 
 #: apps/scan/filter_list/whitelist.py:121
 #, fuzzy
 #| msgid "Error happened when updating the black list"
 msgid "Error happened when updating the blocklist"
-msgstr "ブラックリストのアップデートでエラーが発生しました"
+#! msgstr "ブラックリストのアップデートでエラーが発生しました"
+msgstr "ブロックリストのアップデートでエラーが発生しました"
 
 #: apps/scan/filter_list/whitelist.py:140
 #, fuzzy
 #| msgid "Black List Upload"
 msgid "Blocklist Upload"
-msgstr "ブラックリストのアップロード"
+#! msgstr "ブラックリストのアップロード"
+msgstr "ブロックリストのアップロード"
 
 #: apps/scan/filter_list/whitelist.py:153
 #, fuzzy
 #| msgid "Black list content does not exist."
 msgid "Allowlist content does not exist."
-msgstr "ブラックリストが存在しません"
+#! msgstr "ブラックリストが存在しません"
+msgstr "許可リストのコンテンツは存在しません。"
 
 #: apps/scan/filter_list/whitelist.py:155
 #, fuzzy
 #| msgid "Black list content does not exist."
 msgid "Blocklist content does not exist."
-msgstr "ブラックリストが存在しません"
+#! msgstr "ブラックリストが存在しません"
+msgstr "ブロックリストのコンテンツは存在しません。"
 
 #: apps/scan/forms.py:26
 msgid ""
@@ -3898,9 +3929,11 @@ msgstr "統計データをFortiGuardサービスへアップロードする"
 #: apps/scan/forms.py:62
 msgid ""
 "Allow Virtual Machines to access external network through outgoing port3"
+#! msgstr ""
+#! "バーチャルマシンが外部ネットワークへ外部接続ポートからアクセスすることを許可"
+#! "する"
 msgstr ""
-"バーチャルマシンが外部ネットワークへ外部接続ポートからアクセスすることを許可"
-"する"
+"バーチャルマシンがport3を介して外部ネットワークにアクセスできるようにする"
 
 #: apps/scan/forms.py:64
 msgid "Port3 IP"
@@ -3937,7 +3970,8 @@ msgstr "プロキシタイプ"
 #: apps/scan/forms.py:71 apps/scan/forms.py:197 apps/scan/forms.py:443
 #: apps/scan/forms.py:513 apps/system/forms.py:703 apps/system/forms.py:1103
 msgid "Server Name/IP"
-msgstr "サーバ名/IPアドレス"
+#! msgstr "サーバ名/IPアドレス"
+msgstr "サーバ名/IP"
 
 #: apps/scan/forms.py:74
 msgid "Proxy Username"
@@ -3953,15 +3987,18 @@ msgstr "アーカイブファイルを展開するためのデフォルトパス
 
 #: apps/scan/forms.py:79
 msgid "Password list"
-msgstr "パスワード"
+#! msgstr "パスワード"
+msgstr "パスワードリスト"
 
 #: apps/scan/forms.py:84
 msgid "Set password for password protected PDF/office files"
-msgstr "アーカイブ/オフィスファイルに使用可能なパスワード"
+#! msgstr "アーカイブ/オフィスファイルに使用可能なパスワード"
+msgstr "パスワードで保護されたPDF/Officeファイルのパスワードを設定する"
 
 #: apps/scan/forms.py:86
 msgid "PDF/Office Password"
-msgstr "古いパスワード"
+#! msgstr "古いパスワード"
+msgstr "PDF/Officeパスワード"
 
 #: apps/scan/forms.py:87 apps/scan/forms.py:93
 msgid "Only ONE ASCII format password is supported."
