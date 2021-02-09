@@ -3284,11 +3284,13 @@ msgstr "デバイス削除中のエラー。"
 
 #: apps/scan/devfgts.py:125
 msgid "FortiClient(s) were successfully deleted"
-msgstr "複数のレポートが削除されました"
+#! msgstr "複数のレポートが削除されました"
+msgstr "FortiClientは正常に削除されました"
 
 #: apps/scan/devfgts.py:127
 msgid "FortiClient(s) were deleted successfully"
-msgstr "デバイスは正常に削除されました"
+#! msgstr "デバイスは正常に削除されました"
+msgstr "FortiClientは正常に削除されました"
 
 #: apps/scan/devfgts.py:439 apps/scan/devfgts.py:441 apps/scan/devfgts.py:453
 msgid "Failed to update URL package configuration"
@@ -3325,7 +3327,8 @@ msgstr "デバイス認証のアップデートに失敗しました。"
 
 #: apps/scan/devfgts.py:597
 msgid "Failed to update device email flags."
-msgstr "メールフラグのアップデートに失敗しました。"
+#! msgstr "メールフラグのアップデートに失敗しました。"
+msgstr "デバイスのメールフラグの更新に失敗しました。"
 
 #: apps/scan/devfgts.py:618 apps/scan/device_fgts.py:870
 msgid "Device configuration was successfully updated"
@@ -3349,7 +3352,8 @@ msgstr "最後にFortiSandboxを再起動する前に"
 
 #: apps/scan/devfgts.py:665
 msgid "Edit Domain/Vdom Settings"
-msgstr "ドメイン/ Vdom設定の編集"
+#! msgstr "ドメイン/ Vdom設定の編集"
+msgstr "ドメイン/Vdom設定の編集"
 
 #: apps/scan/devfgts.py:667 apps/scan/device_fgts.py:731
 msgid "Edit Device Settings"
@@ -3408,11 +3412,13 @@ msgstr "FortiClientのロード中にエラーが発生しました。"
 
 #: apps/scan/device_fgts.py:635
 msgid "Error happened when updating Domain/Vdom limitation."
-msgstr "ドメイン/ Vdomの制限を更新するときにエラーが発生しました。"
+#! msgstr "ドメイン/ Vdomの制限を更新するときにエラーが発生しました。"
+msgstr "ドメイン/Vdomの制限を更新するときにエラーが発生しました。"
 
 #: apps/scan/device_fgts.py:726
 msgid "Edit Domain Settings"
-msgstr "デバイス設定の編集"
+#! msgstr "デバイス設定の編集"
+msgstr "ドメイン設定の編集"
 
 #: apps/scan/device_fgts.py:728
 msgid "Edit VDOM Settings"
@@ -3422,7 +3428,8 @@ msgstr "VDOM設定の編集"
 #, fuzzy
 #| msgid "Invalid netmask"
 msgid "Invalid Data"
-msgstr "無効なネットマスク"
+#! msgstr "無効なネットマスク"
+msgstr "無効なデータ"
 
 #: apps/scan/devsniffer.py:144
 msgid "Interface port"
@@ -3451,12 +3458,14 @@ msgstr "現在%sが他のサービスで使用されています"
 
 #: apps/scan/devsniffer.py:247
 msgid "Failed to update sniffer configuration"
-msgstr "DNS設定の更新に失敗しました"
+#! msgstr "DNS設定の更新に失敗しました"
+msgstr "スニファ設定の更新に失敗しました"
 
 #: apps/scan/devsniffer.py:255
 msgid ""
 "Failed to update sniffer configuration. Check log for detailed information"
-msgstr "LDAPサーバ情報を更新できません。詳細はログを確認してください"
+#! msgstr "LDAPサーバ情報を更新できません。詳細はログを確認してください"
+msgstr "スニファ設定の更新に失敗しました。詳細についてはログを確認してください"
 
 #: apps/scan/fcont.py:142
 msgid "Error happened when set a change flags for adapter."
@@ -3482,7 +3491,8 @@ msgstr "アダプターフラグを取得する時にでエラーが発生しま
 #, fuzzy
 #| msgid "Error happened when getting adapter information."
 msgid "Error happened when getting adapter token."
-msgstr "アダプター情報を取得する時にエラーが発生しました。"
+#! msgstr "アダプター情報を取得する時にエラーが発生しました。"
+msgstr "アダプタトークンを取得する時にエラーが発生しました。"
 
 #: apps/scan/fcont.py:374
 msgid "Error happened, the same server or IP has been used."
@@ -3500,7 +3510,8 @@ msgstr "アダプター情報をデータベースから取得する時にエラ
 #, fuzzy
 #| msgid "Error happened when get adapter from database."
 msgid "Error happened when update flag to database."
-msgstr "アダプター情報をデータベースから取得する時にエラーが発生しました。"
+#! msgstr "アダプター情報をデータベースから取得する時にエラーが発生しました。"
+msgstr "データベースのフラグを更新する時にエラーが発生しました。"
 
 #: apps/scan/fcont.py:530
 msgid "Last 7 days"
@@ -3508,11 +3519,13 @@ msgstr "7日前"
 
 #: apps/scan/fcont.py:558
 msgid "New adapter was successfully added"
-msgstr "ルーティングエントリが追加されました "
+#! msgstr "ルーティングエントリが追加されました "
+msgstr "新しいアダプターが正常に追加されました"
 
 #: apps/scan/fcont.py:564
 msgid "Error happened while adding a new adapter"
-msgstr "新規管理者の追加でエラーが発生しました。"
+#! msgstr "新規管理者の追加でエラーが発生しました。"
+msgstr "新しいアダプターの追加中にエラーが発生しました"
 
 #: apps/scan/fcont.py:574
 msgid "New Adapter"
@@ -3520,11 +3533,13 @@ msgstr "新しいアダプター"
 
 #: apps/scan/fcont.py:599
 msgid "Failed to update adapter information, check logs for details"
-msgstr "LDAPサーバ情報を更新できません。詳細はログを確認してください。"
+#! msgstr "LDAPサーバ情報を更新できません。詳細はログを確認してください。"
+msgstr "アダプター情報の更新に失敗しました。詳細についてはログを確認してください"
 
 #: apps/scan/fcont.py:606
 msgid "Adapter information was successfully updated"
-msgstr "管理者の情報が更新されました。"
+#! msgstr "管理者の情報が更新されました。"
+msgstr "アダプター情報が正常に更新されました"
 
 #: apps/scan/fcont.py:612
 msgid "Error happened when updating adapter information."
@@ -3532,15 +3547,18 @@ msgstr "アダプター情報を取得する時にエラーが発生しました
 
 #: apps/scan/fcont.py:642
 msgid "Edit Adapter"
-msgstr "アダプター"
+#! msgstr "アダプター"
+msgstr "アダプター編集"
 
 #: apps/scan/fcont.py:658
 msgid "Delete Adapter Confirmation"
-msgstr "アダプター承認の削除"
+#! msgstr "アダプター承認の削除"
+msgstr "アダプター確認の削除"
 
 #: apps/scan/fcont.py:682
 msgid "Adapter(s) were deleted successfully"
-msgstr "アダプターが削除されました"
+#! msgstr "アダプターが削除されました"
+msgstr "アダプターが正常に削除されました"
 
 #: apps/scan/fcont.py:686
 msgid "Error occurred while deleting adapters. "
@@ -3554,31 +3572,36 @@ msgstr "アダプター削除中にエラーが発生しました。 "
 #, fuzzy
 #| msgid "FQDN/IP"
 msgid "Invalid FQDN/IP."
-msgstr "FQDN/IPアドレス"
+#! msgstr "FQDN/IPアドレス"
+msgstr "無効なFQDN/IP"
 
 #: apps/scan/fcont.py:710 apps/scan/fcont.py:732
 #, fuzzy
 #| msgid "Error occurred while deleting adapters."
 msgid "Error occurred while test adapter connection."
-msgstr "アダプター削除中にエラーが発生しました。 "
+#! msgstr "アダプター削除中にエラーが発生しました。 "
+msgstr "アダプター接続のテスト中にエラーが発生しました。 "
 
 #: apps/scan/fcont.py:720
 #, fuzzy, python-format
 #| msgid "Adapter(s) were deleted successfully"
 msgid "Adapter %s was connected successfully"
-msgstr "アダプターが削除されました"
+#! msgstr "アダプターが削除されました"
+msgstr "アダプター%sは正常に接続されました"
 
 #: apps/scan/fcont.py:726
 #, fuzzy, python-format
 #| msgid "Network share is inaccessible"
 msgid "Adapter %s is inaccessible."
-msgstr "ネットワーク共有にアクセスできない"
+#! msgstr "ネットワーク共有にアクセスできない"
+msgstr "アダプタ%sにアクセスできません。"
 
 #: apps/scan/fcont.py:730
 #, fuzzy
 #| msgid "Error occurred while deleting adapters. "
 msgid "Error occurred while test adapter's connection. "
-msgstr "アダプター削除中にエラーが発生しました。 "
+#! msgstr "アダプター削除中にエラーが発生しました。 "
+msgstr "アダプターの接続テスト中にエラーが発生しました。 "
 
 #: apps/scan/filter_list/defs.py:20 apps/scan/filter_list/defs.py:62
 msgid "URL REGEX"
@@ -3594,7 +3617,8 @@ msgstr "許可"
 #, fuzzy
 #| msgid "Allowed limit"
 msgid "Allowlists"
-msgstr "許可された条件"
+#! msgstr "許可された条件"
+msgstr "許可リスト"
 
 #: apps/scan/filter_list/defs.py:28
 #, fuzzy
@@ -3606,7 +3630,8 @@ msgstr "ブロック："
 #, fuzzy
 #| msgid "Black Lists"
 msgid "Blocklists"
-msgstr "ブラックリスト"
+#! msgstr "ブラックリスト"
+msgstr "ブロックリスト"
 
 #: apps/scan/filter_list/defs.py:45
 msgid "Append"
@@ -3638,23 +3663,27 @@ msgstr "削除"
 #, fuzzy
 #| msgid "White/Black lists were updated successfully."
 msgid "Allowlist/Blocklist were updated successfully."
-msgstr "ホワイト/ブラックリストが正常に更新されました。"
+#! msgstr "ホワイト/ブラックリストが正常に更新されました。"
+msgstr "許可リスト/ブロックリストが正常に更新されました。"
 
 #: apps/scan/filter_list/filter_list.py:110
 #, fuzzy, python-format
 #| msgid "Failed to update White/Black lists: %s"
 msgid "Failed to update Allowlist/Blocklists: %s"
-msgstr "ホワイト/ブラックリストの更新に失敗しました: %s"
+#! msgstr "ホワイト/ブラックリストの更新に失敗しました: %s"
+msgstr "許可リスト/ブロックリストの更新に失敗しました: %s"
 
 #: apps/scan/filter_list/filter_list.py:111
 #, fuzzy
 #| msgid "Failed to update White/Black lists:"
 msgid "Failed to update Allowlist/Blocklists:"
-msgstr "ホワイト/ブラックリストの更新に失敗しました："
+#! msgstr "ホワイト/ブラックリストの更新に失敗しました："
+msgstr "許可リスト/ブロックリストの更新に失敗しました："
 
 #: apps/scan/filter_list/filter_list.py:120
 msgid "The total records of DOMAIN and URL will be "
-msgstr "DOMAINとURLの合計レコードは次のようになります。"
+#! msgstr "DOMAINとURLの合計レコードは次のようになります。"
+msgstr "ドメインとURLの合計レコードは次のようになります。"
 
 #: apps/scan/filter_list/filter_list.py:125 apps/scan/filter_list/fl_db.py:150
 msgid "The total records of URL REGEX will be "
@@ -3662,7 +3691,8 @@ msgstr "URL REGEXの合計レコードは次のようになります。"
 
 #: apps/scan/filter_list/filter_list.py:133
 msgid "The total records for DOMAIN and URL will be "
-msgstr "DOMAINとURLの合計レコードは次のようになります。"
+#! msgstr "DOMAINとURLの合計レコードは次のようになります。"
+msgstr "ドメインとURLの合計レコードは次のようになります。"
 
 #: apps/scan/filter_list/fl_db.py:139
 msgid "The total records of Checksum will be "
