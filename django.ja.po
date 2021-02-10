@@ -4002,9 +4002,11 @@ msgstr "PDF/Officeパスワード"
 
 #: apps/scan/forms.py:87 apps/scan/forms.py:93
 msgid "Only ONE ASCII format password is supported."
+#! msgstr ""
+#! "各行ごとに可能性のパスワードをひとつ。ASCIIフォーマットのパスワードのみがサ"
+#! "ポートされています。"
 msgstr ""
-"各行ごとに可能性のパスワードをひとつ。ASCIIフォーマットのパスワードのみがサ"
-"ポートされています。"
+"1つのASCII形式のパスワードのみがサポートされています。"
 
 #: apps/scan/forms.py:90
 msgid "Set customized password for original files"
@@ -4012,7 +4014,8 @@ msgstr "オリジナルファイルのカスタマイズパスワードを設定
 
 #: apps/scan/forms.py:92
 msgid "Customized Original File Password"
-msgstr "カスタムウィジェットタイトル"
+#! msgstr "カスタムウィジェットタイトル"
+msgstr "カスタマイズされたオリジナルファイルのパスワード"
 
 #: apps/scan/forms.py:96
 msgid "Disable Community Cloud Query"
@@ -4050,11 +4053,13 @@ msgstr "ICAP"
 
 #: apps/scan/forms.py:123
 msgid "BCC Adapter"
-msgstr "BCC アダプター"
+#! msgstr "BCC アダプター"
+msgstr "BCCアダプター"
 
 #: apps/scan/forms.py:126
 msgid "MTA Adapter"
-msgstr "アダプター"
+#! msgstr "アダプター"
+msgstr "MTAアダプター"
 
 #: apps/scan/forms.py:129
 msgid "Reject duplicate file from device"
@@ -4070,7 +4075,8 @@ msgstr ""
 
 #: apps/scan/forms.py:137
 msgid "Delete original files of Clean or Other rating after"
-msgstr "下記の時間経過後にクリーン判定されたオリジナルファイルを削除する"
+#! msgstr "下記の時間経過後にクリーン判定されたオリジナルファイルを削除する"
+msgstr "下記の時間経過後にクリーンまたはその他の評価のオリジナルファイルを削除する"
 
 #: apps/scan/forms.py:139 apps/scan/forms.py:153
 msgid "Day (0-27)"
@@ -4088,8 +4094,10 @@ msgstr "分"
 
 #: apps/scan/forms.py:144
 msgid "Delete original files of Malicious or Suspicious rating after"
+#! msgstr ""
+#! "下記の時間経過後にマルウェアと疑わしいファイルのジョブレコードを削除する"
 msgstr ""
-"下記の時間経過後にマルウェアと疑わしいファイルのジョブレコードを削除する"
+"下記の時間経過後に悪意のあるまたは疑わしい評価のオリジナルファイルを削除する"
 
 #: apps/scan/forms.py:146 apps/scan/forms.py:160
 #: templates/system/config-time.html:88
@@ -4098,12 +4106,15 @@ msgstr "日"
 
 #: apps/scan/forms.py:151
 msgid "Delete all traces of jobs of Clean or Other rating after"
-msgstr "下記の時間経過後にクリーンとその他判定のジョブレコードを削除する"
+#! msgstr "下記の時間経過後にクリーンとその他判定のジョブレコードを削除する"
+msgstr "下記の時間経過後にクリーンまたはその他の評価のジョブのトレースをすべて削除する"
 
 #: apps/scan/forms.py:158
 msgid "Delete all traces of jobs of Malicious or Suspicious rating after"
+#! msgstr ""
+#! "下記の時間経過後にマルウェアと疑わしいファイルのオリジナルファイルを削除する"
 msgstr ""
-"下記の時間経過後にマルウェアと疑わしいファイルのオリジナルファイルを削除する"
+"下記の時間経過後に悪意のあるまたは疑わしい評価のジョブのトレースをすべて削除する"
 
 #: apps/scan/forms.py:187 apps/scan/nwshare.py:645
 msgid "This value may contain letters, numbers and ./_- characters only."
@@ -4165,7 +4176,8 @@ msgstr "確認のために上と同じパスワードを入力してください
 
 #: apps/scan/forms.py:212
 msgid "Scan Job Priority"
-msgstr "スキャンポリシー"
+#! msgstr "スキャンポリシー"
+msgstr "スキャンジョブの優先度"
 
 #: apps/scan/forms.py:214
 msgid "Keep A Copy Of Original File On FortiSandbox"
@@ -4177,7 +4189,8 @@ msgstr "変更されていない同一ファイルはサンドボックスをス
 
 #: apps/scan/forms.py:216
 msgid "Enable Quarantine of Malicious files"
-msgstr "マルウェアファイルの隔離を有効"
+#! msgstr "マルウェアファイルの隔離を有効"
+msgstr "悪意のあるファイルの隔離を有効"
 
 #: apps/scan/forms.py:217 apps/scan/forms.py:219 apps/scan/forms.py:221
 #: apps/scan/forms.py:223 apps/scan/forms.py:225
@@ -4198,15 +4211,18 @@ msgstr "疑わしいファイルの隔離を有効(ローリスク)"
 
 #: apps/scan/forms.py:224
 msgid "Enable Quarantine of Other rating files"
-msgstr "疑わしいファイルの隔離を有効(その他)"
+#! msgstr "疑わしいファイルの隔離を有効(その他)"
+msgstr "その他の評価のファイルの隔離を有効にする"
 
 #: apps/scan/forms.py:226
 msgid "Enable copying or moving clean files to a sanitized location"
-msgstr "クリーンなファイルのコピーまたは移動を有効にする"
+#! msgstr "クリーンなファイルのコピーまたは移動を有効にする"
+msgstr "クリーンなファイルを無害化された場所にコピーまたは移動できるようにする"
 
 #: apps/scan/forms.py:227
 msgid "Sanitized Location"
-msgstr "隔離ファイルの保存場所"
+#! msgstr "隔離ファイルの保存場所"
+msgstr "無害化された場所"
 
 #: apps/scan/forms.py:228
 msgid "Keep a complete copy of clean files for every scheduled scan"
@@ -4216,8 +4232,11 @@ msgstr "定時スキャンごとにクリーンなファイルの完全なコピ
 msgid ""
 "Create place holder files for Malicious/Suspicious/Other files in sanitized "
 "location"
+#! msgstr ""
+#! "サニタイズされた場所に悪意のある/疑わしい/その他のファイルのプレースホルダー"
+#! "ファイルを作成する"
 msgstr ""
-"サニタイズされた場所に悪意のある/疑わしい/その他のファイルのプレースホルダー"
+"無害化された場所に悪意のある/疑わしい/その他のファイルのプレースホルダー"
 "ファイルを作成する"
 
 #: apps/scan/forms.py:231
@@ -4234,16 +4253,19 @@ msgstr "曜日"
 
 #: apps/scan/forms.py:236
 msgid "Every (minute)"
-msgstr "毎分"
+#! msgstr "毎分"
+msgstr "毎(分)"
 
 #: apps/scan/forms.py:237 apps/system/forms.py:974
 msgid "Every (hour)"
-msgstr "毎時"
+#! msgstr "毎時"
+msgstr "毎(時)"
 
 #: apps/scan/forms.py:238 apps/scan/forms.py:239 apps/system/forms.py:975
 #: apps/system/forms.py:976
 msgid "At hour"
-msgstr "時刻(時)"
+#! msgstr "時刻(時)"
+msgstr "時刻"
 
 #: apps/scan/forms.py:240 apps/scan/forms.py:455 apps/snmp/forms.py:96
 #: templates/job_detail/tracer_behavior_detail.html:134
@@ -4258,7 +4280,8 @@ msgstr "各スキャン後に通知メールを送信する"
 
 #: apps/scan/forms.py:245
 msgid "Email list (separated by comma)"
-msgstr "メーリングリスト（カンマ区切り）"
+#! msgstr "メーリングリスト（カンマ区切り）"
+msgstr "メールリスト（カンマ区切り）"
 
 #: apps/scan/forms.py:246
 msgid "Please input valid email address (separated by comma)."
@@ -4266,12 +4289,14 @@ msgstr "有効なメールアドレスを入力してください（カンマ区
 
 #: apps/scan/forms.py:278
 msgid "Share Path can not be empty."
-msgstr "理由は空白にできません"
+#! msgstr "理由は空白にできません"
+msgstr "共有パスは空白にできません"
 
 #: apps/scan/forms.py:280 apps/scan/forms.py:468
 msgid ""
 "The share path should have a leading slash, in the format of /path1/path2."
-msgstr "共有パスは、/ path1 / path2の形式で先頭にスラッシュを付けます。"
+#! msgstr "共有パスは、/ path1 / path2の形式で先頭にスラッシュを付けます。"
+msgstr "共有パスは、/path1 /path2の形式で先頭にスラッシュを付けます。"
 
 #: apps/scan/forms.py:282
 msgid "Network share name has been used"
@@ -4282,17 +4307,23 @@ msgstr "ネットワーク共有名が使用されています"
 msgid ""
 "To do quarantine, a valid quarantine name has to be set. If needed, please "
 "use Quarantine page to create new ones"
+#! msgstr ""
+#! "検疫を行うには、有効な検疫名を設定する必要があります。必要に応じてご利用くだ"
+#! "さい。新しいページを作成するための隔離ページ"
 msgstr ""
-"検疫を行うには、有効な検疫名を設定する必要があります。必要に応じてご利用くだ"
-"さい。新しいページを作成するための隔離ページ"
+"隔離を行うには、有効な隔離名を設定する必要があります。必要に応じて、"
+"隔離ページを使用して新しいものを作成してください"
 
 #: apps/scan/forms.py:308
 msgid ""
 "To do moving, a valid sanitized folder name has to be set. If needed, please "
 "use Quarantine page to create new ones"
+#! msgstr ""
+#! "移動するには、有効なサニタイズされたフォルダ名を設定する必要があります。必要"
+#! "に応じて、隔離ページを使って新しいものを作成してください。"
 msgstr ""
-"移動するには、有効なサニタイズされたフォルダ名を設定する必要があります。必要"
-"に応じて、隔離ページを使って新しいものを作成してください。"
+"移動するには、有効な無害化されたフォルダ名を設定する必要があります。必要に応じて、"
+"隔離ページを使用して新しいものを作成してください"
 
 #: apps/scan/forms.py:313 apps/scan/forms.py:474 apps/scan/forms.py:558
 #: apps/scan/forms.py:560 apps/system/forms.py:260 apps/system/forms.py:1048
@@ -4325,11 +4356,13 @@ msgstr "ソースロケーションに元のファイルを保持する"
 
 #: apps/scan/forms.py:466
 msgid "Share Path cannot be empty."
-msgstr "理由は空白にできません"
+#! msgstr "理由は空白にできません"
+msgstr "共有パスは空白にできません"
 
 #: apps/scan/forms.py:470
 msgid "Quarantine name has been used"
-msgstr "検疫名が使用されています"
+#! msgstr "検疫名が使用されています"
+msgstr "隔離名が使用されています"
 
 #: apps/scan/forms.py:526
 msgid "Folder Structure"
@@ -4339,19 +4372,22 @@ msgstr "フォルダ構造"
 #, fuzzy
 #| msgid "Archive Files"
 msgid "Password on Archive File"
-msgstr "アーカイブファイル"
+#! msgstr "アーカイブファイル"
+msgstr "アーカイブファイルのパスワード"
 
 #: apps/scan/forms.py:532
 #, fuzzy
 #| msgid "Confirm Password"
 msgid "Confirm Password on Archive File"
-msgstr "パスワードの再入力"
+#! msgstr "パスワードの再入力"
+msgstr "アーカイブファイルのパスワードを再入力"
 
 #: apps/scan/forms.py:533
 #, fuzzy
 #| msgid "Enter the same password as above, for verification"
 msgid "Enter the same password as Password on Archive File, for verification"
-msgstr "確認のために上と同じパスワードを入力してください"
+#! msgstr "確認のために上と同じパスワードを入力してください"
+msgstr "確認のために、アーカイブファイルのパスワードと同じパスワードを入力してください"
 
 #: apps/scan/forms.py:534
 msgid "Save meta data"
@@ -4363,7 +4399,8 @@ msgstr "トレーサーログを保存"
 
 #: apps/scan/forms.py:536
 msgid "Save Malicious rating jobs"
-msgstr "マルウェアレーティングジョブを保存"
+#! msgstr "マルウェアレーティングジョブを保存"
+msgstr "悪意のあるレーティングジョブを保存"
 
 #: apps/scan/forms.py:537
 msgid "Save Suspicious rating jobs"
@@ -4375,13 +4412,15 @@ msgstr "クリーンなレーティングのジョブを保存"
 
 #: apps/scan/forms.py:539
 msgid "Save Other rating jobs"
-msgstr "クリーンなレーティングのジョブを保存"
+#! msgstr "クリーンなレーティングのジョブを保存"
+msgstr "その他のレーティングのジョブを保存"
 
 #: apps/scan/forms.py:563 apps/scan/forms.py:565
 #, fuzzy
 #| msgid "The supplied passwords do not match"
 msgid "The supplied passwords on archive file do not match"
-msgstr "パスワードが一致しません"
+#! msgstr "パスワードが一致しません"
+msgstr "アーカイブファイルで提供されたパスワードが一致しません"
 
 #: apps/scan/forms.py:570
 msgid ""
@@ -4397,7 +4436,8 @@ msgstr "一回のサブミットで許容する最大URL数 (-1 は無制限)"
 
 #: apps/scan/forms.py:577
 msgid "Default Depth"
-msgstr "デフォルトの深さ"
+#! msgstr "デフォルトの深さ"
+msgstr "デフォルトの階層"
 
 #: apps/scan/forms.py:578
 msgid "Default Timeout"
@@ -4409,7 +4449,8 @@ msgstr "最大値は-1または0より大きい数字にしてください"
 
 #: apps/scan/forms.py:617
 msgid "Default depth should be between 0 to 6"
-msgstr "深さは0から6の間に設定してください"
+#! msgstr "深さは0から6の間に設定してください"
+msgstr "階層は0から6の間に設定してください"
 
 #: apps/scan/forms.py:620
 msgid "Default timeout should be between 30 to 1200 seconds"
@@ -4419,32 +4460,38 @@ msgstr "デフォルトタイムアウトは30〜1200秒の間で設定してく
 msgid ""
 "Put Files From Sniffer, Network Share And Devices Of The Following Types To "
 "Job Queue"
+#! msgstr ""
+#! "スニファ、ネットワーク共有、デバイスからの入力時にスキャンするファイルタイプ"
 msgstr ""
-"スニファ、ネットワーク共有、デバイスからの入力時にスキャンするファイルタイプ"
+"スニファ、ネットワーク共有、および次のタイプのデバイスからのファイルをジョブキューに配置します"
 
 #: apps/scan/forms.py:641
 #, fuzzy
 #| msgid "Black List Type"
 msgid "Allowlist Type"
-msgstr "ブラックリストタイプ"
+#! msgstr "ブラックリストタイプ"
+msgstr "許可リストタイプ"
 
 #: apps/scan/forms.py:645
 #, fuzzy
 #| msgid "Upload a File Containing Black List"
 msgid "Upload a File Containing Allowlist"
-msgstr "ブラックリストを含むファイルをアップロード"
+#! msgstr "ブラックリストを含むファイルをアップロード"
+msgstr "許可リストを含むファイルをアップロード"
 
 #: apps/scan/forms.py:657
 #, fuzzy
 #| msgid "Black List Type"
 msgid "Blocklist Type"
-msgstr "ブラックリストタイプ"
+#! msgstr "ブラックリストタイプ"
+msgstr "ブロックリストタイプ"
 
 #: apps/scan/forms.py:661
 #, fuzzy
 #| msgid "Upload a File Containing Black List"
 msgid "Upload a File Containing Blocklist"
-msgstr "ブラックリストを含むファイルをアップロード"
+#! msgstr "ブラックリストを含むファイルをアップロード"
+msgstr "ブロックリストを含むファイルをアップロード"
 
 #: apps/scan/forms.py:689 templates/scan/fcont_main.html:20
 msgid "Vendor Name"
@@ -4476,7 +4523,8 @@ msgstr "タイムアウト (秒)"
 
 #: apps/scan/forms.py:699
 msgid "Timeout value for FortiSandbox cannot get file verdict back in time."
-msgstr "FortiSandboxがファイルスキャンの結果を得るまで待つタイムアウト値。"
+#! msgstr "FortiSandboxがファイルスキャンの結果を得るまで待つタイムアウト値。"
+msgstr "FortiSandboxのタイムアウト値は、ファイル判定を時間内に戻すことができません。"
 
 #: apps/scan/forms.py:700 templates/admin/device_panel.html:60
 #: templates/scan/device_drilldown.html:103 templates/scan/device_main.html:33
@@ -4555,15 +4603,18 @@ msgstr "リターンコードが200ではないURL"
 
 #: apps/scan/jobqueue.py:264
 msgid "Purge job queue successfully."
-msgstr "ジョブの削除に成功しました。"
+#! msgstr "ジョブの削除に成功しました。"
+msgstr "ジョブキューの削除に成功しました。"
 
 #: apps/scan/jobqueue.py:270
 msgid "No parameter \"key\" given."
-msgstr "パラメーターを持たないキーが与えられました。"
+#! msgstr "パラメーターを持たないキーが与えられました。"
+msgstr "パラメーターを持たない\"key\"が与えられました。"
 
 #: apps/scan/jobqueue.py:272
 msgid "No parameter \"qtype\" given."
-msgstr "パラメーターを持たないキーが与えられました。"
+#! msgstr "パラメーターを持たないキーが与えられました。"
+msgstr "パラメーターを持たない\"qtype\"が与えられました。"
 
 #: apps/scan/jobqueue.py:288
 msgid "return is "
@@ -4598,19 +4649,23 @@ msgstr "%s のスケジュールスキャンを削除するときにエラーが
 
 #: apps/scan/nwshare.py:233
 msgid "Error happened when deleting Scheduled Scans of "
-msgstr "の定期スキャンを削除するときにエラーが発生しました"
+#! msgstr "の定期スキャンを削除するときにエラーが発生しました"
+msgstr "のスケジュールスキャンを削除するときにエラーが発生しました"
 
 #: apps/scan/nwshare.py:339
 msgid "New network share was successfully added"
-msgstr "ひとつのネットワーク共有が削除されました"
+#! msgstr "ひとつのネットワーク共有が削除されました"
+msgstr "新規ネットワーク共有が正常に追加されました"
 
 #: apps/scan/nwshare.py:344
 msgid "Error happened while adding new network share"
-msgstr "新規管理者の追加でエラーが発生しました。"
+#! msgstr "新規管理者の追加でエラーが発生しました。"
+msgstr "新規ネットワーク共有の追加でエラーが発生しました。"
 
 #: apps/scan/nwshare.py:356
 msgid "New Network Share"
-msgstr "ネットワーク共有"
+#! msgstr "ネットワーク共有"
+msgstr "新規ネットワーク共有"
 
 #: apps/scan/nwshare.py:426
 msgid "The specified quarantine is being disabled. It should be enabled first"
