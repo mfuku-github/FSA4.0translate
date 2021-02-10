@@ -4673,15 +4673,18 @@ msgstr "指定された隔離は無効化されています。最初に有効に
 
 #: apps/scan/nwshare.py:448
 msgid "Failed to update network share information, check logs for details"
-msgstr "LDAPサーバ情報を更新できません。詳細はログを確認してください。"
+#! msgstr "LDAPサーバ情報を更新できません。詳細はログを確認してください。"
+msgstr "ネットワーク共有情報の更新に失敗しました。詳細についてはログを確認してください"
 
 #: apps/scan/nwshare.py:452
 msgid "Network share information was successfully updated"
-msgstr "メールサーバの設定の更新に成功しました"
+#! msgstr "メールサーバの設定の更新に成功しました"
+msgstr "ネットワーク共有情報が正常に更新されました"
 
 #: apps/scan/nwshare.py:457
 msgid "Error happened when saving network share information."
-msgstr "LDAPサーバ情報の保存でエラーが発生しました。"
+#! msgstr "LDAPサーバ情報の保存でエラーが発生しました。"
+msgstr "ネットワーク共有情報の保存中にエラーが発生しました。"
 
 #: apps/scan/nwshare.py:505 templates/admin/change_list_controls.html:240
 msgid "Scan Now"
@@ -4705,7 +4708,8 @@ msgstr "即時スキャンがネットワーク共有に対して正常にスケ
 
 #: apps/scan/nwshare.py:539 apps/scan/nwshare.py:1077
 msgid "Error happened. Please check your archive server settings"
-msgstr "エラーが発生しました。メールサーバーの設定を確認してください"
+#! msgstr "エラーが発生しました。メールサーバーの設定を確認してください"
+msgstr "エラーが発生しました。アーカイブサーバーの設定を確認してください"
 
 #: apps/scan/nwshare.py:554 apps/scan/nwshare.py:573
 msgid "Network share is accessible"
@@ -4714,7 +4718,8 @@ msgstr "ネットワーク共有にアクセス可能"
 #: apps/scan/nwshare.py:559 apps/scan/nwshare.py:579
 msgid "Network share is inaccessible. Check log for details"
 msgstr ""
-"ネットワーク共有にアクセスできない。詳細についてはログを確認してください"
+#! "ネットワーク共有にアクセスできない。詳細についてはログを確認してください"
+"ネットワーク共有にアクセスできません。詳細についてはログを確認してください"
 
 #: apps/scan/nwshare.py:694
 msgid "Clone "
@@ -4722,46 +4727,57 @@ msgstr "クローン"
 
 #: apps/scan/nwshare.py:751
 msgid "Failed to create quarantine share, check logs for details"
-msgstr "検疫共有を作成できませんでした。ログで詳細を確認してください"
+#! msgstr "検疫共有を作成できませんでした。ログで詳細を確認してください"
+msgstr "隔離共有を作成できませんでした。ログで詳細を確認してください"
 
 #: apps/scan/nwshare.py:755
 msgid "New quarantine was successfully added"
-msgstr "新しい検疫が正常に追加されました"
+#! msgstr "新しい検疫が正常に追加されました"
+msgstr "新しい隔離が正常に追加されました"
 
 #: apps/scan/nwshare.py:759
 msgid "Error happened while adding new quarantine "
-msgstr "新しい検疫を追加中にエラーが発生しました"
+#! msgstr "新しい検疫を追加中にエラーが発生しました"
+msgstr "新しい隔離を追加中にエラーが発生しました"
 
 #: apps/scan/nwshare.py:771
 msgid "New Quarantine Location"
-msgstr "新しい検疫場所"
+#! msgstr "新しい検疫場所"
+msgstr "新しい隔離ロケーション"
 
 #: apps/scan/nwshare.py:802
 msgid ""
 "The quarantine can not be disabled as it is being used by a network share"
+#! msgstr ""
+#! "ネットワーク共有によって使用されているため、検疫を無効にすることはできませ"
+#! "ん。"
 msgstr ""
-"ネットワーク共有によって使用されているため、検疫を無効にすることはできませ"
-"ん。"
+"ネットワーク共有によって使用されているため、隔離を無効にすることはできません。"
 
 #: apps/scan/nwshare.py:812
 msgid "Failed to update quarantine information, check logs for details"
-msgstr "検疫情報を更新できませんでした。詳細についてはログを確認してください"
+#! msgstr "検疫情報を更新できませんでした。詳細についてはログを確認してください"
+msgstr "隔離情報を更新できませんでした。詳細についてはログを確認してください"
 
 #: apps/scan/nwshare.py:816
 msgid "Quarantine information was successfully updated"
-msgstr "検疫情報は正常に更新されました"
+#! msgstr "検疫情報は正常に更新されました"
+msgstr "隔離情報は正常に更新されました"
 
 #: apps/scan/nwshare.py:820
 msgid "Error happened when saving quarantine information."
-msgstr "検疫情報の保存中にエラーが発生しました。"
+#! msgstr "検疫情報の保存中にエラーが発生しました。"
+msgstr "隔離情報の保存中にエラーが発生しました。"
 
 #: apps/scan/nwshare.py:851
 msgid "Edit Quarantine Location"
-msgstr "検疫場所の編集"
+#! msgstr "検疫場所の編集"
+msgstr "隔離ロケーションの編集"
 
 #: apps/scan/nwshare.py:874 apps/scan/nwshare.py:893
 msgid "Quarantine location is inaccessible. Check log for details"
-msgstr "検疫場所にアクセスできない。詳細についてはログを確認してください"
+#! msgstr "検疫場所にアクセスできない。詳細についてはログを確認してください"
+msgstr "隔離場所にアクセスできません。詳細についてはログを確認してください"
 
 #: apps/scan/nwshare.py:973
 msgid "Archive configuration was successfully updated"
@@ -4769,7 +4785,8 @@ msgstr "アーカイブ設定が正常に更新されました。"
 
 #: apps/scan/nwshare.py:978
 msgid "Error happened. Please check your archive settings"
-msgstr "エラーが発生しました。メールサーバーの設定を確認してください"
+#! msgstr "エラーが発生しました。メールサーバーの設定を確認してください"
+msgstr "エラーが発生しました。アーカイブの設定を確認してください"
 
 #: apps/scan/nwshare.py:1051 apps/system/config.py:1089
 msgid "Restore Default"
@@ -4781,23 +4798,29 @@ msgstr "アーカイブロケーション"
 
 #: apps/scan/nwshare.py:1073
 msgid "Archiver server is accessible"
-msgstr "クラウドクエリサーバにアクセスできます"
+#! msgstr "クラウドクエリサーバにアクセスできます"
+msgstr "アーカイバサーバーはアクセス可能です"
 
 #: apps/scan/nwshare.py:1085
 msgid "Archive server settings were successfully reset to default"
-msgstr "メールサーバーの設定がデフォルトにリセットされました。"
+#! msgstr "メールサーバーの設定がデフォルトにリセットされました。"
+msgstr "アーカイブサーバーの設定が正常にデフォルトにリセットされました"
 
 #: apps/scan/nwshare.py:1089
 msgid ""
 "Error happened when resetting archive server settings. Please check system "
 "log for details"
+#! msgstr ""
+#! "メールサーバーの設定をリセットするときにエラーが発生しました。詳細について"
+#! "は、システムログを確認してください"
 msgstr ""
-"メールサーバーの設定をリセットするときにエラーが発生しました。詳細について"
-"は、システムログを確認してください"
+"アーカイブサーバーの設定をリセットするときにエラーが発生しました。"
+"詳細については、システムログを確認してください"
 
 #: apps/scan/options.py:26
 msgid "Cloud upload setting was successfully updated."
-msgstr "クラウドアップロード設定が更新されました。"
+#! msgstr "クラウドアップロード設定が更新されました。"
+msgstr "クラウドアップロード設定が正常に更新されました。"
 
 #: apps/scan/options.py:29
 msgid "Cloud query setting was successfully updated."
@@ -4809,42 +4832,53 @@ msgstr "AV再スキャン設定が正常に更新されました。"
 
 #: apps/scan/options.py:35
 msgid "URL callback detection setting was successfully updated."
-msgstr "URLコールバック検知の設定が変更されました。"
+#! msgstr "URLコールバック検知の設定が変更されました。"
+msgstr "URLコールバック検知の設定が正常に変更されました。"
 
 #: apps/scan/options.py:38
 msgid "Reject duplicate file from device setting was successfully updated."
-msgstr "デバイスからの重複したファイルを拒否する設定が変更されました。"
+#! msgstr "デバイスからの重複したファイルを拒否する設定が変更されました。"
+msgstr "デバイスからの重複したファイルを拒否する設定が正常に変更されました。"
 
 #: apps/scan/options.py:41
 msgid "Log file submission from devices setting was successfully updated."
-msgstr "デバイスからのファイルサブミットのログイベント設定が変更されました。"
+#! msgstr "デバイスからのファイルサブミットのログイベント設定が変更されました。"
+msgstr "デバイスからのログファイルサブミットの設定が正常に更新されました。"
 
 #: apps/scan/options.py:44
 msgid "Log file submission from adapter setting was successfully updated."
-msgstr "アダプターからのファイルサブミットのログイベント設定が変更されました。"
+#! msgstr "アダプターからのファイルサブミットのログイベント設定が変更されました。"
+msgstr "アダプターからのログファイルサブミットの設定が正常に変更されました。"
 
 #: apps/scan/options.py:47
 msgid ""
 "Log file submission from network share setting was successfully updated."
+#! msgstr ""
+#! "ネットワーク共有のファイルサブミットのログイベント設定が変更されました。"
 msgstr ""
-"ネットワーク共有のファイルサブミットのログイベント設定が変更されました。"
+"ネットワーク共有からのログファイルサブミットの設定が正常に変更されました。"
 
 #: apps/scan/options.py:50
 msgid "Log file submission from icap setting was successfully updated."
-msgstr "ICAPのファイルサブミットのログイベント設定が変更されました。"
+#! msgstr "ICAPのファイルサブミットのログイベント設定が変更されました。"
+msgstr "ICAPからのログファイルサブミットの設定が正常に変更されました。"
 
 #: apps/scan/options.py:53
 msgid "Log file submission from BCC setting was successfully updated."
-msgstr "ICAPのファイルサブミットのログイベント設定が変更されました。"
+#! msgstr "ICAPのファイルサブミットのログイベント設定が変更されました。"
+msgstr "BCCからのログファイルサブミットの設定が正常に変更されました。"
 
 #: apps/scan/options.py:56
 msgid "Log file submission from MTA setting was successfully updated."
-msgstr "ICAPのファイルサブミットのログイベント設定が変更されました。"
+#! msgstr "ICAPのファイルサブミットのログイベント設定が変更されました。"
+msgstr "MTAからのログファイルサブミットの設定が正常に変更されました。"
 
 #: apps/scan/options.py:59
 msgid "Submit URL to WebFilter Service setting was successfully updated."
+#! msgstr ""
+#! "URLをWebFilter Serviceへサブミットするログイベント設定が変更されました。"
 msgstr ""
-"URLをWebFilter Serviceへサブミットするログイベント設定が変更されました。"
+"WebFilterサービスへのURLのサブミット設定が正常に更新されました。"
 
 #: apps/scan/options.py:62
 msgid ""
@@ -4854,27 +4888,33 @@ msgstr "統計情報をFortiGuardへアップロードする設定が変更さ�
 
 #: apps/scan/options.py:395
 msgid "Delete clean original file setting was updated successfully."
-msgstr "スキャンプロファイルが正常に更新されました。"
+#! msgstr "スキャンプロファイルが正常に更新されました。"
+msgstr "クリーンなオリジナルファイルの削除設定が正常に更新されました。"
 
 #: apps/scan/options.py:400
 msgid ""
 "Delete malicious or suspicious original file setting was updated "
 "successfully."
-msgstr "悪質なファイルや疑わしいファイルの削除を正常に完了しました。"
+#! msgstr "悪質なファイルや疑わしいファイルの削除を正常に完了しました。"
+msgstr "悪意のあるまたは疑わしいオリジナルファイルの削除設定が正常に更新されました。"
 
 #: apps/scan/options.py:406
 msgid "Delete non-risk rating job traces setting was updated successfully."
-msgstr "ホスト名が更新されました。"
+#! msgstr "ホスト名が更新されました。"
+msgstr "非リスク評価ジョブトレースの削除設定が正常に更新されました。"
 
 #: apps/scan/options.py:411
 msgid "Delete risk rating job traces setting was updated successfully."
-msgstr "ホスト名が更新されました。"
+#! msgstr "ホスト名が更新されました。"
+msgstr "リスク評価ジョブトレースの削除設定が正常に更新されました。"
 
 #: apps/scan/options.py:451
 msgid "Only Ascii format password is supported"
+#! msgstr ""
+#! "各行ごとに可能性のパスワードをひとつ。ASCIIフォーマットのパスワードのみがサ"
+#! "ポートされています。"
 msgstr ""
-"各行ごとに可能性のパスワードをひとつ。ASCIIフォーマットのパスワードのみがサ"
-"ポートされています。"
+"アスキー形式のパスワードのみがサポートされています"
 
 #: apps/scan/options.py:453
 msgid "Maximum password length should not be exceed 32"
@@ -4886,11 +4926,13 @@ msgstr "一般オプションが正常に更新されました。"
 
 #: apps/scan/options.py:529
 msgid "Failed to update general options. "
-msgstr "デバイス認証のアップデートに失敗しました。"
+#! msgstr "デバイス認証のアップデートに失敗しました。"
+msgstr "一般オプションの更新に失敗しました。"
 
 #: apps/scan/options.py:537
 msgid "General Options"
-msgstr "一般的なオプション"
+#! msgstr "一般的なオプション"
+msgstr "一般オプション"
 
 #: apps/scan/overridden_verdicts.py:21
 msgid "no FPN"
@@ -4906,7 +4948,8 @@ msgstr "偽陰性"
 
 #: apps/scan/overridden_verdicts.py:46
 msgid "Failed to revert overridden verdict."
-msgstr "上書きされた判定を元に戻すことができませんでした。"
+#! msgstr "上書きされた判定を元に戻すことができませんでした。"
+msgstr "オーバーライドされた判定を元に戻すことができませんでした。"
 
 #: apps/scan/overridden_verdicts.py:66
 msgid "FPN DB does not exist."
@@ -4918,7 +4961,8 @@ msgstr "判定の削除時にエラーが発生しました"
 
 #: apps/scan/package_options.py:207 apps/scan/package_options.py:209
 msgid "Failed to fetch malware package configuration"
-msgstr "マルウェアパッケージの設定を取得できませんでした"
+#! msgstr "マルウェアパッケージの設定を取得できませんでした"
+msgstr "マルウェアパッケージ構成のフェッチに失敗しました"
 
 #: apps/scan/package_options.py:251 templates/about/fdn-update.html:612
 msgid "Global"
@@ -4931,21 +4975,25 @@ msgstr "ローカル"
 
 #: apps/scan/package_options.py:256 apps/scan/package_options.py:266
 msgid "Failed to update"
-msgstr "デバイス名のアップデートに失敗しました。"
+#! msgstr "デバイス名のアップデートに失敗しました。"
+msgstr "更新に失敗しました。"
 
 #: apps/scan/package_options.py:256 apps/scan/package_options.py:266
 msgid "Network configuration"
-msgstr "コレクタ設定"
+#! msgstr "コレクタ設定"
+msgstr "ネットワーク設定"
 
 #: apps/scan/package_options.py:261
 msgid " Network configuration was successfully updated"
-msgstr "メールサーバの設定の更新に成功しました"
+#! msgstr "メールサーバの設定の更新に成功しました"
+msgstr "ネットワーク設定の更新に成功しました"
 
 #: apps/scan/que_pri.py:37 apps/scan/views.py:85
 #, fuzzy
 #| msgid "Slave units are readonly."
 msgid "Secondary units are readonly."
-msgstr "スレーブユニットはリードオンリーです。"
+#! msgstr "スレーブユニットはリードオンリーです。"
+msgstr "セカンダリユニットはリードオンリーです。"
 
 #: apps/scan/que_pri.py:45
 msgid "Reset job queue priority successfully. Page will be reloaded."
@@ -4954,15 +5002,18 @@ msgstr ""
 
 #: apps/scan/que_pri.py:54
 msgid "Failed to reset job queue priority."
-msgstr "上書きされた判定を元に戻すことができませんでした。"
+#! msgstr "上書きされた判定を元に戻すことができませんでした。"
+msgstr "ジョブキューの優先度をリセットできませんでした。"
 
 #: apps/scan/que_pri.py:71
 msgid "Save job queue priority successfully."
-msgstr "ジョブの削除に成功しました。"
+#! msgstr "ジョブの削除に成功しました。"
+msgstr "ジョブキューの優先度の保存に成功しました。"
 
 #: apps/scan/que_pri.py:80
 msgid "Failed to save job queue priority."
-msgstr "上書きされた判定を元に戻すことができませんでした。"
+#! msgstr "上書きされた判定を元に戻すことができませんでした。"
+msgstr "ジョブキューの優先度の保存に失敗しました。"
 
 #: apps/scan/scan_profile.py:108
 msgid ""
@@ -4994,21 +5045,25 @@ msgstr "URLパッケージ"
 
 #: apps/scan/urlscan.py:35
 msgid "Benign URL category was successfully configured"
-msgstr "ファイルスキャンプロファイルの設定に成功しました。"
+#! msgstr "ファイルスキャンプロファイルの設定に成功しました。"
+msgstr "良性のURLカテゴリが正常に構成されました"
 
 #: apps/scan/urlscan.py:43
 msgid "Error happened when saving benign URL category"
-msgstr "FHV情報の保存でエラーが発生しました。 "
+#! msgstr "FHV情報の保存でエラーが発生しました。 "
+msgstr "良性のURLカテゴリを保存するときにエラーが発生しました "
 
 #: apps/scan/urlscan.py:55
 msgid "Benign URL Category"
-msgstr "除外するURLカテゴリ"
+#! msgstr "除外するURLカテゴリ"
+msgstr "良性のURLカテゴリ"
 
 #: apps/scan/views.py:85
 #, fuzzy
 #| msgid "Slave units are readonly."
 msgid "Worker units are readonly."
-msgstr "スレーブユニットはリードオンリーです。"
+#! msgstr "スレーブユニットはリードオンリーです。"
+msgstr "ワーカーユニットはリードオンリーです。"
 
 #: apps/scheduler/defs.py:114 templates/scan/overridden_verdicts.html:28
 msgid "Job"
@@ -5016,7 +5071,8 @@ msgstr "ジョブ"
 
 #: apps/scheduler/defs.py:116
 msgid "Notification"
-msgstr "通知を送信"
+#! msgstr "通知を送信"
+msgstr "通知"
 
 #: apps/scheduler/views.py:46
 msgid "The Event Calendar Settings updated."
@@ -5048,7 +5104,8 @@ msgstr "SNMP イベント"
 
 #: apps/snmp/forms.py:65
 msgid "Authentication"
-msgstr "認証済みセッションを終了する場合にも使用される"
+#! msgstr "認証済みセッションを終了する場合にも使用される"
+msgstr "認証"
 
 #: apps/snmp/forms.py:69
 msgid "Encryption"
@@ -5121,11 +5178,13 @@ msgstr "不正なSNMPインスタンスが設定されました"
 
 #: apps/snmp/forms.py:464 apps/snmp/forms.py:473
 msgid "Method"
-msgstr "方式"
+#! msgstr "方式"
+msgstr "メソッド"
 
 #: apps/snmp/forms.py:478 apps/system/forms.py:665
 msgid "Key"
-msgstr "鍵"
+#! msgstr "鍵"
+msgstr "キー"
 
 #: apps/snmp/forms.py:483 templates/snmp/snmp_v3_change_list.html:43
 msgid "Security Level"
@@ -5190,7 +5249,8 @@ msgstr "メモリ不足"
 
 #: apps/snmp/models.py:53 apps/snmp/models.py:67
 msgid "Log disk usage is high"
-msgstr "ハードディスク空き容量不足"
+#! msgstr "ハードディスク空き容量不足"
+msgstr "ログディスク不足"
 
 #: apps/snmp/models.py:55 apps/snmp/models.py:69
 msgid "Malware is detected"
@@ -5333,7 +5393,8 @@ msgstr "スタティックルートの編集"
 
 #: apps/system/config.py:281
 msgid "Route(s) were deleted "
-msgstr "経路が削除されました "
+#! msgstr "経路が削除されました "
+msgstr "ルートが削除されました "
 
 #: apps/system/config.py:288
 msgid "Error happened when deleting routing information."
@@ -5374,7 +5435,8 @@ msgstr "2要素認証のユーザーをFTCサーバーに更新できません�
 
 #: apps/system/config.py:503
 msgid "New Administrator"
-msgstr "管理者の追加"
+#! msgstr "管理者の追加"
+msgstr "新規管理者"
 
 #: apps/system/config.py:578 apps/system/config.py:622
 msgid "Administrator admin cannot be deleted"
@@ -5416,7 +5478,8 @@ msgstr "新しいパスワードを設定する必要があります"
 
 #: apps/system/config.py:722
 msgid "Password changed successfully."
-msgstr "ホスト名が正常に %s に変更されました。"
+#! msgstr "ホスト名が正常に %s に変更されました。"
+msgstr "パスワードは正常に変更されました。"
 
 #: apps/system/config.py:725
 msgid "Administrator information was successfully updated"
@@ -5435,7 +5498,8 @@ msgstr "管理者情報の更新でエラーが発生しました。"
 
 #: apps/system/config.py:811
 msgid "Successfully delete two factor authentication for user: "
-msgstr "ユーザーの2要素認証を正常に削除します。"
+#! msgstr "ユーザーの2要素認証を正常に削除します。"
+msgstr "ユーザーの2要素認証を正常に削除します: "
 
 #: apps/system/config.py:817
 msgid "Failed to delete two factor authentication for user: "
@@ -5464,7 +5528,8 @@ msgstr "通知メールの受信者リストは空です。"
 #: apps/system/config.py:1162 apps/system/forms.py:1057
 msgid ""
 "At least one email address in notification email receivers list is not valid"
-msgstr "通知メールの受信者リストのメールアドレスは有効なものにしてください。"
+#! msgstr "通知メールの受信者リストのメールアドレスは有効なものにしてください。"
+msgstr "通知メール受信者リストの少なくとも1つのメールアドレスが無効です"
 
 #: apps/system/config.py:1167
 msgid "No scheduled detail report rating is checked"
@@ -5472,30 +5537,35 @@ msgstr "スケジュールされた詳細レポートのレーティングはチ
 
 #: apps/system/config.py:1171
 msgid "Scheduled summary report receivers list is empty"
-msgstr "サマリーレポートの受信者が空です"
+#! msgstr "サマリーレポートの受信者が空です"
+msgstr "スケジュールされたサマリーレポートの受信者リストが空です"
 
 #: apps/system/config.py:1174
 msgid "Scheduled detail report receivers list is empty"
-msgstr "詳細レポートの受信者が空です"
+#! msgstr "詳細レポートの受信者が空です"
+msgstr "スケジュールされた詳細レポートの受信者リストが空です"
 
 #: apps/system/config.py:1177 apps/system/forms.py:1081
 msgid ""
 "At least one email address in scheduled summary report receivers list is not "
 "valid"
 msgstr ""
-"サマリーレポートの受信者リストには、最低ひとつのメールアドレスが必要です"
+#! "サマリーレポートの受信者リストには、最低ひとつのメールアドレスが必要です"
+"スケジュールされたサマリーレポートの受信者リストの少なくとも1つのメールアドレスが無効です"
 
 #: apps/system/config.py:1180 apps/system/forms.py:1083
 msgid ""
 "At least one email address in scheduled detail report receivers list is not "
 "valid"
-msgstr "詳細レポートの受信者リストには、最低ひとつのメールアドレスが必要です"
+#! msgstr "詳細レポートの受信者リストには、最低ひとつのメールアドレスが必要です"
+msgstr "スケジュールされた詳細レポートの受信者リストの少なくとも1つの電子メールアドレスが無効です"
 
 #: apps/system/config.py:1185
 #, fuzzy
 #| msgid "Scheduled detail report receivers list is empty"
 msgid "System alert receivers list is empty"
-msgstr "詳細レポートの受信者が空です"
+#! msgstr "詳細レポートの受信者が空です"
+msgstr "システムアラート受信者リストが空です"
 
 #: apps/system/config.py:1223
 msgid "Error happened. Please check your mail server settings"
@@ -5505,11 +5575,13 @@ msgstr "エラーが発生しました。メールサーバーの設定を確認
 #, fuzzy
 #| msgid "Error happened. Please check your DNS settings"
 msgid "Error happened. Please check system log for details."
-msgstr "エラーが発生しました。DNS設定を確認してください"
+#! msgstr "エラーが発生しました。DNS設定を確認してください"
+msgstr "エラーが発生しました。詳細はシステムログを確認してください"
 
 #: apps/system/config.py:1269
 msgid "Cannot send out test email as there is no sending mail option selected"
-msgstr "メール受信者がないためテストメールを送信できません"
+#! msgstr "メール受信者がないためテストメールを送信できません"
+msgstr "メール送信オプションが選択されていないため、テストメールを送信できません"
 
 #: apps/system/config.py:1280
 msgid "Cannot send out test email as there is no email receiver"
@@ -5553,7 +5625,8 @@ msgstr "システムタイムゾーン設定の変更でエラーが発生しま
 
 #: apps/system/config.py:1583
 msgid "System time settings were changed successfully"
-msgstr "システムタイムゾーン設定が変更されました"
+#! msgstr "システムタイムゾーン設定が変更されました"
+msgstr "システム時刻設定が変更されました"
 
 #: apps/system/config.py:1640
 msgid "Error happened in changing system time zone setting"
@@ -5573,7 +5646,8 @@ msgstr ""
 
 #: apps/system/config.py:1649
 msgid "Edit Host Name"
-msgstr "ホスト名の変更"
+#! msgstr "ホスト名の変更"
+msgstr "ホスト名の編集"
 
 #: apps/system/config.py:1695 apps/system/config.py:1726
 msgid "Error happened in changing hostname."
@@ -5585,11 +5659,13 @@ msgstr "ホスト名が更新されました。"
 
 #: apps/system/config.py:1738
 msgid "Edit Cluster Member Type"
-msgstr "HAクラスタメンバータイプの編集"
+#! msgstr "HAクラスタメンバータイプの編集"
+msgstr "クラスタメンバータイプの編集"
 
 #: apps/system/config.py:1753
 msgid "Cannot apply the change to this unit"
-msgstr "このユニットに設定を適用できません"
+#! msgstr "このユニットに設定を適用できません"
+msgstr "このユニットに変更を適用できません"
 
 #: apps/system/config.py:1756
 msgid "The unit type was updated successfully."
@@ -5601,7 +5677,8 @@ msgstr "エラーが発生しました。インターフェイスは現在ダウ
 
 #: apps/system/config.py:1803
 msgid "New routing configuration was successfully added"
-msgstr "新しいルーティングエントリが追加されました"
+#! msgstr "新しいルーティングエントリが追加されました"
+msgstr "新しいルーティング設定が追加されました"
 
 #: apps/system/config.py:1811
 msgid "Error happened. Please check your IP/Mask and Gateway settings"
@@ -5645,7 +5722,8 @@ msgstr "LDAPサーバの追加でエラーが発生しました。"
 
 #: apps/system/config.py:1982
 msgid "New LDAP Server"
-msgstr "LDAPサーバの追加"
+#! msgstr "LDAPサーバの追加"
+msgstr "新規LDAPサーバ"
 
 #: apps/system/config.py:2000
 msgid "Failed to update LDAP server information, check logs for details"
@@ -5692,7 +5770,8 @@ msgstr "証明書％sはMD5で署名できません。"
 
 #: apps/system/config.py:2216
 msgid "Configure Certificates for Features"
-msgstr "証明書の設定"
+#! msgstr "証明書の設定"
+msgstr "機能の証明書を構成する"
 
 #: apps/system/config.py:2229 apps/system/config.py:2249
 msgid "Certificate Detail Information"
@@ -5762,9 +5841,12 @@ msgstr "新しいRAIDUSサーバー/ FortiAuthenticator"
 msgid ""
 "RADIUS server is being used by certain user(s). Please delete those users or "
 "assign different RADIUS server to them first."
+#! msgstr ""
+#! "RADIUSサーバは、特定のユーザが使用しています。それらのユーザーを削除したり、"
+#! "最初にそれらに別のRADIUSサーバを割り当ててください。"
 msgstr ""
-"RADIUSサーバは、特定のユーザが使用しています。それらのユーザーを削除したり、"
-"最初にそれらに別のRADIUSサーバを割り当ててください。"
+"RADIUSサーバは、特定のユーザが使用しています。まずそれらのユーザーを削除するか、"
+"別のRADIUSサーバを割り当ててください。"
 
 #: apps/system/config.py:2528
 msgid "Error happened when deleting RADIUS servers."
@@ -5840,7 +5922,6 @@ msgstr ""
 "このアドレスにスタティックIPv6ルートが存在する場合、IPv6アドレスを空白にすることはできません。"
 "まず、システムルーティングページでスタティックルーティングを削除してください。"
 
-
 #: apps/system/config_network.py:445
 msgid "The address is not IPv6 "
 msgstr "アドレスはIPv6ではありません"
@@ -5870,7 +5951,8 @@ msgstr "ユーザデバイスの取得に失敗しました： "
 #, fuzzy
 #| msgid "Failed to retrieve user devices: "
 msgid "Failed to retrieve user defined devices: "
-msgstr "ユーザデバイスの取得に失敗しました： "
+#! msgstr "ユーザデバイスの取得に失敗しました： "
+msgstr "ユーザー定義のデバイスの取得に失敗しました： "
 
 #: apps/system/device_user.py:131
 msgid "Device user successfully saved."
