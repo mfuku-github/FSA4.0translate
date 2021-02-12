@@ -2529,13 +2529,13 @@ msgstr "長さが間違っています！"
 #~ "すか?"
 
 #~ msgid "This "
-#~ msgstr "This "
+#~ msgstr "これは "
 
 #~ msgid " has already existed in your whitelist"
-#~ msgstr " あなたのホワイトリストにすでに存在しています"
+#~ msgstr " ホワイトリストにすでに存在しています"
 
 #~ msgid " has already existed in your blacklist"
-#~ msgstr " あなたのブラックリストにすでに存在しています"
+#~ msgstr " ブラックリストにすでに存在しています"
 
 #~ msgid "The URL Regex is invalid."
 #~ msgstr "URL Regexが無効です。"
