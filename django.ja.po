@@ -6044,7 +6044,8 @@ msgstr ""
 
 #: apps/system/forms.py:111
 msgid "Email Address"
-msgstr "電子メールアドレス"
+#! msgstr "電子メールアドレス"
+msgstr "メールアドレス"
 
 #: apps/system/forms.py:112
 msgid "Phone Number"
@@ -6068,11 +6069,13 @@ msgstr "権限"
 
 #: apps/system/forms.py:129
 msgid "Device User"
-msgstr "デバイス"
+#! msgstr "デバイス"
+msgstr "デバイスユーザー"
 
 #: apps/system/forms.py:130 templates/device_profiles/config.html:29
 msgid "Device Group"
-msgstr "デバイス: "
+#! msgstr "デバイス: "
+msgstr "デバイスグループ"
 
 #: apps/system/forms.py:133
 msgid "Two-factor Authentication (FortiToken Cloud)"
@@ -6129,7 +6132,8 @@ msgstr "言語"
 
 #: apps/system/forms.py:159
 msgid "Default On-Demand Submit settings"
-msgstr "デフォルトのオンデマンド送信設定"
+#! msgstr "デフォルトのオンデマンド送信設定"
+msgstr "デフォルトのオンデマンドサブミット設定"
 
 #: apps/system/forms.py:202
 msgid "Invalid language code selected."
@@ -6151,7 +6155,8 @@ msgstr "信頼できるホスト1の値は有効なIP/マスクのフォーマ�
 #, fuzzy
 #| msgid "Trusted Host #1"
 msgid "Trusted host1 "
-msgstr "信頼できるホスト #1"
+#! msgstr "信頼できるホスト #1"
+msgstr "信頼できるホスト1"
 
 #: apps/system/forms.py:222
 msgid "Trusted host2 value is not in a valid ip/mask format"
@@ -6161,7 +6166,8 @@ msgstr "信頼できるホスト2の値は有効なIP/マスクのフォーマ�
 #, fuzzy
 #| msgid "Trusted Host #1"
 msgid "Trusted host2 "
-msgstr "信頼できるホスト #1"
+#! msgstr "信頼できるホスト #1"
+msgstr "信頼できるホスト2"
 
 #: apps/system/forms.py:230
 msgid "Trusted host3 value is not in a valid ip/mask format"
@@ -6171,7 +6177,8 @@ msgstr "信頼できるホスト3の値は有効なIP/マスクのフォーマ�
 #, fuzzy
 #| msgid "Trusted Host #1"
 msgid "Trusted host3 "
-msgstr "信頼できるホスト #1"
+#! msgstr "信頼できるホスト #1"
+msgstr "信頼できるホスト3"
 
 #: apps/system/forms.py:237
 msgid "Trusted IPv6 Host 1 value is not in a valid ip/mask format"
@@ -6193,19 +6200,23 @@ msgstr "管理者は、大文字、小文字、数字、特殊文字 _ を含む
 
 #: apps/system/forms.py:263
 msgid "Administrator must be 1 - 30 characters long"
-msgstr "管理者パスワードの範囲は半角文字1から30文字です"
+#! msgstr "管理者パスワードの範囲は半角文字1から30文字です"
+msgstr "管理者は1〜30文字の長さでなければなりません"
 
 #: apps/system/forms.py:266
 msgid "Remote Administrator must be 1 - 64 characters long"
-msgstr "リモート管理者の長さは1〜64文字でなければなりません"
+#! msgstr "リモート管理者の長さは1〜64文字でなければなりません"
+msgstr "リモート管理者は1〜64文字の長さでなければなりません"
 
 #: apps/system/forms.py:269 apps/system/forms.py:279
 msgid "Password must be 6 - 64 characters long"
-msgstr "パスワードは半角文字6から64文字です"
+#! msgstr "パスワードは半角文字6から64文字です"
+msgstr "パスワードは6～64文字の長さでなければなりません"
 
 #: apps/system/forms.py:272
 msgid "For LDAP type user, a LDAP server has to be selected"
-msgstr "LDAPタイプのユーザには、LDAPサーバをひとつ選択してください。"
+#! msgstr "LDAPタイプのユーザには、LDAPサーバをひとつ選択してください。"
+msgstr "LDAPタイプのユーザには、LDAPサーバを選択する必要があります"
 
 #: apps/system/forms.py:275
 msgid "For Radius type user, a Radius server has to be selected"
@@ -6214,7 +6225,8 @@ msgstr ""
 
 #: apps/system/forms.py:287
 msgid "The instance ID cannot be used as the password"
-msgstr "提供されたパスワードで解凍できないアーカイブ"
+#! msgstr "提供されたパスワードで解凍できないアーカイブ"
+msgstr "インスタンスIDをパスワードとして使用することはできません"
 
 #: apps/system/forms.py:292
 msgid "For Two Factor Authentication, authentication method has to be selected"
@@ -6222,7 +6234,8 @@ msgstr "二要素認証の場合、認証方法を選択する必要がありま
 
 #: apps/system/forms.py:295
 msgid "For Email Two Factor Authentication, email has to be provided"
-msgstr "電子メール2要素認証の場合、電子メールを提供する必要があります"
+#! msgstr "電子メール2要素認証の場合、電子メールを提供する必要があります"
+msgstr "メール2要素認証の場合、メールを提供する必要があります"
 
 #: apps/system/forms.py:299
 msgid "For SMS Two Factor Authentication, phone number has to be provided"
@@ -6337,7 +6350,8 @@ msgstr "サブミットされた証明書ファイルは空です"
 
 #: apps/system/forms.py:692 apps/system/forms.py:694
 msgid "The submitted PKCS12 file is empty"
-msgstr "サブミットされたホワイトリストは空です"
+#! msgstr "サブミットされたホワイトリストは空です"
+msgstr "サブミットされたPKCS12ファイルは空です"
 
 #: apps/system/forms.py:709
 msgid "Common Name Identifier"
@@ -6357,7 +6371,8 @@ msgstr "安全な接続"
 
 #: apps/system/forms.py:731
 msgid "Advanced Options"
-msgstr "パッケージオプション"
+#! msgstr "パッケージオプション"
+msgstr "アドバンスオプション"
 
 #: apps/system/forms.py:733
 msgid "Attributes"
@@ -6377,7 +6392,8 @@ msgstr "グループ"
 
 #: apps/system/forms.py:738
 msgid "Memberof-attr"
-msgstr "所属メンバー"
+#! msgstr "所属メンバー"
+msgstr "メンバー属性"
 
 #: apps/system/forms.py:739
 msgid "Profile-attr"
@@ -6393,7 +6409,8 @@ msgstr "三次サーバー"
 
 #: apps/system/forms.py:836
 msgid "For Regular bind type, username and password cannot be empty"
-msgstr "認証が必要な場合、ユーザ名とパスワードは空白にできません"
+#! msgstr "認証が必要な場合、ユーザ名とパスワードは空白にできません"
+msgstr "レギュラーバインドタイプの場合、ユーザ名とパスワードは空白にできません"
 
 #: apps/system/forms.py:858
 msgid "SMTP Server Address"
@@ -6401,11 +6418,13 @@ msgstr "SMTPサーバアドレス"
 
 #: apps/system/forms.py:860
 msgid "Email Account"
-msgstr "Emailアカウント"
+#! msgstr "Emailアカウント"
+msgstr "メールアカウント"
 
 #: apps/system/forms.py:860
 msgid "The sender's address"
-msgstr "メールアカウント"
+#! msgstr "メールアカウント"
+msgstr "送信者のアドレス"
 
 #: apps/system/forms.py:861
 msgid "Login Account"
@@ -6431,24 +6450,32 @@ msgstr "グローバル通知メールを受信するメールアドレス (カ�
 msgid ""
 "Send a notification email to the Device/Domain/Vdom email list when Files/"
 "URLs with selected rating are detected"
+#! msgstr ""
+#! "選択したレーティングのファイル/ URLが検出されたときに、デバイス/ドメイン/ 仮"
+#! "想ドメインのメールリストに通知メールを送信する"
 msgstr ""
-"選択したレーティングのファイル/ URLが検出されたときに、デバイス/ドメイン/ 仮"
-"想ドメインのメールリストに通知メールを送信する"
+"選択したレーティングのファイル/URLが検出されたときに、デバイス/ドメイン/Vdom"
+"に通知メールを送信する"
 
 #: apps/system/forms.py:875
 msgid "What rating of job to send alert email"
-msgstr "アラートメールに含めるジョブレーティング"
+#! msgstr "アラートメールに含めるジョブレーティング"
+msgstr "アラートメールを送信するジョブのレーティング"
 
 #: apps/system/forms.py:879
 msgid "Notification email subject template"
-msgstr "通知メールのタイトル"
+#! msgstr "通知メールのタイトル"
+msgstr "通知メールの件名テンプレート"
 
 #: apps/system/forms.py:881
 msgid ""
 "Send a notification email to the email list when malicious/suspicious "
 "verdict is returned to client device"
+#! msgstr ""
+#! "マルウエア/疑いのあるファイルがクライアントデバイスで発見されたときに通知メー"
+#! "ルをメールリストに送信する"
 msgstr ""
-"マルウエア/疑いのあるファイルがクライアントデバイスで発見されたときに通知メー"
+"悪意のある/疑いのあるファイルがクライアントデバイスで発見されたときに通知メー"
 "ルをメールリストに送信する"
 
 #: apps/system/forms.py:884
@@ -6459,7 +6486,8 @@ msgstr "グローバル判定通知メールを受信するメールアドレス
 msgid ""
 "Use FQDN as unit address for job detail link (default is IP address of Port1)"
 msgstr ""
-"FQDNをジョブ詳細リンクのアドレスとして使用する(デフォルトはport1アドレス)"
+#! "FQDNをジョブ詳細リンクのアドレスとして使用する(デフォルトはport1アドレス)"
+"FQDNをジョブ詳細リンクのアドレスとして使用する(デフォルトはport1のIPアドレス)"
 
 #: apps/system/forms.py:890
 msgid "FQDN Name"
@@ -6473,61 +6501,71 @@ msgstr "システム異常のステータスに関するアラートをメール
 #, fuzzy
 #| msgid "Global notification email receivers list (separated by comma)"
 msgid "System status email receivers list (separated by comma)"
-msgstr "グローバル通知メールを受信するメールアドレス (カンマ区切り)"
+#! msgstr "グローバル通知メールを受信するメールアドレス (カンマ区切り)"
+msgstr "システムステータスのメール受信者リスト (カンマ区切り)"
 
 #: apps/system/forms.py:899
 #, fuzzy
 #| msgid "CPU Usage"
 msgid "CPU Usage >"
-msgstr "CPU使用率"
+#! msgstr "CPU使用率"
+msgstr "CPU使用率 >"
 
 #: apps/system/forms.py:905
 #, fuzzy
 #| msgid "VM Usage: %s"
 msgid "RAM Usage >"
-msgstr "VM使用率: %s"
+#! msgstr "VM使用率: %s"
+msgstr "RAM使用率 >"
 
 #: apps/system/forms.py:911
 #, fuzzy
 #| msgid "RAM Disk Usage:"
 msgid "Disk Usage >"
-msgstr "ディスク使用率"
+#! msgstr "ディスク使用率"
+msgstr "ディスク使用率 >"
 
 #: apps/system/forms.py:917
 #, fuzzy
 #| msgid "RAM Disk Usage:"
 msgid "Ramdisk Usage >"
-msgstr "ディスク使用率"
+#! msgstr "ディスク使用率"
+msgstr "Ramdisk使用率 >"
 
 #: apps/system/forms.py:923
 #, fuzzy
 #| msgid "VM Usage: %s"
 msgid "VM Usage >"
-msgstr "VM使用率: %s"
+#! msgstr "VM使用率: %s"
+msgstr "VM使用率 >"
 
 #: apps/system/forms.py:929
 #, fuzzy
 #| msgid "Total scanning jobs"
 msgid "Total Pending Jobs > "
-msgstr "スキャンジョブ合計"
+#! msgstr "スキャンジョブ合計"
+msgstr "ペンディングジョブ合計 >"
 
 #: apps/system/forms.py:935
 #, fuzzy
 #| msgid "Average scan time in last hour"
 msgid "Average Scan Time >"
-msgstr "過去1時間の平均スキャン時間"
+#! msgstr "過去1時間の平均スキャン時間"
+msgstr "平均スキャン時間 >"
 
 #: apps/system/forms.py:939
 #, fuzzy
 #| msgid "Every (minute)"
 msgid "System check every (minutes)"
-msgstr "毎分"
+#! msgstr "毎分"
+msgstr "システムチェック毎(分)"
 
 #: apps/system/forms.py:952
 #, fuzzy
 #| msgid "Send scheduled PDF report to global email receiver"
 msgid "Send scheduled system resource status report to the email list"
-msgstr "スケジュールされたPDFレポートをグローバルメール受信者に送信する"
+#! msgstr "スケジュールされたPDFレポートをグローバルメール受信者に送信する"
+msgstr "スケジュールされたシステムリソースステータスレポートをメールリストに送信する"
 
 #: apps/system/forms.py:959
 msgid "Send scheduled PDF report to global email receiver"
@@ -6536,19 +6574,26 @@ msgstr "スケジュールされたPDFレポートをグローバルメール受
 #: apps/system/forms.py:961
 msgid ""
 "Global email list to receive scheduled summary report (separated by comma)"
+#! msgstr ""
+#! "スケジュールされた概要レポートを受信するためのグローバルな電子メールリスト"
+#! "（カンマ区切り）"
 msgstr ""
-"スケジュールされた概要レポートを受信するためのグローバルな電子メールリスト"
+"スケジュールされたサマリーレポートを受信するためのグローバルメールリスト"
 "（カンマ区切り）"
 
 #: apps/system/forms.py:963
 msgid ""
 "Global email list to receive scheduled detail report (separated by comma)"
-msgstr "詳細レポート受信するメールアドレス (カンマ区切り):"
+#! msgstr "詳細レポート受信するメールアドレス (カンマ区切り):"
+msgstr "スケジュールされた詳細レポートを受信するためのグローバルメールリスト(カンマ区切り):"
 
 #: apps/system/forms.py:967
 msgid "Send scheduled PDF report to Device/Domain/Vdom email address"
+#! msgstr ""
+#! "スケジュールされたPDFレポートをデバイス/ドメイン/ 仮想ドメインのメールアドレ"
+#! "スに送信する"
 msgstr ""
-"スケジュールされたPDFレポートをデバイス/ドメイン/ 仮想ドメインのメールアドレ"
+"スケジュールされたPDFレポートをデバイス/ドメイン/Vdomのメールアドレ"
 "スに送信する"
 
 #: apps/system/forms.py:970
@@ -6557,7 +6602,8 @@ msgstr "レポートスケジュールタイプ"
 
 #: apps/system/forms.py:979
 msgid "Include job data before: Days (0-28 days)"
-msgstr "以前のジョブデータを含む(日)：(0〜28日)"
+#! msgstr "以前のジョブデータを含む(日)：(0〜28日)"
+msgstr "以前のジョブデータを含む：日(0〜28日)"
 
 #: apps/system/forms.py:980
 msgid ""
@@ -6576,19 +6622,22 @@ msgstr "詳細レポートに含めるジョブレーティング"
 msgid ""
 "To send out notification email, notification email receivers list cannot be "
 "empty"
-msgstr "通知メールを送信するには、通知メールの受信者リストを入力してください。"
+#! msgstr "通知メールを送信するには、通知メールの受信者リストを入力してください。"
+msgstr "通知メールを送信するには、通知メールの受信者リストを空にすることはできません"
 
 #: apps/system/forms.py:1061
 msgid ""
 "To send out verdict notification email, verdict notification email receivers "
 "list cannot be empty"
-msgstr "通知メールを送信するには、通知メールの受信者リストを入力してください"
+#! msgstr "通知メールを送信するには、通知メールの受信者リストを入力してください"
+msgstr "判定通知メールを送信するには、判定通知メールの受信者リストを空にすることはできません"
 
 #: apps/system/forms.py:1063
 msgid ""
 "At least one email address in verdict notification email receivers list is "
 "not valid"
-msgstr "通知メールの受信者リストのメールアドレスは有効なものにしてください"
+#! msgstr "通知メールの受信者リストのメールアドレスは有効なものにしてください"
+msgstr "判定通知メール受信者リストの少なくとも1つのメールアドレスが無効です"
 
 #: apps/system/forms.py:1066
 msgid "To use FQDN as unit address, FQDN name cannot be empty"
@@ -6598,9 +6647,12 @@ msgstr "FQDNをユニットアドレスとして使用するため、FQDN名を�
 msgid ""
 "To send out scheduled report, at least one job rating for scheduled detail "
 "report be checked"
+#! msgstr ""
+#! "スケジュールされたレポートを送信するために、最低ひとつのジョブレーティングを"
+#! "設定してください"
 msgstr ""
-"スケジュールされたレポートを送信するために、最低ひとつのジョブレーティングを"
-"設定してください"
+"スケジュールされたレポートを送信するには、スケジュールされた詳細レポートの"
+"少なくとも1つのジョブ評価をチェックします"
 
 #: apps/system/forms.py:1072
 msgid "Report period must be greater 0 hour."
@@ -6614,16 +6666,22 @@ msgstr "レポート間隔は28日より短くなければなりません"
 msgid ""
 "To send out scheduled report, scheduled summary report receivers list cannot "
 "be empty"
+#! msgstr ""
+#! "スケジュールされたレポートを送信するために、サマリーレポート受信者リストは空"
+#! "に出来ません"
 msgstr ""
-"スケジュールされたレポートを送信するために、サマリーレポート受信者リストは空"
+"スケジュールされたレポートを送信するために、スケジュールサマリーレポート受信者リストは空"
 "に出来ません"
 
 #: apps/system/forms.py:1079
 msgid ""
 "To send out scheduled report, scheduled detail report receivers list cannot "
 "be empty"
+#! msgstr ""
+#! "スケジュールされたレポートを送信するために、詳細レポート受信者リストは空に出"
+#! "来ません"
 msgstr ""
-"スケジュールされたレポートを送信するために、詳細レポート受信者リストは空に出"
+"スケジュールされたレポートを送信するために、スケジュール詳細レポート受信者リストは空に出"
 "来ません"
 
 #: apps/system/forms.py:1087
@@ -6634,7 +6692,10 @@ msgstr ""
 msgid ""
 "To send out system usage notification email, system usage notification email "
 "receivers list cannot be empty"
-msgstr "通知メールを送信するには、通知メールの受信者リストを入力してください。"
+#! msgstr "通知メールを送信するには、通知メールの受信者リストを入力してください。"
+msgstr ""
+"システム使用状況通知メールを送信するには、システム使用状況通知メールの"
+"受信者リストを空にすることはできません"
 
 #: apps/system/forms.py:1089
 #, fuzzy
@@ -6644,14 +6705,17 @@ msgstr "通知メールを送信するには、通知メールの受信者リス
 msgid ""
 "At least one email address in system usage notification email receivers list "
 "is not valid"
-msgstr "通知メールの受信者リストのメールアドレスは有効なものにしてください。"
+#! msgstr "通知メールの受信者リストのメールアドレスは有効なものにしてください。"
+msgstr "システム使用状況通知のメール受信者リストの少なくとも1つのメールアドレスが無効です"
 
 #: apps/system/forms.py:1096
 msgid ""
 "Only IP:port and comma is allowed. Make sure there is no space in between."
+#! msgstr ""
+#!"IPのみ：ポートとコンマは許可されます。間にスペースがないことを確認してくださ"
+#! "い。"
 msgstr ""
-"IPのみ：ポートとコンマは許可されます。間にスペースがないことを確認してくださ"
-"い。"
+"IPのみ：ポートとカンマは許可されます。間にスペースがないことを確認してください。"
 
 #: apps/system/forms.py:1100
 msgid "Enable sandbox VM to use proxy to access Internet"
@@ -6671,7 +6735,8 @@ msgstr "認証が必要"
 msgid ""
 "Use proxy to access the following addresses for TCP traffic (separated by "
 "comma)"
-msgstr "プロキシを使用するTCP通信先アドレス(カンマ区切り)"
+#! msgstr "プロキシを使用するTCP通信先アドレス(カンマ区切り)"
+msgstr "TCPトラフィックの次のアドレスにアクセスするためにロキシを使用(カンマ区切り)"
 
 #: apps/system/forms.py:1124
 msgid "For example, to use proxy server to access default FDN server, put "
@@ -6683,11 +6748,13 @@ msgstr ""
 msgid ""
 "Use proxy to access the following addresses for UDP traffic (separated by "
 "comma)"
-msgstr "プロキシを使用するUDP通信先アドレス(カンマ区切り)"
+#! msgstr "プロキシを使用するUDP通信先アドレス(カンマ区切り)"
+msgstr "UDPトラフィックの次のアドレスにアクセスするためにプロキシを使用(カンマ区切り)"
 
 #: apps/system/forms.py:1128
 msgid "Note: Only IP:port format is allowed."
-msgstr "IP:Portのフォーマットのみ利用できます。"
+#! msgstr "IP:Portのフォーマットのみ利用できます。"
+msgstr "注： IP：ポート形式のみが許可されます。"
 
 #: apps/system/forms.py:1147
 msgid "Server name and port cannot be empty when proxy is enabled"
@@ -6708,12 +6775,14 @@ msgstr ""
 #: apps/system/forms.py:1163 apps/system/forms.py:1173
 #: apps/system/forms.py:1179
 msgid "Number of Concurrently Running Windows XP VM"
-msgstr "稼働中のWindows XP VM 数"
+#! msgstr "稼働中のWindows XP VM 数"
+msgstr "同時実行Windows XP VM 数"
 
 #: apps/system/forms.py:1165 apps/system/forms.py:1175
 #: apps/system/forms.py:1180
 msgid "Number of Concurrently Running Windows 7 VM"
-msgstr "稼働中のWindows 7 VM 数"
+#! msgstr "稼働中のWindows 7 VM 数"
+msgstr "同時実行Windows 7 VM 数"
 
 #: apps/system/forms.py:1191
 msgid "Primary Server Name/IP"
@@ -6737,7 +6806,8 @@ msgstr "セカンダリシークレット"
 
 #: apps/system/forms.py:1207
 msgid "NAS IP"
-msgstr "NAS IPアドレス"
+#! msgstr "NAS IPアドレス"
+msgstr "NAS IP"
 
 #: apps/system/forms.py:1256
 msgid "Any File"
