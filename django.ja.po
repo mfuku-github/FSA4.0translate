@@ -12567,11 +12567,11 @@ msgstr "インストール済みのアプリを表示する"
 
 #: templates/vmimages/template.html:15 templates/vmimages/vm_rows.html:26
 msgid "New Version Available: "
-msgstr "新しいバージョンが利用可能です "
+msgstr "新しいバージョンが利用可能です: "
 
 #: templates/vmimages/template.html:19
 msgid "Ready to Download"
-msgstr "ダウンロードの準備が出来ました"
+msgstr "ダウンロードの準備"
 
 #: templates/vmimages/template.html:28
 msgid "Ready to Install"
@@ -12591,19 +12591,19 @@ msgstr "N/A"
 
 #: templates/vmimages/vm_rows.html:13
 msgid "Android VM does not require key to be activated."
-msgstr "Android VMはアクティベートするキーは必要ありません。"
+msgstr "Android VMのアクティベーションキーは不要です。"
 
 #: templates/vmimages/vm_rows.html:19
 msgid ""
 "The VM load number is less than clone number because current available "
 "contract number is "
 msgstr ""
-"現在利用可能なコントラクト数は {NUM} のため、VMロード数はクローン数よりも小さ"
-"くなっています。 "
+#!!! "現在利用可能なコントラクト数は {NUM} のため、VMロード数はクローン数よりも小さ"
+#!!! "くなっています。 "
 
 #: templates/vmimages/vm_rows.html:31
 msgid "This VM is installed or initializing."
-msgstr "このVMはインストールされたか、初期化中です。"
+#!!! msgstr "このVMはインストール済、もしくは初期化中です。"
 
 #: templates/vmimages/vm_rows.html:34
 msgid "This VM is up to date."
@@ -12619,7 +12619,7 @@ msgstr "インストール済み"
 
 #: templates/vmimages/vm_rows.html:43
 msgid "Ready to Upgrade"
-msgstr "アップグレードの準備が出来ました"
+#!!! msgstr "アップグレードの準備"
 
 #: templates/vmimages/vm_rows.html:66
 msgid "Dynamic"
@@ -12627,20 +12627,20 @@ msgstr "動的"
 
 #: utils/api/json_.py:13
 msgid "Error parsing json file: "
-msgstr "プロファイルjson fileの解析でエラーが発生しました: "
+msgstr "json fileの解析でエラーが発生しました: "
 
 #: utils/api/json_.py:24
 msgid "Error writing json to file: "
-msgstr "プロファイルjson fileの解析でエラーが発生しました: "
+#!!! msgstr "jsonの書き込みでエラーが発生しました: "
 
 #: utils/apibase.py:246 utils/apibase.py:248 utils/apibase.py:252
 #, python-format
 msgid "Failed to cancel submission %(sid)s"
-msgstr "サブミッションのキャンセルに失敗しました %(sid)s"
+#!!! msgstr "サブミッションをキャンセルできませんでした %(sid)s"
 
 #: utils/apifile.py:1093
 msgid "Data cannot be displayed"
-msgstr "デフォルトのVMイメージは削除できません"
+msgstr "データを表示できません"
 
 #: utils/apilog.py:301
 msgid "Send Mail"
@@ -12648,7 +12648,7 @@ msgstr "メール送信"
 
 #: utils/apilog.py:302
 msgid "Device or FortiClient"
-msgstr "FortiClient"
+msgstr "デバイス、FortiClient"
 
 #: utils/apilog.py:314
 msgid "Mail Server"
@@ -12680,7 +12680,7 @@ msgstr "Yaraルール"
 
 #: utils/apilog.py:323
 msgid "System Config Change End"
-msgstr "システム設定"
+#!!! msgstr "システム設定変更完了"
 
 #: utils/apilog.py:324
 msgid "FDN Downloader"
@@ -12688,7 +12688,7 @@ msgstr "FDNダウンロードサーバ"
 
 #: utils/apilog.py:325
 msgid "FDN Downloader Finish"
-msgstr "FDNダウンロードサーバ"
+#!!! msgstr "FDNダウンロードサーバ完了"
 
 #: utils/apilog.py:326
 msgid "FDN Upload Stats"
@@ -12696,7 +12696,7 @@ msgstr "FDNアップロード統計"
 
 #: utils/apilog.py:327
 msgid "FDN Upload Stats Finish"
-msgstr "FDNアップロード統計終了"
+#!!! msgstr "FDNアップロード統計完了"
 
 #: utils/apilog.py:330
 msgid "Login"
@@ -12708,7 +12708,7 @@ msgstr "ファームウェアアップグレード"
 
 #: utils/apilog.py:337
 msgid "Windows VM License Upload"
-msgstr "ホワイトリストのアップロード"
+msgstr "Windows VMライセンスのアップロード"
 
 #: utils/apilog.py:338
 msgid "Microsoft Office License Upload"
@@ -12716,15 +12716,15 @@ msgstr "Microsoft Office ライセンスファイルをアップロード"
 
 #: utils/apilog.py:339
 msgid "Dashboard Widget Setting Change"
-msgstr "%s ウィジェット設定"
+msgstr "ダッシュボードウィジェットを変更"
 
 #: utils/apilog.py:349
 msgid "Rescan Job"
-msgstr "再スキャンジョブを表示する"
+msgstr "再スキャンジョブ"
 
 #: utils/apilog.py:350
 msgid "Ondemand Submit"
-msgstr "オンデマンドサブミット"
+#!!! msgstr "オンデマンドサブミット"
 
 #: utils/apilog.py:351
 msgid "Log Server"
@@ -12736,11 +12736,11 @@ msgstr "レポート"
 
 #: utils/apilog.py:353
 msgid "File Size Limit"
-msgstr "ファイルサイズ"
+msgstr "ファイルサイズ上限"
 
 #: utils/apilog.py:355
 msgid "Job Alert"
-msgstr "アラート"
+msgstr "ジョブアラート"
 
 #: utils/apilog.py:357
 msgid "Low Encryption"
@@ -12756,11 +12756,11 @@ msgstr "APIリクエスト"
 
 #: utils/bad_url_cat.py:33
 msgid "Abortion"
-msgstr "中絶"
+msgstr "人工中絶"
 
 #: utils/bad_url_cat.py:34
 msgid "Advocacy Organizations"
-msgstr "市民運動団体"
+msgstr "政策支援団体"
 
 #: utils/bad_url_cat.py:35
 msgid "Alcohol"
@@ -12780,15 +12780,15 @@ msgstr "デート"
 
 #: utils/bad_url_cat.py:39
 msgid "Discrimination"
-msgstr "人種差別"
+msgstr "差別"
 
 #: utils/bad_url_cat.py:40
 msgid "Drug Abuse"
-msgstr "ドラッグ"
+msgstr "薬物乱用"
 
 #: utils/bad_url_cat.py:41
 msgid "Explicit Violence"
-msgstr "明らかな暴力"
+msgstr "明示的な暴力"
 
 #: utils/bad_url_cat.py:42
 msgid "Extremist Groups"
@@ -12812,7 +12812,7 @@ msgstr "ホモセクシャル"
 
 #: utils/bad_url_cat.py:47
 msgid "Illegal or Unethical"
-msgstr "違法・非論理的"
+msgstr "違法または非倫理的"
 
 #: utils/bad_url_cat.py:49
 msgid "Marijuana"
@@ -12820,7 +12820,7 @@ msgstr "マリファナ"
 
 #: utils/bad_url_cat.py:50
 msgid "Nudity and Risque"
-msgstr "ヌード"
+#!!! msgstr "ヌードとワイセツ"
 
 #: utils/bad_url_cat.py:51
 msgid "Occult"
@@ -12832,7 +12832,7 @@ msgstr "その他のアダルトマテリアル"
 
 #: utils/bad_url_cat.py:54
 msgid "Plagiarism"
-msgstr "文書の無断登用"
+msgstr "盗作"
 
 #: utils/bad_url_cat.py:55
 msgid "Pornography"
@@ -12852,7 +12852,7 @@ msgstr "ダイナミックDNS"
 
 #: utils/bad_url_cat.py:61
 msgid "Newly Registered Domain"
-msgstr "新しく登録されたドメイン"
+msgstr "新規登録ドメイン"
 
 #: utils/cert/cert.py:61 utils/cert/cert.py:416
 msgid "Cannot save certificate information."
@@ -12860,11 +12860,11 @@ msgstr "証明書情報を保存できません。"
 
 #: utils/cert/cert.py:221
 msgid "Certificate already expired."
-msgstr "証明書はすでに期限切れです。"
+msgstr "証明書の期限が切れています。"
 
 #: utils/cert/cert.py:234
 msgid "Not a valid certificate file."
-msgstr "有効な証明書ファイルではありません。"
+msgstr "証明書ファイルが無効です。"
 
 #: utils/cert/cert.py:240 utils/cert/cert.py:257 utils/cert/cert.py:284
 msgid "Cannot validate certificate."
@@ -12872,11 +12872,11 @@ msgstr "証明書を検証できません。"
 
 #: utils/cert/cert.py:272
 msgid "Not a valid certificate file"
-msgstr "有効な証明書ファイルではありません"
+msgstr "証明書ファイルが無効です"
 
 #: utils/cert/cert.py:276
 msgid "Not a valid key file"
-msgstr "有効なキーファイルではありません"
+msgstr "鍵ファイルが無効です"
 
 #: utils/cert/cert.py:278
 msgid "The key file is not matched with certificate"
@@ -12896,17 +12896,17 @@ msgstr "PCKS12ファイルを変換できません。"
 
 #: utils/cert/cert.py:459
 msgid "This name is reserved by firmware system."
-msgstr "この名前はファームウェアシステムによって予約されています。"
+msgstr "この名前はシステムによって予約されています。"
 
 #: utils/cert/cert.py:461
 msgid "The same certificate name has been used."
-msgstr "同じ証明書名が使用されています。"
+msgstr "証明書名が重複しています。"
 
 #: utils/cert/cert.py:482 utils/cert/cert.py:495
 #, fuzzy
 #| msgid "The same certificate has been imported."
 msgid "The certificate cannot sign with MD5."
-msgstr "同じ証明書がインポートされました。"
+msgstr "証明書はMD5で署名できません。"
 
 #: utils/cert/cert.py:486
 #, python-format
@@ -12925,11 +12925,11 @@ msgstr "同じ証明書がインポートされました。"
 #: utils/cert/cert.py:500
 #, python-format
 msgid "Failed to save key file %s"
-msgstr "キーファイル %s を保存できませんでした"
+msgstr "鍵ファイル %s を保存できませんでした"
 
 #: utils/cert/cert.py:533
 msgid "The key file can not be recognized by ssh server"
-msgstr "鍵ファイルがsshサーバーによって認識されない"
+msgstr "鍵ファイルはsshサーバーで認識できません"
 
 #: utils/cert/cert.py:556
 msgid "Failed to validate certificate."
@@ -12937,13 +12937,13 @@ msgstr "証明書を検証できませんでした。"
 
 #: utils/filetype.py:8
 msgid "Executables/VBS/BAT/PS1/JAR/MSI files"
-msgstr "実行形式/VBS/BAT/PS1/JAR/MSIファイル"
+msgstr "EXE/VBS/BAT/PS1/JAR/MSIファイル"
 
 #: utils/filetype.py:9
 msgid ""
 "Archive files (with extension of .7z, .xz, .bz2, .gz, .tar, .zip, .rar, .Z "
 "etc)"
-msgstr "圧縮ファイル (拡張子が .7z, .xz, .bz2, .gz, .tar, .zip, .rar, .Z 等)"
+msgstr "圧縮ファイル (.7z, .xz, .bz2, .gz, .tar, .zip, .rar, .Z 等)"
 
 #: utils/filetype.py:10 utils/prescandef.py:43
 msgid "PDF files"
@@ -12951,7 +12951,7 @@ msgstr "PDFファイル"
 
 #: utils/filetype.py:11 utils/prescandef.py:40
 msgid "Microsoft Office files (Word, Excel, PowerPoint files etc)"
-msgstr "マイクロソフトオフィス(Word、Excel、PowerPointファイル 等)"
+msgstr "Microsoft Officeファイル(Word、Excel、PowerPoint 等)"
 
 #: utils/filetype.py:12 utils/prescandef.py:41
 msgid "Adobe Flash files"
@@ -12971,7 +12971,7 @@ msgstr "ネットマスクビットを指定する必要があります"
 
 #: utils/network.py:123 utils/network.py:133
 msgid "IP address is not in valid format"
-msgstr "IPアドレスが無効な形式です"
+msgstr "IPアドレスの形式が無効です"
 
 #: utils/network.py:128
 msgid "Netmask bits should not be supplied"
@@ -12980,7 +12980,7 @@ msgstr "ネットマスクビットは指定しないでください"
 #: utils/network.py:144
 #, python-format
 msgid "Invalid network, did you mean %s?"
-msgstr "無効なネットワーク、％sのことですか？"
+#!!! msgstr "無効なネットワーク、％sのことですか？"
 
 #: utils/network.py:806 utils/network.py:808
 msgid "Duplicate static route definition exists"
@@ -12988,15 +12988,15 @@ msgstr "スタティックルートが重複しています"
 
 #: utils/network.py:810 utils/network.py:879
 msgid "Empty value is not allowed"
-msgstr "エラー:パスワードが空です"
+msgstr "値を入力してください"
 
 #: utils/network.py:818
 msgid "IP address/mask is not in a valid format"
-msgstr "信頼できるホストの形式が無効です"
+msgstr "IPアドレス/マスクの形式が無効です"
 
 #: utils/network.py:839
 msgid "Gateway and Network IP's must be the same version"
-msgstr "ゲートウェイアドレスとネットワークアドレスは同じバージョンである必要があります"
+#!!! msgstr "ゲートウェイとIPは同じバージョンである必要があります"
 
 #: utils/network.py:859
 msgid "Gateway must be within device's subnet "
