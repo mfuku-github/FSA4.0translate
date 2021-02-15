@@ -8123,9 +8123,11 @@ msgstr "FortiGuardサーバ設定"
 
 #: templates/about/fdn-update.html:630
 msgid "Use override FDN server to download module updates (IP or FQDN)"
+#! msgstr ""
+#! "モジュールの更新（IPまたはFQDN）をダウンロードするには、オーバーライドFDNサー"
+#! "バーを使用します"
 msgstr ""
-"モジュールの更新（IPまたはFQDN）をダウンロードするには、オーバーライドFDNサー"
-"バーを使用します"
+"モジュールの更新をダウンロードするため、オーバライドFDNサーバーを使用します（IPまたはFQDN）"
 
 #: templates/about/fdn-update.html:649 templates/about/fdn-update.html:747
 #: templates/about/fdn-update.html:816
@@ -8162,17 +8164,21 @@ msgstr ""
 
 #: templates/about/fdn-update.html:800
 msgid "VM Image Download Proxy Settings"
-msgstr "プロキシ設定"
+#! msgstr "プロキシ設定"
+msgstr "VMイメージのダウンロードプロキシ設定"
 
 #: templates/about/fdn-update.html:869
 msgid "FortiSandbox Community Cloud & Threat Intelligence Settings"
-msgstr "FortiSandbox Community Cloud設定と脅威インテリジェンス設定"
+#! msgstr "FortiSandbox Community Cloud設定と脅威インテリジェンス設定"
+msgstr "FortiSandboxコミュニティクラウドと脅威インテリジェンス設定"
 
 #: templates/about/fdn-update.html:875
 msgid "Use override server for community cloud server query (IP or FQDN)"
+#! msgstr ""
+#! "コミュニティクラウドサーバークエリ（IPまたはFQDN）にオーバーライドサーバーを"
+#! "使用する"
 msgstr ""
-"コミュニティクラウドサーバークエリ（IPまたはFQDN）にオーバーライドサーバーを"
-"使用する"
+"コミュニティクラウドサーバークエリにオーバーライドサーバーを使用する（IPまたはFQDN）"
 
 #: templates/about/fdn-update.html:936
 msgid "FortiSandbox WindowsCloudVM Settings"
@@ -8198,7 +8204,8 @@ msgstr "適用"
 
 #: templates/about/firmware/index.html:52
 msgid "FortiSandbox Firmware Information:"
-msgstr "FortiSandbox VMの相互作用"
+#! msgstr "FortiSandbox VMの相互作用"
+msgstr "FortiSandboxファームウェア情報：
 
 #: templates/about/firmware/index.html:58
 msgid " Current Version "
@@ -8207,15 +8214,18 @@ msgstr "現在のバージョン"
 #: templates/about/firmware/index.html:65
 #: templates/about/firmware/vue_templates.html:123
 msgid "View Release Notes"
-msgstr "リリース時間"
+#! msgstr "リリース時間"
+msgstr "リリースノートを見る"
 
 #: templates/about/firmware/index.html:69
 msgid "New firmware update is available"
-msgstr "デバイスは利用できません。"
+#! msgstr "デバイスは利用できません。"
+msgstr "新しいファームウェアアップデートが利用可能です"
 
 #: templates/about/firmware/index.html:74
 msgid "Upload Firmware "
-msgstr "ファームウェアをアップロード中"
+#! msgstr "ファームウェアをアップロード中"
+msgstr "ファームウェアをアップロード"
 
 #: templates/about/firmware/index.html:77
 msgid "Upgrade firmware manually with a file from local host"
@@ -8223,19 +8233,23 @@ msgstr "ローカルのファイルでファームウェアを手動でアップ
 
 #: templates/about/firmware/index.html:79
 msgid "Upload Firmware"
-msgstr "ファームウェアをアップロード中"
+#! msgstr "ファームウェアをアップロード中"
+msgstr "ファームウェアをアップロード"
 
 #: templates/about/firmware/index.html:85
 msgid "Available Firmware"
-msgstr "利用可能なデバイス"
+#! msgstr "利用可能なデバイス"
+msgstr "利用可能なファームウェア"
 
 #: templates/about/firmware/index.html:88
 msgid "Recommended"
-msgstr "おすすめ"
+#! msgstr "おすすめ"
+msgstr "推奨"
 
 #: templates/about/firmware/index.html:90
 msgid "No recommended build"
-msgstr "レコードが見つかりませんでした"
+#! msgstr "レコードが見つかりませんでした"
+msgstr "推奨ビルドはありません"
 
 #: templates/about/firmware/index.html:102
 msgid "All Available"
@@ -8243,15 +8257,18 @@ msgstr "すべて利用可能"
 
 #: templates/about/firmware/index.html:104
 msgid "No available build"
-msgstr "利用可能なデータはありません"
+#! msgstr "利用可能なデータはありません"
+msgstr "利用可能なビルドがありません"
 
 #: templates/about/firmware/sysupgrade.html:61
 msgid "No serial number available."
-msgstr "デバイスは利用できません。"
+#! msgstr "デバイスは利用できません。"
+msgstr "利用可能なシリアル番号はありません。"
 
 #: templates/about/firmware/sysupgrade.html:68
 msgid "No firmware version available."
-msgstr "デバイスは利用できません。"
+#! msgstr "デバイスは利用できません。"
+msgstr "利用可能なファームウェアバージョンはありません。"
 
 #: templates/about/firmware/sysupgrade.html:73
 msgid "Upload Image File"
@@ -8311,12 +8328,16 @@ msgstr "注意："
 
 #: templates/about/officelicupload.html:26
 msgid "Are you sure you want to upload a Microsoft license file?"
-msgstr "Microsoft Office ライセンスファイルをアップロードしてよろしいですか?"
+#! msgstr "Microsoft Office ライセンスファイルをアップロードしてよろしいですか?"
+msgstr "Microsoftライセンスファイルをアップロードしてもよろしいですか？"
 
 #: templates/about/officelicupload.html:28
 msgid "Uploading Microsoft license file, please do not interrupt..."
+#! msgstr ""
+#! "Microsoft Office ライセンスファイルをアップロードしています。作業は中断しない"
+#! "でください。"
 msgstr ""
-"Microsoft Office ライセンスファイルをアップロードしています。作業は中断しない"
+"Microsoftライセンスファイルをアップロードしています。作業は中断しない"
 "でください。"
 
 #: templates/about/officelicupload.html:95 templates/about/vmlicupload.html:101
@@ -8327,11 +8348,13 @@ msgstr ""
 
 #: templates/about/officelicupload.html:100
 msgid "Upload Microsoft VM License File"
-msgstr "Microsoft Office ライセンスファイルをアップロード"
+#! msgstr "Microsoft Office ライセンスファイルをアップロード"
+msgstr "MicrosoftVMライセンスファイルをアップロード"
 
 #: templates/about/officelicupload.html:102
 msgid "Upload Microsoft Office License File"
-msgstr "Microsoft Office ライセンスファイルをアップロード"
+#! msgstr "Microsoft Office ライセンスファイルをアップロード"
+msgstr "Microsoft Officeライセンスファイルをアップロード"
 
 #: templates/about/officelicupload.html:109
 #: templates/about/vmlicupload.html:111
@@ -8370,7 +8393,8 @@ msgstr "メモリ使用率"
 
 #: templates/about/system.html:210
 msgid "Net Connections"
-msgstr "ネット コネクション"
+#! msgstr "ネット コネクション"
+msgstr "ネットコネクション"
 
 #: templates/about/system.html:214
 msgid "Net Speed"
@@ -8378,11 +8402,13 @@ msgstr "ネットスピード"
 
 #: templates/about/vm_config.html:32
 msgid "success: VM license key has been assigned."
-msgstr "成功: VM ライセンスキーが割り当てされました。"
+#! msgstr "成功: VM ライセンスキーが割り当てされました。"
+msgstr "成功:VM ライセンスキーが割り当てされました。"
 
 #: templates/about/vm_config.html:58
 msgid "VM Host"
-msgstr "VM ホスト"
+#! msgstr "VM ホスト"
+msgstr "VMホスト"
 
 #: templates/about/vm_config.html:64
 msgid "License Status"
@@ -8464,7 +8490,8 @@ msgstr "サブミットファイル/URL"
 #: templates/alert/url/suspicious_filter_table.html:72
 #: templates/alert/url/url_ondemand_filter_table.html:79
 msgid "Export Data"
-msgstr "エクスポート"
+#! msgstr "エクスポート"
+msgstr "エクスポートデータ"
 
 #: templates/admin/change_list_controls.html:107
 #: templates/ha_cluster/hc_management.html:39
@@ -8484,7 +8511,8 @@ msgstr "インポート"
 #: templates/admin/change_list_controls.html:228
 #: templates/ha_cluster/hc_management.html:44
 msgid "View"
-msgstr "表示する"
+#! msgstr "表示する"
+msgstr "表示"
 
 #: templates/admin/change_list_controls.html:137
 #: templates/admin/change_list_controls.html:149
@@ -8500,7 +8528,8 @@ msgstr "クローン"
 #: templates/admin/change_list_controls.html:156
 #: templates/logs/filter-table.html:57
 msgid "Download Log"
-msgstr "ログのダウンロード"
+#! msgstr "ログのダウンロード"
+msgstr "ログをダウンロード"
 
 #: templates/admin/change_list_controls.html:168
 #: templates/admin/change_list_controls.html:180
@@ -8517,7 +8546,8 @@ msgstr "Botnetをダウンロード"
 
 #: templates/admin/change_list_controls.html:188
 msgid "History Logs"
-msgstr "履歴"
+#! msgstr "履歴"
+msgstr "履歴ログ"
 
 #: templates/admin/change_list_controls.html:197
 #: templates/download_center/index.html:11
@@ -8527,7 +8557,8 @@ msgstr "検索"
 
 #: templates/admin/change_list_controls.html:210
 msgid "Backup & Restore"
-msgstr "バックアップ/リストア"
+#! msgstr "バックアップ/リストア"
+msgstr "バックアップ&リストア"
 
 #: templates/admin/change_list_controls.html:246
 msgid "Scan Details"
@@ -8553,7 +8584,8 @@ msgstr "ユーザー定義のデバイス"
 
 #: templates/admin/device_panel.html:64
 msgid "Domains/Vdoms"
-msgstr "ドメイン/ VDOM"
+#! msgstr "ドメイン/ VDOM"
+msgstr "ドメイン/VDOM"
 
 #: templates/admin/extra/recovery/backup_restore.html:90
 msgid ""
@@ -8592,8 +8624,12 @@ msgid ""
 "Configuration is being restored, do not navigate to other pages. This may "
 "take a few minutes or longer, depending on the size of your data, please "
 "wait..."
+#! msgstr ""
+#! "コンフィギュレーションが復元中です。他のページに移動しないでください。データ"
+#! "のサイズにより、これには数分以上かかることがあります。しばらくお待ちくださ"
+#! "い..."
 msgstr ""
-"コンフィギュレーションが復元中です。他のページに移動しないでください。データ"
+"設定が復元中です。他のページに移動しないでください。データ"
 "のサイズにより、これには数分以上かかることがあります。しばらくお待ちくださ"
 "い..."
 
@@ -8625,7 +8661,8 @@ msgstr "OK"
 
 #: templates/admin/extra/recovery/backup_restore.html:159
 msgid "Are you sure you want to download the backup file?"
-msgstr "このファイルをアップグレードしてもよろしいですか "
+#! msgstr "このファイルをアップグレードしてもよろしいですか "
+msgstr "バックアップファイルをダウンロードしてもよろしいですか？"
 
 #: templates/admin/extra/recovery/backup_restore.html:209
 msgid "The Server Address cannot be empty"
@@ -8657,7 +8694,8 @@ msgstr "ローカルバックアップ"
 msgid ""
 "You can backup your current system configuration to local PC and restore it "
 "at a later time."
-msgstr "現在のシステム構成をローカルPCにバックアップして復元できます"
+#! msgstr "現在のシステム構成をローカルPCにバックアップして復元できます"
+msgstr "現在のシステム構成をローカルPCにバックアップし、後で復元することができます。"
 
 #: templates/admin/extra/recovery/backup_restore.html:278
 #: templates/admin/extra/recovery/backup_restore.html:319
@@ -8715,7 +8753,8 @@ msgstr "リストア"
 
 #: templates/admin/widgets/add_list.html:91
 msgid "This type of widget already exists"
-msgstr "そのユーザ名がすでに存在します。"
+#! msgstr "そのユーザ名がすでに存在します。"
+msgstr "このタイプのウィジェットはすでに存在します"
 
 #: templates/admin/widgets/add_list.html:105
 msgid "This page has reached widget capacity limit"
@@ -8729,7 +8768,8 @@ msgstr "ここをクリック"
 #: templates/admin/widgets/db_not_ready_msg.html:42
 #: templates/no_dbfile_tip.html:60
 msgid "to refresh"
-msgstr "リフレッシュ"
+#! msgstr "リフレッシュ"
+msgstr "リフレッシュする"
 
 #: templates/admin/widgets/db_not_ready_msg.html:46
 #: templates/admin/widgets/reports/scan_stats.html:41
@@ -8749,23 +8789,27 @@ msgstr "イベント数"
 
 #: templates/admin/widgets/reports/top_callback_domains.html:25
 msgid "Total infection events "
-msgstr "感染数の合計 "
+#! msgstr "感染数の合計 "
+msgstr "感染イベントの合計"
 
 #: templates/admin/widgets/reports/top_malware.html:16
 #: templates/admin/widgets/reports/top_targeted_hosts.html:17
 msgid "Total infection events"
-msgstr "感染数の合計"
+#! msgstr "感染数の合計"
+msgstr "感染イベントの合計"
 
 #: templates/admin/widgets/scan_status.html:22
 #: templates/dashboard/kendo_base_chart.html:18
 msgid "Loading ..."
-msgstr "アップロード中"
+#! msgstr "アップロード中"
+msgstr "読み込み中..."
 
 #: templates/admin/widgets/widget/scan_stats.html:10
 #, fuzzy
 #| msgid "File Inputs"
 msgid "Inputs"
-msgstr "ファイル入力"
+#! msgstr "ファイル入力"
+msgstr "入力"
 
 #: templates/admin/widgets/widget/sysres.html:8
 msgid "CPU Usage:"
@@ -8777,11 +8821,13 @@ msgstr "メモリ使用率:"
 
 #: templates/admin/widgets/widget/sysres.html:35
 msgid "RAM Disk Usage:"
-msgstr "ディスク使用率"
+#! msgstr "ディスク使用率"
+msgstr "RAMディスク使用率"
 
 #: templates/admin/widgets/widget/sysres.html:75
 msgid " RAID Level"
-msgstr " RAID レベル"
+#! msgstr " RAID レベル"
+msgstr " RAIDレベル"
 
 #: templates/admin/widgets/widget/sysres.html:84
 msgid " Status"
@@ -8819,7 +8865,8 @@ msgstr "サンドボックスによるスキャン"
 
 #: templates/admin/widgets/widget/top_filetype_count.html:63
 msgid "No File Type Count data for display."
-msgstr "表示なしファイルタイプカウントデータ。"
+#! msgstr "表示なしファイルタイプカウントデータ。"
+msgstr "表示するファイルタイプカウントデータはありません。"
 
 #: templates/admin/widgets/widget/vertical_barchart.html:30
 msgid "No data"
@@ -8829,8 +8876,10 @@ msgstr "データがありません"
 msgid ""
 "You can backup your current admin profiles configuration and restore it at a "
 "later time."
+#! msgstr ""
+#! "現在のシステム設定をバックアップしておき、後にリストアすることができます。"
 msgstr ""
-"現在のシステム設定をバックアップしておき、後にリストアすることができます。"
+"現在の管理プロファイル構成をバックアップし、後で復元することができます。"
 
 #: templates/admin_profiles/backup.html:35
 msgid "to save your backup file."
@@ -8865,11 +8914,13 @@ msgstr "リードオンリー"
 
 #: templates/admin_profiles/config.html:51
 msgid "Read Write"
-msgstr "リード/ライト"
+#! msgstr "リード/ライト"
+msgstr "リードライト"
 
 #: templates/admin_profiles/config.html:78
 msgid "Control Access"
-msgstr "レポートアクセス"
+#! msgstr "レポートアクセス"
+msgstr "アクセス制御"
 
 #: templates/admin_profiles/config.html:92 templates/dashboard/index.html:122
 #: templates/device_profiles/config.html:68
@@ -8899,7 +8950,8 @@ msgstr "アーカイブファイル"
 #: templates/job_detail/tracer_behavior.html:22
 #: templates/job_detail/tree_view.html:22
 msgid "VM Infected"
-msgstr "感染したOS"
+#! msgstr "感染したOS"
+msgstr "感染したVM"
 
 #: templates/alert/behaviors.html:36 templates/alert/scan_job_assets.html:8
 #: templates/job_detail/tracer_behavior_detail.html:64
@@ -8935,7 +8987,8 @@ msgstr "振る舞いの時系列チャート"
 #: templates/alert/behaviors.html:94
 #: templates/alert/scan_job_details_sections.html:373
 msgid "Suspicious Indicators"
-msgstr "疑いのある振る舞い"
+#! msgstr "疑いのある振る舞い"
+msgstr "疑わしい指標"
 
 #: templates/alert/behaviors.html:111
 msgid "Static Analysis"
@@ -8975,7 +9028,8 @@ msgstr "バーチャルシミュレータ"
 
 #: templates/alert/behaviors.html:264
 msgid "Office Behaviors"
-msgstr "ファイルの振る舞い"
+#! msgstr "ファイルの振る舞い"
+msgstr "オフィスの振る舞い"
 
 #: templates/alert/behaviors.html:281
 msgid "Yara Hits"
