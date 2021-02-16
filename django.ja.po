@@ -9076,7 +9076,8 @@ msgstr "期間: "
 #: templates/alert/bydevices_filter_table.html:196
 #: templates/alert/byusers_filter_table.html:195
 msgid "# of Malicious Files"
-msgstr "マルウェアファイル数"
+#! msgstr "マルウェアファイル数"
+msgstr "悪意のあるファイル数"
 
 #: templates/alert/bydevices_filter_table.html:203
 #: templates/alert/byusers_filter_table.html:201
@@ -9119,7 +9120,8 @@ msgstr ""
 
 #: templates/alert/byfiles_filter_table.html:185
 msgid "# of Source"
-msgstr "送信元"
+#! msgstr "送信元"
+msgstr "ソースの数"
 
 #: templates/alert/byfiles_filter_table.html:199
 msgid "FILE"
@@ -9189,7 +9191,8 @@ msgstr "リスキャン"
 
 #: templates/alert/job-details/basics-panel.html:253
 msgid "Click to view old job details"
-msgstr "ジョブの詳細を見るにはクリックしてください。"
+#! msgstr "ジョブの詳細を見るにはクリックしてください。"
+msgstr "過去のジョブの詳細を見るにはクリックしてください"
 
 #: templates/alert/ondemand_filter_table.html:25
 #: templates/alert/ondemand_filter_table.html:106
@@ -9244,7 +9247,8 @@ msgstr "重大度"
 
 #: templates/alert/operation_center_filter_table.html:99
 msgid "Victim IP"
-msgstr "被害端末IPアドレス"
+#! msgstr "被害端末IPアドレス"
+msgstr "被害端末IP"
 
 #: templates/alert/operation_center_filter_table.html:106
 msgid "Incident Time"
@@ -9282,7 +9286,8 @@ msgstr " (バイト)"
 
 #: templates/alert/scan_job_details_sections.html:167
 msgid "DOMAIN/VDOM"
-msgstr "DOMAIN/VDOM"
+#! msgstr "DOMAIN/VDOM"
+msgstr "ドメイン/VDOM"
 
 #: templates/alert/scan_job_details_sections.html:207
 msgid "Detection Time"
@@ -9317,7 +9322,8 @@ msgstr "デバイス: "
 #: templates/csearch/custom_filter_table.html:126
 #: templates/csearch/url_based_index.html:105
 msgid "Submitted Time"
-msgstr "サブミット日時"
+#! msgstr "サブミット日時"
+msgstr "サブミット時刻"
 
 #: templates/alert/url/url_ondemand_filter_table.html:158
 #: templates/ondemand/index.html:47
@@ -9340,7 +9346,8 @@ msgstr "Azureの設定"
 
 #: templates/azure/config.html:129 templates/azure/config.html:336
 msgid "Subscription ID"
-msgstr "購読ID"
+#! msgstr "購読ID"
+msgstr "サブスクリプションID"
 
 #: templates/azure/config.html:219 templates/azure/config.html:435
 msgid "VM Type"
@@ -9405,8 +9412,10 @@ msgstr "Emailサブジェクト:"
 
 #: templates/csearch/export_report.html:28
 msgid "Send complete report to global email address expecting detailed report"
+#! msgstr ""
+#! "詳細なレポートが必要なグローバルな電子メールアドレスへの完全なレポートの送信"
 msgstr ""
-"詳細なレポートが必要なグローバルな電子メールアドレスへの完全なレポートの送信"
+"詳細レポートを期待しているグローバルメールアドレスに完全なレポートを送信"
 
 #: templates/csearch/export_report.html:37 templates/table/report.html:12
 msgid "PDF"
@@ -9421,10 +9430,13 @@ msgid ""
 "A report is scheduled to generate. It can be found in Log & Report > Report "
 "Center page after being finished. You can close this window now or wait till "
 "report is ready"
+#! msgstr ""
+#! "Toggle LightAレポートが生成される予定です。ログ＆レポート>レポートセンターの"
+#! "ページで確認できます。このウィンドウを今すぐ閉じるか、レポートが準備完了する"
+#! "まで待つことができます"
 msgstr ""
-"Toggle LightAレポートが生成される予定です。ログ＆レポート>レポートセンターの"
-"ページで確認できます。このウィンドウを今すぐ閉じるか、レポートが準備完了する"
-"まで待つことができます"
+"レポートの生成が予定されています。終了後、ログ＆レポート>レポートセンターページで確認できます。"
+"今すぐこのウィンドウを閉じるか、レポートの準備が完了するまで待つことができます"
 
 #: templates/dashboard/index.html:86
 #: templates/scan/filter_list/vue_templates.html:100
@@ -9492,11 +9504,12 @@ msgstr "平均"
 
 #: templates/dashboard/settings/donut_chart.html:41
 msgid "Inner Circle From"
-msgstr "内側の円グラフ From"
+#! msgstr "内側の円グラフ From"
+msgstr "から内側のグラフ"
 
 #: templates/dashboard/settings/donut_chart.html:57
 msgid "Outer Circle From"
-msgstr "外側のグラフ From"
+msgstr "から外側のグラフ"
 
 #: templates/dashboard/settings/widget.html:33
 msgid "Customized Widget Title"
@@ -9506,7 +9519,8 @@ msgstr "カスタムウィジェットタイトル"
 #, fuzzy
 #| msgid "Time Period: "
 msgid "Time Period:"
-msgstr "期間: "
+#! msgstr "期間: "
+msgstr "期間:"
 
 #: templates/dashboard/settings/widget.html:64
 msgid "invalid interval"
@@ -9514,7 +9528,8 @@ msgstr "無効な間隔"
 
 #: templates/device_profiles/config.html:33
 msgid "Group Name:"
-msgstr "プロファイル名"
+#! msgstr "プロファイル名"
+msgstr "グループ名"
 
 #: templates/device_profiles/config.html:46
 msgid "Devices:"
@@ -9527,16 +9542,19 @@ msgstr "すべてを選択"
 
 #: templates/device_profiles/config.html:51
 msgid "Select All Devices"
-msgstr "すべてを選択"
+#! msgstr "すべてを選択"
+msgstr "すべてのデバイスを選択"
 
 #: templates/device_profiles/index.html:10
 msgid "Group Name"
-msgstr "モジュール名"
+#! msgstr "モジュール名"
+msgstr "グループ名"
 
 #: templates/device_profiles/index.html:25
 #: templates/main/tree_menu_def.html:267
 msgid "Device Groups"
-msgstr "デバイス"
+#! msgstr "デバイス"
+msgstr "デバイスグループ"
 
 #: templates/download_center/index.html:19
 msgid "The file does not exist."
@@ -9551,19 +9569,22 @@ msgstr "ジョブレポート"
 #, fuzzy
 #| msgid "HA Cluster Members"
 msgid "Cluster Management"
-msgstr "HAクラスタメンバー"
+#! msgstr "HAクラスタメンバー"
+msgstr "クラスター管理"
 
 #: templates/ha_cluster/hc_management.html:48
 #, fuzzy
 #| msgid "Upload Firmware"
 msgid "Upgrade Firmware"
-msgstr "ファームウェアをアップロード中"
+#! msgstr "ファームウェアをアップロード中"
+msgstr "ファームウェアを更新"
 
 #: templates/ha_cluster/hc_management.html:52
 #, fuzzy
 #| msgid "FortiGuard"
 msgid "Fortiguard"
-msgstr "FortiGuard"
+#! msgstr "FortiGuard"
+msgstr "Fortiguard"
 
 #: templates/ha_cluster/hc_management.html:60
 msgid "Purge"
@@ -9590,7 +9611,8 @@ msgstr "IPアドレス"
 #, fuzzy
 #| msgid "Pending #"
 msgid "Pending Jobs"
-msgstr "ペンディング番号"
+#! msgstr "ペンディング番号"
+msgstr "ペンディングジョブ"
 
 #: templates/ha_cluster/hc_management.html:94
 msgid "Firmware version is not compatible with primary device"
@@ -9622,13 +9644,15 @@ msgstr "ログサーバーの設定とローカルログの設定"
 #, fuzzy
 #| msgid "System Recovery"
 msgid "System Recovery settings"
-msgstr "システムリカバリー"
+#! msgstr "システムリカバリー"
+msgstr "システムリカバリー設定"
 
 #: templates/ha_cluster/hc_management.html:139
 #, fuzzy
 #| msgid "Settings"
 msgid "SNMP settings"
-msgstr "設定"
+#! msgstr "設定"
+msgstr "SNMP設定"
 
 #: templates/ha_cluster/hc_management.html:145
 #, fuzzy
@@ -9640,7 +9664,8 @@ msgstr "ログイン免責事項"
 #, fuzzy
 #| msgid "Diagnostic Logs"
 msgid "Diagnostic Logs > CLI Logs settings"
-msgstr "クリティカルログ"
+#! msgstr "クリティカルログ"
+msgstr "診断ログ> CLIログ設定"
 
 #: templates/ha_cluster/hc_management_actions.html:11
 msgid " Selected Secondaries "
@@ -9650,7 +9675,8 @@ msgstr "選択されたセカンダリ"
 #, fuzzy
 #| msgid "HA-Cluster Events"
 msgid "All Cluster Units"
-msgstr "HAクラスタイベント"
+#! msgstr "HAクラスタイベント"
+msgstr "全てのクラスターユニット"
 
 #: templates/ha_cluster/hc_stat_table.html:19 templates/scan/sandbox.html:115
 msgid "File"
@@ -9742,7 +9768,8 @@ msgstr "レポートをダウンロード"
 
 #: templates/job_detail/error.html:8
 msgid "Failed to load job detail data, job might be deleted."
-msgstr "ジョブ詳細データの読み込みに失敗しました。"
+#! msgstr "ジョブ詳細データの読み込みに失敗しました。"
+msgstr "ジョブ詳細データの読み込みに失敗しました、ジョブは削除された可能性があります。"
 
 #: templates/job_detail/header.html:23
 msgid "Export job detail page to PDF"
@@ -9754,13 +9781,15 @@ msgstr "オリジナルファイルのダウンロード "
 
 #: templates/job_detail/tracer_behavior.html:35
 msgid "Loading..."
-msgstr "アップロード中"
+#! msgstr "アップロード中"
+msgstr "読み込み中..."
 
 #: templates/job_detail/tracer_behavior_detail.html:52
 #, fuzzy
 #| msgid "Tracer Log"
 msgid "Tracer Error:"
-msgstr "トレーサーログ"
+#! msgstr "トレーサーログ"
+msgstr "トレーサーエラー："
 
 #: templates/job_detail/tracer_behavior_detail.html:56
 msgid "VM was manually stopped"
@@ -9768,7 +9797,8 @@ msgstr "VMは手動で停止されました"
 
 #: templates/job_detail/tracer_behavior_detail.html:96
 msgid "STIX IOC"
-msgstr "STIX IOCを有効にする"
+#! msgstr "STIX IOCを有効にする"
+msgstr "STIX IOC"
 
 #: templates/job_detail/tracer_behavior_detail.html:103
 msgid "Matches"
@@ -9780,16 +9810,19 @@ msgstr "攻撃テクニック"
 
 #: templates/job_detail/tracer_behavior_detail.html:149
 msgid "More Details are available"
-msgstr "データは現在利用できません"
+#! msgstr "データは現在利用できません"
+msgstr "より詳細が利用可能です"
 
 #: templates/job_detail/tracer_behavior_detail.html:174
 msgid "MITRE ATT&CK Matrix"
-msgstr "MITRE ATT&CK Matrix"
+#! msgstr "MITRE ATT&CK Matrix"
+msgstr "MITRE ATT&CKマトリックス"
 
 #: templates/job_detail/tracer_behavior_detail.html:186
 #: templates/job_detail/tracer_behavior_detail.html:187
 msgid "Full Matrix"
-msgstr "Full Matrix"
+#! msgstr "Full Matrix"
+msgstr "フルマトリックス"
 
 #: templates/job_detail/tracer_behavior_detail.html:209
 msgid "Technique"
@@ -9845,7 +9878,8 @@ msgstr "メモリ操作"
 #: templates/job_detail/tree_view_component.html:52
 #: templates/job_detail/tree_view_details.html:152
 msgid "Process Related"
-msgstr "プロセスが作成されました"
+#! msgstr "プロセスが作成されました"
+msgstr "プロセスが関連付けされました"
 
 #: templates/job_detail/tracer_behavior_detail.html:321
 #: templates/job_detail/tree_view_component.html:53
@@ -9857,7 +9891,8 @@ msgstr "プロセスが作成されました"
 #: templates/job_detail/tree_view_component.html:54
 #: templates/job_detail/tree_view_details.html:160
 msgid "Process Injected"
-msgstr "プロセスが注入されました"
+#! msgstr "プロセスが注入されました"
+msgstr "プロセスが挿入されました"
 
 #: templates/job_detail/tracer_behavior_detail.html:329
 #: templates/job_detail/tree_view_component.html:55
@@ -9867,7 +9902,8 @@ msgstr "プロセスの作成と挿入"
 #: templates/job_detail/tracer_behavior_detail.html:333
 #: templates/job_detail/tree_view_details.html:164
 msgid "Process String Extracted"
-msgstr "抽出されたプロセス文字列"
+#! msgstr "抽出されたプロセス文字列"
+msgstr "プロセス文字列が抽出されました"
 
 #: templates/job_detail/tracer_behavior_detail.html:337
 #: templates/job_detail/tree_view_details.html:168
@@ -9877,12 +9913,14 @@ msgstr "書かれた"
 #: templates/job_detail/tracer_behavior_detail.html:341
 #: templates/job_detail/tree_view_details.html:172
 msgid "Thread Remote Created"
-msgstr "スレッドリモート作成"
+#! msgstr "スレッドリモート作成"
+msgstr "スレッドリモートが作成されました"
 
 #: templates/job_detail/tracer_behavior_detail.html:345
 #: templates/job_detail/tree_view_details.html:176
 msgid "Window Hook Set"
-msgstr "ウィンドウフックセット"
+#! msgstr "ウィンドウフックセット"
+msgstr "Window Hookセット"
 
 #: templates/job_detail/tracer_behavior_detail.html:363
 msgid "Network Operations"
@@ -9904,11 +9942,13 @@ msgstr "トラフィック署名"
 
 #: templates/job_detail/tracer_behavior_detail.html:427
 msgid "PCAP Information"
-msgstr "VM情報"
+#! msgstr "VM情報"
+msgstr "PCAP情報"
 
 #: templates/job_detail/tracer_behavior_detail.html:433
 msgid "PCAP File : "
-msgstr "PKCS12ファイル "
+#! msgstr "PKCS12ファイル "
+msgstr "PCAPファイル "
 
 #: templates/job_detail/tree_view_details.html:32
 msgid "Process Information"
@@ -9985,11 +10025,13 @@ msgstr "スコア"
 
 #: templates/job_detail/tree_view_details.html:337
 msgid "Category"
-msgstr "URLカテゴリ"
+#! msgstr "URLカテゴリ"
+msgstr "カテゴリ"
 
 #: templates/job_detail/tree_view_details.html:341
 msgid "Download Details"
-msgstr "MD5をダウンロード"
+#! msgstr "MD5をダウンロード"
+msgstr "詳細をダウンロード"
 
 #: templates/job_detail/tree_view_details.html:374
 msgid "Urls"
