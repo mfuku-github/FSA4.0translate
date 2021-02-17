@@ -12213,7 +12213,7 @@ msgstr "システムタイムゾーンを変更しますか？"
 
 #: templates/system/config-time.html:235
 msgid "Error happened in changing system time zone setting. "
-msgstr "システムタイムゾーンを変更でエラーが発生しました。 "
+msgstr "システムタイムゾーンを変更時にエラーが発生しました。 "
 
 #: templates/system/config-time.html:346
 msgid "Please enter a valid NTP server."
@@ -12221,7 +12221,7 @@ msgstr "有効なNTPサーバを入力してください。"
 
 #: templates/system/config-time.html:401
 msgid "You might need to login again."
-msgstr "再ログインが必要かもしれません。"
+msgstr "再度ログインしてください。"
 
 #: templates/system/config-time.html:410
 msgid "Error happened in changing system time setting. "
@@ -12235,15 +12235,15 @@ msgstr "インターフェイスメンバー"
 #: templates/system/create-network-interface.html:44
 #: templates/system/edit-network-intf.html:250
 msgid "IP Address / Netmask"
-msgstr "IPアドレス / ネットマクス"
+msgstr "IPアドレス/ ネットマクス"
 
 #: templates/system/create-network-interface.html:48
 msgid "IPv4/Netmask"
-msgstr "IPv4 /ネットマスク"
+msgstr "IPv4/ネットマスク"
 
 #: templates/system/create-network-interface.html:56
 msgid "IPv6/Prefix"
-msgstr "IPv6 /プレフィックス"
+msgstr "IPv6/プレフィックス"
 
 #: templates/system/edit-network-intf.html:56
 msgid "Error: Empty IP Address is not allowed"
@@ -12258,7 +12258,7 @@ msgid ""
 "Error: Empty IPv6 Address is not allowed when there is static IPv6 route "
 "exists for this address"
 msgstr ""
-"エラー：このアドレスにスタティックIPv6ルートが存在する場合、"
+"エラー：このアドレス宛にIPv6スタティックルートが存在する場合、"
 "空のIPv6アドレスは許可されません"
 
 #: templates/system/edit-network-intf.html:74
@@ -12290,18 +12290,17 @@ msgid ""
 "the intranet. It is recommended to place this interface on an isolated "
 "network behind a firewall."
 msgstr ""
-"注意：FortiSandbox VMのサンドボックスは、分析中のファイルの実行がトリガとなる"
-"外部向けの通信にポート3を使用します。このインタフェースの隔離は、イントラネッ"
-"トにおける感染ファイルの伝播を回避するために必要です。ファイアウォールの背後"
-"にある隔離されたネットワーク上に、このインターフェイスを配置することを推奨し"
-"ます。"
+"注意：FortiSandbox VMのサンドボックスは、分析中のファイル実行時にport3を使"
+"用して外部通信を行います。イントラネット内で感染ファイルが広がらないためにこ"
+"のインターフェイスをファイアウォール背後の隔離されたネットワーク上に配置する"
+"ことを推奨します。"
 
 #: templates/system/edit-network-intf.html:169
 msgid ""
 "NOTE: Port3 cannot be used to listen to traffic for Sniffer or from Fortinet "
 "devices."
 msgstr ""
-"注意：Port3はSnifferあるいはデバイスからのファイル受信には使用できません。"
+"注意：port3はSnifferあるいはデバイスからのファイル受信には使用できません。"
 
 #: templates/system/edit-network-intf.html:175
 msgid ""
@@ -12309,14 +12308,14 @@ msgid ""
 "Any incorrect settings may lead job assignment/malware detection to be "
 "failed on this unit"
 msgstr ""
-"注意：このインタフェースは、クラスタ内部通信用に構成されています。誤った設定"
+"注意：このインタフェースは、クラスタ内部通信用に設定されています。誤った設定"
 "により、このユニットによるジョブの割り当て/マルウェアの検出が失敗する可能性が"
 "あります"
 
 #: templates/system/edit-network-intf.html:256
 #: templates/system/edit-network-intf.html:258
 msgid "Example: 192.168.1.2/255.255.255.0 or 192.168.1.2/24"
-msgstr "例: 192.168.1.2/255.255.255.0 or 192.168.1.2/24"
+msgstr "例: 192.168.1.2/255.255.255.0、192.168.1.2/24"
 
 #: templates/system/edit-network-intf.html:266
 msgid "Example: fd13:6918:e38c:edd5::1/64"
@@ -12352,7 +12351,7 @@ msgstr "システム設定 (最後のバックアップ: Mon Mar 25 09:53:06 201
 
 #: templates/system/maintain-backup.html:16
 msgid "Backup configuration to"
-msgstr "バックアップ設定"
+#!!! msgstr "に設定をバックアップ"
 
 #: templates/system/maintain-backup.html:23
 msgid "Encrypt configuration file"
@@ -12361,7 +12360,7 @@ msgstr "設定ファイルを暗号化"
 #: templates/system/maintain-backup.html:26
 #: templates/system/maintain-backup.html:55
 msgid "Type password"
-msgstr "パスワードを入力"
+msgstr "パスワードを入力してください"
 
 #: templates/system/maintain-backup.html:28
 msgid "Confirm"
@@ -12369,15 +12368,15 @@ msgstr "確認"
 
 #: templates/system/maintain-backup.html:29
 msgid "Type password again"
-msgstr "パスワードを再入力"
+msgstr "パスワードを再入力してください"
 
 #: templates/system/maintain-backup.html:31
 msgid "Backup configuration to local PC by save the downloaded file"
-msgstr "ローカルPCへ設定ファイルをバックアップする"
+msgstr "ローカルPCへ設定ファイルをバックアップ"
 
 #: templates/system/maintain-backup.html:42
 msgid "Restore configuration from"
-msgstr "設定ファイルのリストア"
+msgstr "から設定ファイルをリストア"
 
 #: templates/system/maintain-backup.html:44
 msgid "Local PC"
@@ -12385,7 +12384,7 @@ msgstr "ローカルPC"
 
 #: templates/system/maintain-backup.html:57
 msgid "Example block-level help text here"
-msgstr "ブロックレベルのヘルプのテキストの例"
+#!!! msgstr "ブロックレベルのヘルプのテキストの例"
 
 #: templates/system/maintain-backup.html:74
 msgid "Password mismatch or empty"
@@ -12432,17 +12431,17 @@ msgid ""
 "You can reset all widgets in Dashboard,  File Detection > Summary Report, "
 "Network Alerts > Summary Report, URL Detection > Summary Report."
 msgstr ""
-"これら全てのウィジェットをリセットできます：ファイルベース検知 > サマリーレ"
-"ポート、ネットワークアラート > サマリーレポート、URL検知 > サマリーレポート."
+#!!!"これら全てのウィジェットをリセットできます：ファイルベース検知 > サマリーレ"
+#!!!"ポート、ネットワークアラート > サマリーレポート、URL検知 > サマリーレポート."
 
 #: templates/system/vm_activate.html:56
 msgid ""
 "Are you sure you want to activate the license of Windows Sandbox VM now?"
-msgstr "Windows Sandbox VMのライセンスをアクティベートしますか？"
+msgstr "Windows Sandbox VMライセンスをアクティベートしますか？"
 
 #: templates/system/vm_activate.html:58
 msgid "The license of Windows Sandbox VM has been activated."
-msgstr "Windows Sandbox VMのライセンスはアクティベートされました。"
+msgstr "Windows Sandbox VMライセンスはアクティベートされました。"
 
 #: templates/system/vm_activate.html:62
 msgid "Activating, please do not interupt"
@@ -12482,21 +12481,21 @@ msgstr "以下のYaraルールファイルを削除してよろしいですか?"
 
 #: templates/table/job_view_settings.html:24
 msgid "File Detection Columns"
-msgstr "ファイル検出列"
+msgstr "ファイルスキャンジョブのカラム設定"
 
 #: templates/table/job_view_settings.html:28
 #: templates/table/job_view_settings.html:52
 msgid "Customized Column Headers and Orders"
-msgstr "カスタマイズした列ヘッダーと順序"
+msgstr "カラムと順序"
 
 #: templates/table/job_view_settings.html:35
 #: templates/table/job_view_settings.html:59
 msgid "Available Column Headers"
-msgstr "使用可能な列ヘッダー"
+msgstr "使用可能なカラム"
 
 #: templates/table/job_view_settings.html:48
 msgid "URL Detection Columns"
-msgstr "URL検出列"
+msgstr "URLスキャンジョブのカラム設定"
 
 #: templates/table/job_view_settings.html:72
 msgid "Table Settings"
@@ -12534,11 +12533,11 @@ msgstr "再スキャンジョブのみを表示する"
 
 #: templates/vm_status/aws_interaction.html:35
 msgid "Remote Desktop Config"
-msgstr "設定をリセット"
+msgstr "リモートデスクトップ設定"
 
 #: templates/vm_status/aws_interaction.html:37
 msgid "VM Name"
-msgstr "名前"
+msgstr "VM名"
 
 #: templates/vm_status/aws_interaction.html:45
 msgid "Remote Desktop Address"
@@ -12551,7 +12550,7 @@ msgstr "インスタンスID"
 #: templates/vm_status/aws_interaction.html:55
 #: templates/vm_status/aws_interaction.html:56
 msgid "Connecting Instruction"
-msgstr "接続"
+#!!! msgstr "接続"
 
 #: templates/vm_status/aws_interaction.html:58
 msgid "Windows: Please run 'mstsc' to initiate the RDP connection "
