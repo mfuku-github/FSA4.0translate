@@ -1684,7 +1684,7 @@ msgstr "デバイスデータの呼び出しに失敗しました。"
 #: apps/system/config.py:2259 apps/system/config.py:2515
 #: apps/system/yara.py:482
 msgid "Are you sure?"
-msgstr "よろしいですか?"
+msgstr "よいですか?"
 
 #: apps/hacluster/views.py:215
 msgid "Cannot find the setting for interface %(name)."
@@ -6573,7 +6573,7 @@ msgstr "合計クローン数を上回れません "
 
 #: apps/vmimages/VMImages.py:339
 msgid " The clone number of "
-msgstr "のクローン番号"
+msgstr "のクローン数"
 
 #: apps/vmimages/VMImages.py:339
 msgid " VMs does not affect this result."
@@ -7382,7 +7382,7 @@ msgstr "有効なファイルを選択してください"
 
 #: templates/about/fdn-update.html:246
 msgid "Are you sure you want to upgrade your file "
-msgstr "このファイルをアップグレードしてもよろしいですか "
+msgstr "このファイルをアップグレードしてもよいですか "
 
 #: templates/about/fdn-update.html:303
 msgid "Error: Override server address is empty."
@@ -7688,7 +7688,7 @@ msgstr "インストール中"
 
 #: templates/about/installnewvm.html:15
 msgid "Are you sure you want to install new Sandbox VM?"
-msgstr "新しいSandbox VMをインストールしてもよろしいですか?"
+msgstr "新しいSandbox VMをインストールしてもよいですか?"
 
 #: templates/about/installnewvm.html:17
 msgid "Installing new Sandbox VM, please do not interrupt."
@@ -7700,7 +7700,7 @@ msgstr "注意："
 
 #: templates/about/officelicupload.html:26
 msgid "Are you sure you want to upload a Microsoft license file?"
-msgstr "Microsoftライセンスファイルをアップロードしてもよろしいですか？"
+msgstr "Microsoftライセンスファイルをアップロードしてもよいですか？"
 
 #: templates/about/officelicupload.html:28
 msgid "Uploading Microsoft license file, please do not interrupt..."
@@ -7783,7 +7783,7 @@ msgstr "ライセンスキー"
 
 #: templates/about/vmlicupload.html:38
 msgid "Are you sure you want to upload a new license file?"
-msgstr "新しいライセンスファイルをアップロードしてよろしいですか？"
+msgstr "新しいライセンスファイルをアップロードしてよいですか？"
 
 #: templates/about/vmlicupload.html:40
 msgid "Uploading VM license file, please do not interrupt..."
@@ -7974,7 +7974,7 @@ msgid ""
 msgstr ""
 "システムの復元を行うことにより、現在のすべてのデータがバックアップデータに置"
 "き換えられます。システムは、復元の操作を完了するために再起動が必要です。これ"
-"を実行してもよろしいですか？"
+"を実行してもよいですか？"
 
 #: templates/admin/extra/recovery/backup_restore.html:129
 msgid ""
@@ -7993,7 +7993,7 @@ msgstr "注意"
 
 #: templates/admin/extra/recovery/backup_restore.html:139
 msgid "Are you sure you want to reset the Remote Backup configuration?"
-msgstr "リモートバックアップの設定をリセットしてもよろしいですか？"
+msgstr "リモートバックアップの設定をリセットしてもよいですか？"
 
 #: templates/admin/extra/recovery/backup_restore.html:141
 #: templates/admin/extra/recovery/backup_restore.html:161
@@ -8014,7 +8014,7 @@ msgstr "OK"
 
 #: templates/admin/extra/recovery/backup_restore.html:159
 msgid "Are you sure you want to download the backup file?"
-msgstr "バックアップファイルをダウンロードしてもよろしいですか？"
+msgstr "バックアップファイルをダウンロードしてもよいですか？"
 
 #: templates/admin/extra/recovery/backup_restore.html:209
 msgid "The Server Address cannot be empty"
@@ -9000,7 +9000,7 @@ msgstr "設定が削除されました"
 
 #: templates/ha_cluster/hconf_delconfirm.html:52
 msgid "Are you sure you want to delete the following settings"
-msgstr "以下の設定を削除してよろしいですか?"
+msgstr "以下の設定を削除してよいですか?"
 
 #: templates/ha_cluster/hconf_delconfirm.html:61
 #: templates/logs/server_delconfirm.html:61
@@ -9446,7 +9446,7 @@ msgstr " リモートログサーバが削除されました"
 
 #: templates/logs/server_delconfirm.html:52
 msgid "Are you sure you want to delete the following remote log server(s)"
-msgstr "以下のリモートログサーバを削除してよろしいですか?"
+msgstr "以下のリモートログサーバを削除してよいですか?"
 
 #: templates/main/console.html:31
 msgid "CLI Console"
@@ -10001,13 +10001,13 @@ msgstr " デバイスユーザーが正常に削除されました。"
 
 #: templates/scan/connector-del-confirm.html:60
 msgid "Are you sure you want to delete the selected adapter(s)?"
-msgstr "選択した項目をすべて削除してもよろしいですか?"
+msgstr "選択した項目をすべて削除してもよいですか?"
 
 #: templates/scan/connector-del-confirm.html:62
 msgid ""
 "All of the following items and their related references will be deleted. "
 msgstr ""
-"選択したスタティックルートを削除してもよろしいですか？以下の項目とそれに関連"
+"選択したスタティックルートを削除してもよいですか？以下の項目とそれに関連"
 "するすべてが削除されます"
 
 #: templates/scan/devfgts.html:114
@@ -10701,7 +10701,7 @@ msgstr "Arrivalレート (直近一時間)"
 
 #: templates/scan/jobqueue.html:36
 msgid "VM Type (Clone #)"
-msgstr "VMタイプ(クローン番号)"
+msgstr "VMタイプ(クローン数)"
 
 #: templates/scan/jobqueue.html:41
 msgid "Prioritize"
@@ -10794,11 +10794,11 @@ msgstr "MTAアダプタの設定"
 
 #: templates/scan/mta_config.html:44
 msgid "URL number to extract from email body"
-msgstr "メール本文から抽出するURL番号"
+msgstr "メール本文から抽出するURL数"
 
 #: templates/scan/mta_config.html:48
 msgid "Parse URL must be from 0 to 10"
-msgstr "解析するURLは0から10まで"
+msgstr "抽出するURL数は0から10まで"
 
 #: templates/scan/mta_config.html:54
 msgid "Tag For Suspicious/Malicious Mails"
@@ -10810,20 +10810,20 @@ msgstr "件名タグ(最大32文字)"
 
 #: templates/scan/mta_config.html:63
 msgid "Email Scan Timeout (Minutes)"
-msgstr "電子メールスキャンタイムアウト（分）"
+msgstr "メールスキャンタイムアウト（分）"
 
 #: templates/scan/mta_config.html:67
 msgid ""
 "Scan timeout is in minutes and must be between 1 and 1440 minutes (24 hours)"
-msgstr "スキャンタイムアウトは1〜1440分(24時間)にする必要があります"
+msgstr "スキャンタイムアウトは1〜1440分にする必要があります"
 
 #: templates/scan/mta_config.html:73
 msgid "Message Size Limit (mb)"
-msgstr "ファイルサイズ"
+msgstr "ファイルサイズ(MB)"
 
 #: templates/scan/mta_config.html:77
 msgid "Message Size Limit (in mb) must be between 10 mb and 50 mb"
-msgstr "メッセージサイズの上限(MB)は10 MBから50 MBの間で指定"
+msgstr "メッセージサイズの上限は10MBから50MBの間で指定"
 
 #: templates/scan/mta_config.html:83
 msgid "Disk Usage Upper Limit"
@@ -10831,15 +10831,15 @@ msgstr "ディスク使用量の上限"
 
 #: templates/scan/mta_config.html:104
 msgid "Relay Emails for Domain Names "
-msgstr "ドメイン名のメールを中継する"
+msgstr "中継するドメイン名"
 
 #: templates/scan/mta_config.html:108
 msgid ""
 "Relay Domain Name must be a valid IPV4 address or a domain name. Multiple "
 "value can be separated by comma."
 msgstr ""
-"中継ドメイン名は有効なIPV4アドレスまたはドメイン名でなければなりません。 複数"
-"の値はコンマで区切ることができます。"
+"中継ドメイン名は有効なIPv4アドレスまたはドメイン名でなければなりません。 複数"
+"設定するにはコンマで区切ります。"
 
 #: templates/scan/mta_config.html:113
 msgid "Next Hop Mail Server Name"
@@ -10848,7 +10848,7 @@ msgstr "ネクストホップメールサーバー名"
 #: templates/scan/mta_config.html:117
 msgid "Mail Server Name must be a valid IPV4 address or a domain name."
 msgstr ""
-"メールサーバー名は有効なIPV4アドレスまたはドメイン名でなければなりません。"
+"メールサーバー名は有効なIPv4アドレスまたはドメイン名でなければなりません。"
 
 #: templates/scan/mta_config.html:122
 msgid "Next Hop Mail Server SMTP Port"
@@ -10856,11 +10856,11 @@ msgstr "ネクストホップメールサーバーのSMTPポート"
 
 #: templates/scan/mta_config.html:131
 msgid "Local Interface"
-msgstr "インターフェース"
+msgstr "ローカルインターフェース"
 
 #: templates/scan/mta_config.html:150
 msgid "Local SMTP Port"
-msgstr "ローカルポート"
+msgstr "ローカルSMTPポート"
 
 #: templates/scan/mta_config.html:154
 msgid ""
@@ -10890,15 +10890,15 @@ msgstr "メールプレビュー"
 
 #: templates/scan/networkshare-clone-confirm.html:28
 msgid " New network share was  successfully created: "
-msgstr "新しいネットワーク共有が正常に作成されました："
+msgstr "新しいネットワーク共有が作成されました："
 
 #: templates/scan/networkshare-clone-confirm.html:42
 msgid "Please input a unique new network share name"
-msgstr "一意の新しいネットワーク共有名を入力してください"
+msgstr "新しいネットワーク共有名を入力してください"
 
 #: templates/scan/networkshare-delconfirm.html:35
 msgid "1 network share was successfully deleted"
-msgstr "ひとつのネットワーク共有が削除されました"
+msgstr "ネットワーク共有が削除されました"
 
 #: templates/scan/networkshare-delconfirm.html:37
 msgid " network shares were successfully deleted"
@@ -10910,7 +10910,7 @@ msgid ""
 "also. Are you sure you want to move on"
 msgstr ""
 "注意：ネットワーク共有を削除すると、そのネットワーク共有のすべてのスキャン履"
-"歴も削除されます。続けてもよろしいですか？ "
+"歴も削除されます。続けてもよいですか？ "
 
 #: templates/scan/networkshare-skipped-scan.html:21
 msgid "Directory"
@@ -10926,7 +10926,7 @@ msgstr "FPN"
 
 #: templates/scan/overridden_verdicts.html:31
 msgid "Detected Time"
-msgstr "検出された時間"
+msgstr "検出時間"
 
 #: templates/scan/overridden_verdicts.html:32
 msgid "Override Time"
@@ -10938,11 +10938,11 @@ msgstr "ジョブフォルダが削除されました"
 
 #: templates/scan/overridden_verdicts.html:63
 msgid "Overridden Verdict"
-msgstr "オーバーライドされた評決"
+msgstr "オーバーライドされた判定"
 
 #: templates/scan/quarantine-delconfirm.html:35
 msgid "1 quarantine location was successfully deleted"
-msgstr "ひとつの隔離ロケーションが削除されました"
+msgstr "隔離ロケーションが削除されました"
 
 #: templates/scan/quarantine-delconfirm.html:37
 msgid " quarantine locations were successfully deleted"
@@ -10953,15 +10953,14 @@ msgid ""
 "Note: Quarantined files will be kept at the deleted quarantine location. Are "
 "you sure you want to move on"
 msgstr ""
-"注：隔離されたファイルは削除された隔離場所に保管されます。続けてもよろしいで"
-"すか？ "
+#!!! "注：隔離されたファイルは隔離ロケーションを削除しても残ります。続けてもよいですか？"
 
 #: templates/scan/que_pri.html:36
 msgid ""
 "Drag to sort the Job Queue Priority. Press Ctrl to select multiple items in "
 "a time."
 msgstr ""
-"ドラッグしてジョブキューの優先順位をソートします。複数の項目を一度に選択する"
+"優先度を並べ替えるにはドラッグ&ドロップします。複数の項目を一度に選択する"
 "には、Ctrlキーを押します。"
 
 #: templates/scan/que_pri.html:37 utils/apilog.py:343
@@ -10973,12 +10972,11 @@ msgid ""
 "Drag to sort the Scan Queue Priority, make sure the cursour in the blink red "
 "box."
 msgstr ""
-"ドラッグしてスキャンキューの優先度を並べ替える場合は、点滅する赤いボックスに"
-"カーソルを合わせます。"
+"優先度を並べ替えるにはドラッグ&ドロップします。"
 
 #: templates/scan/que_pri.html:80
 msgid "Reset the Job Queue Priority to default."
-msgstr "ジョブキュー優先度"
+msgstr "ジョブキュー優先度をデフォルト値にリセット"
 
 #: templates/scan/sandbox.html:85
 msgid "Files In Processing"
@@ -10989,12 +10987,12 @@ msgid ""
 "The Scan Profile is controlled by the manager. For taking over the control, "
 "please go to the"
 msgstr ""
-"スキャンプロファイルは、マネージャーによって制御されます。コントロールを引き"
-"継ぐには、"
+#!!!"スキャンプロファイルは、マネージャーによって制御されます。コントロールを引き"
+#!!!"継ぐには、"
 
 #: templates/scan/scan-profile.html:46
 msgid "page and update your configuration."
-msgstr "ページを開き、構成を更新します。"
+#!!!msgstr "ページを開き、設定を更新します。"
 
 #: templates/scan/scan-profile.html:51
 msgid "VM Association"
@@ -11006,9 +11004,8 @@ msgid ""
 "following types to job queue. NOTE: File from OnDemand, FortiMail and "
 "Network Share are always put to job queue."
 msgstr ""
-"FortiMail以外のスニファ、アダプタおよびデバイスからファイルをジョブキューに入"
-"れます。注：OnDemand、FortiMail、およびNetwork Shareからのファイルは常にジョ"
-"ブキューに入れられます。"
+"以下のファイルタイプをジョブキューに入れます。注：オンデマンド、FortiMail、"
+"ネットワーク共有からのファイルは常にジョブキューに入ります。"
 
 #: templates/scan/scan-profile.html:76
 msgid "Maximum allowed URL number in one submission (-1 for unlimited):"
@@ -11016,7 +11013,7 @@ msgstr "一回のサブミットで許容する最大URL数 (-1 は無制限)"
 
 #: templates/scan/scan-profile.html:77
 msgid "Maximum URL:"
-msgstr "最大URL:"
+msgstr "最大URL数:"
 
 #: templates/scan/scan-profile.html:81
 #, fuzzy
@@ -11027,8 +11024,7 @@ msgid ""
 "Maximum allowed URL number in one submission must be an integer in range 1 "
 "to 10000, or equal -1 (-1 means unlimited)."
 msgstr ""
-"1回の送信で許可されるURLの最大数は、-1〜10000の範囲の整数でなければなりませ"
-"ん。-1は無制限を意味します。 0は元のURLページを意味します"
+"-1〜10000の整数でなければなりません。-1は無制限を意味します。"
 
 #: templates/scan/scan-profile.html:86
 msgid "Default Depth:"
@@ -11037,7 +11033,7 @@ msgstr "デフォルトの深さ:"
 #: templates/scan/scan-profile.html:90
 msgid ""
 "The recursive depth in which URLs are examined. Level 0 for original URL page"
-msgstr "URLが検査される深さの再帰回数。元のURLページはレベル0"
+msgstr "URLを再帰的に検査する回数。元のURLページはレベル0"
 
 #: templates/scan/scan-profile.html:95 templates/scan/scan-profile.html:117
 msgid "Default Timeout:"
@@ -11046,7 +11042,7 @@ msgstr "デフォルトタイムアウト:"
 #: templates/scan/scan-profile.html:99
 msgid ""
 "The time period to stop the scan, in seconds (between 30 and 1200 seconds)."
-msgstr "スキャンの中止が可能な時間(秒) (30〜1200秒)"
+msgstr "スキャンを停止するまでの時間(30〜1200秒)"
 
 #: templates/scan/scan-profile.html:112
 msgid "File detection"
@@ -11055,31 +11051,31 @@ msgstr "ファイル検出"
 #: templates/scan/scan-profile.html:121
 msgid ""
 "The time period to stop the scan, in seconds (between 60 and 180 seconds)."
-msgstr "スキャンを停止する期間（秒単位）（60〜180秒）。"
+msgstr "スキャンを停止するまでの時間（60〜180秒）"
 
 #: templates/scan/scan-profile.html:131
 #, fuzzy
 #| msgid "All (the following file types and any other file type) "
 msgid "Enable the following Sandboxing Prefilter types"
-msgstr "全て (以下のものと他全てのファイルタイプ) "
+msgstr "以下のプレフィルタを有効化します"
 
 #: templates/scan/scan-profile.html:164
 msgid "Allow adaptive VM scan"
-msgstr "アダプティブVMスキャンを許可する"
+#!!! msgstr "アダプティブVMスキャン"
 
 #: templates/scan/scan-profile.html:178
 msgid "Allow parallel VM scan"
-msgstr "パラレルVMスキャンを許可する"
+#!!! msgstr "パラレルVMスキャン"
 
 #: templates/scan/scan-profile.html:191
 #, fuzzy
 #| msgid "Set customized password for original files"
 msgid "Set customized sandboxing ratio"
-msgstr "オリジナルファイルのカスタマイズパスワードを設定する"
+msgstr "サンドボックス率を設定する(%)"
 
 #: templates/scan/scan-profile.html:206
 msgid "Allow VM scan cache"
-msgstr "VMスキャンキャッシュを許可する"
+msgstr "VMスキャン結果をキャッシュする"
 
 #: templates/scan/scan-profile.html:220
 msgid "The following extensions are not associated with any VM type: "
@@ -11087,7 +11083,7 @@ msgstr "次の拡張子は、どのVMタイプにも関連付けられていま�
 
 #: templates/scan/scan-profile.html:242
 msgid "File types: "
-msgstr "ファイルの種類："
+msgstr "ファイルタイプ："
 
 #: templates/scan/scan-profile.html:246
 msgid "are not associated with any VM type, your action is required"
@@ -11152,7 +11148,7 @@ msgstr "マルウェアファイルタイプ"
 
 #: templates/scan/urlpkg_config.html:27
 msgid "Include job data of the following ratings:"
-msgstr "以下のレーティングデータジョブを含める:"
+msgstr "以下のレーティングのジョブデータを含める:"
 
 #: templates/scheduler/settings/index.html:26
 msgid "Event Types"
@@ -11168,7 +11164,7 @@ msgstr "未適用のイベントタイプ"
 
 #: templates/snmp/snmp_base_config.html:146
 msgid "SNMP v1/v2c"
-msgstr "SNMP v1/v2c"
+msgstr "SNMPv1/v2c"
 
 #: templates/snmp/snmp_base_config.html:150
 msgid "TEXT FOR NON-COMPATIBLE BROWSERS HERE"
@@ -11176,7 +11172,7 @@ msgstr "互換性のないブラウザのためのテキスト"
 
 #: templates/snmp/snmp_base_config.html:153
 msgid "SNMP v3"
-msgstr "SNMP v3"
+msgstr "SNMPv3"
 
 #: templates/snmp/snmp_base_config.html:159
 msgid "FortiSandbox SNMP MIB"
@@ -11184,11 +11180,11 @@ msgstr "FortiSandbox SNMP MIB"
 
 #: templates/snmp/snmp_base_config.html:162
 msgid "Download FortiSandbox MIB File"
-msgstr "FortiSandbox MIB ファイルのダウンロード"
+msgstr "FortiSandbox MIBファイルのダウンロード"
 
 #: templates/snmp/snmp_base_config.html:163
 msgid "Download Fortinet Core MIB File"
-msgstr "Fortinet Core MIB ファイルのダウンロード"
+msgstr "Fortinet Core MIBファイルのダウンロード"
 
 #: templates/snmp/snmp_change_list.html:42
 #: templates/snmp/snmp_v3_change_list.html:45
@@ -11211,11 +11207,11 @@ msgstr "オフ"
 
 #: templates/snmp/snmp_change_list.html:70
 msgid "SNMP v1/v2c record(s)"
-msgstr "SNMP v1/v2c レコード"
+msgstr "SNMPv1/v2c レコード"
 
 #: templates/snmp/snmp_delconfirm.html:58
 msgid "Are you sure you want to delete the following SNMP configuration record"
-msgstr "以下のSNMP設定記録を削除してよろしいですか? "
+msgstr "以下のSNMP設定を削除してよいですか? "
 
 #: templates/snmp/snmp_v3_change_list.html:44
 msgid "Notification Host"
@@ -11223,12 +11219,12 @@ msgstr "通知ホスト"
 
 #: templates/snmp/snmp_v3_change_list.html:63
 msgid "SNMP v3 record(s)"
-msgstr "SNMP v3 レコード"
+msgstr "SNMPv3 レコード"
 
 #: templates/snmp/snmp_v3_delconfirm.html:58
 msgid ""
 "Are you sure you want to delete the following SNMP V3 configuration record"
-msgstr "以下のSNMPv3設定記録を削除してよろしいですか? "
+msgstr "以下のSNMPv3設定を削除してよいですか? "
 
 #: templates/system/cacert-delconfirm.html:35
 msgid "CA certificate was successfully deleted"
@@ -11240,7 +11236,7 @@ msgstr " CA証明書が削除されました"
 
 #: templates/system/cacert-delconfirm.html:51
 msgid "Are you sure you want to delete the following CA certificates"
-msgstr "以下のCA証明書を削除してよろしいですか? "
+msgstr "以下のCA証明書を削除してよいですか? "
 
 #: templates/system/cacert-info.html:39
 msgid "Serial number"
@@ -11269,7 +11265,7 @@ msgstr "管理者"
 #: templates/system/config-cacert-usage.html:22
 #: templates/system/settings.html:49
 msgid "Are you sure to reset all widgets?"
-msgstr "すべてのウィジェットをリセットしてよろしいですか?"
+msgstr "すべてのウィジェットをリセットしてよいですか?"
 
 #: templates/system/config-cacert.html:38
 msgid "Active"
@@ -11284,8 +11280,8 @@ msgid ""
 "Update this unit to be standalone unit will affect the data on this unit, "
 "are you sure to continue"
 msgstr ""
-"このユニットをスタンドアロンへ変更することは、このユニット内のデータに影響が"
-"あります。続けますか？ "
+"このユニットをスタンドアロンへ変更すると、このユニット内のデータに影響があり
+"ます。続けますか？ "
 
 #: templates/system/config-hostname.html:28
 msgid "Current Name"
@@ -11293,7 +11289,7 @@ msgstr "現在の名前"
 
 #: templates/system/config-hostname.html:33
 msgid "Max length is 50 characters, spaces are not accepted."
-msgstr "最大は50文字です。スペースは使用できません。"
+msgstr "最大50文字です。スペースは使用できません。"
 
 #: templates/system/config-hostname.html:34
 msgid "New Name"
@@ -11329,19 +11325,19 @@ msgstr "接続タイプ"
 
 #: templates/system/config-network-intf-pcap.html:48
 msgid "Traffic Capture"
-msgstr "トラフィックスニファ"
+msgstr "トラフィックキャプチャ"
 
 #: templates/system/config-network-intf-pcap.html:58
 msgid "Duration (Seconds)"
-msgstr "タイムアウト (秒)"
+msgstr "タイムアウト(秒)"
 
 #: templates/system/config-network-intf-pcap.html:68
 msgid "Expression of tcpdump"
-msgstr "ダンプファイルの表示"
+msgstr "フィルタ"
 
 #: templates/system/config-network-intf-pcap.html:80
 msgid "Capture & Download"
-msgstr "ダウンロードの準備が出来ました"
+msgstr "ダウンロード&ダウンロード"
 
 #: templates/system/config-network-intf-pcap.html:81
 msgid "Capturing"
@@ -11350,7 +11346,7 @@ msgstr "キャプチャ中"
 #: templates/system/config-network-intf-pcap.html:82
 #: templates/system/config-network-intf-pcap.html:96
 msgid "Downloading"
-msgstr "ダウンロード"
+msgstr "ダウンロード中"
 
 #: templates/system/config-network-intf-pcap.html:89
 msgid "seconds"
@@ -11505,7 +11501,7 @@ msgstr "システムタイムゾーンを変更しますか？"
 
 #: templates/system/config-time.html:235
 msgid "Error happened in changing system time zone setting. "
-msgstr "システムタイムゾーンを変更時にエラーが発生しました。 "
+msgstr "システムタイムゾーンの変更時にエラーが発生しました。 "
 
 #: templates/system/config-time.html:346
 msgid "Please enter a valid NTP server."
@@ -11517,7 +11513,7 @@ msgstr "再度ログインしてください。"
 
 #: templates/system/config-time.html:410
 msgid "Error happened in changing system time setting. "
-msgstr "システムの時刻設定の変更でエラーが発生しました。 "
+msgstr "システム時刻設定の変更でエラーが発生しました。 "
 
 #: templates/system/create-network-interface.html:38
 #: templates/system/edit-network-intf.html:237
@@ -11527,7 +11523,7 @@ msgstr "インターフェイスメンバー"
 #: templates/system/create-network-interface.html:44
 #: templates/system/edit-network-intf.html:250
 msgid "IP Address / Netmask"
-msgstr "IPアドレス/ ネットマクス"
+msgstr "IPアドレス/ネットマクス"
 
 #: templates/system/create-network-interface.html:48
 msgid "IPv4/Netmask"
@@ -11550,8 +11546,8 @@ msgid ""
 "Error: Empty IPv6 Address is not allowed when there is static IPv6 route "
 "exists for this address"
 msgstr ""
-"エラー：このアドレス宛にIPv6スタティックルートが存在する場合、"
-"空のIPv6アドレスは許可されません"
+#!!!"エラー：このアドレス宛にIPv6スタティックルートが存在する場合、"
+#!!!"空のIPv6アドレスは許可されません"
 
 #: templates/system/edit-network-intf.html:74
 #, fuzzy
@@ -11563,7 +11559,7 @@ msgid ""
 "may impact currently running services, the static route will be deleted when "
 "the port interface is changed)?"
 msgstr ""
-"IPアドレスを変更してよろしいですか？(この変更は現在稼働しているサービスに影響"
+"IPアドレスを変更してよいですか？(この変更は現在稼働しているサービスに影響"
 "があるかもしれません)"
 
 #: templates/system/edit-network-intf.html:82
@@ -11571,7 +11567,7 @@ msgid ""
 "Are you sure you want to set your network interface with this IP (changes "
 "may impact currently running services)?"
 msgstr ""
-"IPアドレスを変更してよろしいですか？(この変更は現在稼働しているサービスに影響"
+"IPアドレスを変更してよいですか？(この変更は現在稼働しているサービスに影響"
 "があるかもしれません)"
 
 #: templates/system/edit-network-intf.html:166
@@ -11583,16 +11579,16 @@ msgid ""
 "network behind a firewall."
 msgstr ""
 "注意：FortiSandbox VMのサンドボックスは、分析中のファイル実行時にport3を使"
-"用して外部通信を行います。イントラネット内で感染ファイルが広がらないためにこ"
-"のインターフェイスをファイアウォール背後の隔離されたネットワーク上に配置する"
-"ことを推奨します。"
+"用して外部通信を行います。イントラネット内で感染ファイルが広がらないようにす"
+"るためにこのインターフェイスをファイアウォール背後の隔離されたネットワーク上"
+"に配置することを推奨します。"
 
 #: templates/system/edit-network-intf.html:169
 msgid ""
 "NOTE: Port3 cannot be used to listen to traffic for Sniffer or from Fortinet "
 "devices."
 msgstr ""
-"注意：port3はSnifferあるいはデバイスからのファイル受信には使用できません。"
+"注意：port3はスニファやデバイスからのファイル受信には使用できません。"
 
 #: templates/system/edit-network-intf.html:175
 msgid ""
@@ -11635,7 +11631,7 @@ msgstr "LDAPサーバは削除されました"
 
 #: templates/system/ldap-delconfirm.html:52
 msgid "Are you sure you want to delete the following LDAP servers"
-msgstr "以下のLDAPサーバを削除してよろしいですか? "
+msgstr "以下のLDAPサーバを削除してよいですか? "
 
 #: templates/system/maintain-backup.html:6
 msgid "System Configuration (Last Backup: Mon Mar 25 09:53:06 2013 )"
@@ -11707,12 +11703,12 @@ msgid ""
 "Are you sure you want to delete the selected static route? All of the "
 "following items and their related references will be deleted"
 msgstr ""
-"選択したスタティックルートを削除してもよろしいですか？以下の項目とそれに関連"
+"選択したスタティックルートを削除してもよいですか？以下の項目とそれに関連"
 "するすべてが削除されます"
 
 #: templates/system/radius-delconfirm.html:52
 msgid "Are you sure you want to delete the following RADIUS servers"
-msgstr "以下のRADIUSサーバを削除してよろしいですか? "
+msgstr "以下のRADIUSサーバを削除してよいですか? "
 
 #: templates/system/settings.html:97
 msgid "Reset all widgets"
@@ -11769,7 +11765,7 @@ msgstr " Yaraルールファイルが削除されました"
 
 #: templates/system/yara-delconfirm.html:52
 msgid "Are you sure you want to delete the following Yara rule file(s)"
-msgstr "以下のYaraルールファイルを削除してよろしいですか?"
+msgstr "以下のYaraルールファイルを削除してよいですか?"
 
 #: templates/table/job_view_settings.html:24
 msgid "File Detection Columns"
@@ -11882,7 +11878,7 @@ msgstr "VM削除の取り消し"
 
 #: templates/vmimages/buttons.html:16
 msgid "Clone Number:"
-msgstr "クローン番号:"
+msgstr "クローン数:"
 
 #: templates/vmimages/buttons.html:22
 msgid "Total local VM number cannot exceed "
@@ -13184,7 +13180,7 @@ msgstr "有効なドメインを入力してください。"
 #~ msgstr "Office 2010"
 
 #~ msgid "Are you sure you want to upgrade your firmware with file "
-#~ msgstr "このファイルでアップグレードしてもよろしいですか? "
+#~ msgstr "このファイルでアップグレードしてもよいですか? "
 
 #~ msgid "please do not interrupt..."
 #~ msgstr "中断しないでください"
@@ -13588,7 +13584,7 @@ msgstr "有効なドメインを入力してください。"
 #~ msgstr "少なくとも１つのレーティングデータを選択してください"
 
 #~ msgid "Are you sure you want to delete the following administrator(s)"
-#~ msgstr "以下の管理者を削除してよろしいですか?"
+#~ msgstr "以下の管理者を削除してよいですか?"
 
 #~ msgid "Clean/Unknown Files"
 #~ msgstr "クリーン/不明なファイル"
@@ -14035,7 +14031,7 @@ msgstr "有効なドメインを入力してください。"
 #~ msgstr "デフォルトに戻る"
 
 #~ msgid "Are you sure you want to close module -"
-#~ msgstr "モジュールを閉じてもよろしいですか -"
+#~ msgstr "モジュールを閉じてもよいですか -"
 
 #~ msgid ""
 #~ "This will restore the factory default dashboard tabs. Custom tabs and "
