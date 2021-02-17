@@ -20,7 +20,6 @@ msgstr ""
 
 #: static/js/SearchPlugin.js:27
 msgid "to"
-#! msgstr "に"
 msgstr "から"
 
 #: static/js/SearchPlugin.js:62
@@ -757,7 +756,6 @@ msgstr "開始日より前の無効な終了日が指定されました。"
 
 #: static/js/filtertable/FilterTable.js:1236
 msgid "Undefined filter value"
-#! msgstr "フィルタが定義されませんでした"
 msgstr "定義されていないフィルタ"
 
 #: static/js/filtertable/FilterTable.js:1300
@@ -796,13 +794,11 @@ msgstr "最後"
 #: static/js/filtertable/FilterTable.js:2158
 #, javascript-format
 msgid "\"%s\" is an invalid control type"
-#! msgstr "\"%s\" は無効なコントロールタイプ"
 msgstr "\"%s\" は無効なコントロールタイプです"
 
 #: static/js/filtertable/FilterTable.js:2232
 #, javascript-format
 msgid "\"%s\" is an invalid filter type"
-#! msgstr "\"%s\" は無効なフィルタタイプ"
 msgstr "\"%s\" は無効なフィルタタイプです"
 
 #: static/js/filtertable/FilterTable.js:2310
@@ -832,7 +828,6 @@ msgstr "検索フィルタを表示する"
 
 #: static/js/filtertable/FilterTable.js:2585
 msgid "Invalid filter format detected"
-#! msgstr "正しくないフィルターフォーマットが検出されました"
 msgstr "フィルターフォーマットが正しくありません"
 
 #: static/js/filtertable/FilterTable.js:3607
@@ -931,7 +926,6 @@ msgstr "サブミットされたファイル名"
 #: static/js/filtertable/fTableSearchConfig.js:696
 #: static/js/filtertable/fTableSearchConfig.js:763
 msgid "Infected OS"
-#! msgstr "検査したOS"
 msgstr "感染OS"
 
 #: static/js/filtertable/filtertable_helpers.js:5
@@ -1104,7 +1098,6 @@ msgstr "アクセス許可の更新エラー。"
 
 #: static/js/forticlient/controller.js:184
 msgid "Are you sure you want to delete the selected FortiClient(s)?"
-#! msgstr "このデバイスを削除してもよいですか？"
 msgstr "選択したFortiClientを削除してもよいですか？"
 
 #: static/js/forticlient/controller.js:184
@@ -1117,7 +1110,6 @@ msgstr ""
 
 #: static/js/forticlient/controller.js:192
 msgid "Are you sure you want to delete the selected "
-#! msgstr "このデバイスを削除してもよいですか"
 msgstr "選択したデバイスを削除してもよいですか"
 
 #: static/js/forticlient/controller.js:192
@@ -1161,14 +1153,12 @@ msgstr "無効なリモートサーバ"
 #: static/js/ha_cluster/health_check_edit.js:31
 msgid ""
 "Ping remote server failed, do you still want to config this remote server?"
-#! msgstr "リモートサーバへのpingに失敗しましたが、このリモートサーバを構成しますか？"
 msgstr "リモートサーバへのpingに失敗しましたが、このリモートサーバの設定を続けますか？"
 
 #: static/js/ha_cluster/health_check_edit.js:33
 msgid ""
 "TCP Echo on remote server failed, do you still want to config this remote "
 "server?"
-#! msgstr "リモートサーバへのTCPエコーに失敗しましたが、このリモートサーバを構成しますか？"
 msgstr ""
 "リモートサーバへのTCPエコーに失敗しましたが、このリモートサーバの設定を続けま"
 "すか？"
@@ -1177,7 +1167,6 @@ msgstr ""
 msgid ""
 "Ping and TCP Echo on remote server failed, do you still want to config this "
 "remote server?"
-#! msgstr "リモートサーバへのpingとTCPエコーに失敗しましたが、このリモートサーバを構成しますか？"
 msgstr ""
 "リモートサーバへのpingとTCPエコーに失敗しましたが、このリモートサーバの設定を続"
 "けますか？"
@@ -1216,7 +1205,6 @@ msgstr "無効なEメール"
 
 #: static/js/job_detail/app.js:141
 msgid "Comments can not be empty"
-#! msgstr "新しいエントリを空にすることはできません"
 msgstr "コメントを空にすることはできません"
 
 #: static/js/job_detail/app.js:147 static/js/scan_job_detail/helpers.js:693
@@ -1341,7 +1329,6 @@ msgstr "ファイルの作成 …"
 
 #: static/js/logs/log_helpers.js:365
 msgid "Error happened when creating log file."
-#! msgstr "ジョブファイル作成時にエラーが発生しました"
 msgstr "ログファイル作成時にエラーが発生しました"
 
 #: static/js/logs/log_helpers.js:374
@@ -1376,7 +1363,6 @@ msgstr "FortiSandboxは、将来のリリースでWindows XP OSのサポート�
 msgid ""
 "It's recommended to set its clone number to 0 and migrate to use Windows 7 "
 "OS or later"
-#! msgstr "クローン番号を0に設定し、Windows 7 OS以降を使用することをお勧めします。"
 msgstr "クローン数を0に設定し、Windows 7 OS以降を使用することをお勧めします。"
 
 #: static/js/navbar_controls/main.js:38
@@ -1385,12 +1371,10 @@ msgstr "警告！！"
 
 #: static/js/navbar_controls/main.js:41
 msgid "Accept"
-#! msgstr "受け入れる"
 msgstr "許可"
 
 #: static/js/navbar_controls/searchbox.js:32
 msgid "What are you looking for?"
-#! msgstr "何をお探しですか？"
 msgstr "検索ボックス"
 
 #: static/js/ondemand/column.js:14
@@ -1433,7 +1417,6 @@ msgstr "アクション"
 #: static/js/operation_center/column.js:62
 #: static/js/operation_center/controller.js:166
 msgid "Action Taken"
-#! msgstr "取られた行動"
 msgid "実行したアクション"
 
 #: static/js/operation_center/column.js:63
@@ -1485,7 +1468,6 @@ msgstr "レポートのダウンロードに失敗しました。"
 
 #: static/js/report_center/index.js:173
 msgid "Are you sure you want to stop the generating?"
-#! msgstr "作成を中止しますか？"
 msgstr "レポートの作成を中止しますか？"
 
 #: static/js/report_center/index.js:194
@@ -1494,19 +1476,14 @@ msgstr "中止"
 
 #: static/js/report_center/index.js:204 static/js/report_center/index.js:206
 msgid "Failed to stop generating. "
-#! msgstr "生成を停止できませんでした。"
 msgstr "レポートの作成を中止できませんでした。"
 
 #: static/js/report_center/index.js:217
 msgid "Are you sure you want to delete the selected reports?"
-#! msgstr ""
-#! "このレポート\n"
-#! "を削除してもよいですか"
 msgstr "選択したレポートを削除してもよいですか"
 
 #: static/js/report_center/index.js:218
 msgid "You will not be able to recover these files!"
-#! msgstr "ファイルからリカバリーすることが出来ません。"
 msgstr "これらのファイルを復元することはできません。"
 
 #: static/js/report_center/index.js:250 static/js/report_center/index.js:252
@@ -1550,7 +1527,6 @@ msgstr "ビュー設定"
 #: static/js/scan_input/global_network_options.js:101
 #: static/js/scan_input/package_options.js:83
 msgid "Server name"
-#! msgstr "サーバの名前"
 msgstr "サーバ名"
 
 #: static/js/scan_input/global_network_options.js:101
@@ -1585,7 +1561,6 @@ msgstr "ICAP設定が更新されました。"
 
 #: static/js/scan_input/icap_validation.js:18
 msgid "Either Receive URL or Receive file need to be selected for icap method."
-#! msgstr "ICAPメソッドに関する受信URL/ファイル共に選択される必要がります。"
 msgstr "ICAPメソッドに関する受信URLもしくはファイルを選択してください。"
 
 #: static/js/scan_input/icap_validation.js:91
@@ -1598,7 +1573,6 @@ msgstr "マルウェア/URLパッケージの設定が更新されました"
 
 #: static/js/scan_input/malpkg_config.js:108
 msgid "Hide Code"
-#! msgstr "コードを隠す"
 msgstr "コードを非表示"
 
 #: static/js/scan_input/malpkg_config.js:112
@@ -1611,7 +1585,6 @@ msgstr "有効な日数を入力してください。最大日数は365です。
 
 #: static/js/scan_input/mta_config.js:126
 msgid "MTA settings were successfully updated."
-#! msgstr "MTA設定は正常に更新されました。"
 msgstr "MTA設定が更新されました。"
 
 #: static/js/scan_input/mta_qt/column.js:11
@@ -1628,12 +1601,10 @@ msgstr "送信者"
 
 #: static/js/scan_input/mta_qt/column.js:29
 msgid "Receiver"
-#! msgstr "受信機"
 msgstr "受信者"
 
 #: static/js/scan_input/mta_qt/column.js:40
 msgid "Submit Time"
-#! msgstr "時間を提出"
 msgstr "サブミット時刻"
 
 #: static/js/scan_input/mta_qt/controller.js:92
@@ -1647,7 +1618,6 @@ msgstr "リリース"
 
 #: static/js/scan_input/mta_qt/controller.js:136
 msgid "Delete"
-#! msgstr "削除する"
 msgstr "削除"
 
 #: static/js/scan_input/mta_qt/controller.js:139
@@ -1656,7 +1626,6 @@ msgid " selected emails?"
 
 #: static/js/scan_input/mta_qt/controller.js:140
 msgid "Take Action"
-#! msgstr "行動を起こす"
 msgstr "アクションを実行"
 
 #: static/js/scan_input/mta_qt/controller.js:153
@@ -1674,13 +1643,11 @@ msgstr "メールコンテンツテンプレートを空にすることはでき
 #: static/js/scan_input/mta_validation.js:83
 #: static/js/scan_input/mta_validation.js:102
 msgid "IP/Domain/Hostname"
-#! msgstr "IP /ドメイン/ホスト名"
 msgstr "IP/ドメイン/ホスト名"
 
 #: static/js/scan_input/mta_validation.js:88
 #: static/js/scan_input/mta_validation.js:109
 msgid " is not valid with value "
-#! msgstr " valueでは無効です "
 msgstr "は無効な値です 
 
 #: static/js/scan_input/mta_validation.js:126
