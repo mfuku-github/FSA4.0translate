@@ -37,48 +37,39 @@ msgstr "ダッシュボードから：スキャン統計"
 
 #: static/js/SearchPlugin.js:1230
 msgid "From URL Summary Report: Scanning Statistics"
-#! msgstr "URL要約レポートから：スキャン統計"
 msgstr "URLサマリーレポートから：スキャン統計"
 
 #: static/js/SearchPlugin.js:1231
 msgid "From File Summary Report: Top Targetted Hosts"
-#! msgstr "ファイル要約レポートから：上位のターゲットホスト"
 msgstr "ファイルサマリーレポートから：上位のターゲットホスト"
 
 #: static/js/SearchPlugin.js:1232
 msgid "From File Summary Report: Top Malware"
-#! msgstr "ファイル要約レポートから：トップマルウェア"
 msgstr "ファイルサマリーレポートから：トップマルウェア"
 
 #: static/js/SearchPlugin.js:1233
 msgid "From Scan Input File Ondemand"
-#! msgstr "スキャン入力ファイルから オンデマンド"
 msgstr "スキャンインプット ファイルオンデマンドから"
 
 #: static/js/SearchPlugin.js:1234
 msgid "From Scan Input URL Ondemand"
-#! msgstr "スキャン入力URLから オンデマンド"
 msgstr "スキャンインプット URLオンデマンドから"
 
 #: static/js/SearchPlugin.js:1235
 msgid "From HA-Cluster File Job Summary"
-#! msgstr "HAクラスタファイルのジョブ要約から"
 msgstr "HAクラスタ ファイルジョブサマリーから"
 
 #: static/js/SearchPlugin.js:1236
 msgid "From HA-Cluster URL Job Summary"
-#! msgstr "HAクラスタURLジョブの要約から"
 msgstr "HAクラスタ URLジョブサマリーから"
 
 #: static/js/SearchPlugin.js:1237
 msgid "From Network Share Scan Results"
-#! msgstr "ネットワーク共有スキャンの結果から"
 msgstr "ネットワーク共有 スキャン結果から"
 
 #: static/js/about/firmware/download_upgrade.js:144
 #: static/js/about/firmware/upload_upgrade.js:149
 msgid "Sandbox will reboot soon."
-#! msgstr "FortiSandboxはもうじき再起動します。"
 msgstr "FortiSandboxはまもなく再起動します。"
 
 #: static/js/about/firmware/fw_card.js:21 static/js/about/firmware/index.js:109
@@ -159,7 +150,6 @@ msgid ""
 "firmware."
 msgstr ""
 "FortiSandboxは、Windows XP OSをサポートしなくなりました。"
-#! "ファームウェアをアップグレードするには、クローン番号を0に設定し、"
 "ファームウェアをアップグレードするには、Windows XP OSのクローン数を0にし、"
 "Windows 7 OS以降を使用するようにしてください。"
 
@@ -196,7 +186,6 @@ msgstr ""
 
 #: static/js/about/firmware/sysupgrade.js:83
 msgid "Are you sure you want to upgrade your firmware with file "
-#! msgstr "ファームウェアをファイルでアップグレードしてよいですか "
 msgstr "このファイルでアップグレードしますか？"
 
 #: static/js/admin/config_admin.js:56
@@ -223,7 +212,6 @@ msgstr " ログインテストの結果： "
 #: static/js/azure/config.js:117 static/js/azure/config.js:133
 #: static/js/azure/config.js:142 static/js/scan_input/connection_test.js:37
 msgid "Close"
-#! msgstr "クローズ"
 msgstr "閉じる"
 
 #: static/js/admin/config_admin.js:122
@@ -244,7 +232,6 @@ msgstr "管理者 Admin は削除できません。"
 
 #: static/js/admin/device_user.js:82
 msgid "At least one device has to be selected."
-#! msgstr "少なくとも1つのデバイスは選択しなければなりません。"
 msgstr "少なくとも1つデバイスを選択してください。"
 
 #: static/js/admin/edit.js:260
@@ -269,7 +256,6 @@ msgstr "二要素認証を削除しますか？"
 
 #: static/js/admin/edit.js:360
 msgid "Do you want to delete the two factor authentication?"
-#! msgstr "2要素認証を削除しますか？"
 msgstr "二要素認証を削除しますか？"
 
 #: static/js/admin/edit.js:361
@@ -282,7 +268,6 @@ msgstr "はい"
 
 #: static/js/admin/user_defined_device.js:40
 msgid "The new serial you entered cannot be more than "
-#! msgstr "新しいシリアル番号は次の値以上には出来ません: "
 msgstr "入力した新しいシリアル番号は次の文字数以上には出来ません: "
 
 #: static/js/admin/user_defined_device.js:49
@@ -304,7 +289,6 @@ msgstr "新しいシリアル番号を入力してください。"
 
 #: static/js/admin/user_defined_device.js:113
 msgid "The new domain/vdom you entered cannot be more than "
-#! msgstr "入力した新しいドメイン/仮想ドメインは、次の値以上には出来ません: "
 msgstr "入力した新しいドメイン/仮想ドメインは次の文字数以上には出来ません: "
 
 #: static/js/admin/user_defined_device.js:122
@@ -318,12 +302,10 @@ msgstr ""
 #: static/js/admin/user_defined_device.js:131
 msgid ""
 "The new domain/vdom you entered contains white space, which is not allowed."
-#! msgstr "入力した新しいVDOMに許可されていない空白文字が含まれています。"
 msgstr "入力した新しいドメイン/仮想ドメインに許可されていない空白文字が含まれています。"
 
 #: static/js/admin/user_defined_device.js:140
 msgid "The new device you entered already exist in device selection."
-#! msgstr "入力した新しいVDOMは、すでデバイス選択に存在します。"
 msgstr "入力した新しいデバイスは、すでに存在します。"
 
 #: static/js/admin/user_defined_device.js:252
@@ -332,18 +314,15 @@ msgstr "このデバイスを削除してもよいですか？"
 
 #: static/js/admin_profiles/app.js:1 static/js/device_profiles/app.js:7
 msgid "Name cannot be empty."
-#! msgstr "名前を空にすることはできません。"
 msgstr "名前を入力してください。"
 
 #: static/js/admin_profiles/app.js:2 static/js/device_profiles/app.js:8
 #: static/js/device_profiles/app.js:37
 msgid "Comment out of Range."
-#! msgstr "名前が範囲外です。"
 msgstr "コメントの文字数上限を超えています。"
 
 #: static/js/admin_profiles/app.js:3 static/js/device_profiles/app.js:9
 msgid "Name out of range."
-#! msgstr "範囲外のIPアドレス"
 msgstr "名前の文字数上限を超えています。"
 
 
@@ -375,8 +354,7 @@ msgstr "どのユーザもプロファイルを使用していないことを確
 
 #: static/js/admin_profiles/main.js:82
 msgid "Are you sure you want to delete the selected Admin Profile"
-#! msgstr "このデバイスを削除してもよいですか？"
-msgstr "この管理者プロファイルを削除してもよいですか？"
+msgstr "この管理者プロファイルを削除してもよろしいですか？"
 
 #: static/js/aws/interaction.js:65
 msgid "Are you sure you want to establish the Remote Desktop Tunnel?"
@@ -384,7 +362,6 @@ msgstr "リモートデスクトップトンネルを確立してよいですか
 
 #: static/js/aws/interaction.js:66
 msgid "Please be aware that the existing Tunnel will be terminated"
-#! msgstr "既存のトンネルが終了します。確認してください。"
 msgstr "既存のトンネルが切断されます。"
 
 #: static/js/azure/config.js:115 static/js/azure/config.js:140
@@ -614,8 +591,6 @@ msgstr "表示するデータがありません"
 #: static/js/circle_packing/drawing.js:1
 msgid "For Network Alert events, please go to Network Alerts page for details."
 msgstr ""
-#! "ネットワークアラートイベントについては、詳細についてネットワークアラートペー"
-#! "ジをご覧ください。"
 "ネットワークアラートイベントの詳細は、ネットワークアラートページを確認してく"
 "ださい。"
 
@@ -624,8 +599,6 @@ msgid ""
 "For Network Share events, please go to Scan Input -> Network Share page for "
 "details."
 msgstr ""
-#! "ネットワーク共有イベントの詳細については、[入力のスキャン]-> [ネットワーク共"
-#! "有]ページにアクセスしてください。"
 #!!! そんなのない。。
 
 #: static/js/dashboard/app.js:7
@@ -650,27 +623,22 @@ msgstr "すべての機器"
 
 #: static/js/dashboard/app.js:370 static/js/dashboard/app.js:407
 msgid "Dashboard layout is successfully saved."
-#! msgstr "ダッシュボードのレイアウトが正常に保存されました。"
 msgstr "ダッシュボードのレイアウトが保存されました。"
 
 #: static/js/dashboard/app.js:382
 msgid "New widget is successfully added."
-#! msgstr "新しいウィジェットが正常に追加されました。"
 msgstr "新しいウィジェットが追加されました。
 
 #: static/js/dashboard/app.js:433
 msgid "You will lose current layout if you reset, are you sure?"
-#! msgstr "リセットすれば現在のレイアウトを失います、よろしいですか？"
 msgstr "レイアウト設定がリセットされます。続行しますか？"
 
 #: static/js/dashboard/app.js:440
 msgid "Dashboard layout is successfully reset."
-#! msgstr "ダッシュボードのレイアウトは正常にリセットされました。"
 msgstr "ダッシュボードのレイアウトはリセットされました。"
 
 #: static/js/dashboard/app.js:463
 msgid "You will lose current layout if you clear, are you sure?"
-#! msgstr "クリアすれば現在のレイアウトを失います、よろしいですか？"
 msgstr "レイアウト設定がクリアされます。続行しますか？"
 
 #: static/js/dashboard/widgets/chart/normal.js:22
@@ -688,7 +656,6 @@ msgstr "ウィジェットの設定が変更されました。"
 
 #: static/js/device_profiles/app.js:13
 msgid "Device group was successfully saved."
-#! msgstr "デバイスグループが正常に保存されました。"
 msgstr "デバイスグループが保存されました。"
 
 #: static/js/device_profiles/main.js:50
@@ -725,7 +692,6 @@ msgstr "エラー"
 #: static/js/job_detail/tree_view_details.js:501
 #: static/js/scan_job_detail/tracer_behavior_detail.js:171
 msgid "Caution: The file may contain harmful software."
-#! msgstr "注意：ファイルには有害なソフトウェアが含まれている可能性があります。"
 msgstr "注意：このファイルには有害なソフトウェアが含まれている可能性があります。"
 
 #: static/js/drilldown_pdf_helpers.js:125
@@ -741,9 +707,6 @@ msgid ""
 "Center page after being finished. You can close this window now or wait till "
 "report is ready."
 msgstr ""
-#! "レポートが生成される予定です。 完了したら、ログとレポート>レポートセンター"
-#! "ページに表示されます。 今すぐこのウィンドウを閉じるか、レポートの準備ができる"
-#! "まで待つことができます。"
 "レポートが生成がされます。 レポート生成が完了したら、ログ&レポート>レポート"
 "センターページに表示されます。 今すぐこのウィンドウを閉じるか、レポートがで"
 "きるまでお待ちください。"
@@ -2283,7 +2246,6 @@ msgstr ""
 
 #: static/js/vmimages/main.js:600 static/js/vmimages/main.js:769
 msgid "Total Windows clone numbers cannot exceed "
-#! msgstr "Windowsの全クローン数を超えることはできません"
 msgstr "Windowsのクローン総数を超えることはできません"
 
 #: static/js/vmimages/main.js:667
@@ -2310,12 +2272,11 @@ msgstr ""
 
 #: static/js/vmimages/main.js:707
 msgid "No valid MACOSX contract"
-#! msgstr "有効なMAC OS X契約がない"
-msgstr "MAC OS Xのライセンスがありません"
+msgstr "MACOSX VMのコントラクトがありません"
 
 #: static/js/vmimages/main.js:722
 msgid "No valid WindowsCloudVM contract"
-msgstr "WindowsCloudVMのライセンスがありません"
+msgstr "WindowsCloud VMのコントラクトがありません"
 
 #: static/js/vmimages/main.js:734 static/js/vmimages/main.js:749
 msgid "Please Enter Integer between 0 to "
@@ -2323,12 +2284,10 @@ msgstr "0から56の間の整数を入力してください。"
 
 #: static/js/vmimages/main.js:784
 msgid "Your total Keys is "
-#! msgstr "クローンの合計数は "
 msgstr "キーの総数は "
 
 #: static/js/vmimages/main.js:785
 msgid "Your total Clone Number is "
-#! msgstr "クローンの合計数は "
 msgstr "クローンの総数は "
 
 #: static/js/vmimages/main.js:786
@@ -2345,7 +2304,6 @@ msgstr "ローカルVMクローンを0にすることはできません"
 
 #: static/js/vmimages/main.js:834
 msgid "Total customized Clone number "
-#! msgstr "カスタマイズされたクローン数の合計"
 msgstr "カスタムVMのクローン総数"
 
 #: static/js/vmimages/main.js:835 static/js/vmimages/main.js:849
@@ -2357,12 +2315,10 @@ msgid " cannot exceed "
 #, fuzzy
 #| msgid "Total Android Clone number "
 msgid "Total Android/Linux Clone number "
-#! msgstr "Android/Linuxクローンの総数"
 msgstr "Android/LinuxVMのクローン総数"
 
 #: static/js/vmimages/main.js:865
 msgid "Total WindowsCloud&Customized Clone number "
-#! msgstr "合計WindowsCloud＆カスタマイズクローン数"
 msgstr "WindowsCloudVM/カスタムVMのクローン総数"
 
 #: static/js/vmimages/main.js:881
@@ -2376,8 +2332,7 @@ msgstr "変更を適用できませんでした："
 #: static/js/vmimages/server_check.js:47
 msgid ""
 "Another VM Image is being installed, please wait for it to complete first."
-#! msgstr "その他のVMイメージがインストールされます。完了するまでお待ち下さい。"
-msgstr "他のVMイメージをインストールしています。完了するまでお待ち下さい。"
+msgstr "ほかのVMイメージをインストール中です。完了するまでお待ち下さい。"
 
 #: static/js/vmimages/server_check.js:67
 msgid ""
@@ -2404,7 +2359,6 @@ msgstr " "
 
 #: static/lib/babel/babel.min.js:15
 msgid "in"
-#! msgstr "に"
 msgstr "in"
 
 #: static/lib/babel/babel.min.js:15
@@ -2415,7 +2369,6 @@ msgstr "await"
 msgid ""
 "<td#=data.cssClass# role=\"gridcell\"><a tabindex=\"-1\" class=\"k-"
 "link#=data.linkClass#\" href=\"#=data.url#\" "
-#!msgstr ""
 msgstr ""
 "<td#=data.cssClass# role=\"gridcell\"><a tabindex=\"-1\" class=\"k-"
 "link#=data.linkClass#\" href=\"#=data.url#\" "
