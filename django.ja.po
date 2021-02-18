@@ -10007,8 +10007,7 @@ msgstr "選択した項目をすべて削除してもよいですか?"
 msgid ""
 "All of the following items and their related references will be deleted. "
 msgstr ""
-"選択したスタティックルートを削除してもよいですか？以下の項目とそれに関連"
-"するすべてが削除されます"
+"以下の項目とそれに関連するすべてが削除されます"
 
 #: templates/scan/devfgts.html:114
 msgid "Serial Number : Domain/Vdom"
@@ -10087,7 +10086,7 @@ msgstr "エラー：送信制限は正の整数でなければなりません。
 #: templates/scan/device_edit.html:131 templates/scan/device_edit.html:147
 #: templates/scan/fct_edit.html:52
 msgid "Error: Submission Limitation reaches maximum value."
-msgstr "エラー：送信制限は正の整数でなければなりません。"
+msgstr "エラー：送信制限が上限値を超えています。"
 
 #: templates/scan/device_edit.html:154 templates/scan/edit_devfgts.html:48
 msgid "Error: Must select a valid authorization value"
@@ -10138,12 +10137,12 @@ msgstr "ステータス:"
 
 #: templates/scan/device_edit.html:350
 msgid "Files/URLs Transmitted:"
-msgstr "送信されたファイル:"
+msgstr "送信されたファイル/URL:"
 
 #: templates/scan/device_edit.html:352 templates/scan/device_edit.html:358
 #: templates/scan/fct_edit.html:130
 msgid "The counter started from first time authorization."
-msgstr "最初の承認からカウントしました。"
+#!!! msgstr "最初の承認からカウントしました。"
 
 #: templates/scan/device_edit.html:356 templates/scan/edit_devfgts.html:181
 #: templates/scan/fct_edit.html:128
@@ -10157,7 +10156,7 @@ msgstr "最終変更日:"
 #: templates/scan/device_edit.html:371 templates/scan/edit_devfgts.html:194
 #: templates/scan/fct_edit.html:135
 msgid "Last Seen:"
-msgstr "最後確認日:"
+msgstr "最終確認日:"
 
 #: templates/scan/device_edit.html:381 templates/scan/edit_devfgts.html:204
 #: templates/scan/fct_edit.html:145
@@ -10183,7 +10182,7 @@ msgstr ""
 
 #: templates/scan/device_edit.html:454
 msgid "New VDOMs/Domains Inherit Authorization:"
-msgstr "新しいVDOMは承認を継承する:"
+msgstr "新しいVDOM/ドメインは承認を継承する:"
 
 #: templates/scan/device_edit.html:469 templates/scan/edit_devfgts.html:229
 msgid "Email Settings"
@@ -10207,7 +10206,7 @@ msgstr "PDFレポートを送信:"
 
 #: templates/scan/device_edit.html:525
 msgid "Send Reach Limit Alert Email:"
-msgstr "リーチ限度アラートメールを送信："
+#!!! msgstr "上限到達アラートメールを送信："
 
 #: templates/scan/device_fct_main.html:38 templates/scan/fct_drilldown.html:99
 msgid "FCT Serial"
@@ -10224,20 +10223,20 @@ msgstr "ボットネットパッケージ"
 #: templates/scan/device_fct_main.html:93
 #, python-format
 msgid "Displaying %(rs_t)s to %(re_t)s of %(total_t)s FortiClient(s)"
-msgstr "%(total_t)s 中 %(rs_t)s から %(re_t)s のログレコードを表示"
+msgstr "%(total_t)s 中 %(rs_t)s から %(re_t)s のFortiClientを表示"
 
 #: templates/scan/device_main.html:79
 msgid "Reached Limit"
-msgstr "上限に到達"
-
+#!!! msgstr "到達した上限"
+ 
 #: templates/scan/device_main.html:82
 msgid "Allowed Limit"
-msgstr "許可された条件"
+#!!! msgstr "許可された上限"
 
 #: templates/scan/device_main.html:122
 #, python-format
 msgid "Displaying %(rs_t)s to %(re_t)s of %(total_t)s Device(s)"
-msgstr "%(total_t)s 中 %(rs_t)s から %(re_t)s のログレコードを表示"
+msgstr "%(total_t)s 中 %(rs_t)s から %(re_t)s のデバイスを表示"
 
 #: templates/scan/devsniffer.html:7
 msgid "Edit Sniffer Setting"
@@ -10261,7 +10260,7 @@ msgstr "ネットワークアラートの検知を有効化"
 
 #: templates/scan/devsniffer.html:46
 msgid "Keep those files without completed TCP handshakes"
-msgstr "完全なTCPハンドシェークなしでこれらのファイルを保持"
+msgstr "TCPハンドシェイクが不完全なファイルを保持"
 
 #: templates/scan/devsniffer.html:46
 msgid "Keep incomplete files"
@@ -10269,7 +10268,7 @@ msgstr "不完全なファイルを保持"
 
 #: templates/scan/devsniffer.html:50
 msgid "Enable conserve mode if disk usage is too high"
-msgstr "ディスク使用率が高すぎる場合にConserveモードを有効"
+msgstr "ディスク使用率が高くなるとConserveモードになります
 
 #: templates/scan/devsniffer.html:50
 msgid "Enable conserve mode"
@@ -10277,7 +10276,7 @@ msgstr "Conserveモードを有効化"
 
 #: templates/scan/devsniffer.html:53 templates/scan/devsniffer.html:58
 msgid "The maximum size of files captured by sniffer"
-msgstr "スニファでキャプチャする最大サイズ"
+msgstr "スニファでキャプチャする最大ファイルサイズ"
 
 #: templates/scan/devsniffer.html:53
 #, fuzzy
@@ -10287,7 +10286,7 @@ msgstr "最大ファイルサイズ"
 
 #: templates/scan/devsniffer.html:59
 msgid "KB (The limit of max file size is 200,000 KB)"
-msgstr "KB (最大ファイルサイズは 200,000 KB)"
+msgstr "KB (最大ファイルサイズ200,000KB)"
 
 #: templates/scan/devsniffer.html:62
 msgid "The interfaces which have traffic to sniff"
@@ -10303,11 +10302,11 @@ msgstr "サービスタイプ"
 
 #: templates/scan/devsniffer.html:81
 msgid "File Types:"
-msgstr "ファイルの種類："
+msgstr "ファイルタイプ："
 
 #: templates/scan/devsniffer.html:82
 msgid "Add customized extension"
-msgstr "カスタマイズした判定"
+msgstr "カスタム判定を追加"
 
 #: templates/scan/devsniffer.html:86
 msgid "All (the following file types and any other file type) "
@@ -10319,7 +10318,7 @@ msgstr "電子メールメッセージ本文のURLの抽出とスキャン"
 
 #: templates/scan/devsniffer.html:112
 msgid "Extract and scan URLs in Email message body, up to"
-msgstr "電子メールメッセージ本文のURLを抽出してスキャンします"
+#!!! msgstr "電子メールメッセージ本文のURLを抽出してスキャン"
 
 #: templates/scan/devsniffer.html:117
 msgid "From 1 to 5"
@@ -10335,7 +10334,7 @@ msgstr "有効な最大ファイルサイズを入力してください(10〜200
 
 #: templates/scan/devsniffer.html:335
 msgid "Sniffer configuration was successfully updated"
-msgstr "スニファ設定の更新に成功しました"
+msgstr "スニファの設定を更新しました。"
 
 #: templates/scan/devsniffer.html:342
 msgid ""
@@ -10353,8 +10352,7 @@ msgid ""
 "Error: No configurable interface for sniffer, please config interface at "
 "Network > Interfaces."
 msgstr ""
-"エラー：設定可能なポートがありません。ネットワークインターフェイスでポートを"
-"設定してください。"
+"エラー：スニファに設定可能なポートがありません。インターフェイスを設定してください。"
 
 #: templates/scan/edit_devfgts.html:156
 #: templates/scan/global_network_page.html:48
@@ -10368,7 +10366,7 @@ msgstr "パーミッション"
 
 #: templates/scan/edit_devfgts.html:217
 msgid "New Domains/Vdoms Inherit Authorization:"
-msgstr "新しいVDOMは承認を継承する："
+msgstr "新しいドメイン/VDOMは承認を継承する："
 
 #: templates/scan/fcont_main.html:45
 msgid "Quarantined:"
@@ -10405,7 +10403,7 @@ msgstr "に"
 
 #: templates/scan/filter_list/vue_templates.html:28
 msgid "Status "
-msgstr "状態"
+msgstr "ステータス"
 
 #: templates/scan/filter_list/vue_templates.html:40
 #: templates/scan/filter_list/vue_templates.html:83
@@ -10424,11 +10422,11 @@ msgstr "ここにコメントを置く"
 
 #: templates/scan/filter_list/vue_templates.html:78
 msgid "Edit this item"
-msgstr "このアイテムを編集する"
+msgstr "このアイテムを編集"
 
 #: templates/scan/filter_list/vue_templates.html:79
 msgid "Delete this value from server"
-msgstr "サーバーからこの値を削除してください"
+msgstr "サーバーからこの値を削除"
 
 #: templates/scan/filter_list/vue_templates.html:83
 msgid "No expiry date"
@@ -10436,11 +10434,11 @@ msgstr "有効期限なし"
 
 #: templates/scan/filter_list/vue_templates.html:85
 msgid "Create Time"
-msgstr "時間を作成"
+msgstr "作成時間"
 
 #: templates/scan/filter_list/vue_templates.html:105
 msgid "Add new item"
-msgstr "新しい商品を追加"
+msgstr "新しいアイテムを追加"
 
 #: templates/scan/filter_list/vue_templates.html:108
 msgid "Clear all expired items"
@@ -10464,7 +10462,7 @@ msgstr "検索結果"
 
 #: templates/scan/filter_list/vue_templates.html:151
 msgid "Unexpired"
-msgstr "未経過"
+#!!! msgstr "未経過"
 
 #: templates/scan/filter_list/vue_templates.html:155
 #: templates/system/config-cacert.html:40
@@ -10487,19 +10485,18 @@ msgstr "グルーバルネットワークオプション"
 #: templates/scan/global_network_page.html:29
 msgid "Join global network to share threat information and manage scan profile"
 msgstr ""
-"グローバルネットワークに参加して脅威情報を共有し、スキャンプロファイルを管理"
-"する"
+"グローバルネットワークに参加して脅威情報を共有"
 
 #: templates/scan/global_network_page.html:39
 msgid "Work as threat information collector and scan profile manager"
-msgstr "脅威情報コレクタかつスキャンプロファイルマネージャとして機能する"
+msgstr "脅威情報コレクタかつスキャンプロファイルマネージャとして機能する。"
 
 #: templates/scan/global_network_page.html:40
 #: templates/scan/global_network_page.html:306
 msgid ""
 "Work as threat information contributor. Scan profile is managed by manager"
 msgstr ""
-"脅威情報提供者として機能する。スキャンプロファイルはマネージャが管理する"
+"脅威情報提コントリビュータとして機能する。スキャンプロファイルはマネージャが管理する。"
 
 #: templates/scan/global_network_page.html:44
 msgid "Collector Configuration"
@@ -10517,7 +10514,7 @@ msgstr "コードを表示"
 
 #: templates/scan/global_network_page.html:60
 msgid "Contributors:"
-msgstr "コントリビューター:"
+msgstr "コントリビュータ:"
 
 #: templates/scan/global_network_page.html:70
 msgid "Last Download Time"
@@ -10525,7 +10522,7 @@ msgstr "最終ダウンロード時刻"
 
 #: templates/scan/global_network_page.html:92
 msgid "Contributor Configuration"
-msgstr "コントリビューターの設定"
+msgstr "コントリビュータの設定"
 
 #: templates/scan/global_network_page.html:96
 msgid "Collector IP Address:"
@@ -10533,7 +10530,7 @@ msgstr "コレクタIPアドレス："
 
 #: templates/scan/global_network_page.html:114
 msgid "Contribute threat information "
-msgstr "脅威情報に貢献する "
+msgstr "脅威情報コントリビュータとして機能する "
 
 #: templates/scan/global_network_page.html:129
 msgid "Local Malware Package Options"
@@ -10564,7 +10561,7 @@ msgstr "日分のデータ(1-365)"
 #: templates/scan/malpkg_config.html:64 templates/scan/malpkg_config.html:93
 #: templates/scan/malpkg_config.html:136 templates/scan/malpkg_config.html:183
 msgid "Includes job data of the following ratings:"
-msgstr "次の評価のジョブデータを含みます:"
+msgstr "次の評価のジョブデータを含む:"
 
 #: templates/scan/global_network_page.html:160
 msgid "Local URL Package Options"
