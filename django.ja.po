@@ -9360,7 +9360,7 @@ msgstr "最大コメント長は256バイトです"
 #, fuzzy
 #| msgid "Contact"
 msgid "Contact Email: "
-msgstr "コンタクト"
+msgstr "連絡先メールアドレス："
 
 #: templates/job_detail/verdict.html:27
 #, fuzzy
@@ -9398,7 +9398,7 @@ msgstr "ログ設定"
 
 #: templates/logs/config.html:33
 msgid "Enabled Log Level"
-msgstr "ログレベルを有効"
+msgstr "ログレベルを有効化"
 
 #: templates/logs/diagnostic_logs.html:46
 msgid "Kernel Logs"
@@ -9454,11 +9454,11 @@ msgstr "CLIコンソール"
 
 #: templates/main/console.html:41
 msgid "Connect"
-msgstr "つなぐ"
+msgstr "接続"
 
 #: templates/main/console.html:43
 msgid "Clear console"
-msgstr "クリアコンソール"
+msgstr "コンソールをクリア"
 
 #: templates/main/console.html:49
 msgid "Copy to clipboard"
@@ -9486,7 +9486,7 @@ msgstr "お気に入り"
 
 #: templates/main/tree_menu_def.html:34
 msgid "Threats by Topology"
-msgstr "トポロジによる脅威"
+msgstr "トポロジ毎の脅威"
 
 #: templates/main/tree_menu_def.html:38
 msgid "Threats by Hosts"
@@ -9502,7 +9502,7 @@ msgstr "デバイス毎の脅威"
 
 #: templates/main/tree_menu_def.html:62
 msgid "Alternative Views"
-msgstr "分析の表示"
+msgstr "別の表示"
 
 #: templates/main/tree_menu_def.html:71
 msgid "FortiClient"
@@ -9519,19 +9519,19 @@ msgstr "ファイル入力"
 
 #: templates/main/tree_menu_def.html:119
 msgid "File/URL Scan Search"
-msgstr "ファイルスキャンの検索"
+msgstr "ファイル/URLスキャン検索"
 
 #: templates/main/tree_menu_def.html:122
 #, fuzzy
 #| msgid "File Scan Search"
 msgid "File Job Search"
-msgstr "ファイルスキャンの検索"
+msgstr "ファイルジョブの検索"
 
 #: templates/main/tree_menu_def.html:126
 #, fuzzy
 #| msgid "URL Scan Search"
 msgid "URL Job Search"
-msgstr "URLスキャンの検索"
+msgstr "URLジョブの検索"
 
 #: templates/main/tree_menu_def.html:132
 msgid "Verdicts"
@@ -9558,13 +9558,13 @@ msgstr "グローバルスキャンプロファイル"
 #, fuzzy
 #| msgid "General Options"
 msgid "General Settings"
-msgstr "一般的なオプション"
+msgstr "一般的設定"
 
 #: templates/main/tree_menu_def.html:184
 #, fuzzy
 #| msgid "Scan Job Priority"
 msgid "Job Priority"
-msgstr "スキャンポリシー"
+msgstr "ジョブ優先度"
 
 #: templates/main/tree_menu_def.html:189 utils/apilog.py:347
 msgid "Job Archive"
@@ -9582,13 +9582,13 @@ msgstr "許可リスト/ブロックリスト"
 #, fuzzy
 #| msgid "Category"
 msgid "Web Category"
-msgstr "URLカテゴリ"
+msgstr "Webカテゴリ"
 
 #: templates/main/tree_menu_def.html:217
 #, fuzzy
 #| msgid "Yara Hits"
 msgid "Yara"
-msgstr "Yaraヒット"
+msgstr "Yara"
 
 #: templates/main/tree_menu_def.html:220
 msgid "Yara Rules"
@@ -9606,7 +9606,7 @@ msgstr "URLパッケージ"
 #, fuzzy
 #| msgid "Threat Timeline Chart"
 msgid "Threat Intelligence"
-msgstr "脅威タイムラインチャート"
+msgstr "脅威インテリジェンス"
 
 #: templates/main/tree_menu_def.html:242 templates/scan/malpkg_config.html:40
 #: templates/scan/scan-profile.html:46
@@ -9625,7 +9625,7 @@ msgstr "インターフェース"
 #, fuzzy
 #| msgid "New Static Route"
 msgid "Static Route"
-msgstr "スタティックルートの追加"
+msgstr "スタティックルート"
 
 #: templates/main/tree_menu_def.html:291 templates/main/tree_menu_def.html:294
 msgid "AWS Config"
@@ -9637,7 +9637,7 @@ msgstr "Azure設定"
 
 #: templates/main/tree_menu_def.html:313 templates/main/tree_menu_def.html:316
 msgid "FHV Config"
-msgstr "FHV 設定"
+msgstr "FHV設定"
 
 #: templates/main/tree_menu_def.html:326
 msgid "LDAP Servers"
@@ -9661,7 +9661,7 @@ msgstr "ftguard"
 #, fuzzy
 #| msgid "Settings"
 msgid "OtherSetting"
-msgstr "設定"
+msgstr "その他の設定"
 
 #: templates/main/tree_menu_def.html:354
 msgid "Certificates"
@@ -9686,7 +9686,7 @@ msgstr "CLIコンソール"
 #, fuzzy
 #| msgid "CLI Console"
 msgid "Console"
-msgstr "CLIコンソール"
+msgstr "コンソール"
 
 #: templates/main/tree_menu_def.html:402 templates/main/tree_menu_def.html:406
 msgid "HA-Cluster"
@@ -9702,11 +9702,11 @@ msgstr "ジョブサマリー"
 
 #: templates/main/tree_menu_def.html:448
 msgid "Log & Report"
-msgstr "ログ&レポート"
+msgstr "ログ＆レポート"
 
 #: templates/main/tree_menu_def.html:452
 msgid "Log"
-msgstr "ログに記録する"
+msgstr "ログ"
 
 #: templates/main/tree_menu_def.html:460
 msgid "All Events"
@@ -9740,31 +9740,31 @@ msgstr "レポート"
 #, fuzzy
 #| msgid "Scan Results"
 msgid "Scan Reports"
-msgstr "スキャン結果"
+msgstr "スキャンレポート"
 
 #: templates/main/tree_menu_def.html:512
 #, fuzzy
 #| msgid "Scanning Statistics"
 msgid "File Statistics"
-msgstr "スキャン統計"
+msgstr "ファイル統計"
 
 #: templates/main/tree_menu_def.html:516
 #, fuzzy
 #| msgid "Scanning Statistics"
 msgid "URL Statistics"
-msgstr "スキャン統計"
+msgstr "URL統計"
 
 #: templates/main/tree_menu_def.html:521
 #, fuzzy
 #| msgid "Network Alerts Signature"
 msgid "Network Alerts Statistics"
-msgstr "ネットワークアラート シグネチャー"
+msgstr "ネットワークアラート統計"
 
 #: templates/main/tree_menu_def.html:528
 #, fuzzy
 #| msgid "Scanning Statistics"
 msgid "Statistics"
-msgstr "スキャン統計"
+msgstr "統計"
 
 #: templates/main/tree_menu_def.html:535 utils/apilog.py:304
 msgid "URL Scan"
@@ -9774,7 +9774,7 @@ msgstr "URLスキャン"
 #, fuzzy
 #| msgid "Settings"
 msgid "Log Settings"
-msgstr "設定"
+msgstr "ログ設定"
 
 #: templates/netdet/download.html:25
 msgid "Callback DB File"
@@ -9839,7 +9839,7 @@ msgstr "最終ページ"
 #: templates/reports/report_access.html:107
 #, python-format
 msgid "Displaying %(rs_t)s to %(re_t)s of %(total_t)s report records"
-msgstr "%(total_t)s 中 %(rs_t)s から %(re_t)s のログレコードを表示"
+msgstr "%(rs_t)sから%(total_t)sレポートレコードの%(re_t)sへの表示"
 
 #: templates/reports/report_download_failed.html:14
 msgid "Please note that"
@@ -9872,7 +9872,7 @@ msgstr "ライセンス情報"
 #: templates/scan/adapter/mta_contract_details.html:42
 #: templates/scan/adapter/mta_contract_details.html:52
 msgid "Account Usage"
-msgstr "アカウントの使用"
+msgstr "アカウント使用量"
 
 #: templates/scan/adapter/mta_contract_details.html:66
 #: templates/system/cacert-info.html:63
@@ -9931,7 +9931,7 @@ msgstr "of"
 msgid ""
 "Displaying %(rs_t)s to %(re_t)s of %(total_t)s malicious URL released "
 "packages"
-msgstr "%(total_t)s 中 %(rs_t)s から %(re_t)s のログレコードを表示"
+msgstr "%(rs_t)sから%(total_t)sの悪意のあるURLリリースパッケージの%(re_t)sを表示する"
 
 #: templates/scan/botnetpkg_res_table.html:32
 #: templates/scan/malpkg_res_table.html:30
@@ -9957,15 +9957,15 @@ msgstr "ホスト/IP"
 
 #: templates/scan/config-networkshare.html:31
 msgid "Scan Scheduled"
-msgstr "スケジュールされたスキャン"
+msgstr "スキャンスケジュール"
 
 #: templates/scan/config-networkshare.html:35
 msgid "Sanitized"
-msgstr "隔離ファイルの保存場所"
+msgstr "無害化"
 
 #: templates/scan/config-networkshare.html:68
 msgid "Network Share Down"
-msgstr "ネットワーク共有名"
+msgstr "ネットワーク共有ダウン"
 
 #: templates/scan/config-networkshare.html:70
 msgid "Network Is Accessible"
@@ -9973,15 +9973,15 @@ msgstr "ネットワークはアクセス可能です"
 
 #: templates/scan/config-networkshare.html:76
 msgid "Network Share(s)"
-msgstr "ネットワーク共有名"
+msgstr "ネットワーク共有"
 
 #: templates/scan/config-quarantine.html:48
 msgid "Quarantine Down"
-msgstr "隔離ファイルはアクセスできません"
+msgstr "隔離ダウン"
 
 #: templates/scan/config-quarantine.html:50
 msgid "Quarantine Is Accessible"
-msgstr "隔離ファイルはアクセス可能です"
+msgstr "隔離はアクセス可能です"
 
 #: templates/scan/config-quarantine.html:56
 msgid "Quarantine(s)"
@@ -9997,17 +9997,17 @@ msgstr " アダプター"
 
 #: templates/scan/connector-del-confirm.html:41
 msgid " was successfully deleted"
-msgstr " デバイスユーザーが正常に削除されました。"
+msgstr " が正常に削除されました。"
 
 #: templates/scan/connector-del-confirm.html:60
 msgid "Are you sure you want to delete the selected adapter(s)?"
-msgstr "選択した項目をすべて削除してもよいですか?"
+msgstr "選択したアダプターを削除してもよいですか?"
 
 #: templates/scan/connector-del-confirm.html:62
 msgid ""
 "All of the following items and their related references will be deleted. "
 msgstr ""
-"以下の項目とそれに関連するすべてが削除されます"
+"以下の項目とそれに関連する参照情報すべてが削除されます"
 
 #: templates/scan/devfgts.html:114
 msgid "Serial Number : Domain/Vdom"
