@@ -10555,7 +10555,7 @@ msgstr "過去"
 #: templates/scan/malpkg_config.html:60 templates/scan/malpkg_config.html:90
 #: templates/scan/malpkg_config.html:132 templates/scan/malpkg_config.html:180
 msgid "day(s) of data. (1-365)"
-msgstr "日分のデータ。(1-365)"
+msgstr "日分のデータ(1-365)"
 
 #: templates/scan/global_network_page.html:145
 #: templates/scan/global_network_page.html:174
@@ -10575,7 +10575,7 @@ msgstr "ローカルURLパッケージオプション"
 #: templates/scan/malpkg_config.html:93 templates/scan/malpkg_config.html:183
 #: templates/scan/urlpkg_config.html:27
 msgid "The suspicious URL risk level to be included in URL package"
-msgstr "URLパッケージに含まれる、疑わしいURLのリスクレベル"
+msgstr "URLパッケージに含める、疑わしいURLのリスクレベル"
 
 #: templates/scan/global_network_page.html:190
 msgid "Enable Local STIX IOC Package"
@@ -10584,7 +10584,7 @@ msgstr "ローカルSTIX IOCパッケージを有効にする"
 #: templates/scan/global_network_page.html:201
 #: templates/scan/malpkg_config.html:120
 msgid "STIX Malware Package Options"
-msgstr "STIXマルウェアパッケージオプション"
+msgstr "STIX マルウェアパッケージオプション"
 
 #: templates/scan/global_network_page.html:233
 #: templates/scan/malpkg_config.html:152
@@ -10594,17 +10594,17 @@ msgstr "振る舞い情報を持ったSTIXファイルを作成する"
 #: templates/scan/global_network_page.html:243
 #: templates/scan/malpkg_config.html:162
 msgid "Malware Package STIX Last generated time:"
-msgstr "マルウェアパッケージSTIX 最終更新日時："
+msgstr "STIX マルウェアパッケージ 最終更新日時："
 
 #: templates/scan/global_network_page.html:250
 #: templates/scan/malpkg_config.html:169
 msgid "STIX URL Package Options"
-msgstr "STIXURLパッケージオプション"
+msgstr "STIX URLパッケージオプション"
 
 #: templates/scan/global_network_page.html:279
 #: templates/scan/malpkg_config.html:198
 msgid "URL Package STIX Last generated time:"
-msgstr "URLパッケージSTIX 最終更新日時："
+msgstr "STIX URLパッケージ 最終更新日時："
 
 #: templates/scan/global_network_page.html:293
 msgid "Scan profile is managed by manager "
@@ -10630,8 +10630,7 @@ msgid ""
 "SSL port number must be from 1 to 65535 and should be different from port "
 "number."
 msgstr ""
-"SSLポート番号は1〜65535である必要があり、ポート番号とは異なるものでなければな"
-"りません。"
+"SSLポート番号は1から65535であり、ポート番号と異なっている必要があります。"
 
 #: templates/scan/icap_config.html:91
 msgid "Methods"
@@ -10671,7 +10670,7 @@ msgstr "入力ソース"
 
 #: templates/scan/jobqueue.html:24
 msgid "Queued #"
-msgstr "キュー#"
+msgstr "キュー数"
 
 #: templates/scan/jobqueue.html:27
 msgid "Average Scan Time in last 24 hours (Seconds)"
@@ -10685,19 +10684,19 @@ msgstr "過去24時間の平均のスキャン時間(秒)"
 msgid ""
 "Expected Finish Time according to last 10 minutes data (Days and Hours:"
 "Minutes:Seconds)"
-msgstr "過去10分間の終了時間(日と時:分:秒)"
+#!!! msgstr "過去10分間のデータに基づくスキャン完了時間の予想(日、時:分:秒)"
 
 #: templates/scan/jobqueue.html:30
 msgid "Expected Finish Time"
-msgstr "終了時間"
+#!!! msgstr "予想完了時間"
 
 #: templates/scan/jobqueue.html:33
 msgid "Arrival Rate in last hour (Files/Hour)"
-msgstr "直近一時間のArrivalレート (ファイル/時)"
+msgstr "直近一時間のファイル到達レート(ファイル/時)"
 
 #: templates/scan/jobqueue.html:33
 msgid "Arrival Rate (Last 1 hr)"
-msgstr "Arrivalレート (直近一時間)"
+msgstr "ファイル到達レート(直近一時間)"
 
 #: templates/scan/jobqueue.html:36
 msgid "VM Type (Clone #)"
@@ -10733,24 +10732,22 @@ msgid ""
 "The unit has joined the threat information global network and is working as "
 "a collector."
 msgstr ""
-"ユニットは脅威情報のグローバルネットワークに参加し、コレクタとして動いていま"
-"す。"
+#!!!  "このユニットは脅威情報のグローバルネットワークに参加し、コレクタとして動いています。"
 
 #: templates/scan/malpkg_config.html:38
 msgid ""
 "The unit has joined the threat information global network and is working as "
 "a contributor."
 msgstr ""
-"このユニットは、脅威情報のグローバルネットワークに加わり、contributorとして動"
-"いています。"
+#!!! "このユニットは、脅威情報のグローバルネットワークに参加し、コントリビュータとして動いています。"
 
 #: templates/scan/malpkg_config.html:40
 msgid "To configure settings, please go to the"
-msgstr "設定を行うには"
+#!!! msgstr "設定を行うには"
 
 #: templates/scan/malpkg_config.html:40
 msgid "page"
-msgstr "ページ"
+#!!! msgstr "ページ"
 
 #: templates/scan/malpkg_config.html:44
 msgid "Note: The Following Options Are For The Local Unit Only"
@@ -10781,7 +10778,7 @@ msgstr "MD5をダウンロード"
 #, python-format
 msgid ""
 "Displaying %(rs_t)s to %(re_t)s of %(total_t)s malware released packages"
-msgstr "%(total_t)s 中 %(rs_t)s から %(re_t)s のログレコードを表示"
+#!!! msgstr "%(total_t)s 中 %(rs_t)s から %(re_t)s のログレコードを表示"
 
 #: templates/scan/malpkg_res_table.html:129
 #: templates/scan/urlpkg_res_table.html:129
