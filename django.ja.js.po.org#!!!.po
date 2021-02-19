@@ -566,7 +566,7 @@ msgstr "直近の4週間"
 
 #: static/js/callback_filtertable_defs.js:210
 msgid "Export Data"
-msgstr "データのエクスポート"
+#!!! msgstr "データのエクスポート"
 
 #: static/js/change_list_controls.js:172
 #: static/js/filtertable/filtertable_helpers.js:97
@@ -598,7 +598,7 @@ msgid ""
 "For Network Share events, please go to Scan Input -> Network Share page for "
 "details."
 msgstr ""
-そんなのない。。
+#!!! そんなのない。。
 
 #: static/js/dashboard/app.js:7
 msgid "Widget Selection"
@@ -869,7 +869,7 @@ msgstr "ファイル名"
 
 #: static/js/filtertable/fTableSearchConfig.js:147
 msgid "Host or User"
-msgstr "ホスト:ユーザ名"
+#!!! msgstr "ホスト:ユーザ名"
 
 #: static/js/filtertable/fTableSearchConfig.js:192
 #: static/js/filtertable/fTableSearchConfig.js:357
@@ -912,7 +912,7 @@ msgstr "ドメイン"
 #: static/js/filtertable/fTableSearchConfig.js:808
 #: static/js/ondemand/column.js:24
 msgid "Submitted By"
-msgstr "サブミット方法"
+#!!! msgstr "サブミット方法"
 
 #: static/js/filtertable/fTableSearchConfig.js:586
 #: static/js/filtertable/fTableSearchConfig.js:628
@@ -1073,7 +1073,7 @@ msgstr "表示するデータがありません"
 #: static/js/table/search/controllers/grid.js:9
 #: static/js/vm_status/controller.js:55 static/lib/babel/babel.min.js:15
 msgid "of"
-msgstr "の"
+#!!! msgstr "の"
 
 #: static/js/forticlient/controller.js:52 static/js/ondemand/controller.js:52
 #: static/js/operation_center/controller.js:52
@@ -1131,7 +1131,7 @@ msgstr "（デバイス上のすべてのDomains / Vdomsを含む）"
 
 #: static/js/forticlient/controller.js:218
 msgid " on "
-msgstr " に "
+#!!! msgstr " に "
 
 #: static/js/forticlient/controller.js:220
 msgid "), Alias:"
@@ -1185,7 +1185,7 @@ msgstr "ファイルを使用してセカンダリのファームウェアをア
 #, fuzzy
 #| msgid "Are you sure you want to upgrade your firmware with file "
 msgid "Are you sure you want to upgrade secondaries fortiguard with file "
-msgstr "ファイルを使用してセカンダリのFortiguardをアップグレードしてもよいですか"
+#!!! msgstr "ファイルを使用してセカンダリのFortiguardをアップグレードしてもよいですか"
 
 #: static/js/ha_cluster/management.js:115
 #, fuzzy
@@ -1341,7 +1341,7 @@ msgstr "すべて選択"
 
 #: static/js/navbar_controls/main.js:24
 msgid "not available or not up to date."
-msgstr "利用できないか、最新ではありません。"
+#!!! msgstr "利用できないか、最新ではありません。"
 
 #: static/js/navbar_controls/main.js:25
 msgid "Please configure and install "
@@ -1349,7 +1349,7 @@ msgstr "構成してインストールしてください"
 
 #: static/js/navbar_controls/main.js:25
 msgid " or wait for "
-msgstr " または待つ "
+#!!! msgstr " または待つ "
 
 #: static/js/navbar_controls/main.js:26
 msgid " to be updated to access to all FortiSanbox functionality."
@@ -1499,7 +1499,7 @@ msgstr "BCC設定が更新されました。"
 #: static/js/scan_input/icap_validation.js:39
 #: static/js/scan_input/mta_validation.js:71
 msgid "Redirect url must has protocol. (https://)"
-msgstr "リダイレクトURLにはプロトコルが必要です。(https://)"
+#!!! msgstr "リダイレクトURLにはプロトコルが必要です。(https://)"
 
 #: static/js/scan_input/bcc_validation.js:42
 #: static/js/scan_input/icap_validation.js:56
@@ -1547,13 +1547,13 @@ msgstr "スレーブ名"
 
 #: static/js/scan_input/global_network_options.js:109
 msgid "Please enable at least one function under the Contributor mode"
-msgstr "投稿者モードでは少なくとも1つの機能を有効にしてください"
+#!!! msgstr "投稿者モードでは少なくとも1つの機能を有効にしてください"
 msgstr "コントリビュータモードで少なくとも1つの機能を有効にしてください"
 
 #: static/js/scan_input/global_network_options.js:141
 #: static/js/scan_input/package_options.js:112
 msgid "Please enter your "
-msgstr "あなたの名前を入力してください "
+#!!! msgstr "あなたの名前を入力してください "
 
 #: static/js/scan_input/icap_config.js:111
 msgid "Icap settings were successfully updated."
@@ -1565,7 +1565,7 @@ msgstr "ICAPメソッドに関する受信URLもしくはファイルを選択�
 
 #: static/js/scan_input/icap_validation.js:91
 msgid "Port and SSL Port cannot be the same."
-msgstr "ポートとSSLポートは同じ番号にすることはできません。"
+#!!! msgstr "ポートとSSLポートは同じ番号にすることはできません。"
 
 #: static/js/scan_input/malpkg_config.js:17
 msgid "Malware/URL package configuration was successfully updated"
@@ -1622,7 +1622,7 @@ msgstr "削除"
 
 #: static/js/scan_input/mta_qt/controller.js:139
 msgid " selected emails?"
-msgstr "選択したメール？"
+#!!! msgstr "選択したメール？"
 
 #: static/js/scan_input/mta_qt/controller.js:140
 msgid "Take Action"
@@ -1630,7 +1630,7 @@ msgstr "アクションを実行"
 
 #: static/js/scan_input/mta_qt/controller.js:153
 msgid "Emails are "
-msgstr "メールは"
+#!!! msgstr "メールは"
 
 #: static/js/scan_input/mta_validation.js:36
 msgid "Please enter the correct email address"
@@ -1656,11 +1656,11 @@ msgstr "数"
 
 #: static/js/scan_input/mta_validation.js:131
 msgid " must be an integer between "
-msgstr " の整数でなければなりません"
+#!!! msgstr " の整数でなければなりません"
 
 #: static/js/scan_input/mta_validation.js:131
 msgid " and "
-msgstr " そして "
+#!!! msgstr " そして "
 
 #: static/js/scan_input/mta_validation.js:131
 msgid "."
@@ -1775,7 +1775,7 @@ msgstr "サーバ名/IP"
 
 #: static/js/scan_input/scan_input_common_patch.js:64
 msgid "Share Path"
-msgstr "共有パス"
+#!!! msgstr "共有パス"
 
 #: static/js/scan_input/scan_input_common_patch.js:65
 msgid "Username"
@@ -1787,11 +1787,11 @@ msgstr "パスワード"
 
 #: static/js/scan_input/scan_input_common_patch.js:67
 msgid "Confirm Password"
-msgstr "パスワードを確認する"
+#!!! msgstr "パスワードを確認する"
 
 #: static/js/scan_job_detail/helpers.js:659
 msgid "Cloud submission not supported for URL."
-msgstr "クラウド送信はURLでサポートされていません。"
+#!!! msgstr "クラウド送信はURLでサポートされていません。"
 
 #: static/js/scan_job_detail/tracer_behavior_detail.js:15
 msgid "Destination IP"
@@ -1906,7 +1906,7 @@ msgstr ""
 
 #: static/js/scan_profile/user_defined_exts.js:99
 msgid "The new extension you entered already exist in static extensions."
-msgstr "入力した新しい拡張子には、静的な拡張子にすでに存在します。"
+#!!! msgstr "入力した新しい拡張子には、静的な拡張子にすでに存在します。"
 
 #: static/js/scheduler/controllers/filter.js:30
 msgid "Events count exceed limit, please proceed with caution."
@@ -1967,7 +1967,7 @@ msgstr "サブ証明書をダウンロードする"
 
 #: static/js/system/system_config/column.js:2
 msgid "Download cacert"
-msgstr "CA証明書をダウンロード"
+#!!! msgstr "CA証明書をダウンロード"
 
 #: static/js/system/system_config/column.js:3
 msgid "Download certificate"
@@ -2047,7 +2047,7 @@ msgstr "カスタマイズ"
 
 #: static/js/table/filters.js:41
 msgid "Mass Operation:"
-msgstr "大量操作："
+#!!! msgstr "大量操作："
 
 #: static/js/table/filters.js:41
 msgid "Release Selected Emails"
@@ -2142,7 +2142,7 @@ msgstr "VM"
 
 #: static/js/vm_status/column.js:14
 msgid "Progress"
-msgstr "進行"
+#!!! msgstr "進行"
 
 #: static/js/vm_status/column.js:27
 msgid "VM ScreenShot"
@@ -2187,12 +2187,12 @@ msgid ""
 "Cannot be used because no Industry Security Signature is available. Please "
 "order the license from Fortinet"
 msgstr ""
-"業界のセキュリティ署名が利用できないため、使用できません。 Fortinetにライセ"
+#!!! "業界のセキュリティ署名が利用できないため、使用できません。 Fortinetにライセ"
 "ンスを注文してください"
 
 #: static/js/vmimages/main.js:185 static/js/vmimages/main.js:188
 msgid "No changes."
-msgstr "変化なし"
+#!!! msgstr "変化なし"
 msgstr "変更はありません"
 
 #: static/js/vmimages/main.js:472
@@ -2209,7 +2209,7 @@ msgstr "一度winXP VMクローンを0に変更すると、このwinXP VMクロ�
 #: static/js/vmimages/main.js:588
 msgid "Total Windows and customized clone numbers cannot exceed "
 msgstr ""
-"Windowsの合計数とカスタマイズされたクローン数はこれを超えることはできません"
+#!!! "Windowsの合計数とカスタマイズされたクローン数はこれを超えることはできません"
 
 #: static/js/vmimages/main.js:600 static/js/vmimages/main.js:769
 msgid "Total Windows clone numbers cannot exceed "
@@ -2224,7 +2224,7 @@ msgid ""
 " cannot be used because it is not activated and no extra Windows license is "
 "available. Please order new license from Fortinet "
 msgstr ""
-"追加のWindowsライセンスがないため使用できません。 フォーティネットに新しいラ"
+#!!! "追加のWindowsライセンスがないため使用できません。 フォーティネットに新しいラ"
 "イセンスを注文してください "
 
 #: static/js/vmimages/main.js:683
@@ -2234,7 +2234,7 @@ msgstr "追加料金はなし"
 #: static/js/vmimages/main.js:683
 msgid " license is available. Please order new license from Fortinet"
 msgstr ""
-"ライセンスが利用可能です。 フォーティネットから新しいライセンスを注文してくだ"
+#!!! "ライセンスが利用可能です。 フォーティネットから新しいライセンスを注文してくだ"
 "さい"
 
 #: static/js/vmimages/main.js:707
@@ -2259,7 +2259,7 @@ msgstr "クローンの総数は "
 
 #: static/js/vmimages/main.js:786
 msgid "You have enabled "
-msgstr "有効にしました "
+#!!! msgstr "有効にしました "
 
 #: static/js/vmimages/main.js:786
 msgid " VM types"
@@ -2276,7 +2276,7 @@ msgstr "カスタムVMのクローン総数"
 #: static/js/vmimages/main.js:835 static/js/vmimages/main.js:849
 #: static/js/vmimages/main.js:866
 msgid " cannot exceed "
-msgstr "超えてはいけない"
+#!!! msgstr "超えてはいけない"
 
 #: static/js/vmimages/main.js:848
 #, fuzzy
@@ -2290,7 +2290,7 @@ msgstr "WindowsCloudVM/カスタムVMのクローン総数"
 
 #: static/js/vmimages/main.js:881
 msgid "The Max Local Instances cannot exceed its limitation "
-msgstr "最大ローカルインスタンスはその制限を超えることはできません"
+#!!! msgstr "最大ローカルインスタンスはその制限を超えることはできません"
 
 #: static/js/vmimages/main.js:905
 msgid "Failed to apply changes: "
