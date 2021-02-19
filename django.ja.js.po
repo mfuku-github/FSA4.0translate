@@ -36,15 +36,15 @@ msgstr "ダッシュボードから：スキャン統計"
 
 #: static/js/SearchPlugin.js:1230
 msgid "From URL Summary Report: Scanning Statistics"
-msgstr "URLサマリーレポートから：スキャン統計"
+msgstr "URLサマリレポートから：スキャン統計"
 
 #: static/js/SearchPlugin.js:1231
 msgid "From File Summary Report: Top Targetted Hosts"
-msgstr "ファイルサマリーレポートから：上位のターゲットホスト"
+msgstr "ファイルサマリレポートから：上位のターゲットホスト"
 
 #: static/js/SearchPlugin.js:1232
 msgid "From File Summary Report: Top Malware"
-msgstr "ファイルサマリーレポートから：トップマルウェア"
+msgstr "ファイルサマリレポートから：トップマルウェア"
 
 #: static/js/SearchPlugin.js:1233
 msgid "From Scan Input File Ondemand"
@@ -56,11 +56,11 @@ msgstr "スキャンインプット URLオンデマンドから"
 
 #: static/js/SearchPlugin.js:1235
 msgid "From HA-Cluster File Job Summary"
-msgstr "HAクラスタ ファイルジョブサマリーから"
+msgstr "HAクラスタ ファイルジョブサマリから"
 
 #: static/js/SearchPlugin.js:1236
 msgid "From HA-Cluster URL Job Summary"
-msgstr "HAクラスタ URLジョブサマリーから"
+msgstr "HAクラスタ URLジョブサマリから"
 
 #: static/js/SearchPlugin.js:1237
 msgid "From Network Share Scan Results"
@@ -828,7 +828,7 @@ msgstr "検索フィルタを表示する"
 
 #: static/js/filtertable/FilterTable.js:2585
 msgid "Invalid filter format detected"
-msgstr "フィルターフォーマットが正しくありません"
+msgstr "フィルタフォーマットが正しくありません"
 
 #: static/js/filtertable/FilterTable.js:3607
 msgid ""
@@ -1928,7 +1928,7 @@ msgstr "次のインターフェースを削除してもよいですか？"
 #: static/js/system/config-network-intf.js:50
 msgid "Failed to delete interface, please see event log for details"
 msgstr ""
-"インターフェイスを削除できませんでした。詳細についてはイベントログを参照して"
+"インターフェースを削除できませんでした。詳細についてはイベントログを参照して"
 "ください"
 
 #: static/js/system/config-network-intf.js:58

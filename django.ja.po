@@ -21,19 +21,19 @@ msgstr ""
 #: apps/about/about.py:863 apps/about/about.py:868 apps/about/about.py:874
 #: apps/about/about.py:878 apps/about/about.py:883
 msgid "Server override information error"
-msgstr "サーバーオーバーライド情報エラー"
+msgstr "サーバオーバーライド情報エラー"
 
 #: apps/about/about.py:894 apps/about/about.py:907
 msgid "Failed to override server information"
-msgstr "サーバー情報を上書きできませんでした"
+msgstr "サーバ情報を上書きできませんでした"
 
 #: apps/about/about.py:900
 msgid "Server override information was updated successfully"
-msgstr "サーバーオーバーライド情報が正常に更新されました"
+msgstr "サーバオーバーライド情報が正常に更新されました"
 
 #: apps/about/about.py:906
 msgid "Error happened in overriding FDN server information"
-msgstr "FDNサーバー情報の上書き中にエラーが発生しました"
+msgstr "FDNサーバ情報の上書き中にエラーが発生しました"
 
 #: apps/about/about.py:959
 msgid ""
@@ -62,7 +62,7 @@ msgstr ""
 
 #: apps/about/firmware/download.py:81
 msgid "Downloaded firmware image successfully Deleted."
-msgstr "ダウンロードされたファームウェアメージは正常に削除されました。"
+msgstr "ダウンロードされたファームウェアイメージは正常に削除されました。"
 
 #: apps/about/firmware/download.py:83
 msgid "Unable to delete downloaded firmware image."
@@ -295,7 +295,7 @@ msgstr "診断ログ"
 
 #: apps/admin_profiles/defs.py:53 templates/main/tree_menu_def.html:499
 msgid "Summary Report"
-msgstr "サマリーレポート"
+msgstr "サマリレポート"
 
 #: apps/admin_profiles/defs.py:54 templates/main/tree_menu_def.html:503
 msgid "Report Center"
@@ -332,7 +332,6 @@ msgid ""
 msgstr ""
 "アクションには「書き込み」権限が必要です。詳細については、システム管理者に"
 "お問い合わせください"
-
 
 #: apps/admin_profiles/views.py:89
 msgid "Error happened while saving admin profile."
@@ -1093,7 +1092,7 @@ msgstr "上位クリティカルログ"
 
 #: apps/dashboard/defs.py:35 apps/widgets/types.py:341
 msgid "Sniffer Traffic Throughput"
-msgstr "スニファトラフィックのスループット"
+msgstr "スニファートラフィックのスループット"
 
 #: apps/dashboard/defs.py:36
 msgid "Customized Threats Distribution"
@@ -1116,7 +1115,7 @@ msgstr "トップファイルタイプ"
 
 #: apps/dashboard/defs.py:51 apps/widgets/types.py:85
 msgid "Top Malware"
-msgstr "上位マルウエア"
+msgstr "上位マルウェア"
 
 #: apps/dashboard/defs.py:52 apps/widgets/types.py:100
 #: apps/widgets/utils/reports.py:863
@@ -1188,7 +1187,7 @@ msgstr "指標"
 
 #: apps/dashboard/defs.py:86 templates/alert/scan_job_details_sections.html:393
 msgid "Behavior Summary"
-msgstr "ビヘイビアサマリー"
+msgstr "ビヘイビアサマリ"
 
 #: apps/dashboard/defs.py:87
 msgid "Globe Attack"
@@ -1358,7 +1357,7 @@ msgid ""
 "Restore Administrators, Admin Profiles, Certificates, LDAP Servers and "
 "Radius Servers"
 msgstr ""
-"管理者、管理者プロファイル、証明書、LDAPサーバーおよびRadiusサーバーをリスト"
+"管理者、管理者プロファイル、証明書、LDAPサーバおよびRadiusサーバをリスト"
 "アしてください"
 
 #: apps/extra/views/fsb_main.py:111
@@ -1380,7 +1379,7 @@ msgstr "ログインしてください。"
 
 #: apps/extra/views/fsb_main.py:150
 msgid "User Profile not defined, please contact administrator."
-msgstr "ユーザープロファイルが定義されていません。管理者に連絡してください。"
+msgstr "ユーザプロファイルが定義されていません。管理者に連絡してください。"
 
 #: apps/extra/views/fsb_main.py:497
 msgid "Disclaimer successfully updated"
@@ -1475,7 +1474,7 @@ msgid ""
 "System cannot reach the Server Address, please verify the server is "
 "reachable."
 msgstr ""
-"システムがサーバーアドレスに到達できません、サーバーが到達可能であることを確"
+"システムがサーバアドレスに到達できません、サーバが到達可能であることを確"
 "認してください。"
 
 #: apps/extra/views/remote_backup.py:132
@@ -1484,7 +1483,7 @@ msgstr "構成は正常に変更されました"
 
 #: apps/extra/views/remote_backup.py:157
 msgid "Server address incorrectly specified."
-msgstr "サーバーアドレスが誤って指定されています。"
+msgstr "サーバアドレスが誤って指定されています。"
 
 #: apps/fhv/fhv_config.py:23
 msgid "The path /usr/bin/FHV dose not exists"
@@ -1645,7 +1644,7 @@ msgstr "インターフェース"
 
 #: apps/hacluster/forms.py:98 templates/ha_cluster/hconf_list.html:27
 msgid "Remote Server"
-msgstr "リモートサーバー"
+msgstr "リモートサーバ"
 
 #: apps/hacluster/forms.py:99 apps/scan/forms.py:72 apps/scan/forms.py:198
 #: apps/scan/forms.py:444 apps/scan/forms.py:514 apps/scan/forms.py:695
@@ -1672,7 +1671,7 @@ msgstr " フェールオーバーしきい値(2〜120回)"
 
 #: apps/hacluster/forms.py:120 apps/hacluster/forms.py:133
 msgid "Invalid remote server."
-msgstr "リモートサーバーが無効です。"
+msgstr "リモートサーバが無効です。"
 
 #: apps/hacluster/hcproxy.py:75
 msgid "Failed to load device data."
@@ -1724,7 +1723,7 @@ msgstr "インターフェースの設定が見つかりません"
 
 #: apps/hacluster/views.py:347
 msgid "Edit Interface Monitoring Setting"
-msgstr "インターフェイスモニタリング設定の編集"
+msgstr "インターフェースモニタリング設定の編集"
 
 #: apps/hacluster/views.py:431
 msgid "Device is not in HA-Master mode, HA-Cluster queries are not supported"
@@ -2050,7 +2049,7 @@ msgstr "サブジェクト"
 #: apps/job_detail/gui/defs.py:95
 #: templates/alert/scan_job_details_sections.html:338
 msgid "User Account"
-msgstr "ユーザーアカウント"
+msgstr "ユーザアカウント"
 
 #: apps/job_detail/gui/defs.py:96
 #: templates/alert/scan_job_details_sections.html:348
@@ -2271,7 +2270,7 @@ msgstr "メール設定が正常に更新されました。"
 
 #: apps/jsonrpc/rpccfgsystem.py:858
 msgid "Log server configuration were successfully updated."
-msgstr "ログサーバーの設定が正常に更新されました。"
+msgstr "ログサーバの設定が正常に更新されました。"
 
 #: apps/jsonrpc/rpcfpn.py:90
 #, python-format
@@ -2373,7 +2372,7 @@ msgstr "クリーンレーティングのジョブを含める"
 
 #: apps/logs/forms.py:54
 msgid "The same remote log server name has been used"
-msgstr "同じリモートログサーバー名が使用されています"
+msgstr "同じリモートログサーバ名が使用されています"
 
 #: apps/logs/logs.py:157
 msgid "New Remote Log Server"
@@ -2420,7 +2419,7 @@ msgstr "レベル"
 #: templates/scan/device_fct_main.html:49 templates/scan/fct_drilldown.html:112
 #: templates/vm_status/aws_interaction.html:41
 msgid "User"
-msgstr "ユーザー"
+msgstr "ユーザ"
 
 #: apps/logs/logutils.py:231
 msgid "User Interface"
@@ -2513,13 +2512,13 @@ msgstr "MD5チェックサム"
 
 #: apps/logs/logutils.py:261
 msgid "Malware Name"
-msgstr "マルウエア名"
+msgstr "マルウェア名"
 
 #: apps/logs/logutils.py:262
 #, fuzzy
 #| msgid "Malware Name"
 msgid "Malware Category"
-msgstr "マルウエアカテゴリ"
+msgstr "マルウェアカテゴリ"
 
 #: apps/logs/logutils.py:263
 msgid "SNMP Object ID"
@@ -2736,11 +2735,11 @@ msgstr "レポートファイル %s は存在しません。"
 
 #: apps/report_center/views.py:436
 msgid "Parameter jid is not valid."
-msgstr "パラメーターjidは無効です。"
+msgstr "パラメータjidは無効です。"
 
 #: apps/reports/defs.py:24 utils/pdf/report_db.py:45
 msgid "Executive Summary Report"
-msgstr "エグゼクティブサマリーレポート"
+msgstr "エグゼクティブサマリレポート"
 
 #: apps/reports/defs.py:25 utils/pdf/report_db.py:46
 msgid "Threat Activity Report"
@@ -2792,25 +2791,25 @@ msgstr "レポート生成"
 #, fuzzy
 #| msgid "Interface:SMTP Port has conflict with MTA"
 msgid "Interface:SMTP Port has conflict with other services"
-msgstr "インターフェイス：SMTPポートが他のサービスと競合しています"
+msgstr "インターフェース：SMTPポートが他のサービスと競合しています"
 
 #: apps/scan/adapter/config/icap.py:44
 #, fuzzy
 #| msgid "Interface:SMTP Port has conflict with MTA"
 msgid "Interface:Port has conflict with other service"
-msgstr "インターフェイス：ポートが他のサービスと競合しています"
+msgstr "インターフェース：ポートが他のサービスと競合しています"
 
 #: apps/scan/adapter/config/icap.py:46
 #, fuzzy
 #| msgid "Interface:SMTP Port has conflict with MTA"
 msgid "Interface:SSL Port has conflict with other service"
-msgstr "インターフェイス：SSLポートが他のサービスと競合しています"
+msgstr "インターフェース：SSLポートが他のサービスと競合しています"
 
 #: apps/scan/adapter/config/mta.py:36
 #, fuzzy
 #| msgid "Local Interface:Local SMTP Port has conflict with BCC"
 msgid "Local Interface:Local SMTP Port has conflict with other services"
-msgstr "ローカルインターフェイス：ローカルSMTPポートが他のサービスと競合しています"
+msgstr "ローカルインターフェース：ローカルSMTPポートが他のサービスと競合しています"
 
 #: apps/scan/adapter/quarantine/defs.py:8
 msgid "Sender"
@@ -2866,7 +2865,7 @@ msgstr "MTA設定の保存に失敗しました。"
 
 #: apps/scan/adapter/views.py:102 apps/scan/adapter/views.py:113
 msgid "MTA Contracts Details"
-msgstr "MTA契約の詳細"
+msgstr "MTAコントラクトの詳細"
 
 #: apps/scan/botnetpkg_operations.py:44
 msgid "Failed to retrieve botnet info: "
@@ -3209,15 +3208,15 @@ msgstr "インターフェースポート"
 
 #: apps/scan/devsniffer.py:174
 msgid "No interface was selected for sniffer"
-msgstr "スニファのインターフェイスが選択されていません"
+msgstr "スニファーのインターフェースが選択されていません"
 
 #: apps/scan/devsniffer.py:183
 msgid "No service type was selected for sniffer"
-msgstr "スニファのサービスタイプが選択されていません"
+msgstr "スニファーのサービスタイプが選択されていません"
 
 #: apps/scan/devsniffer.py:196
 msgid "No file type was selected for sniffer"
-msgstr "スニファのファイルタイプが選択されていません"
+msgstr "スニファーのファイルタイプが選択されていません"
 
 #: apps/scan/devsniffer.py:199
 msgid "URL level must be between 1 to 5"
@@ -3230,12 +3229,12 @@ msgstr "現在%sが他のサービスで使用されています"
 
 #: apps/scan/devsniffer.py:247
 msgid "Failed to update sniffer configuration"
-msgstr "スニファ設定の更新に失敗しました"
+msgstr "スニファー設定の更新に失敗しました"
 
 #: apps/scan/devsniffer.py:255
 msgid ""
 "Failed to update sniffer configuration. Check log for detailed information"
-msgstr "スニファ設定の更新に失敗しました。詳細についてはログを確認してください"
+msgstr "スニファー設定の更新に失敗しました。詳細についてはログを確認してください"
 
 #: apps/scan/fcont.py:142
 msgid "Error happened when set a change flags for adapter."
@@ -4126,7 +4125,7 @@ msgid ""
 "Put Files From Sniffer, Network Share And Devices Of The Following Types To "
 "Job Queue"
 msgstr ""
-"スニファ、ネットワーク共有、および次のタイプのデバイスからのファイルをジョブキューに配置します"
+"スニファー、ネットワーク共有、および次のタイプのデバイスからのファイルをジョブキューに配置します"
 
 #: apps/scan/forms.py:641
 #, fuzzy
@@ -4265,11 +4264,11 @@ msgstr "ジョブキューの削除に成功しました。"
 
 #: apps/scan/jobqueue.py:270
 msgid "No parameter \"key\" given."
-msgstr "パラメーターを持たない\"key\"が与えられました。"
+msgstr "パラメータを持たない\"key\"が与えられました。"
 
 #: apps/scan/jobqueue.py:272
 msgid "No parameter \"qtype\" given."
-msgstr "パラメーターを持たない\"qtype\"が与えられました。"
+msgstr "パラメータを持たない\"qtype\"が与えられました。"
 
 #: apps/scan/jobqueue.py:288
 msgid "return is "
@@ -4290,7 +4289,7 @@ msgstr "マルウェアはパッケージから正常に削除されます。"
 #: apps/scan/malpkg_operations.py:95
 #: templates/admin/change_list_controls.html:252
 msgid "Malware Packages"
-msgstr "マルウエアパッケージ"
+msgstr "マルウェアパッケージ"
 
 #: apps/scan/nwshare.py:218
 #, python-format
@@ -4356,7 +4355,7 @@ msgstr "即時スキャンがネットワーク共有に対して正常にスケ
 
 #: apps/scan/nwshare.py:539 apps/scan/nwshare.py:1077
 msgid "Error happened. Please check your archive server settings"
-msgstr "エラーが発生しました。アーカイブサーバーの設定を確認してください"
+msgstr "エラーが発生しました。アーカイブサーバの設定を確認してください"
 
 #: apps/scan/nwshare.py:554 apps/scan/nwshare.py:573
 msgid "Network share is accessible"
@@ -4431,18 +4430,18 @@ msgstr "アーカイブロケーション"
 
 #: apps/scan/nwshare.py:1073
 msgid "Archiver server is accessible"
-msgstr "アーカイバサーバーはアクセス可能です"
+msgstr "アーカイバサーバはアクセス可能です"
 
 #: apps/scan/nwshare.py:1085
 msgid "Archive server settings were successfully reset to default"
-msgstr "アーカイブサーバーの設定が正常にデフォルトにリセットされました"
+msgstr "アーカイブサーバの設定が正常にデフォルトにリセットされました"
 
 #: apps/scan/nwshare.py:1089
 msgid ""
 "Error happened when resetting archive server settings. Please check system "
 "log for details"
 msgstr ""
-"アーカイブサーバーの設定をリセットするときにエラーが発生しました。"
+"アーカイブサーバの設定をリセットするときにエラーが発生しました。"
 "詳細については、システムログを確認してください"
 
 #: apps/scan/options.py:26
@@ -4855,7 +4854,7 @@ msgstr "過去1時間の平均スキャン時間"
 
 #: apps/snmp/models.py:58 apps/snmp/models.py:73
 msgid "Topology map for cluster has changed "
-msgstr "クラスターのトポロジーマップが変更されます"
+msgstr "クラスターのトポロジマップが変更されます"
 
 #: apps/snmp/models.py:59 apps/snmp/models.py:74
 msgid "Health check status for cluster has changed"
@@ -4932,7 +4931,7 @@ msgstr "ログインテストに成功しました。"
 #: apps/system/admin.py:62
 msgid "Auth Log not found, login test blocked by the server."
 msgstr ""
-"認証ログが見つかりません。ログインテストはサーバーによってブロックされていま"
+"認証ログが見つかりません。ログインテストはサーバによってブロックされていま"
 "す。"
 
 #: apps/system/config.py:50 apps/system/config.py:1672
@@ -4994,7 +4993,7 @@ msgstr "不正な古いパスワード"
 
 #: apps/system/config.py:368
 msgid "Username exist, please use update."
-msgstr "ユーザー名が存在します。更新を使用してください。"
+msgstr "ユーザ名が存在します。更新を使用してください。"
 
 #: apps/system/config.py:387
 #, python-format
@@ -5019,7 +5018,7 @@ msgstr "新規管理者の追加でエラーが発生しました。"
 
 #: apps/system/config.py:492 apps/system/config.py:745
 msgid "Failed to update user to FTC server for Two Factor Authentication"
-msgstr "2要素認証のユーザーをFTCサーバーに更新できませんでした"
+msgstr "2要素認証のユーザをFTCサーバに更新できませんでした"
 
 #: apps/system/config.py:503
 msgid "New Administrator"
@@ -5084,11 +5083,11 @@ msgstr "管理者情報の更新でエラーが発生しました。"
 
 #: apps/system/config.py:811
 msgid "Successfully delete two factor authentication for user: "
-msgstr "ユーザーの2要素認証を正常に削除します: "
+msgstr "ユーザの2要素認証を正常に削除します: "
 
 #: apps/system/config.py:817
 msgid "Failed to delete two factor authentication for user: "
-msgstr "ユーザーの2要素認証の削除に失敗しました："
+msgstr "ユーザの2要素認証の削除に失敗しました："
 
 #: apps/system/config.py:1012 apps/system/config.py:1216
 msgid "Mail server configuration was successfully updated"
@@ -5096,7 +5095,7 @@ msgstr "メールサーバの設定の更新に成功しました。"
 
 #: apps/system/config.py:1019
 msgid "Error happened. Please check your email server settings"
-msgstr "エラーが発生しました。メールサーバーの設定を確認してください"
+msgstr "エラーが発生しました。メールサーバの設定を確認してください"
 
 #: apps/system/config.py:1088
 msgid "Send Test Email"
@@ -5121,7 +5120,7 @@ msgstr "スケジュールされた詳細レポートのレーティングはチ
 
 #: apps/system/config.py:1171
 msgid "Scheduled summary report receivers list is empty"
-msgstr "スケジュールされたサマリーレポートの受信者リストが空です"
+msgstr "スケジュールされたサマリレポートの受信者リストが空です"
 
 #: apps/system/config.py:1174
 msgid "Scheduled detail report receivers list is empty"
@@ -5132,7 +5131,7 @@ msgid ""
 "At least one email address in scheduled summary report receivers list is not "
 "valid"
 msgstr ""
-"スケジュールされたサマリーレポートの受信者リストの少なくとも1つのメールアドレスが無効です"
+"スケジュールされたサマリレポートの受信者リストの少なくとも1つのメールアドレスが無効です"
 
 #: apps/system/config.py:1180 apps/system/forms.py:1083
 msgid ""
@@ -5148,7 +5147,7 @@ msgstr "システムアラート受信者リストが空です"
 
 #: apps/system/config.py:1223
 msgid "Error happened. Please check your mail server settings"
-msgstr "エラーが発生しました。メールサーバーの設定を確認してください"
+msgstr "エラーが発生しました。メールサーバの設定を確認してください"
 
 #: apps/system/config.py:1263 apps/system/config.py:1317
 #, fuzzy
@@ -5170,14 +5169,14 @@ msgstr "テストメールが送信されました。メールボックスをチ
 
 #: apps/system/config.py:1331
 msgid "Mail server settings were successfully reset to default"
-msgstr "メールサーバーの設定がデフォルトにリセットされました。"
+msgstr "メールサーバの設定がデフォルトにリセットされました。"
 
 #: apps/system/config.py:1337
 msgid ""
 "Error happened when resetting mail server settings. Please check system log "
 "for details"
 msgstr ""
-"メールサーバーの設定をリセットするときにエラーが発生しました。詳細について"
+"メールサーバの設定をリセットするときにエラーが発生しました。詳細について"
 "は、システムログを確認してください"
 
 #: apps/system/config.py:1396
@@ -5246,7 +5245,7 @@ msgstr "ユニットタイプが更新されました。"
 
 #: apps/system/config.py:1763 apps/system/config.py:1785
 msgid "Error happened. The interface is down now"
-msgstr "エラーが発生しました。インターフェイスは現在ダウンしています"
+msgstr "エラーが発生しました。インターフェースは現在ダウンしています"
 
 #: apps/system/config.py:1803
 msgid "New routing configuration was successfully added"
@@ -5282,7 +5281,7 @@ msgstr "アップデート"
 
 #: apps/system/config.py:1901
 msgid "LDAP server information"
-msgstr "LDAPサーバー情報"
+msgstr "LDAPサーバ情報"
 
 #: apps/system/config.py:1960
 msgid "Failed to create new LDAP server, check logs for details"
@@ -5314,7 +5313,7 @@ msgid ""
 "LDAP server %(name)s is being used by certain user(s). Please delete those "
 "users or assign different LDAP server to them first."
 msgstr ""
-"LDAP サーバー %(name)s は特定のユーザが使用しています。それらのユーザーを削除"
+"LDAP サーバ %(name)s は特定のユーザが使用しています。それらのユーザを削除"
 "するか、最初にそれらに別のLDAPサーバを割り当ててください。"
 
 #: apps/system/config.py:2072 apps/system/config.py:2097
@@ -5397,7 +5396,7 @@ msgstr "稼働しているWindows VM"
 
 #: apps/system/config.py:2392
 msgid "Failed to create new RADIUS server."
-msgstr "新しいRADIUSサーバーの作成に失敗しました。"
+msgstr "新しいRADIUSサーバの作成に失敗しました。"
 
 #: apps/system/config.py:2394
 msgid "Failed to update a RADIUS server."
@@ -5405,14 +5404,14 @@ msgstr "RADIUSサーバの更新に失敗しました。"
 
 #: apps/system/config.py:2449
 msgid "New RADIUS Server / FortiAuthenticator"
-msgstr "新しいRAIDUSサーバー/ FortiAuthenticator"
+msgstr "新しいRAIDUSサーバ/ FortiAuthenticator"
 
 #: apps/system/config.py:2522
 msgid ""
 "RADIUS server is being used by certain user(s). Please delete those users or "
 "assign different RADIUS server to them first."
 msgstr ""
-"RADIUSサーバは、特定のユーザが使用しています。まずそれらのユーザーを削除するか、"
+"RADIUSサーバは、特定のユーザが使用しています。まずそれらのユーザを削除するか、"
 "別のRADIUSサーバを割り当ててください。"
 
 #: apps/system/config.py:2528
@@ -5429,7 +5428,7 @@ msgstr "ネットワークインターフェースの編集"
 
 #: apps/system/config_network.py:313 apps/system/config_network.py:399
 msgid "Interface cannot be edited as it's being used by sniffer."
-msgstr "スニファで利用中のインタフェースは編集できません。"
+msgstr "スニファーで利用中のインターフェースは編集できません。"
 
 #: apps/system/config_network.py:318 apps/system/config_network.py:427
 msgid "For IPv4 settings, "
@@ -5464,14 +5463,14 @@ msgid ""
 "The IPv4 address is being used as gateway address of a static route entry "
 "for this interface"
 msgstr ""
-"IPv4アドレスは、このインターフェイスのスタティックルートエントリのゲートウェ"
+"IPv4アドレスは、このインターフェースのスタティックルートエントリのゲートウェ"
 "イアドレスとして使用されています"
 
 #: apps/system/config_network.py:347 apps/system/config_network.py:408
 msgid ""
 "Interface cannot be shut down as it has static routing entry(s) configured."
 msgstr ""
-"スタティックルートが設定されているインタフェースはシャットダウンできません。"
+"スタティックルートが設定されているインターフェースはシャットダウンできません。"
 
 #: apps/system/config_network.py:422
 msgid "IPv4 cannot be empty"
@@ -5518,19 +5517,19 @@ msgstr "ユーザデバイスの取得に失敗しました： "
 #, fuzzy
 #| msgid "Failed to retrieve user devices: "
 msgid "Failed to retrieve user defined devices: "
-msgstr "ユーザー定義のデバイスの取得に失敗しました： "
+msgstr "ユーザ定義のデバイスの取得に失敗しました： "
 
 #: apps/system/device_user.py:131
 msgid "Device user successfully saved."
-msgstr "デバイスユーザーが正常に保存されました。"
+msgstr "デバイスユーザが正常に保存されました。"
 
 #: apps/system/device_user.py:134
 msgid "Save device user failed: "
-msgstr "デバイスユーザーの保存に失敗: "
+msgstr "デバイスユーザの保存に失敗: "
 
 #: apps/system/device_user.py:148
 msgid "Delete device user failed: "
-msgstr "デバイスユーザーの削除に失敗しました: "
+msgstr "デバイスユーザの削除に失敗しました: "
 
 #: apps/system/forms.py:33
 msgid "Compact"
@@ -5594,7 +5593,7 @@ msgid ""
 "characters long. May contain upper-case letters, lower-case letters, numbers "
 "and the special character _-."
 msgstr ""
-"Radiusユーザーの長さは1〜64文字で、他のユーザーの長さは1〜30文字でなければな"
+"Radiusユーザの長さは1〜64文字で、他のユーザの長さは1〜30文字でなければな"
 "りません。大文字、小文字、数字、および特殊文字_-を含むことができます。"
 
 #: apps/system/forms.py:99
@@ -5634,7 +5633,7 @@ msgstr "権限"
 
 #: apps/system/forms.py:129
 msgid "Device User"
-msgstr "デバイスユーザー"
+msgstr "デバイスユーザ"
 
 #: apps/system/forms.py:130 templates/device_profiles/config.html:29
 msgid "Device Group"
@@ -5776,7 +5775,7 @@ msgstr "LDAPタイプのユーザには、LDAPサーバを選択する必要が�
 #: apps/system/forms.py:275
 msgid "For Radius type user, a Radius server has to be selected"
 msgstr ""
-"Radiusタイプのユーザーの場合は、Radiusサーバーを選択する必要があります。"
+"Radiusタイプのユーザの場合は、Radiusサーバを選択する必要があります。"
 
 #: apps/system/forms.py:287
 msgid "The instance ID cannot be used as the password"
@@ -5821,7 +5820,7 @@ msgstr "宛先IP/ネットマスク"
 
 #: apps/system/forms.py:485
 msgid "Error happened. The target interface is down"
-msgstr "エラーが発生しました。ターゲットインタフェースがダウンしています"
+msgstr "エラーが発生しました。ターゲットインターフェースがダウンしています"
 
 #: apps/system/forms.py:519
 msgid "Reason cannot be empty"
@@ -5951,11 +5950,11 @@ msgstr "プロファイル属性"
 
 #: apps/system/forms.py:740
 msgid "Secondary-server"
-msgstr "セカンダリサーバー"
+msgstr "セカンダリサーバ"
 
 #: apps/system/forms.py:741
 msgid "Tertiary-server"
-msgstr "三次サーバー"
+msgstr "三次サーバ"
 
 #: apps/system/forms.py:836
 msgid "For Regular bind type, username and password cannot be empty"
@@ -6103,7 +6102,7 @@ msgstr "スケジュールされたPDFレポートをグローバルメール受
 msgid ""
 "Global email list to receive scheduled summary report (separated by comma)"
 msgstr ""
-"スケジュールされたサマリーレポートを受信するためのグローバルメールリスト"
+"スケジュールされたサマリレポートを受信するためのグローバルメールリスト"
 "（カンマ区切り）"
 
 #: apps/system/forms.py:963
@@ -6181,7 +6180,7 @@ msgid ""
 "To send out scheduled report, scheduled summary report receivers list cannot "
 "be empty"
 msgstr ""
-"スケジュールされたレポートを送信するために、スケジュールサマリーレポート受信者リストは空"
+"スケジュールされたレポートを送信するために、スケジュールサマリレポート受信者リストは空"
 "に出来ません"
 
 #: apps/system/forms.py:1079
@@ -6243,7 +6242,7 @@ msgstr "TCPトラフィックの次のアドレスにアクセスするために
 #: apps/system/forms.py:1124
 msgid "For example, to use proxy server to access default FDN server, put "
 msgstr ""
-"たとえば、デフォルトのFDNサーバーにアクセスするためにプロキシサーバーを使用す"
+"たとえば、デフォルトのFDNサーバにアクセスするためにプロキシサーバを使用す"
 "るには、 "
 
 #: apps/system/forms.py:1127
@@ -6887,7 +6886,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Cloud server is accessible"
 msgid "VM Image Server is accessible"
-msgstr "VMイメージサーバーにアクセスできます"
+msgstr "VMイメージサーバにアクセスできます"
 
 #: apps/widgets/utils/conn_services.py:162
 #, fuzzy
@@ -6909,14 +6908,14 @@ msgid ""
 "WARNING: Cloud server is inaccessible or the unit has no valid support "
 "contract. Cloud service will not be available"
 msgstr ""
-"警告：クラウドサーバーにアクセスできないか、ユニットが有効なサポート契約を"
+"警告：クラウドサーバにアクセスできないか、ユニットが有効なサポートコントラクトを"
 "持っていません。クラウドサービスは利用できません"
 
 #: apps/widgets/utils/conn_services.py:200
 #, fuzzy
 #| msgid "Cloud server is accessible"
 msgid "Windows Cloud VM server is accessible"
-msgstr "Windows CloudVMサーバーにアクセスできます"
+msgstr "Windows CloudVMサーバにアクセスできます"
 
 #: apps/widgets/utils/conn_services.py:205
 #, fuzzy
@@ -6927,7 +6926,7 @@ msgid ""
 "WARNING: Windows Cloud VM server is inaccessible or the unit has no valid "
 "support contract. Windows VM Cloud service will not be available"
 msgstr ""
-"警告：Windows Cloud VMサーバーにアクセスできないか、ユニットが有効なサポート契約を持っていません。"
+"警告：Windows Cloud VMサーバにアクセスできないか、ユニットが有効なサポートコントラクトを持っていません。"
 "WindowsVMクラウドサービスは利用できなくなります"
 
 #: apps/widgets/utils/conn_services.py:220
@@ -6939,8 +6938,8 @@ msgid ""
 "WARNING: Web filtering query server is inaccessible. Please make sure  the "
 "unit has valid support contract, and has no connection issue."
 msgstr ""
-"警告：Webフィルタリングクエリサーバーにアクセスできません。ユニットが有効なサ"
-"ポート契約をもっており、接続に問題がないことを確認してください。"
+"警告：Webフィルタリングクエリサーバにアクセスできません。ユニットが有効なサ"
+"ポートコントラクトをもっており、接続に問題がないことを確認してください。"
 
 #: apps/widgets/utils/dashboard_scanstats.py:38 apps/widgets/views.py:536
 #: templates/ha_cluster/hc_stat_table.html:103 utils/fdnstatsupd.py:386
@@ -7079,18 +7078,18 @@ msgid ""
 "ready. Also make sure the connection to FDN server is good and the unit is "
 "registered"
 msgstr ""
-"警告：サポート契約が検出されませんでした。システムの準備ができるまで待ってく"
+"警告：サポートコントラクトが検出されませんでした。システムの準備ができるまで待ってく"
 "ださい。また、FDNサーバへ接続が良好であり、ユニットが登録されていることを確認"
 "してください。"
 
 #: apps/widgets/utils/licenses.py:261
 #, python-format
 msgid "WARNING: Support contract will expire in %(days)s days"
-msgstr "警告：サポート契約は%(days)s日後に期限切れになります"
+msgstr "警告：サポートコントラクトは%(days)s日後に期限切れになります"
 
 #: apps/widgets/utils/licenses.py:264
 msgid "WARNING: Support contract has expired. Please renew it"
-msgstr "警告：サポート契約の有効期限が切れています。更新してください"
+msgstr "警告：サポートコントラクトの有効期限が切れています。更新してください"
 
 #: apps/widgets/utils/licenses.py:291
 #, fuzzy, python-brace-format
@@ -7105,11 +7104,11 @@ msgstr ", 最大アカウント：{0}"
 
 #: apps/widgets/utils/licenses.py:303
 msgid "WARNING: No connection to WindowsCloudVM server"
-msgstr "警告：WindowsCloudVMサーバーへの接続なし"
+msgstr "警告：WindowsCloudVMサーバへの接続なし"
 
 #: apps/widgets/utils/licenses.py:307
 msgid "WARNING: No connection to MACOS server"
-msgstr "警告：MACOSサーバーへの接続なし"
+msgstr "警告：MACOSサーバへの接続なし"
 
 #: apps/widgets/utils/licenses.py:364 apps/widgets/utils/licenses.py:382
 #, fuzzy
@@ -7213,7 +7212,7 @@ msgstr "Office 2019"
 #: apps/widgets/utils/pending_stats_data.py:26
 #: templates/main/tree_menu_def.html:88 utils/apilog.py:306
 msgid "Sniffer"
-msgstr "スニファ"
+msgstr "スニファー"
 
 #: apps/widgets/utils/pending_stats_data.py:27 templates/scan/devfgts.html:203
 msgid "Device(s)"
@@ -7390,11 +7389,11 @@ msgstr "エラー:オーバーライドサーバアドレスは空白です。"
 
 #: templates/about/fdn-update.html:325 templates/about/fdn-update.html:348
 msgid "Error: Web filtering override server address is empty."
-msgstr "エラー：Webフィルタリングオーバーライドサーバーアドレスが空白です。"
+msgstr "エラー：Webフィルタリングオーバーライドサーバアドレスが空白です。"
 
 #: templates/about/fdn-update.html:340
 msgid "Error: Cloud override server port is empty."
-msgstr "エラー：クラウドオーバーライドサーバーポートが空白です。"
+msgstr "エラー：クラウドオーバーライドサーバポートが空白です。"
 
 #: templates/about/fdn-update.html:472
 msgid "Module Name"
@@ -7424,7 +7423,7 @@ msgstr "アンチウイルス スキャナー"
 
 #: templates/about/fdn-update.html:488
 msgid "AntiVirus Extended Signature"
-msgstr "アンチウィルス拡張シグネチャ"
+msgstr "アンチウイルス拡張シグネチャ"
 
 #: templates/about/fdn-update.html:495
 msgid "AntiVirus Active Signature"
@@ -7472,7 +7471,7 @@ msgstr "産業セキュリティ署名"
 
 #: templates/about/fdn-update.html:575
 msgid "Traffic Sniffer"
-msgstr "トラフィックスニファ"
+msgstr "トラフィックスニファー"
 
 #: templates/about/fdn-update.html:588
 msgid "Upload Package File"
@@ -7515,7 +7514,7 @@ msgstr "FortiGuardサーバ設定"
 #: templates/about/fdn-update.html:630
 msgid "Use override FDN server to download module updates (IP or FQDN)"
 msgstr ""
-"モジュールの更新をダウンロードするため、オーバライドFDNサーバーを使用します（IPまたはFQDN）"
+"モジュールの更新をダウンロードするため、オーバライドFDNサーバを使用します（IPまたはFQDN）"
 
 #: templates/about/fdn-update.html:649 templates/about/fdn-update.html:747
 #: templates/about/fdn-update.html:816
@@ -7548,7 +7547,7 @@ msgstr "FortiGuardウェブフィルタ設定"
 #: templates/about/fdn-update.html:722
 msgid "Use override server for web filtering query (IP or FQDN)"
 msgstr ""
-"Webフィルタリングクエリにオーバーライドサーバーを使用する（IPまたはFQDN）"
+"Webフィルタリングクエリにオーバーライドサーバを使用する（IPまたはFQDN）"
 
 #: templates/about/fdn-update.html:800
 msgid "VM Image Download Proxy Settings"
@@ -7561,7 +7560,7 @@ msgstr "FortiSandboxコミュニティクラウドと脅威インテリジェン
 #: templates/about/fdn-update.html:875
 msgid "Use override server for community cloud server query (IP or FQDN)"
 msgstr ""
-"コミュニティクラウドサーバークエリにオーバーライドサーバーを使用する（IPまたはFQDN）"
+"コミュニティクラウドサーバクエリにオーバーライドサーバを使用する（IPまたはFQDN）"
 
 #: templates/about/fdn-update.html:936
 msgid "FortiSandbox WindowsCloudVM Settings"
@@ -7569,7 +7568,7 @@ msgstr "FortiSandbox WindowsCloudVM設定"
 
 #: templates/about/fdn-update.html:942
 msgid "Server Regions:"
-msgstr "サーバー地域："
+msgstr "サーバ地域："
 
 #: templates/about/fdn-update.html:969
 #: templates/ha_cluster/hc_management.html:161
@@ -7938,7 +7937,7 @@ msgstr "全てを選択/解除"
 
 #: templates/admin/device_panel.html:42 templates/admin/device_panel.html:43
 msgid "User defined devices"
-msgstr "ユーザー定義のデバイス"
+msgstr "ユーザ定義のデバイス"
 
 #: templates/admin/device_panel.html:64
 msgid "Domains/Vdoms"
@@ -7963,7 +7962,7 @@ msgid ""
 "Do you want to restore the Administrators, Admin Profiles, Certificates, "
 "LDAP Servers and Radius Servers?"
 msgstr ""
-"管理者、管理者プロファイル、証明書、LDAPサーバー、およびRadiusサーバーをリス"
+"管理者、管理者プロファイル、証明書、LDAPサーバ、およびRadiusサーバをリス"
 "トアしますか？"
 
 #: templates/admin/extra/recovery/backup_restore.html:127
@@ -8018,7 +8017,7 @@ msgstr "バックアップファイルをダウンロードしてもよいです
 
 #: templates/admin/extra/recovery/backup_restore.html:209
 msgid "The Server Address cannot be empty"
-msgstr "サーバーアドレスを空白にすることはできません"
+msgstr "サーバアドレスを空白にすることはできません"
 
 #: templates/admin/extra/recovery/backup_restore.html:213
 msgid "The User name cannot be empty"
@@ -8274,7 +8273,7 @@ msgstr "プロファイル名"
 #: templates/admin_profiles/index.html:12
 #: templates/device_profiles/index.html:12
 msgid "Users"
-msgstr "ユーザー"
+msgstr "ユーザ"
 
 #: templates/admin_profiles/index.html:25 templates/main/tree_menu_def.html:263
 msgid "Admin Profiles"
@@ -8479,7 +8478,7 @@ msgstr "ネットワーク脅威数"
 
 #: templates/alert/byusers_filter_table.html:222
 msgid "USER"
-msgstr "ユーザー"
+msgstr "ユーザ"
 
 #: templates/alert/clean_filter_table.html:62
 msgid "File Type: "
@@ -8629,7 +8628,7 @@ msgstr "スキャン時間"
 
 #: templates/alert/scan_job_details_sections.html:256
 msgid "VM images specified by user."
-msgstr "ユーザーが指定したVMイメージ"
+msgstr "ユーザが指定したVMイメージ"
 
 #: templates/alert/scan_job_details_sections.html:266
 msgid "VM Images launched for this job."
@@ -8942,7 +8941,7 @@ msgstr "Wokerノードへの同期設定"
 
 #: templates/ha_cluster/hc_management.html:115
 msgid "Users, LDAP/RADIUS Servers and Uploaded Certificats"
-msgstr "ユーザー、LDAP/RADIUSサーバー、およびアップロードされた証明書"
+msgstr "ユーザ、LDAP/RADIUSサーバ、およびアップロードされた証明書"
 
 #: templates/ha_cluster/hc_management.html:121
 msgid "Network settings (including DNS, proxy, and routing tables)"
@@ -8950,7 +8949,7 @@ msgstr "ネットワーク設定（DNS、プロキシ、ルーティングテー
 
 #: templates/ha_cluster/hc_management.html:127
 msgid "Log Server Settings and Local Log Settings"
-msgstr "ログサーバーの設定とローカルログの設定"
+msgstr "ログサーバの設定とローカルログの設定"
 
 #: templates/ha_cluster/hc_management.html:133
 #, fuzzy
@@ -9596,7 +9595,7 @@ msgstr "Yaraルール"
 
 #: templates/main/tree_menu_def.html:229 templates/scan/devfgts.html:116
 msgid "Malware Package"
-msgstr "マルウエアパッケージ"
+msgstr "マルウェアパッケージ"
 
 #: templates/main/tree_menu_def.html:233
 msgid "URL Package"
@@ -9698,7 +9697,7 @@ msgstr "ヘルスチェック"
 
 #: templates/main/tree_menu_def.html:418
 msgid "Job Summary"
-msgstr "ジョブサマリー"
+msgstr "ジョブサマリ"
 
 #: templates/main/tree_menu_def.html:448
 msgid "Log & Report"
@@ -9863,7 +9862,7 @@ msgstr ""
 
 #: templates/scan/adapter/mta_contract_details.html:9
 msgid "MTA Contract Details"
-msgstr "MTA契約の詳細"
+msgstr "MTAコントラクトの詳細"
 
 #: templates/scan/adapter/mta_contract_details.html:17
 msgid "License Information"
@@ -9910,7 +9909,7 @@ msgstr "SMTPポート番号は1〜65535で、SMTPSポート番号とは異なる
 #: templates/scan/bcc_config.html:93 templates/scan/icap_config.html:62
 #: templates/scan/mta_config.html:144
 msgid "Recommend to use the interface on which cluster IP is configured"
-msgstr "クラスタIPが構成されているインターフェイスを使用することをお勧めします"
+msgstr "クラスタIPが構成されているインターフェースを使用することをお勧めします"
 
 #: templates/scan/botnetpkg_rel_table.html:65
 #: templates/scan/malpkg_rel_table.html:97
@@ -10178,7 +10177,7 @@ msgid ""
 "Please note: This setting applies to all FortiClients managed by this EMS "
 "server."
 msgstr ""
-"注：この設定は、このEMSサーバーが管理するすべてのFortiClientに適用されます。"
+"注：この設定は、このEMSサーバが管理するすべてのFortiClientに適用されます。"
 
 #: templates/scan/device_edit.html:454
 msgid "New VDOMs/Domains Inherit Authorization:"
@@ -10240,11 +10239,11 @@ msgstr "%(total_t)s 中 %(rs_t)s から %(re_t)s のデバイスを表示"
 
 #: templates/scan/devsniffer.html:7
 msgid "Edit Sniffer Setting"
-msgstr "スニファ設定の編集"
+msgstr "スニファー設定の編集"
 
 #: templates/scan/devsniffer.html:25
 msgid "Sniffer Settings"
-msgstr "スニファ設定"
+msgstr "スニファー設定"
 
 #: templates/scan/devsniffer.html:36
 msgid "Enable file based detection"
@@ -10276,7 +10275,7 @@ msgstr "Conserveモードを有効化"
 
 #: templates/scan/devsniffer.html:53 templates/scan/devsniffer.html:58
 msgid "The maximum size of files captured by sniffer"
-msgstr "スニファでキャプチャする最大ファイルサイズ"
+msgstr "スニファーでキャプチャする最大ファイルサイズ"
 
 #: templates/scan/devsniffer.html:53
 #, fuzzy
@@ -10290,11 +10289,11 @@ msgstr "KB (最大ファイルサイズ200,000KB)"
 
 #: templates/scan/devsniffer.html:62
 msgid "The interfaces which have traffic to sniff"
-msgstr "トラフィックをスニファするインタフェース"
+msgstr "トラフィックをスニファーするインターフェース"
 
 #: templates/scan/devsniffer.html:62
 msgid "Sniffed Interfaces"
-msgstr "スニファインターフェース"
+msgstr "スニファーインターフェース"
 
 #: templates/scan/devsniffer.html:72
 msgid "Service Types"
@@ -10334,13 +10333,13 @@ msgstr "有効な最大ファイルサイズを入力してください(10〜200
 
 #: templates/scan/devsniffer.html:335
 msgid "Sniffer configuration was successfully updated"
-msgstr "スニファの設定を更新しました。"
+msgstr "スニファーの設定を更新しました。"
 
 #: templates/scan/devsniffer.html:342
 msgid ""
 "Error: Sniffer configuration failed. Make sure all the interfaces are up."
 msgstr ""
-"エラー：スニファの設定に失敗しました。すべてのインターフェイスがアップしてい"
+"エラー：スニファーの設定に失敗しました。すべてのインターフェースがアップしてい"
 "ることを確認してください。"
 
 #: templates/scan/devsniffer.html:347
@@ -10352,7 +10351,7 @@ msgid ""
 "Error: No configurable interface for sniffer, please config interface at "
 "Network > Interfaces."
 msgstr ""
-"エラー：スニファに設定可能なポートがありません。インターフェイスを設定してください。"
+"エラー：スニファーに設定可能なポートがありません。インターフェースを設定してください。"
 
 #: templates/scan/edit_devfgts.html:156
 #: templates/scan/global_network_page.html:48
@@ -10426,7 +10425,7 @@ msgstr "このアイテムを編集"
 
 #: templates/scan/filter_list/vue_templates.html:79
 msgid "Delete this value from server"
-msgstr "サーバーからこの値を削除"
+msgstr "サーバからこの値を削除"
 
 #: templates/scan/filter_list/vue_templates.html:83
 msgid "No expiry date"
@@ -10837,16 +10836,16 @@ msgstr ""
 
 #: templates/scan/mta_config.html:113
 msgid "Next Hop Mail Server Name"
-msgstr "ネクストホップメールサーバー名"
+msgstr "ネクストホップメールサーバ名"
 
 #: templates/scan/mta_config.html:117
 msgid "Mail Server Name must be a valid IPV4 address or a domain name."
 msgstr ""
-"メールサーバー名は有効なIPv4アドレスまたはドメイン名でなければなりません。"
+"メールサーバ名は有効なIPv4アドレスまたはドメイン名でなければなりません。"
 
 #: templates/scan/mta_config.html:122
 msgid "Next Hop Mail Server SMTP Port"
-msgstr "ネクストホップメールサーバーのSMTPポート"
+msgstr "ネクストホップメールサーバのSMTPポート"
 
 #: templates/scan/mta_config.html:131
 msgid "Local Interface"
@@ -11410,7 +11409,7 @@ msgstr "内部コミュニケーションポート"
 #: templates/system/edit-network-intf.html:208
 #: templates/system/edit-network-intf.html:214
 msgid "Being used by sniffer"
-msgstr "スニファで使用されています"
+msgstr "スニファーで使用されています"
 
 #: templates/system/config-network-intf.html:56
 #: templates/system/config-network-intf.html:66
@@ -11512,7 +11511,7 @@ msgstr "システム時刻設定の変更でエラーが発生しました。 "
 #: templates/system/create-network-interface.html:38
 #: templates/system/edit-network-intf.html:237
 msgid "Interface Member"
-msgstr "インターフェイスメンバー"
+msgstr "インターフェースメンバー"
 
 #: templates/system/create-network-interface.html:44
 #: templates/system/edit-network-intf.html:250
@@ -11574,7 +11573,7 @@ msgid ""
 msgstr ""
 "注意：FortiSandbox VMのサンドボックスは、分析中のファイル実行時にport3を使"
 "用して外部通信を行います。イントラネット内で感染ファイルが広がらないようにす"
-"るためにこのインターフェイスをファイアウォール背後の隔離されたネットワーク上"
+"るためにこのインターフェースをファイアウォール背後の隔離されたネットワーク上"
 "に配置することを推奨します。"
 
 #: templates/system/edit-network-intf.html:169
@@ -11582,7 +11581,7 @@ msgid ""
 "NOTE: Port3 cannot be used to listen to traffic for Sniffer or from Fortinet "
 "devices."
 msgstr ""
-"注意：port3はスニファやデバイスからのファイル受信には使用できません。"
+"注意：port3はスニファーやデバイスからのファイル受信には使用できません。"
 
 #: templates/system/edit-network-intf.html:175
 msgid ""
@@ -11590,7 +11589,7 @@ msgid ""
 "Any incorrect settings may lead job assignment/malware detection to be "
 "failed on this unit"
 msgstr ""
-"注意：このインタフェースは、クラスタ内部通信用に設定されています。誤った設定"
+"注意：このインターフェースは、クラスタ内部通信用に設定されています。誤った設定"
 "により、このユニットによるジョブの割り当て/マルウェアの検出が失敗する可能性が"
 "あります"
 
@@ -11713,8 +11712,8 @@ msgid ""
 "You can reset all widgets in Dashboard,  File Detection > Summary Report, "
 "Network Alerts > Summary Report, URL Detection > Summary Report."
 msgstr ""
-#!!!"これら全てのウィジェットをリセットできます：ファイルベース検知 > サマリーレ"
-#!!!"ポート、ネットワークアラート > サマリーレポート、URL検知 > サマリーレポート."
+#!!!"これら全てのウィジェットをリセットできます：ファイルベース検知 > サマリレ"
+#!!!"ポート、ネットワークアラート > サマリレポート、URL検知 > サマリレポート."
 
 #: templates/system/vm_activate.html:56
 msgid ""
@@ -11844,7 +11843,7 @@ msgstr "Linux：「rdesktop」を実行してRDP接続を開始してくださ�
 
 #: templates/vm_status/aws_interaction.html:65
 msgid "Please use 'administrator' as your username"
-msgstr "ユーザー名として「administrator」を使用してください"
+msgstr "ユーザ名として「administrator」を使用してください"
 
 #: templates/vm_status/aws_interaction.html:80
 msgid "Establish a Tunnel for Remote Desktop"
@@ -12306,7 +12305,7 @@ msgstr "鍵ファイル %s を保存できませんでした"
 
 #: utils/cert/cert.py:533
 msgid "The key file can not be recognized by ssh server"
-msgstr "鍵ファイルはsshサーバーで認識できません"
+msgstr "鍵ファイルはsshサーバで認識できません"
 
 #: utils/cert/cert.py:556
 msgid "Failed to validate certificate."
@@ -12577,7 +12576,7 @@ msgstr "URL検知"
 
 #: utils/prescandef.py:33 utils/prescandef.py:49
 msgid "User defined extensions"
-msgstr "ユーザー定義の拡張子"
+msgstr "ユーザ定義の拡張子"
 
 #: utils/prescandef.py:34 utils/prescandef.py:50
 msgid "Job Queue Assignment Pending files"
@@ -12737,7 +12736,7 @@ msgstr "有効なドメインを入力してください。"
 #, fuzzy
 #~| msgid "Sniffer"
 #~ msgid "URL Sniffer"
-#~ msgstr "スニファ"
+#~ msgstr "スニファー"
 
 #~ msgid "Scan Input"
 #~ msgstr "スキャンインプット"
@@ -12773,7 +12772,7 @@ msgstr "有効なドメインを入力してください。"
 
 #~ msgid " is down. Please make sure sniffering interface is up"
 #~ msgstr ""
-#~ "ダウンしています。スニファリングインターフェイスがアップしていることを確認"
+#~ "ダウンしています。スニファーリングインターフェースがアップしていることを確認"
 #~ "してください"
 
 #~ msgid "White"
@@ -12825,7 +12824,7 @@ msgstr "有効なドメインを入力してください。"
 #~ msgstr "Webフィルタリング有効期限"
 
 #~ msgid "Antivirus DB Contract"
-#~ msgstr "アンチウィルス有効期限"
+#~ msgstr "アンチウイルス有効期限"
 
 #~ msgid "Current User"
 #~ msgstr "現在のユーザ"
@@ -12840,7 +12839,7 @@ msgstr "有効なドメインを入力してください。"
 #~ msgstr "コミュニティクラウドサーバ"
 
 #~ msgid "Files from Sniffer"
-#~ msgstr "スニファからのファイル"
+#~ msgstr "スニファーからのファイル"
 
 #~ msgid "Files from Device(s)"
 #~ msgstr "デバイスからのファイル"
@@ -12985,7 +12984,7 @@ msgstr "有効なドメインを入力してください。"
 #~ msgstr "システムタイムゾーン設定が変更されました"
 
 #~ msgid "Failed to create new LDAP server."
-#~ msgstr "新しいLDAPサーバーの作成に失敗しました。"
+#~ msgstr "新しいLDAPサーバの作成に失敗しました。"
 
 #~ msgid "Distinguished  Name"
 #~ msgstr "識別名"
@@ -12997,8 +12996,8 @@ msgstr "有効なドメインを入力してください。"
 #~ "Use override server for community cloud server query (address or address:"
 #~ "port)"
 #~ msgstr ""
-#~ "コミュニティクラウドサーバーのクエリ（アドレスまたはアドレス：ポート）に上"
-#~ "書きサーバーを使用する"
+#~ "コミュニティクラウドサーバのクエリ（アドレスまたはアドレス：ポート）に上"
+#~ "書きサーバを使用する"
 
 #~ msgid ""
 #~ "Note: The FortiSandbox will reboot after the new Sandbox VM is installed."
@@ -13007,7 +13006,7 @@ msgstr "有効なドメインを入力してください。"
 #~ "ます。"
 
 #~ msgid "Test the connection with current User Id and Key."
-#~ msgstr "現在のユーザーIDとキーで接続をテストします。"
+#~ msgstr "現在のユーザIDとキーで接続をテストします。"
 
 #~ msgid "No data available"
 #~ msgstr "利用可能なデータはありません"
@@ -13039,7 +13038,7 @@ msgstr "有効なドメインを入力してください。"
 #~ msgstr "1日あたり%dファイル"
 
 #~ msgid "User ID"
-#~ msgstr "ユーザーID"
+#~ msgstr "ユーザID"
 
 #~ msgid "Storage Account"
 #~ msgstr "ストレージアカウント"
@@ -13130,7 +13129,7 @@ msgstr "有効なドメインを入力してください。"
 #~ msgstr "疑わしいURLのホストにアクセスした上位ホスト"
 
 #~ msgid "Network interface configuration was successfully updated."
-#~ msgstr "ネットワークインタフェースの設定が正常に更新されました。"
+#~ msgstr "ネットワークインターフェースの設定が正常に更新されました。"
 
 #~ msgid "Malware Package DB not exist."
 #~ msgstr "マルウェアパッケージDBが存在しません。"
@@ -13205,7 +13204,7 @@ msgstr "有効なドメインを入力してください。"
 #~ "Put files / URLs from sniffer, network share and devices of the following "
 #~ "types to job queue"
 #~ msgstr ""
-#~ "ジョブキューに、スニファ、ネットワーク共有、次のタイプのデバイスからファイ"
+#~ "ジョブキューに、スニファー、ネットワーク共有、次のタイプのデバイスからファイ"
 #~ "ル/URLを入れてください。"
 
 #~ msgid "Local Limit:"
@@ -13416,7 +13415,7 @@ msgstr "有効なドメインを入力してください。"
 #~ msgstr "レコードの削除設定が正常に更新されました。"
 
 #~ msgid "Interface configuration is not allowed in AWS unit."
-#~ msgstr "インターフェイス設定はAWSユニットでは許可されていません。"
+#~ msgstr "インターフェース設定はAWSユニットでは許可されていません。"
 
 #~ msgid ""
 #~ "You do not have permssion to change the \"Download original file\" "
@@ -13728,7 +13727,7 @@ msgstr "有効なドメインを入力してください。"
 
 #~ msgid "ERROR: Could not resolve the IP address for the specified interface."
 #~ msgstr ""
-#~ "エラー：指定されたインターフェイスのIPアドレスを解決できませんでした。"
+#~ "エラー：指定されたインターフェースのIPアドレスを解決できませんでした。"
 
 #~ msgid "ERROR: Unsupported parameters.."
 #~ msgstr "エラー：サポートされていないパラメータ.."
@@ -13836,13 +13835,13 @@ msgstr "有効なドメインを入力してください。"
 #~ "プロキシサーバにアクセスできません。ネットワーク設定を確認してください。"
 
 #~ msgid "Proxy server settings were successfully reset to default"
-#~ msgstr "プロキシサーバーの設定がデフォルトにリセットされました。"
+#~ msgstr "プロキシサーバの設定がデフォルトにリセットされました。"
 
 #~ msgid ""
 #~ "Error happened when resetting proxy server settings. Please check system "
 #~ "log for details"
 #~ msgstr ""
-#~ "プロキシサーバーの設定のリセットでエラーが発生しました。詳細はシステムログ"
+#~ "プロキシサーバの設定のリセットでエラーが発生しました。詳細はシステムログ"
 #~ "を確認してください。"
 
 #~ msgid "Data is not available now."
@@ -14005,7 +14004,7 @@ msgstr "有効なドメインを入力してください。"
 #~ "上記の日時はサーバのローカルタイムゾーンであることに注意してください"
 
 #~ msgid "Malicious URLs"
-#~ msgstr "マルウエアのURL"
+#~ msgstr "マルウェアのURL"
 
 #~ msgid "Module"
 #~ msgstr "モジュール"
@@ -14207,7 +14206,7 @@ msgstr "有効なドメインを入力してください。"
 #~ msgstr "パスワード確認"
 
 #~ msgid "Fortinet Security Cloud Server Address"
-#~ msgstr "Fortinet Security Cloud サーバーアドレス"
+#~ msgstr "Fortinet Security Cloud サーバアドレス"
 
 #~ msgid "Share malware samples and their behavior information in cloud"
 #~ msgstr "マルウェアサンプルと振る舞い情報をクラウドで共有する"
@@ -14226,7 +14225,7 @@ msgstr "有効なドメインを入力してください。"
 #~ msgstr "DNSサーバの設定は変更されませんでした。"
 
 #~ msgid "Sniffing Interface"
-#~ msgstr "スニファインターフェース"
+#~ msgstr "スニファーインターフェース"
 
 #~ msgid "Max File Size"
 #~ msgstr "最大ファイルサイズ"
