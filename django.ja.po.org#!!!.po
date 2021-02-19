@@ -10141,7 +10141,7 @@ msgstr "送信されたファイル/URL:"
 #: templates/scan/device_edit.html:352 templates/scan/device_edit.html:358
 #: templates/scan/fct_edit.html:130
 msgid "The counter started from first time authorization."
-msgstr "最初の承認からカウントしました。"
+#!!! msgstr "最初の承認からカウントしました。"
 
 #: templates/scan/device_edit.html:356 templates/scan/edit_devfgts.html:181
 #: templates/scan/fct_edit.html:128
@@ -10205,7 +10205,7 @@ msgstr "PDFレポートを送信:"
 
 #: templates/scan/device_edit.html:525
 msgid "Send Reach Limit Alert Email:"
-msgstr "上限到達アラートメールを送信："
+#!!! msgstr "上限到達アラートメールを送信："
 
 #: templates/scan/device_fct_main.html:38 templates/scan/fct_drilldown.html:99
 msgid "FCT Serial"
@@ -10226,11 +10226,11 @@ msgstr "%(total_t)s 中 %(rs_t)s から %(re_t)s のFortiClientを表示"
 
 #: templates/scan/device_main.html:79
 msgid "Reached Limit"
-msgstr "到達した上限"
+#!!! msgstr "到達した上限"
  
 #: templates/scan/device_main.html:82
 msgid "Allowed Limit"
-msgstr "許可された上限"
+#!!! msgstr "許可された上限"
 
 #: templates/scan/device_main.html:122
 #, python-format
@@ -10317,7 +10317,7 @@ msgstr "電子メールメッセージ本文のURLの抽出とスキャン"
 
 #: templates/scan/devsniffer.html:112
 msgid "Extract and scan URLs in Email message body, up to"
-msgstr "電子メールメッセージ本文のURLを抽出してスキャン"
+#!!! msgstr "電子メールメッセージ本文のURLを抽出してスキャン"
 
 #: templates/scan/devsniffer.html:117
 msgid "From 1 to 5"
@@ -10461,7 +10461,7 @@ msgstr "検索結果"
 
 #: templates/scan/filter_list/vue_templates.html:151
 msgid "Unexpired"
-msgstr "未経過"
+#!!! msgstr "未経過"
 
 #: templates/scan/filter_list/vue_templates.html:155
 #: templates/system/config-cacert.html:40
@@ -10680,11 +10680,11 @@ msgstr "過去24時間の平均のスキャン時間(秒)"
 msgid ""
 "Expected Finish Time according to last 10 minutes data (Days and Hours:"
 "Minutes:Seconds)"
-msgstr "過去10分間のデータに基づくスキャン完了時間の予想(日、時:分:秒)"
+#!!! msgstr "過去10分間のデータに基づくスキャン完了時間の予想(日、時:分:秒)"
 
 #: templates/scan/jobqueue.html:30
 msgid "Expected Finish Time"
-msgstr "予想完了時間"
+#!!! msgstr "予想完了時間"
 
 #: templates/scan/jobqueue.html:33
 msgid "Arrival Rate in last hour (Files/Hour)"
@@ -10728,22 +10728,22 @@ msgid ""
 "The unit has joined the threat information global network and is working as "
 "a collector."
 msgstr ""
-"このユニットは脅威情報のグローバルネットワークに参加し、コレクタとして動いています。"
+#!!!  "このユニットは脅威情報のグローバルネットワークに参加し、コレクタとして動いています。"
 
 #: templates/scan/malpkg_config.html:38
 msgid ""
 "The unit has joined the threat information global network and is working as "
 "a contributor."
 msgstr ""
-"このユニットは、脅威情報のグローバルネットワークに参加し、コントリビュータとして動いています。"
+#!!! "このユニットは、脅威情報のグローバルネットワークに参加し、コントリビュータとして動いています。"
 
 #: templates/scan/malpkg_config.html:40
 msgid "To configure settings, please go to the"
-msgstr "設定を行うには"
+#!!! msgstr "設定を行うには"
 
 #: templates/scan/malpkg_config.html:40
 msgid "page"
-msgstr "ページ"
+#!!! msgstr "ページ"
 
 #: templates/scan/malpkg_config.html:44
 msgid "Note: The Following Options Are For The Local Unit Only"
@@ -10774,7 +10774,7 @@ msgstr "MD5をダウンロード"
 #, python-format
 msgid ""
 "Displaying %(rs_t)s to %(re_t)s of %(total_t)s malware released packages"
-msgstr "%(total_t)s 中 %(rs_t)s から %(re_t)s のログレコードを表示"
+#!!! msgstr "%(total_t)s 中 %(rs_t)s から %(re_t)s のログレコードを表示"
 
 #: templates/scan/malpkg_res_table.html:129
 #: templates/scan/urlpkg_res_table.html:129
@@ -10946,7 +10946,7 @@ msgid ""
 "Note: Quarantined files will be kept at the deleted quarantine location. Are "
 "you sure you want to move on"
 msgstr ""
-"注：隔離されたファイルは隔離ロケーションを削除しても残ります。続けてもよいですか？"
+#!!! "注：隔離されたファイルは隔離ロケーションを削除しても残ります。続けてもよいですか？"
 
 #: templates/scan/que_pri.html:36
 msgid ""
@@ -10980,12 +10980,12 @@ msgid ""
 "The Scan Profile is controlled by the manager. For taking over the control, "
 "please go to the"
 msgstr ""
-"スキャンプロファイルは、マネージャーによって制御されます。コントロールを引き"
-"継ぐには、"
+#!!!"スキャンプロファイルは、マネージャーによって制御されます。コントロールを引き"
+#!!!"継ぐには、"
 
 #: templates/scan/scan-profile.html:46
 msgid "page and update your configuration."
-msgstr "ページを開き、設定を更新します。"
+#!!!msgstr "ページを開き、設定を更新します。"
 
 #: templates/scan/scan-profile.html:51
 msgid "VM Association"
@@ -11054,11 +11054,11 @@ msgstr "以下のプレフィルタを有効化します"
 
 #: templates/scan/scan-profile.html:164
 msgid "Allow adaptive VM scan"
-msgstr "アダプティブVMスキャン"
+#!!! msgstr "アダプティブVMスキャン"
 
 #: templates/scan/scan-profile.html:178
 msgid "Allow parallel VM scan"
-msgstr "パラレルVMスキャン"
+#!!! msgstr "パラレルVMスキャン"
 
 #: templates/scan/scan-profile.html:191
 #, fuzzy
@@ -11539,8 +11539,8 @@ msgid ""
 "Error: Empty IPv6 Address is not allowed when there is static IPv6 route "
 "exists for this address"
 msgstr ""
-"エラー：このアドレス宛にIPv6スタティックルートが存在する場合、"
-"空のIPv6アドレスは許可されません"
+#!!!"エラー：このアドレス宛にIPv6スタティックルートが存在する場合、"
+#!!!"空のIPv6アドレスは許可されません"
 
 #: templates/system/edit-network-intf.html:74
 #, fuzzy
@@ -11632,7 +11632,7 @@ msgstr "システム設定 (最後のバックアップ: Mon Mar 25 09:53:06 201
 
 #: templates/system/maintain-backup.html:16
 msgid "Backup configuration to"
-msgstr "に設定をバックアップ"
+#!!! msgstr "に設定をバックアップ"
 
 #: templates/system/maintain-backup.html:23
 msgid "Encrypt configuration file"
@@ -11665,7 +11665,7 @@ msgstr "ローカルPC"
 
 #: templates/system/maintain-backup.html:57
 msgid "Example block-level help text here"
-msgstr "ブロックレベルのヘルプのテキストの例"
+#!!! msgstr "ブロックレベルのヘルプのテキストの例"
 
 #: templates/system/maintain-backup.html:74
 msgid "Password mismatch or empty"
@@ -11712,8 +11712,8 @@ msgid ""
 "You can reset all widgets in Dashboard,  File Detection > Summary Report, "
 "Network Alerts > Summary Report, URL Detection > Summary Report."
 msgstr ""
-"これら全てのウィジェットをリセットできます：ファイルベース検知 > サマリレ"
-"ポート、ネットワークアラート > サマリレポート、URL検知 > サマリレポート."
+#!!!"これら全てのウィジェットをリセットできます：ファイルベース検知 > サマリレ"
+#!!!"ポート、ネットワークアラート > サマリレポート、URL検知 > サマリレポート."
 
 #: templates/system/vm_activate.html:56
 msgid ""
@@ -11831,7 +11831,7 @@ msgstr "インスタンスID"
 #: templates/vm_status/aws_interaction.html:55
 #: templates/vm_status/aws_interaction.html:56
 msgid "Connecting Instruction"
-msgstr "接続"
+#!!! msgstr "接続"
 
 #: templates/vm_status/aws_interaction.html:58
 msgid "Windows: Please run 'mstsc' to initiate the RDP connection "
@@ -11974,12 +11974,12 @@ msgid ""
 "The VM load number is less than clone number because current available "
 "contract number is "
 msgstr ""
-"現在利用可能なコントラクト数は {NUM} のため、VMロード数はクローン数よりも小さ"
-"くなっています。 "
+#!!! "現在利用可能なコントラクト数は {NUM} のため、VMロード数はクローン数よりも小さ"
+#!!! "くなっています。 "
 
 #: templates/vmimages/vm_rows.html:31
 msgid "This VM is installed or initializing."
-msgstr "このVMはインストール済、もしくは初期化中です。"
+#!!! msgstr "このVMはインストール済、もしくは初期化中です。"
 
 #: templates/vmimages/vm_rows.html:34
 msgid "This VM is up to date."
@@ -11995,7 +11995,7 @@ msgstr "インストール済み"
 
 #: templates/vmimages/vm_rows.html:43
 msgid "Ready to Upgrade"
-msgstr "アップグレードの準備"
+#!!! msgstr "アップグレードの準備"
 
 #: templates/vmimages/vm_rows.html:66
 msgid "Dynamic"
@@ -12007,12 +12007,12 @@ msgstr "json fileの解析でエラーが発生しました: "
 
 #: utils/api/json_.py:24
 msgid "Error writing json to file: "
-msgstr "jsonの書き込みでエラーが発生しました: "
+#!!! msgstr "jsonの書き込みでエラーが発生しました: "
 
 #: utils/apibase.py:246 utils/apibase.py:248 utils/apibase.py:252
 #, python-format
 msgid "Failed to cancel submission %(sid)s"
-msgstr "サブミッションをキャンセルできませんでした %(sid)s"
+#!!! msgstr "サブミッションをキャンセルできませんでした %(sid)s"
 
 #: utils/apifile.py:1093
 msgid "Data cannot be displayed"
@@ -12056,7 +12056,7 @@ msgstr "Yaraルール"
 
 #: utils/apilog.py:323
 msgid "System Config Change End"
-msgstr "システム設定変更完了"
+#!!! msgstr "システム設定変更完了"
 
 #: utils/apilog.py:324
 msgid "FDN Downloader"
@@ -12064,7 +12064,7 @@ msgstr "FDNダウンロードサーバ"
 
 #: utils/apilog.py:325
 msgid "FDN Downloader Finish"
-msgstr "FDNダウンロードサーバ完了"
+#!!! msgstr "FDNダウンロードサーバ完了"
 
 #: utils/apilog.py:326
 msgid "FDN Upload Stats"
@@ -12072,7 +12072,7 @@ msgstr "FDNアップロード統計"
 
 #: utils/apilog.py:327
 msgid "FDN Upload Stats Finish"
-msgstr "FDNアップロード統計完了"
+#!!! msgstr "FDNアップロード統計完了"
 
 #: utils/apilog.py:330
 msgid "Login"
@@ -12100,7 +12100,7 @@ msgstr "再スキャンジョブ"
 
 #: utils/apilog.py:350
 msgid "Ondemand Submit"
-msgstr "オンデマンドサブミット"
+#!!! msgstr "オンデマンドサブミット"
 
 #: utils/apilog.py:351
 msgid "Log Server"
@@ -12196,7 +12196,7 @@ msgstr "マリファナ"
 
 #: utils/bad_url_cat.py:50
 msgid "Nudity and Risque"
-msgstr "ヌードとワイセツ"
+#!!! msgstr "ヌードとワイセツ"
 
 #: utils/bad_url_cat.py:51
 msgid "Occult"
@@ -12356,7 +12356,7 @@ msgstr "ネットマスクビットは指定しないでください"
 #: utils/network.py:144
 #, python-format
 msgid "Invalid network, did you mean %s?"
-msgstr "無効なネットワーク、％sのことですか？"
+#!!! msgstr "無効なネットワーク、％sのことですか？"
 
 #: utils/network.py:806 utils/network.py:808
 msgid "Duplicate static route definition exists"
@@ -12372,7 +12372,7 @@ msgstr "IPアドレス/マスクの形式が無効です"
 
 #: utils/network.py:839
 msgid "Gateway and Network IP's must be the same version"
-msgstr "ゲートウェイとIPは同じバージョンである必要があります"
+#!!! msgstr "ゲートウェイとIPは同じバージョンである必要があります"
 
 #: utils/network.py:859
 msgid "Gateway must be within device's subnet "
@@ -12448,7 +12448,7 @@ msgstr "毎分"
 
 #: utils/networkshare.py:60
 msgid "Scan Job ID as File Name"
-msgstr "ファイル名としてジョブIDをスキャン"
+#!!! msgstr "ファイル名としてジョブIDをスキャン"
 
 #: utils/networkshare.py:61
 msgid "Original File Name"
@@ -12460,7 +12460,7 @@ msgstr "同じフォルダにすべてのファイルを保存"
 
 #: utils/networkshare.py:67
 msgid "Save file in folders of the scan finish time"
-msgstr "スキャン終了時間のフォルダにファイルを保存"
+#!!! msgstr "スキャン終了時間のフォルダにファイルを保存"
 
 #: utils/networkshare.py:68
 msgid "Save file in folders of ratings"
@@ -12507,7 +12507,7 @@ msgstr "名前付きネットワーク共有 "
 
 #: utils/networkshare.py:707
 msgid " does not exist"
-msgstr " 存在しない"
+#!!! msgstr " 存在しない"
 
 #: utils/networkshare.py:719
 msgid "Error happened when updating network share status."
@@ -12606,7 +12606,7 @@ msgstr ""
 
 #: utils/prescandef.py:44
 msgid "Static Web files"
-msgstr "静的なウェブファイル"
+#!!! msgstr "静的なウェブファイル"
 
 #: utils/prescandef.py:48
 msgid "URL detection (exclude the On-Demand submission)"
@@ -12676,7 +12676,7 @@ msgstr "無効なネットマスク"
 
 #: utils/validators.py:141
 msgid "Invalid IP for empty netmask"
-msgstr "空のネットマスクの無効なIP"
+#!!! msgstr "空のネットマスクの無効なIP"
 msgstr "無効なIP。ネットマスクを入力してください"
 
 #: utils/validators.py:147
