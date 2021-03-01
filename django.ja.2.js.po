@@ -601,7 +601,7 @@ msgstr ""
 msgid ""
 "For Network Share events, please go to Scan Input -> Network Share page for "
 "details."
-msgstr ""
+msgstr "ネットワーク共有イベントの詳細については、スキャンインプット->ネットワーク共有ページにアクセスしてください。"
 
 #: static/js/dashboard/app.js:7
 msgid "Widget Selection"
@@ -1176,17 +1176,15 @@ msgid "Warning"
 msgstr "警告"
 
 #: static/js/ha_cluster/management-action.js:102
-#, fuzzy
 #| msgid "Are you sure you want to upgrade your firmware with file "
 msgid "Are you sure you want to upgrade node(s) firmware with file "
-msgstr "このファイルでアップグレードしますか？"
+msgstr "ノードのファームウェアをこのファイルでアップグレードしてもよろしいですか"
 
 #: static/js/ha_cluster/management-action.js:126
-#, fuzzy
 #| msgid "Are you sure you want to upgrade secondaries fortiguard with file "
 msgid "Are you sure you want to upgrade node(s) fortiguard with file "
 msgstr ""
-"ファイルを使用してセカンダリのFortiguardをアップグレードしてもよいですか"
+"ノードのfortiguardをこのファイルでアップグレードしてもよろしいですか"
 
 #: static/js/ha_cluster/management.js:114
 msgid "Are you sure you want to purge pending jobs for "
@@ -1194,13 +1192,12 @@ msgstr "保留中のジョブを削除してもよいですか"
 
 #: static/js/ha_cluster/management.js:190
 msgid "Synchronizing selected settings to all cluster nodes."
-msgstr ""
+msgstr "選択した設定をすべてのクラスターノードに同期します。"
 
 #: static/js/ha_cluster/management.js:193
-#, fuzzy
 #| msgid "Process:"
 msgid "Proceed"
-msgstr "プロセス："
+msgstr "続行"
 
 #: static/js/job_detail/app.js:93
 msgid "Download Report"

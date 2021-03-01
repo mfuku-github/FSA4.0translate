@@ -82,28 +82,24 @@ msgid "<h2>Feature is NOT available on this model</h2>"
 msgstr "<h2>このモデルではその機能を利用できません</ h2>"
 
 #: apps/about/officelicupload.py:43
-#, fuzzy
 #| msgid "Microsoft %s License Upload"
 msgid "Microsoft License Upload"
-msgstr "Microsoft %s ライセンスのアップロード"
+msgstr "Microsoftライセンスのアップロード"
 
 #: apps/about/officelicupload.py:86
-#, fuzzy, python-format
 #| msgid "Failed to import new VM license. "
 msgid "Failed to import new  %(license_type)s %(original_name)s. %(out)s"
-msgstr "新しいVMライセンスをインポートできませんでした。 "
+msgstr "新しい%(license_type)s%(original_name)sのインポートに失敗しました。 %(out)s "
 
 #: apps/about/officelicupload.py:96
-#, fuzzy, python-format
 #| msgid " was successfully deleted"
 msgid " was successfully imported. %s"
-msgstr " が正常に削除されました。"
+msgstr "が正常にインポートされました。 %s"
 
 #: apps/about/officelicupload.py:118
-#, fuzzy
 #| msgid " file submission failed. "
 msgid "License submission failed. "
-msgstr " ファイルの送信に失敗しました。"
+msgstr " ライセンスサブミッションに失敗しました。"
 
 #: apps/about/officelicupload.py:123 apps/about/vmlicupload.py:93
 msgid "Error: "
@@ -214,10 +210,9 @@ msgid "Virtual Machine"
 msgstr "バーチャルマシーン"
 
 #: apps/admin_profiles/defs.py:32
-#, fuzzy
 #| msgid "DNS Configuration"
 msgid "Scan Configurations"
-msgstr "DNS設定"
+msgstr "スキャン構成"
 
 #: apps/admin_profiles/defs.py:33 apps/widgets/utils/pending_stats_data.py:25
 #: templates/main/tree_menu_def.html:141
@@ -262,36 +257,32 @@ msgid "Scan Policy and Object"
 msgstr "スキャンポリシーとオブジェクト"
 
 #: apps/admin_profiles/defs.py:44
-#, fuzzy
 #| msgid "Cluster Management"
 msgid "Cluster Management/Status"
-msgstr "クラスター管理"
+msgstr "クラスター管理/ステータス"
 
 #: apps/admin_profiles/defs.py:45
-#, fuzzy
 #| msgid "Secondary-server"
 msgid "Secondary/Worker"
-msgstr "セカンダリサーバ"
+msgstr "セカンダリ/ワーカー"
 
 #: apps/admin_profiles/defs.py:46
 msgid "HA Cluster"
 msgstr "HAクラスタ"
 
 #: apps/admin_profiles/defs.py:47
-#, fuzzy
 #| msgid "File Statistics"
 msgid "File Statistic/Scan"
-msgstr "ファイル統計"
+msgstr "ファイル統計/スキャン"
 
 #: apps/admin_profiles/defs.py:48 templates/main/tree_menu_def.html:540
 msgid "Network Alerts"
 msgstr "ネットワークアラート"
 
 #: apps/admin_profiles/defs.py:49
-#, fuzzy
 #| msgid "URL Statistics"
 msgid "URL Statistic/Scan"
-msgstr "URL統計"
+msgstr "URL統計/スキャン"
 
 #: apps/admin_profiles/defs.py:50
 msgid "Log Events"
@@ -1057,7 +1048,6 @@ msgstr "システムリソース使用量"
 
 #: apps/dashboard/defs.py:29 apps/dashboard/defs.py:47
 #: apps/dashboard/defs.py:74
-#, fuzzy
 #| msgid "Scanning Statistics"
 msgid "Scan Statistics"
 msgstr "スキャン統計"
@@ -1993,10 +1983,9 @@ msgid "No VM Reason"
 msgstr "VMの理由なし"
 
 #: apps/job_detail/gui/defs.py:87
-#, fuzzy
 #| msgid "No VM Reason"
 msgid "VM Reason"
-msgstr "VMの理由なし"
+msgstr "VMの理由"
 
 #: apps/job_detail/gui/defs.py:88 apps/logs/logutils.py:265
 #: templates/alert/scan_job_details_sections.html:268
@@ -4132,10 +4121,9 @@ msgid "Not Applied"
 msgstr "適用されない"
 
 #: apps/scan/forms.py:776
-#, fuzzy
 #| msgid "URL whose return code is not 200"
 msgid "URL where response status code is not 200 OK"
-msgstr "リターンコードが200ではないURL"
+msgstr "応答ステータスコードが200OKではないURL"
 
 #: apps/scan/jobqueue.py:264
 msgid "Purge job queue successfully."
@@ -4714,10 +4702,9 @@ msgid "Memory usage is high"
 msgstr "メモリ不足"
 
 #: apps/snmp/models.py:53 apps/snmp/models.py:67
-#, fuzzy
 #| msgid "Log disk usage is high"
 msgid "Hard disk usage is high"
-msgstr "ログディスク不足"
+msgstr "ハードディスクの使用率が高い"
 
 #: apps/snmp/models.py:55 apps/snmp/models.py:69
 msgid "Malware is detected"
@@ -6678,16 +6665,14 @@ msgid "Windows Cloud VM"
 msgstr "WindowsクラウドVM"
 
 #: apps/widgets/utils/conn_services.py:84
-#, fuzzy
 #| msgid " RAID Enabled"
 msgid "AI is enabled"
-msgstr " RAID有効"
+msgstr " AIが有効"
 
 #: apps/widgets/utils/conn_services.py:87
-#, fuzzy
 #| msgid "Disabled"
 msgid "AI is disabled"
-msgstr "無効"
+msgstr "AIが無効"
 
 #: apps/widgets/utils/conn_services.py:101
 msgid "Sandbox VM is able to access Internet"
@@ -6924,7 +6909,7 @@ msgstr "有効なライセンス"
 msgid ""
 "WARNING: The ip4 address of management port (port1) does not match the one "
 "defined in license file"
-msgstr ""
+msgstr "警告：管理ポート（port1）のip4アドレスが、ライセンスファイルで定義されているアドレスと一致しません"
 
 #: apps/widgets/utils/licenses.py:398
 #, python-format
@@ -6949,10 +6934,9 @@ msgid "Valid license. VM license will expire in %(days)s days"
 msgstr "有効なライセンス。VMライセンスが %(days)s 日で有効期限が切れます"
 
 #: apps/widgets/utils/licenses.py:416
-#, fuzzy
 #| msgid "Upload License"
 msgid "Upload VM License"
-msgstr "ライセンスアップロード"
+msgstr "VMライセンスのアップロード"
 
 #: apps/widgets/utils/licenses.py:426
 msgid ""
@@ -6980,10 +6964,9 @@ msgid "Activated Microsoft Office products: "
 msgstr "アクティベートされたMicrosoft　Office製品："
 
 #: apps/widgets/utils/licenses.py:486 templates/about/officelicupload.html:126
-#, fuzzy
 #| msgid "Upload Microsoft VM License File"
 msgid "Upload Microsoft License"
-msgstr "MicrosoftVMライセンスファイルをアップロード"
+msgstr "Microsoftライセンスをアップロード"
 
 #: apps/widgets/utils/netdet_data.py:22
 msgid "Network Attack"
@@ -8522,7 +8505,6 @@ msgid "Video Tutorials"
 msgstr "ビデオチュートリアル"
 
 #: templates/base/notification.html:9
-#, fuzzy
 #| msgid "Notification"
 msgid "Notifications"
 msgstr "通知"
@@ -8699,17 +8681,16 @@ msgstr "クラスター管理"
 
 #: templates/ha_cluster/hc_management.html:45
 msgid "View dashboard of a cluster node"
-msgstr ""
+msgstr "クラスターノードのダッシュボードを表示する"
 
 #: templates/ha_cluster/hc_management.html:47
-#, fuzzy
 #| msgid "Edit Dashboard"
 msgid "View Dashboard"
-msgstr "ダッシュボートの編集"
+msgstr "ダッシュボードを表示"
 
 #: templates/ha_cluster/hc_management.html:50
 msgid "Upgrade a firmware to selected cluster node"
-msgstr ""
+msgstr "選択したクラスターノードにファームウェアを更新します"
 
 #: templates/ha_cluster/hc_management.html:52
 msgid "Upgrade Firmware"
@@ -8717,23 +8698,21 @@ msgstr "ファームウェアを更新"
 
 #: templates/ha_cluster/hc_management.html:54
 msgid "Upload a FortiGuard Package to selected cluster node"
-msgstr ""
+msgstr "選択したクラスターノードにFortiGuardパッケージをアップロードします"
 
 #: templates/ha_cluster/hc_management.html:56
-#, fuzzy
 #| msgid "Fortiguard"
 msgid "Upload Fortiguard"
-msgstr "Fortiguard"
+msgstr "Fortiguardをアップロード"
 
 #: templates/ha_cluster/hc_management.html:58
 msgid "Purge pending jobs on selected cluster node"
-msgstr ""
+msgstr "選択したクラスターノードで保留中のジョブを削除します"
 
 #: templates/ha_cluster/hc_management.html:60
-#, fuzzy
 #| msgid "Purge"
 msgid "Purge Jobs"
-msgstr "消去"
+msgstr "ジョブを消去"
 
 #: templates/ha_cluster/hc_management.html:68
 msgid "Host Name"
@@ -8767,29 +8746,25 @@ msgid "HA Cluster Members"
 msgstr "HAクラスタメンバー"
 
 #: templates/ha_cluster/hc_management.html:108
-#, fuzzy
 #| msgid "BCC Settings"
 msgid "Backup Settings"
-msgstr "BCC設定"
+msgstr "バックアップ設定"
 
 #: templates/ha_cluster/hc_management.html:112
-#, fuzzy
 #| msgid "Backup configuration to"
 msgid "Backup configuration from all cluster nodes"
-msgstr "に設定をバックアップ"
+msgstr "すべてのクラスターノードからのバックアップ構成"
 
 #: templates/ha_cluster/hc_management.html:116
-#, fuzzy
 #| msgid "Backup"
 msgid "Backup All"
-msgstr "バックアップ"
+msgstr "全てをバックアップ"
 
 #: templates/ha_cluster/hc_management.html:123
 msgid "Synchronize Settings In Real-Time From Primary To Other Nodes"
-msgstr ""
+msgstr "プライマリノードから他のノードにリアルタイムで設定を同期する"
 
 #: templates/ha_cluster/hc_management.html:132
-#, fuzzy
 #| msgid ""
 #| "Restore Administrators, Admin Profiles, Certificates, LDAP Servers and "
 #| "Radius Servers"
@@ -8797,56 +8772,47 @@ msgid ""
 "Administrators, Admin Profiles, Device Groups, LDAP/RADIUS Servers and "
 "Certificates"
 msgstr ""
-"管理者、管理者プロファイル、証明書、LDAPサーバおよびRadiusサーバをリストアし"
-"てください"
+"管理者、管理者プロファイル、デバイスグループ、LDAP / RADIUSサーバー、および証明書"
 
 #: templates/ha_cluster/hc_management.html:138
-#, fuzzy
 #| msgid "Settings"
 msgid "DNS Settings"
-msgstr "設定"
+msgstr "DNS設定"
 
 #: templates/ha_cluster/hc_management.html:144
-#, fuzzy
 #| msgid "FortiGuard Server Settings"
 msgid "Fortiguard Settings"
-msgstr "FortiGuardサーバ設定"
+msgstr "FortiGuard設定"
 
 #: templates/ha_cluster/hc_management.html:150
-#, fuzzy
 #| msgid "Login Disclaimer"
 msgid "Login Disclaimers"
 msgstr "ログイン免責事項"
 
 #: templates/ha_cluster/hc_management.html:156
-#, fuzzy
 #| msgid "Log Server Settings and Local Log Settings"
 msgid "Log Servers and Log Settings"
-msgstr "ログサーバの設定とローカルログの設定"
+msgstr "ログサーバーとログ設定"
 
 #: templates/ha_cluster/hc_management.html:162
-#, fuzzy
 #| msgid "SNMP settings"
 msgid "SNMP Settings"
 msgstr "SNMP設定"
 
 #: templates/ha_cluster/hc_management.html:174
-#, fuzzy
 #| msgid "VM Settings"
 msgid "VM Network Settings"
-msgstr "VM設定"
+msgstr "VMネットワーク設定"
 
 #: templates/ha_cluster/hc_management.html:184
-#, fuzzy
 #| msgid "Synchronize with NTP Server"
 msgid "Synchronize Now"
-msgstr "NTPサーバと同期"
+msgstr "今すぐ同期"
 
 #: templates/ha_cluster/hc_management_actions.html:11
-#, fuzzy
 #| msgid " Selected Secondaries "
 msgid " Selected nodes "
-msgstr "選択されたセカンダリ"
+msgstr "選択したノード"
 
 #: templates/ha_cluster/hc_stat_table.html:19 templates/scan/sandbox.html:115
 msgid "File"
@@ -11504,7 +11470,7 @@ msgstr "すべてのウィジェットをリセット"
 
 #: templates/system/settings.html:99
 msgid "You can reset all widgets to their default layout and parameters."
-msgstr ""
+msgstr "すべてのウィジェットをデフォルトのレイアウトとパラメーターにリセットできます。"
 
 #: templates/system/vm_activate.html:56
 msgid ""
@@ -12267,7 +12233,7 @@ msgstr "新規ジョブ"
 
 #: utils/networkshare.py:75
 msgid "Job file loaded"
-msgstr ""
+msgstr "ロードされたジョブファイル"
 
 #: utils/networkshare.py:76
 msgid "Running"
