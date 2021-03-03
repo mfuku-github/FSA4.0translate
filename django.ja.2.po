@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-22 23:45+0000\n"
+"POT-Creation-Date: 2021-02-24 22:53+0000\n"
 "PO-Revision-Date: 2019-04-23 17:54+0900\n"
 "Last-Translator: Kenichi Terashita <kterashita@fortinet.com>\n"
 "Language-Team: \n"
@@ -35,7 +35,7 @@ msgstr "サーバオーバーライド情報が正常に更新されました"
 msgid "Error happened in overriding FDN server information"
 msgstr "FDNサーバ情報の上書き中にエラーが発生しました"
 
-#: apps/about/about.py:959
+#: apps/about/about.py:957
 msgid ""
 "Error: Package extraction failed. Please make sure the package has correct "
 "format and a higher version"
@@ -43,19 +43,19 @@ msgstr ""
 "エラー：パッケージの抽出に失敗しました。パッケージの形式とバージョンが正しい"
 "ことを確認してください。"
 
-#: apps/about/about.py:973
+#: apps/about/about.py:971
 msgid " was installed successfully"
 msgstr "正常にインストールされました"
 
-#: apps/about/about.py:978
+#: apps/about/about.py:976
 msgid "Error: The submitted package file is empty"
 msgstr "エラー：送信されたパッケージファイルは空です"
 
-#: apps/about/about.py:985
+#: apps/about/about.py:983
 msgid "Package submission failed"
 msgstr "パッケージの送信に失敗しました"
 
-#: apps/about/about.py:985
+#: apps/about/about.py:983
 msgid "Error: Package was not submitted. Please check Syslog for details"
 msgstr ""
 "エラー：パッケージは送信されませんでした。詳細はSyslogを確認してください。"
@@ -73,46 +73,57 @@ msgid ""
 "<h2>Firmware Notification page is a new feature in V3.1.0</h2><br/"
 "><h3>Please upgrade your HACluster Master to V3.1.0 to view this page</h2>"
 msgstr ""
-"<h2>ファームウェア通知ページはV3.1.0の新機能です。</h2> "
-"<br/> <h3>このページを表示するには、HAクラスタマスターをV3.1.0にアップグレードしてください。</h2>"
+"<h2>ファームウェア通知ページはV3.1.0の新機能です。</h2> <br/> <h3>このページ"
+"を表示するには、HAクラスタマスターをV3.1.0にアップグレードしてください。</h2>"
 
-#: apps/about/officelicupload.py:24
-msgid "Microsoft "
-msgstr "マイクロソフト"
+#: apps/about/officelicupload.py:36 apps/about/officelicupload.py:50
+#: apps/about/vmlicupload.py:23 apps/about/vmlicupload.py:38
+msgid "<h2>Feature is NOT available on this model</h2>"
+msgstr ""
 
-#: apps/about/officelicupload.py:24
-msgid " License Upload"
-msgstr "ライセンスのアップロード"
+#: apps/about/officelicupload.py:43
+#, fuzzy
+#| msgid "Microsoft %s License Upload"
+msgid "Microsoft License Upload"
+msgstr "Microsoft %s ライセンスのアップロード"
 
-#: apps/about/officelicupload.py:59
-msgid "Failed to import new "
-msgstr "新規インポートに失敗しました"
+#: apps/about/officelicupload.py:86
+#, fuzzy, python-format
+#| msgid "Failed to import new VM license. "
+msgid "Failed to import new  %(license_type)s %(original_name)s. %(out)s"
+msgstr "新しいVMライセンスをインポートできませんでした。 "
 
-#: apps/about/officelicupload.py:66
-msgid " file was successfully imported. Rebooting system."
-msgstr " ファイルは正常にインポートされました。システムを再起動しています"
+#: apps/about/officelicupload.py:96
+#, fuzzy, python-format
+#| msgid " was successfully deleted"
+msgid " was successfully imported. %s"
+msgstr " が正常に削除されました。"
 
-#: apps/about/officelicupload.py:75
-msgid " file submission failed. "
+#: apps/about/officelicupload.py:118
+#, fuzzy
+#| msgid " file submission failed. "
+msgid "License submission failed. "
 msgstr " ファイルの送信に失敗しました。"
 
-#: apps/about/officelicupload.py:80 apps/about/vmlicupload.py:79
+#: apps/about/officelicupload.py:123 apps/about/vmlicupload.py:93
 msgid "Error: "
 msgstr "エラー: "
 
-#: apps/about/vmlicupload.py:23
+#: apps/about/vmlicupload.py:30
 msgid "VM License Upload"
 msgstr "VMライセンスのアップロード"
 
-#: apps/about/vmlicupload.py:54
+#: apps/about/vmlicupload.py:68
 msgid "Failed to import new VM license. "
 msgstr "新しいVMライセンスをインポートできませんでした。 "
 
-#: apps/about/vmlicupload.py:64
+#: apps/about/vmlicupload.py:78
 msgid "VM license file was successfully imported. Rebooting system."
-msgstr "VMライセンスファイルは正常にインポートされました。システムを再起動しています。"
+msgstr ""
+"VMライセンスファイルは正常にインポートされました。システムを再起動していま"
+"す。"
 
-#: apps/about/vmlicupload.py:74
+#: apps/about/vmlicupload.py:88
 msgid "VM license file submission failed. "
 msgstr "VMライセンスファイルの送信に失敗しました。"
 
@@ -120,7 +131,7 @@ msgstr "VMライセンスファイルの送信に失敗しました。"
 msgid "Error parsing profile json file: "
 msgstr "プロファイルjson fileの解析でエラーが発生しました: "
 
-#: apps/admin_profiles/defs.py:19 apps/job_detail/gui/defs.py:29
+#: apps/admin_profiles/defs.py:19 apps/job_detail/gui/defs.py:30
 #: apps/logs/forms.py:36 apps/logs/logutils.py:233
 #: apps/report_center/views.py:43 apps/scan/forms.py:63
 #: templates/alert/job-details/basics-panel.html:60
@@ -202,9 +213,11 @@ msgstr "システム"
 msgid "Virtual Machine"
 msgstr "バーチャルマシーン"
 
-#: apps/admin_profiles/defs.py:32 utils/apilog.py:342
-msgid "Scan Policy"
-msgstr "スキャンポリシー"
+#: apps/admin_profiles/defs.py:32
+#, fuzzy
+#| msgid "DNS Configuration"
+msgid "Scan Configurations"
+msgstr "DNS設定"
 
 #: apps/admin_profiles/defs.py:33 apps/widgets/utils/pending_stats_data.py:25
 #: templates/main/tree_menu_def.html:141
@@ -236,92 +249,87 @@ msgid "Overridden Verdicts"
 msgstr "オーバーライドされた評決"
 
 #: apps/admin_profiles/defs.py:39 templates/main/tree_menu_def.html:101
-#, fuzzy
-#| msgid "Rescan Job"
 msgid "Scan Job"
 msgstr "スキャンジョブ"
 
 #: apps/admin_profiles/defs.py:41 templates/ha_cluster/hcu_frame.html:37
 #: templates/main/tree_menu_def.html:176
-#, fuzzy
-#| msgid "MTA Settings"
 msgid "VM Settings"
 msgstr "VM設定"
 
 #: apps/admin_profiles/defs.py:42 templates/main/tree_menu_def.html:158
-#, fuzzy
-#| msgid "Scan Policy"
 msgid "Scan Policy and Object"
 msgstr "スキャンポリシーとオブジェクト"
 
 #: apps/admin_profiles/defs.py:44
-msgid "Cluster"
-msgstr "クラスタ"
-
-#: apps/admin_profiles/defs.py:45 apps/hacluster/clibhc.py:23
-#: apps/hacluster/clibhc.py:36 templates/main/tree_menu_def.html:431
 #, fuzzy
-#| msgid "Second"
-msgid "Secondary"
-msgstr "セカンダリ"
+#| msgid "Cluster Management"
+msgid "Cluster Management/Status"
+msgstr "クラスター管理"
+
+#: apps/admin_profiles/defs.py:45
+#, fuzzy
+#| msgid "Secondary-server"
+msgid "Secondary/Worker"
+msgstr "セカンダリサーバ"
 
 #: apps/admin_profiles/defs.py:46
 msgid "HA Cluster"
 msgstr "HAクラスタ"
 
 #: apps/admin_profiles/defs.py:47
-msgid "File Detection"
-msgstr "ファイルベース検知"
+#, fuzzy
+#| msgid "File Statistics"
+msgid "File Statistic/Scan"
+msgstr "ファイル統計"
 
 #: apps/admin_profiles/defs.py:48 templates/main/tree_menu_def.html:540
 msgid "Network Alerts"
 msgstr "ネットワークアラート"
 
 #: apps/admin_profiles/defs.py:49
-msgid "URL Detections"
-msgstr "URL検知"
+#, fuzzy
+#| msgid "URL Statistics"
+msgid "URL Statistic/Scan"
+msgstr "URL統計"
 
 #: apps/admin_profiles/defs.py:50
 msgid "Log Events"
 msgstr "ログイベント"
 
-#: apps/admin_profiles/defs.py:51
-msgid "Local Log Config"
-msgstr "ローカルログ設定"
+#: apps/admin_profiles/defs.py:51 templates/main/tree_menu_def.html:554
+msgid "Log Settings"
+msgstr "ログ設定"
 
-#: apps/admin_profiles/defs.py:52 templates/logs/diagnostic_logs.html:41
-msgid "Diagnostic Logs"
-msgstr "診断ログ"
-
-#: apps/admin_profiles/defs.py:53 templates/main/tree_menu_def.html:499
+#: apps/admin_profiles/defs.py:52 templates/main/tree_menu_def.html:499
 msgid "Summary Report"
 msgstr "サマリレポート"
 
-#: apps/admin_profiles/defs.py:54 templates/main/tree_menu_def.html:503
+#: apps/admin_profiles/defs.py:53 templates/main/tree_menu_def.html:503
 msgid "Report Center"
 msgstr "レポートセンター"
 
-#: apps/admin_profiles/defs.py:55
+#: apps/admin_profiles/defs.py:54
 msgid "Logs & Reports"
 msgstr "ログ&レポート"
 
-#: apps/admin_profiles/defs.py:60
+#: apps/admin_profiles/defs.py:59
 msgid "Mark FPN"
 msgstr "FPNをマークする"
 
-#: apps/admin_profiles/defs.py:61
+#: apps/admin_profiles/defs.py:60
 msgid "Download Original File"
 msgstr "オリジナルファイルのダウンロード"
 
-#: apps/admin_profiles/defs.py:62
+#: apps/admin_profiles/defs.py:61
 msgid "JSON API"
 msgstr "JSON API"
 
-#: apps/admin_profiles/defs.py:63
+#: apps/admin_profiles/defs.py:62
 msgid "Allow On-Demand Scan Interaction"
 msgstr "オンデマンドスキャンインタラクションを許可する"
 
-#: apps/admin_profiles/defs.py:64
+#: apps/admin_profiles/defs.py:63
 msgid "Allow On-Demand Scan Video Recording"
 msgstr "オンデマンドスキャンビデオ録画を許可する"
 
@@ -330,8 +338,8 @@ msgid ""
 "The action requires 'write' privileges. Please contact your system "
 "administrator for further assistance"
 msgstr ""
-"アクションには「書き込み」権限が必要です。詳細については、システム管理者に"
-"お問い合わせください"
+"アクションには「書き込み」権限が必要です。詳細については、システム管理者にお"
+"問い合わせください"
 
 #: apps/admin_profiles/views.py:89
 msgid "Error happened while saving admin profile."
@@ -350,14 +358,13 @@ msgid ""
 "Admin Profiles has not been restored, please make sure you are using the "
 "correct file"
 msgstr ""
-"管理者プロファイルがリストアされていません。正しいファイルを使用していることを"
-"確認してください"
-
+"管理者プロファイルがリストアされていません。正しいファイルを使用していること"
+"を確認してください"
 
 #: apps/alerts/class_views/drilldown.py:111 apps/logs/class_views.py:247
 #: apps/report_center/csvfile/base.py:61
 #: apps/report_center/data/network_alerts_data.py:33
-#: apps/report_center/pdf/base.py:148 apps/table/query/base.py:41
+#: apps/report_center/pdf/base.py:250 apps/table/query/base.py:41
 #: utils/api_db_query.py:22 utils/networkshare_rpt.py:254
 msgid "Data is currently unavailable"
 msgstr "データは現在利用できません"
@@ -385,24 +392,19 @@ msgstr "VM内のファイルを強制的にスキャンする"
 
 #: apps/alerts/forms.py:76 apps/alerts/forms.py:133
 msgid "The job you have selected is a rescan. You cannot rescan a rescan."
-msgstr ""
-"選択したジョブは再スキャンです。再スキャンすることはできません"
+msgstr "選択したジョブは再スキャンです。再スキャンすることはできません"
 
 #: apps/alerts/forms.py:103 apps/scan/demand.py:1212
 msgid "File was submitted successfully"
 msgstr "ファイルのサブミットに成功しました"
 
 #: apps/alerts/forms.py:108 apps/alerts/ondemand_forms/url.py:17
-#: apps/job_detail/gui/defs.py:48
+#: apps/job_detail/gui/defs.py:49
 #: templates/alert/job-details/basics-panel.html:212
 msgid "Depth"
 msgstr "階層"
 
 #: apps/alerts/forms.py:109 apps/alerts/ondemand_forms/url.py:18
-#, fuzzy
-#| msgid ""
-#| "The recursive depth in which URLs are examined. Level 0 for original URL "
-#| "page"
 msgid ""
 "The recursive depth in which URLs are examined. Level 0 for original URL "
 "page (between 0 and 10)"
@@ -457,12 +459,13 @@ msgstr "ファイル名"
 msgid "File SHA256"
 msgstr "ファイルSHA256"
 
-#: apps/alerts/models_alchemy.py:51 apps/logs/logutils.py:258
-#: apps/operation_center/defs.py:16 apps/table/config/defs.py:11
+#: apps/alerts/models_alchemy.py:51 apps/job_detail/gui/defs.py:26
+#: apps/logs/logutils.py:258 apps/operation_center/defs.py:16
+#: apps/table/config/defs.py:11
 msgid "Job ID"
 msgstr "ジョブID"
 
-#: apps/alerts/models_alchemy.py:52 apps/job_detail/data/base.py:272
+#: apps/alerts/models_alchemy.py:52 apps/job_detail/data/base.py:279
 #: apps/table/config/defs.py:12 templates/alert/malware_filter_table.html:106
 #: templates/csearch/custom_filter_table.html:91
 #: templates/csearch/file_based_index.html:126
@@ -491,7 +494,7 @@ msgstr "マルウェア"
 msgid "Rating"
 msgstr "レーティング"
 
-#: apps/alerts/models_alchemy.py:54 apps/job_detail/gui/defs.py:65
+#: apps/alerts/models_alchemy.py:54 apps/job_detail/gui/defs.py:66
 #: apps/logs/logutils.py:299 apps/operation_center/defs.py:18
 #: apps/table/config/defs.py:14 templates/admin/change_list_controls.html:125
 #: templates/admin/change_list_controls.html:222
@@ -527,7 +530,7 @@ msgstr "からサブミット"
 #: apps/alerts/profile.py:648 apps/alerts/profile.py:672
 #: apps/alerts/profile.py:696 apps/forticlient/data.py:187
 #: apps/job_detail/gui/defs.py:82 apps/operation_center/defs.py:12
-#: apps/system/forms.py:462 apps/table/config/defs.py:16
+#: apps/system/forms.py:463 apps/table/config/defs.py:16
 #: templates/admin/change_list_controls.html:43
 #: templates/alert/bydevices_filter_table.html:182
 #: templates/alert/scan_job_details_sections.html:238
@@ -536,7 +539,7 @@ msgstr "からサブミット"
 msgid "Device"
 msgstr "デバイス"
 
-#: apps/alerts/models_alchemy.py:58 apps/job_detail/gui/defs.py:89
+#: apps/alerts/models_alchemy.py:58 apps/job_detail/gui/defs.py:90
 #: apps/logs/logutils.py:293 apps/operation_center/defs.py:15
 #: apps/table/config/defs.py:17
 #: templates/alert/ondemand_job_filter_table.html:98
@@ -618,8 +621,8 @@ msgid "Type"
 msgstr "タイプ"
 
 #: apps/alerts/models_alchemy.py:67 apps/alerts/profile.py:373
-#: apps/job_detail/gui/defs.py:59 apps/logs/logutils.py:300
-#: apps/system/forms.py:1315 templates/admin/change_list_controls.html:57
+#: apps/job_detail/gui/defs.py:60 apps/logs/logutils.py:300
+#: apps/system/forms.py:1316 templates/admin/change_list_controls.html:57
 #: templates/admin/widgets/widget/top_filetype_count.html:49
 #: templates/alert/scan_job_details_sections.html:23
 #: templates/job_detail/tree_view_details.html:56
@@ -645,10 +648,11 @@ msgid ""
 "One possible password for each line. Please use ASCII format password "
 "without empty space."
 msgstr ""
-"各行ごとに可能性のパスワードをひとつ。空欄のないASCII形式のパスワードを使用してください。"
+"各行ごとに可能性のパスワードをひとつ。空欄のないASCII形式のパスワードを使用し"
+"てください。"
 
 #: apps/alerts/ondemand_forms/file.py:22 apps/alerts/ondemand_forms/url.py:43
-#: apps/job_detail/gui/defs.py:50 apps/system/forms.py:155
+#: apps/job_detail/gui/defs.py:51 apps/system/forms.py:155
 #: templates/admin_profiles/index.html:11
 #: templates/alert/job-details/basics-panel.html:235
 #: templates/alert/ondemand_filter_table.html:182
@@ -658,8 +662,6 @@ msgid "Comments"
 msgstr "コメント"
 
 #: apps/alerts/ondemand_forms/file.py:24 apps/alerts/ondemand_forms/url.py:45
-#, fuzzy
-#| msgid "Optional comments for later reference"
 msgid "Optional comments for later reference, the max length is 255 characters"
 msgstr "後で参照するためのオプションのコメント、最大長は255文字"
 
@@ -692,7 +694,8 @@ msgstr "脅威パッケージにサンプルを追加する"
 msgid ""
 "Add file to        Malware Package if it meets settings in Package Options"
 msgstr ""
-"パッケージオプションの設定を満たしている場合は、マルウェアパッケージにファイルを追加する"
+"パッケージオプションの設定を満たしている場合は、マルウェアパッケージにファイ"
+"ルを追加する"
 
 #: apps/alerts/ondemand_forms/file.py:55 apps/alerts/ondemand_forms/url.py:64
 #: apps/system/forms.py:161
@@ -769,12 +772,12 @@ msgstr "URLイベント"
 msgid "FortiGuard Encyclopedia Analysis"
 msgstr "FortiGuardエンサイクロペディア分析"
 
-#: apps/alerts/profile.py:370 apps/job_detail/gui/defs.py:34
+#: apps/alerts/profile.py:370 apps/job_detail/gui/defs.py:35
 #: apps/logs/logutils.py:297 templates/alert/job-details/basics-panel.html:110
 msgid "Source IP"
 msgstr "送信元IP"
 
-#: apps/alerts/profile.py:371 apps/job_detail/gui/defs.py:40
+#: apps/alerts/profile.py:371 apps/job_detail/gui/defs.py:41
 #: apps/logs/logutils.py:295 templates/alert/job-details/basics-panel.html:170
 msgid "Destination IP"
 msgstr "宛先IP"
@@ -811,7 +814,7 @@ msgstr "ドメイン/Vdom"
 msgid "Threat Target"
 msgstr "脅威ターゲット"
 
-#: apps/alerts/profile.py:517 apps/job_detail/gui/defs.py:67
+#: apps/alerts/profile.py:517 apps/job_detail/gui/defs.py:68
 #: apps/logs/logutils.py:249 templates/alert/scan_job_details_sections.html:97
 msgid "Email Receiver"
 msgstr "メール受信者"
@@ -923,14 +926,16 @@ msgid ""
 "Rescan job has been scheduled. Result can be found later in the URL On-"
 "Demand page."
 msgstr ""
-"再スキャンジョブがスケジュールされました。結果は、後でURLオンデマンドページで確認できます。"
+"再スキャンジョブがスケジュールされました。結果は、後でURLオンデマンドページで"
+"確認できます。"
 
 #: apps/alerts/views.py:141
 msgid ""
 "Rescan job has been scheduled. Result can be found later in the File On-"
 "Demand page."
 msgstr ""
-"再スキャンジョブがスケジュールされました。結果は、後でファイルオンデマンドページで確認できます。"
+"再スキャンジョブがスケジュールされました。結果は、後でファイルオンデマンド"
+"ページで確認できます。"
 
 #: apps/alerts/views.py:154
 msgid " (original file does not exist)."
@@ -943,17 +948,18 @@ msgid ""
 " .tar, .z, .xz, .gz, .tar.gz, .tgz, .zip, .bz2, .tar.bz2, .tar.Z, .7z, ."
 "rar, .lzh, .ace"
 msgstr ""
-"サンプルファイルまたはアーカイブされたサンプルファイルをアップロードしてください。"
-"以下のアーカイブ形式がサポートされます。\n"
-" .tar, .z, .xz, .gz, .tar.gz, .tgz, .zip, .bz2, .tar.bz2, .tar.Z, .7z,"
-".rar, .lzh, .ace"
+"サンプルファイルまたはアーカイブされたサンプルファイルをアップロードしてくだ"
+"さい。以下のアーカイブ形式がサポートされます。\n"
+" .tar, .z, .xz, .gz, .tar.gz, .tgz, .zip, .bz2, .tar.bz2, .tar.Z, .7z,.rar, ."
+"lzh, .ace"
 
 #: apps/alerts/views.py:193
 #: templates/alert/url/url_ondemand_filter_table.html:75
 msgid ""
 "Please upload a plain-text file containing a list of URLs (1 URL per line)."
 msgstr ""
-"URLのリストを含んだプレーンテキストファイルをアップロードしてください(1行に１つのURLを記載)。"
+"URLのリストを含んだプレーンテキストファイルをアップロードしてください(1行に１"
+"つのURLを記載)。"
 
 #: apps/alerts/views.py:379
 msgid "Total Devices"
@@ -979,39 +985,33 @@ msgstr "ジョブ %(jid)s のJSONファイルは存在しません。"
 msgid "Yara rule file for %(ns)s does not exist."
 msgstr "%(ns)s のYaraルールファイルは存在しません。"
 
-#: apps/analysis/detail.py:316
+#: apps/analysis/detail.py:320
 #, python-format
 msgid "AV sample file of job %(jid)s does not exist."
 msgstr "ジョブ %(jid)s のAVサンプルファイルは存在しません。"
 
-#: apps/analysis/detail.py:325
-#, fuzzy
-#| msgid "The file does not exist."
+#: apps/analysis/detail.py:329
 msgid "AV sample file does not exist."
 msgstr "AVサンプルファイルが存在しません。"
 
-#: apps/analysis/detail.py:485
+#: apps/analysis/detail.py:489
 msgid "Failed to repack archive"
 msgstr "アーカイブし直しに失敗しました"
 
-#: apps/analysis/detail.py:530
+#: apps/analysis/detail.py:534
 #, python-format
 msgid "Screenshot image for job %(jid)s does not exist."
 msgstr "ジョブ %(jid)s のスクリーンショットイメージは存在しません。"
 
-#: apps/analysis/detail.py:665
-#, fuzzy
-#| msgid "Comments can not be empty"
+#: apps/analysis/detail.py:672
 msgid "Comments cannot be empty"
 msgstr "コメントは空欄に出来ません"
 
-#: apps/analysis/detail.py:671
-#, fuzzy
-#| msgid "Feedback submission failed"
+#: apps/analysis/detail.py:678
 msgid "Feedback submission has been scheduled"
 msgstr "フィードバックの送信が予定されています"
 
-#: apps/analysis/detail.py:678
+#: apps/analysis/detail.py:685
 msgid "Feedback submission failed"
 msgstr "フィードバックの送信に失敗しました"
 
@@ -1036,8 +1036,6 @@ msgid "System Information"
 msgstr "システム情報"
 
 #: apps/dashboard/defs.py:24
-#, fuzzy
-#| msgid "VM License"
 msgid "Licenses"
 msgstr "ライセンス"
 
@@ -1046,8 +1044,6 @@ msgid "Connectivity and Services"
 msgstr "接続性とサービス"
 
 #: apps/dashboard/defs.py:26
-#, fuzzy
-#| msgid " Status"
 msgid "Scan Status"
 msgstr "スキャンステータス"
 
@@ -1056,8 +1052,6 @@ msgid "System Resources"
 msgstr "システムリソース"
 
 #: apps/dashboard/defs.py:28
-#, fuzzy
-#| msgid "System Resources"
 msgid "System Resources Usage"
 msgstr "システムリソース使用量"
 
@@ -1099,8 +1093,6 @@ msgid "Customized Threats Distribution"
 msgstr "カスタマイズされた脅威分布"
 
 #: apps/dashboard/defs.py:48 apps/dashboard/defs.py:75
-#, fuzzy
-#| msgid "Scanning Statistics by Type"
 msgid "Scan Statistics by Type"
 msgstr "タイプ別のスキャン統計"
 
@@ -1199,7 +1191,7 @@ msgstr "グローブアタック"
 msgid "Tree View"
 msgstr "ツリー表示"
 
-#: apps/dashboard/defs.py:89 apps/job_detail/helpers.py:102
+#: apps/dashboard/defs.py:89 apps/job_detail/helpers.py:101
 #: templates/download_center/index.html:36 utils/apilog.py:328
 msgid "Job Details"
 msgstr "ジョブ詳細"
@@ -1282,7 +1274,7 @@ msgstr "ダッシュボードのデフォルトのレイアウトjsonファイ�
 #: apps/dashboard/utils.py:55
 #, python-format
 msgid "Can't find the default layout with container key: %s."
-msgstr "コンテナキー％sのデフォルトレイアウトが見つかりません。"
+msgstr "コンテナキー%sのデフォルトレイアウトが見つかりません。"
 
 #: apps/dashboard/views.py:50
 msgid "Error happened while saving dashboard layout:"
@@ -1309,26 +1301,19 @@ msgid "Error happened while updating dashboard widget:"
 msgstr "ダッシュボードウィジェットの更新中にエラーが発生しました："
 
 #: apps/download_center/api.py:26
-#, fuzzy
-#| msgid "Failed to generate report."
 msgid "Failed to generate job PDF report. "
 msgstr "ジョブPDFレポートの生成に失敗しました。"
 
 #: apps/download_center/api.py:41
-#, fuzzy
-#| msgid "Stop the report generating successfully"
 msgid "Job PDF report is generated successfully."
 msgstr "ジョブPDFレポートが正常に生成されます。"
 
 #: apps/download_center/api.py:44
-#, fuzzy, python-format
-#| msgid "Detailed report %s does not exist."
+#, python-format
 msgid "Job PDF report %s does not exist."
 msgstr "ジョブPDFレポート%sは存在しません。"
 
 #: apps/download_center/api.py:47
-#, fuzzy
-#| msgid "Failed to generate report."
 msgid "Failed to generate job PDF report file. "
 msgstr "ジョブPDFレポートファイルの生成に失敗しました。"
 
@@ -1346,7 +1331,8 @@ msgstr "ログイン時に免責事項の表示"
 
 #: apps/extra/forms.py:20
 msgid "Disclaimer text is not defined. Please update accordingly."
-msgstr "免責事項のテキストは定義されていません。必要に応じて、更新してください。"
+msgstr ""
+"免責事項のテキストは定義されていません。必要に応じて、更新してください。"
 
 #: apps/extra/forms.py:29
 msgid "Restore file"
@@ -1357,8 +1343,8 @@ msgid ""
 "Restore Administrators, Admin Profiles, Certificates, LDAP Servers and "
 "Radius Servers"
 msgstr ""
-"管理者、管理者プロファイル、証明書、LDAPサーバおよびRadiusサーバをリスト"
-"アしてください"
+"管理者、管理者プロファイル、証明書、LDAPサーバおよびRadiusサーバをリストアし"
+"てください"
 
 #: apps/extra/views/fsb_main.py:111
 #, python-format
@@ -1381,24 +1367,26 @@ msgstr "ログインしてください。"
 msgid "User Profile not defined, please contact administrator."
 msgstr "ユーザプロファイルが定義されていません。管理者に連絡してください。"
 
-#: apps/extra/views/fsb_main.py:497
+#: apps/extra/views/fsb_main.py:504
 msgid "Disclaimer successfully updated"
 msgstr "免責事項の更新に成功しました"
 
-#: apps/extra/views/fsb_main.py:500
+#: apps/extra/views/fsb_main.py:507
 msgid "Failed to save disclaimer"
 msgstr "免責事項の保存に失敗しました"
 
-#: apps/extra/views/fsb_main.py:514 templates/login.html:70
+#: apps/extra/views/fsb_main.py:521 templates/login.html:70
 #: templates/main/tree_menu_def.html:358
 msgid "Login Disclaimer"
 msgstr "ログイン免責事項"
 
-#: apps/extra/views/fsb_main.py:650
+#: apps/extra/views/fsb_main.py:658
 msgid "Too many login failures, please wait and try again in a few minutes..."
-msgstr "ログイン失敗が多すぎます。しばらく待ってから、数分後にもう一度お試しください..."
+msgstr ""
+"ログイン失敗が多すぎます。しばらく待ってから、数分後にもう一度お試しくださ"
+"い..."
 
-#: apps/extra/views/fsb_main.py:652
+#: apps/extra/views/fsb_main.py:660
 msgid "Authentication failure. Please try again..."
 msgstr "認証失敗。もう一度やり直してください..."
 
@@ -1423,16 +1411,16 @@ msgid ""
 "The appliance firmware is being upgraded, you will be redirected to the "
 "login page when the system has restarted."
 msgstr ""
-"アプライアンスのファームウェアをアップグレード中です。システムが再起動すると、"
-"ログインページにリダイレクトされます。"
+"アプライアンスのファームウェアをアップグレード中です。システムが再起動する"
+"と、ログインページにリダイレクトされます。"
 
 #: apps/extra/views/main.py:148
 msgid ""
 "System configuration restore process has been started, you will be "
 "redirected to the login page once it has completed."
 msgstr ""
-"システム設定のリストアプロセスが開始されました。完了するとログインページにリダイ"
-"レクトされます。"
+"システム設定のリストアプロセスが開始されました。完了するとログインページにリ"
+"ダイレクトされます。"
 
 #: apps/extra/views/main.py:150
 msgid "The appliance is now shutting down."
@@ -1474,8 +1462,8 @@ msgid ""
 "System cannot reach the Server Address, please verify the server is "
 "reachable."
 msgstr ""
-"システムがサーバアドレスに到達できません、サーバが到達可能であることを確"
-"認してください。"
+"システムがサーバアドレスに到達できません、サーバが到達可能であることを確認し"
+"てください。"
 
 #: apps/extra/views/remote_backup.py:132
 msgid "The configuration has been successfully changed"
@@ -1555,7 +1543,7 @@ msgid "Hostname"
 msgstr "ホスト名"
 
 #: apps/forticlient/defs.py:13 apps/widgets/utils/sysinfo.py:26
-#: templates/base/base.html:106 templates/ha_cluster/hc_management.html:69
+#: templates/base/base.html:105 templates/ha_cluster/hc_management.html:69
 #: templates/ha_cluster/hc_monitor.html:59
 #: templates/ha_cluster/hc_stat_table.html:101
 #: templates/ha_cluster/hc_status.html:12
@@ -1596,16 +1584,19 @@ msgid "Standalone"
 msgstr "スタンドアローン"
 
 #: apps/hacluster/clibhc.py:22 apps/hacluster/clibhc.py:35
-#, fuzzy
-#| msgid "Primary Slave"
 msgid "Primary"
 msgstr "プライマリ"
+
+#: apps/hacluster/clibhc.py:23 apps/hacluster/clibhc.py:36
+#: templates/main/tree_menu_def.html:431
+msgid "Secondary"
+msgstr "セカンダリ"
 
 #: apps/hacluster/clibhc.py:24 apps/hacluster/clibhc.py:37
 msgid "Worker"
 msgstr "ワーカー"
 
-#: apps/hacluster/forms.py:16 apps/system/forms.py:655
+#: apps/hacluster/forms.py:16 apps/system/forms.py:656
 msgid "This value may contain letters, numbers and ./_ characters only."
 msgstr "この値には文字、数字と ./_ を含むことができます。"
 
@@ -1618,7 +1609,7 @@ msgid "HA-Cluster Name"
 msgstr "HAクラスタ名"
 
 #: apps/hacluster/forms.py:45 apps/hacluster/forms.py:48 apps/scan/forms.py:195
-#: apps/scan/forms.py:439 apps/system/forms.py:700 apps/system/forms.py:1188
+#: apps/scan/forms.py:439 apps/system/forms.py:701 apps/system/forms.py:1189
 msgid "May contain letters, numbers and ./_ only."
 msgstr "文字、数字と ./_ を含むことができます。"
 
@@ -1634,7 +1625,7 @@ msgstr "認証コード"
 msgid "HA-Cluster Data Transfer Interface"
 msgstr "HAクラスタデータ転送インターフェース"
 
-#: apps/hacluster/forms.py:95 apps/system/forms.py:1101
+#: apps/hacluster/forms.py:99 apps/system/forms.py:1102
 #: templates/ha_cluster/hconf_list.html:26
 #: templates/ha_cluster/hcu_frame.html:13 templates/scan/icap_config.html:53
 #: templates/system/config-network-intf.html:12
@@ -1642,138 +1633,138 @@ msgstr "HAクラスタデータ転送インターフェース"
 msgid "Interface"
 msgstr "インターフェース"
 
-#: apps/hacluster/forms.py:98 templates/ha_cluster/hconf_list.html:27
+#: apps/hacluster/forms.py:102 templates/ha_cluster/hconf_list.html:27
 msgid "Remote Server"
 msgstr "リモートサーバ"
 
-#: apps/hacluster/forms.py:99 apps/scan/forms.py:72 apps/scan/forms.py:198
+#: apps/hacluster/forms.py:103 apps/scan/forms.py:72 apps/scan/forms.py:198
 #: apps/scan/forms.py:444 apps/scan/forms.py:514 apps/scan/forms.py:695
-#: apps/system/forms.py:704 apps/system/forms.py:1104 apps/system/forms.py:1191
-#: apps/system/forms.py:1192
+#: apps/system/forms.py:705 apps/system/forms.py:1105 apps/system/forms.py:1192
+#: apps/system/forms.py:1193
 msgid "IP address or fully-qualified domain name"
 msgstr "IPアドレスまたはFQDNドメイン名"
 
-#: apps/hacluster/forms.py:101
+#: apps/hacluster/forms.py:105
 msgid "Enable Ping"
 msgstr "Pingを有効"
 
-#: apps/hacluster/forms.py:102
+#: apps/hacluster/forms.py:106
 msgid "Enable TCP Echo"
 msgstr "TCP Echoを有効"
 
-#: apps/hacluster/forms.py:106
+#: apps/hacluster/forms.py:110
 msgid " Interval (1-180 seconds)"
 msgstr " 間隔(1〜180秒)"
 
-#: apps/hacluster/forms.py:111
+#: apps/hacluster/forms.py:115
 msgid " Failover Threshold (2-120 times)"
 msgstr " フェールオーバーしきい値(2〜120回)"
 
-#: apps/hacluster/forms.py:120 apps/hacluster/forms.py:133
+#: apps/hacluster/forms.py:124 apps/hacluster/forms.py:137
 msgid "Invalid remote server."
 msgstr "リモートサーバが無効です。"
 
-#: apps/hacluster/hcproxy.py:75
+#: apps/hacluster/hcproxy.py:76 utils/sync_job_q.py:45
 msgid "Failed to load device data."
 msgstr "デバイスデータの呼び出しに失敗しました。"
 
-#: apps/hacluster/views.py:203 apps/logs/logs.py:189 apps/scan/devfgts.py:146
+#: apps/hacluster/views.py:207 apps/logs/logs.py:189 apps/scan/devfgts.py:146
 #: apps/scan/devfgts.py:160 apps/scan/nwshare.py:638 apps/scan/nwshare.py:901
-#: apps/system/config.py:252 apps/system/config.py:2056
-#: apps/system/config.py:2259 apps/system/config.py:2515
+#: apps/system/config.py:252 apps/system/config.py:2074
+#: apps/system/config.py:2284 apps/system/config.py:2557
 #: apps/system/yara.py:482
 msgid "Are you sure?"
 msgstr "よいですか?"
 
-#: apps/hacluster/views.py:215
+#: apps/hacluster/views.py:219
 msgid "Cannot find the setting for interface %(name)."
 msgstr "インターフェース %(name) の設定が見つかりません。"
 
-#: apps/hacluster/views.py:225
+#: apps/hacluster/views.py:229
 msgid "Interface monitoring settings were successfully deleted."
 msgstr "インターフェースモニタリング設定が削除されました。"
 
-#: apps/hacluster/views.py:233
+#: apps/hacluster/views.py:237
 msgid "Error happened when deleting interface monitoring settings."
 msgstr "インターフェースモニタリング設定の削除でエラーが発生しました。"
 
-#: apps/hacluster/views.py:256
+#: apps/hacluster/views.py:261
 msgid "The monitoring setting for this interface has been set already"
 msgstr "このインターフェースのモニタリングの設定はすでに設定されています"
 
-#: apps/hacluster/views.py:258 apps/hacluster/views.py:310
+#: apps/hacluster/views.py:263 apps/hacluster/views.py:316
 msgid "You have to choose one method: Ping or TCP Echo"
 msgstr "PingあるいはTCP Echoのどちら一つを選択する必要があります"
 
-#: apps/hacluster/views.py:271
+#: apps/hacluster/views.py:276
 msgid "Error happened while adding new interface monitoring setting: "
 msgstr "新しいインターフェースモニタリング設定の追加でエラーが発生しました: "
 
-#: apps/hacluster/views.py:282
+#: apps/hacluster/views.py:287
 msgid "New Interface Monitoring Setting"
 msgstr "新しいインターフェースモニタリング設定"
 
-#: apps/hacluster/views.py:323
+#: apps/hacluster/views.py:329
 msgid "Error happened while editing interface monitoring setting: "
 msgstr "インターフェースモニタリング設定の更新でエラーが発生しました: "
 
-#: apps/hacluster/views.py:336
+#: apps/hacluster/views.py:342
 msgid "Can not find the setting for interface"
 msgstr "インターフェースの設定が見つかりません"
 
-#: apps/hacluster/views.py:347
+#: apps/hacluster/views.py:353
 msgid "Edit Interface Monitoring Setting"
 msgstr "インターフェースモニタリング設定の編集"
 
-#: apps/hacluster/views.py:431
+#: apps/hacluster/views.py:437
 msgid "Device is not in HA-Master mode, HA-Cluster queries are not supported"
 msgstr ""
-"デバイスはHAマスターモードではないため、HAクラスタークエリはサポートされていません"
+"デバイスはHAマスターモードではないため、HAクラスタークエリはサポートされてい"
+"ません"
 
-#: apps/hacluster/views.py:538
+#: apps/hacluster/views.py:555
 msgid "Device is not in HA-Cluster mode, HA-Cluster queries are not supported"
 msgstr ""
-"デバイスはHAクラスターモードではないため、HAクラスタークエリはサポートされていません"
+"デバイスはHAクラスターモードではないため、HAクラスタークエリはサポートされて"
+"いません"
 
-#: apps/job_detail/data/base.py:269
+#: apps/job_detail/data/base.py:276
 msgid "Clean File"
 msgstr "クリーンファイル"
 
-#: apps/job_detail/data/base.py:380 apps/job_detail/data/base.py:571
+#: apps/job_detail/data/base.py:387 apps/job_detail/data/base.py:588
 #: apps/job_detail/data/tracer.py:44 templates/logs/diagnostic_logs.html:53
 #: templates/logs/diagnostic_logs.html:71
 msgid "ON"
 msgstr "ON"
 
-#: apps/job_detail/data/base.py:384 apps/job_detail/data/base.py:571
+#: apps/job_detail/data/base.py:391 apps/job_detail/data/base.py:588
 #: templates/logs/diagnostic_logs.html:54
 #: templates/logs/diagnostic_logs.html:72
 msgid "OFF"
 msgstr "OFF"
 
-#: apps/job_detail/data/base.py:540
+#: apps/job_detail/data/base.py:557
 msgid "Reset back to suspicious"
 msgstr "疑わしいものにリセット"
 
-#: apps/job_detail/data/base.py:542
+#: apps/job_detail/data/base.py:559
 msgid "Reset back to malicious"
 msgstr "悪意のあるものにリセット"
 
-#: apps/job_detail/data/base.py:544
+#: apps/job_detail/data/base.py:561
 msgid "Reset back to suspicious/malicious"
 msgstr "疑わしい/悪意のあるものにリセット"
 
-#: apps/job_detail/data/base.py:547
+#: apps/job_detail/data/base.py:564
 msgid "Reset back to clean"
 msgstr "クリーンにリセット"
 
-#: apps/job_detail/data/base.py:550
+#: apps/job_detail/data/base.py:567
 msgid "Mark as clean (false positive)"
 msgstr "クリーンとしてマーク（誤検知）"
 
-#: apps/job_detail/data/base.py:553
-#, fuzzy
-#| msgid "Mark as suspicious (false negative)"
+#: apps/job_detail/data/base.py:570
 msgid "Mark as malicious (false negative)"
 msgstr "悪意のあるものとしてマーク（偽陰性）"
 
@@ -1813,145 +1804,141 @@ msgstr "オーバービュー"
 msgid "Details"
 msgstr "詳細"
 
-#: apps/job_detail/gui/defs.py:26
+#: apps/job_detail/gui/defs.py:27
 #: templates/alert/job-details/basics-panel.html:30
 msgid "FPN Comment"
 msgstr "FPNコメント"
 
-#: apps/job_detail/gui/defs.py:27
+#: apps/job_detail/gui/defs.py:28
 #: templates/alert/job-details/basics-panel.html:40
 msgid "Received"
 msgstr "受信"
 
-#: apps/job_detail/gui/defs.py:28
+#: apps/job_detail/gui/defs.py:29
 #: templates/alert/job-details/basics-panel.html:50
 msgid "Started"
 msgstr "開始"
 
-#: apps/job_detail/gui/defs.py:30 apps/logs/logutils.py:301
+#: apps/job_detail/gui/defs.py:31 apps/logs/logutils.py:301
 #: apps/table/config/defs.py:18
 #: templates/alert/job-details/basics-panel.html:70
 msgid "Rated By"
 msgstr "による評価"
 
-#: apps/job_detail/gui/defs.py:31
+#: apps/job_detail/gui/defs.py:32
 #: templates/alert/job-details/basics-panel.html:79
 msgid "Submit Type"
 msgstr "サブミットタイプ"
 
-#: apps/job_detail/gui/defs.py:32 apps/job_detail/gui/defs.py:90
+#: apps/job_detail/gui/defs.py:33 apps/job_detail/gui/defs.py:91
 #: templates/alert/job-details/basics-panel.html:89
 #: templates/alert/scan_job_details_sections.html:288
 msgid "Client IP"
 msgstr "クライアントIP"
 
-#: apps/job_detail/gui/defs.py:33
+#: apps/job_detail/gui/defs.py:34
 #: templates/alert/job-details/basics-panel.html:99
 msgid "Endpoint IP"
 msgstr "エンドポイントIP"
 
-#: apps/job_detail/gui/defs.py:35
+#: apps/job_detail/gui/defs.py:36
 #: templates/alert/job-details/basics-panel.html:120
 msgid "X Forwarded For"
 msgstr "X Forwarded For"
 
-#: apps/job_detail/gui/defs.py:36 apps/logs/logutils.py:306
+#: apps/job_detail/gui/defs.py:37 apps/logs/logutils.py:306
 #: templates/alert/job-details/basics-panel.html:130
 msgid "True Client IP"
 msgstr "真のクライアントIP"
 
-#: apps/job_detail/gui/defs.py:37 apps/logs/logutils.py:302
+#: apps/job_detail/gui/defs.py:38 apps/logs/logutils.py:302
 #: templates/alert/job-details/basics-panel.html:140
 msgid "FortiClient UID"
 msgstr "FortiClient UID"
 
-#: apps/job_detail/gui/defs.py:38 apps/logs/logutils.py:303
+#: apps/job_detail/gui/defs.py:39 apps/logs/logutils.py:303
 #: templates/alert/job-details/basics-panel.html:150
 msgid "Unauthorized User"
 msgstr "未承認のユーザ"
 
-#: apps/job_detail/gui/defs.py:39 apps/logs/logutils.py:304
+#: apps/job_detail/gui/defs.py:40 apps/logs/logutils.py:304
 #: templates/alert/job-details/basics-panel.html:160
 msgid "Unauthorized User Source"
 msgstr "未承認のユーザソース"
 
-#: apps/job_detail/gui/defs.py:41
+#: apps/job_detail/gui/defs.py:42
 #: templates/alert/job-details/basics-panel.html:181
 msgid "Digital Signature"
 msgstr "デジタル署名"
 
-#: apps/job_detail/gui/defs.py:42 apps/widgets/utils/conn_services.py:32
+#: apps/job_detail/gui/defs.py:43 apps/widgets/utils/conn_services.py:32
 #: apps/widgets/utils/conn_services.py:83
 msgid "AI Mode"
 msgstr "AIモード"
 
-#: apps/job_detail/gui/defs.py:43
+#: apps/job_detail/gui/defs.py:44
 msgid "Overwrite Message"
 msgstr "メッセージを上書きする"
 
-#: apps/job_detail/gui/defs.py:44
+#: apps/job_detail/gui/defs.py:45
 msgid "SIMNET"
 msgstr "SIMNET"
 
-#: apps/job_detail/gui/defs.py:45
+#: apps/job_detail/gui/defs.py:46
 msgid "Scan Bypass"
 msgstr "スキャンバイパス"
 
-#: apps/job_detail/gui/defs.py:46
+#: apps/job_detail/gui/defs.py:47
 msgid "Embedded URL"
 msgstr "Embedded URL"
 
-#: apps/job_detail/gui/defs.py:47
-#, fuzzy
-#| msgid "US Region"
+#: apps/job_detail/gui/defs.py:48
 msgid "Region"
 msgstr "地域"
 
-#: apps/job_detail/gui/defs.py:49
-#, fuzzy
-#| msgid "Timeout"
+#: apps/job_detail/gui/defs.py:50
 msgid "Timeout Value"
 msgstr "タイムアウト値"
 
-#: apps/job_detail/gui/defs.py:58
+#: apps/job_detail/gui/defs.py:59
 #: templates/alert/scan_job_details_sections.html:13
 #: templates/job_detail/tree_view_details.html:368
 msgid "Packers"
 msgstr "パッカー"
 
-#: apps/job_detail/gui/defs.py:60
+#: apps/job_detail/gui/defs.py:61
 #: templates/alert/scan_job_details_sections.html:36
 msgid "Downloaded From"
 msgstr "ダウンロード元"
 
-#: apps/job_detail/gui/defs.py:61
+#: apps/job_detail/gui/defs.py:62
 msgid "Target URL"
 msgstr "ターゲットURL"
 
-#: apps/job_detail/gui/defs.py:62 apps/logs/logutils.py:288
+#: apps/job_detail/gui/defs.py:63 apps/logs/logutils.py:288
 #: templates/alert/scan_job_details_sections.html:47 utils/apilog.py:345
 msgid "URL Category"
 msgstr "URLカテゴリ"
 
-#: apps/job_detail/gui/defs.py:63
+#: apps/job_detail/gui/defs.py:64
 #: templates/alert/scan_job_details_sections.html:57
 #: templates/job_detail/tree_view_details.html:333
 msgid "File Size"
 msgstr "ファイルサイズ"
 
-#: apps/job_detail/gui/defs.py:64
+#: apps/job_detail/gui/defs.py:65
 #: templates/alert/scan_job_details_sections.html:67
 msgid "Rescan Rating"
 msgstr "リスキャンレーティング"
 
-#: apps/job_detail/gui/defs.py:66 apps/logs/logutils.py:248
+#: apps/job_detail/gui/defs.py:67 apps/logs/logutils.py:248
 #: apps/table/config/defs.py:25
 #: templates/alert/scan_job_details_sections.html:87
 #: templates/scan/mta_config.html:212
 msgid "Email Sender"
 msgstr "メール送信者"
 
-#: apps/job_detail/gui/defs.py:68 apps/scan/filter_list/defs.py:15
+#: apps/job_detail/gui/defs.py:69 apps/scan/filter_list/defs.py:15
 #: apps/scan/filter_list/defs.py:57 apps/table/config/defs.py:7
 #: templates/alert/scan_job_details_sections.html:107
 #: templates/job_detail/tree_view_details.html:68
@@ -1960,25 +1947,20 @@ msgstr "メール送信者"
 msgid "MD5"
 msgstr "MD5"
 
-#: apps/job_detail/gui/defs.py:69 apps/scan/filter_list/defs.py:16
+#: apps/job_detail/gui/defs.py:70 apps/scan/filter_list/defs.py:16
 #: apps/scan/filter_list/defs.py:58 apps/table/config/defs.py:8
 #: templates/alert/scan_job_details_sections.html:117
 #: templates/job_detail/tree_view_details.html:317
 msgid "SHA1"
 msgstr "SHA1"
 
-#: apps/job_detail/gui/defs.py:70 apps/scan/filter_list/defs.py:17
+#: apps/job_detail/gui/defs.py:71 apps/scan/filter_list/defs.py:17
 #: apps/scan/filter_list/defs.py:59 apps/table/config/defs.py:9
 #: templates/alert/scan_job_details_sections.html:127
 #: templates/job_detail/tree_view_details.html:325
 #: templates/scan/malpkg_res_table.html:111
 msgid "SHA256"
 msgstr "SHA256"
-
-#: apps/job_detail/gui/defs.py:71 apps/system/forms.py:1305
-#: templates/alert/scan_job_details_sections.html:137
-msgid "ID"
-msgstr "ID"
 
 #: apps/job_detail/gui/defs.py:73
 #: templates/alert/scan_job_details_sections.html:157
@@ -1998,8 +1980,6 @@ msgid "Total Scan Time"
 msgstr "総スキャン時間"
 
 #: apps/job_detail/gui/defs.py:83
-#, fuzzy
-#| msgid "File Info"
 msgid "Email Info"
 msgstr "メール情報"
 
@@ -2012,111 +1992,105 @@ msgstr "指定されたVM"
 msgid "No VM Reason"
 msgstr "VMの理由なし"
 
-#: apps/job_detail/gui/defs.py:87 apps/logs/logutils.py:265
+#: apps/job_detail/gui/defs.py:87
+#, fuzzy
+#| msgid "No VM Reason"
+msgid "VM Reason"
+msgstr "VMの理由なし"
+
+#: apps/job_detail/gui/defs.py:88 apps/logs/logutils.py:265
 #: templates/alert/scan_job_details_sections.html:268
 msgid "Launched OS"
 msgstr "OSを起動"
 
-#: apps/job_detail/gui/defs.py:88
-#, fuzzy
-#| msgid "Anti Evasion Enabled"
+#: apps/job_detail/gui/defs.py:89
 msgid "Anti Evasion Triggers"
 msgstr "回避対策トリガー"
 
-#: apps/job_detail/gui/defs.py:91 apps/reports/forms.py:13
+#: apps/job_detail/gui/defs.py:92 apps/reports/forms.py:13
 #: templates/alert/scan_job_details_sections.html:298
 msgid "From"
 msgstr "From"
 
-#: apps/job_detail/gui/defs.py:92 apps/reports/forms.py:14
+#: apps/job_detail/gui/defs.py:93 apps/reports/forms.py:14
 #: templates/alert/scan_job_details_sections.html:308
 #: templates/dashboard/settings/donut_chart.html:44
 #: templates/dashboard/settings/donut_chart.html:60
 msgid "To"
 msgstr "To"
 
-#: apps/job_detail/gui/defs.py:93
+#: apps/job_detail/gui/defs.py:94
 #: templates/alert/scan_job_details_sections.html:318
 msgid "CC"
 msgstr "CC"
 
-#: apps/job_detail/gui/defs.py:94
+#: apps/job_detail/gui/defs.py:95
 #: templates/alert/scan_job_details_sections.html:328
 #: templates/system/cacert-info.html:51 templates/system/config-cacert.html:27
 msgid "Subject"
 msgstr "サブジェクト"
 
-#: apps/job_detail/gui/defs.py:95
+#: apps/job_detail/gui/defs.py:96
 #: templates/alert/scan_job_details_sections.html:338
 msgid "User Account"
 msgstr "ユーザアカウント"
 
-#: apps/job_detail/gui/defs.py:96
+#: apps/job_detail/gui/defs.py:97
 #: templates/alert/scan_job_details_sections.html:348
 msgid "Adapter IP"
 msgstr "アダプタIP"
 
-#: apps/job_detail/gui/defs.py:97
+#: apps/job_detail/gui/defs.py:98
 #: templates/alert/scan_job_details_sections.html:358
 msgid "Platform"
 msgstr "プラットフォーム"
 
-#: apps/job_detail/gui/defs.py:98
+#: apps/job_detail/gui/defs.py:99
 msgid "VM Scan Start Time"
 msgstr "スキャン開始時間"
 
-#: apps/job_detail/gui/defs.py:99
+#: apps/job_detail/gui/defs.py:100
 msgid "VM Scan End Time"
 msgstr "VMスキャン終了時間"
 
-#: apps/job_detail/gui/defs.py:100
+#: apps/job_detail/gui/defs.py:101
 msgid "VM Scan Time"
 msgstr "VMスキャン時間"
 
-#: apps/job_detail/gui/defs.py:102
+#: apps/job_detail/gui/defs.py:103
 msgid "BCC-Agent Sender"
 msgstr "BCC-Agent送信者"
 
-#: apps/job_detail/gui/defs.py:103
-#, fuzzy
-#| msgid "Receiver"
+#: apps/job_detail/gui/defs.py:104
 msgid "BCC-Agent Receiver"
 msgstr "BCC-Agent受信者"
 
-#: apps/job_detail/gui/defs.py:104
-#, fuzzy
-#| msgid "Client IP"
+#: apps/job_detail/gui/defs.py:105
 msgid "BCC Client IP"
 msgstr "BCCクライアントIP"
 
-#: apps/job_detail/gui/defs.py:105
-#, fuzzy
-#| msgid "Email"
+#: apps/job_detail/gui/defs.py:106
 msgid "Email From"
 msgstr "Email From"
 
-#: apps/job_detail/gui/defs.py:106
-#, fuzzy
-#| msgid "Email"
+#: apps/job_detail/gui/defs.py:107
 msgid "Email To"
 msgstr "Email To"
 
-#: apps/job_detail/gui/defs.py:107
-#, fuzzy
-#| msgid "Email"
+#: apps/job_detail/gui/defs.py:108
 msgid "Email CC"
 msgstr "Email CC"
 
-#: apps/job_detail/gui/defs.py:108 apps/logs/logutils.py:250
+#: apps/job_detail/gui/defs.py:109 apps/logs/logutils.py:250
 #: templates/scan/mta_config.html:220
 msgid "Email Subject"
 msgstr "Emailサブジェクト"
 
-#: apps/job_detail/helpers.py:149
+#: apps/job_detail/helpers.py:148
 msgid "File might be still scanning, please try again in a few minutes."
 msgstr "ファイルはスキャン中です。数分後にやり直してください。"
 
-#: apps/job_detail/helpers.py:160
+#: apps/job_detail/helpers.py:159
 msgid "Scan Job Details"
 msgstr "スキャンジョブ詳細"
 
@@ -2176,118 +2150,118 @@ msgstr "Yaraルールが正常にアクティベートされました。"
 msgid "Yara rule was deactivated successfully."
 msgstr "Yaraルールが正常に非アクティブ化されました。"
 
-#: apps/jsonrpc/rpccfgsystem.py:55
+#: apps/jsonrpc/rpccfgsystem.py:64
 #, python-format
 msgid "Hostname is %s"
 msgstr "ホスト名は %s です"
 
-#: apps/jsonrpc/rpccfgsystem.py:68
+#: apps/jsonrpc/rpccfgsystem.py:77
 #, python-format
 msgid "Hostname was changed to %s successfully"
 msgstr "ホスト名が正常に %s に変更されました"
 
-#: apps/jsonrpc/rpccfgsystem.py:91
+#: apps/jsonrpc/rpccfgsystem.py:100
 #, python-format
 msgid "Current timezone is %s ."
 msgstr "現在のタイムゾーンは %s です。"
 
-#: apps/jsonrpc/rpccfgsystem.py:99
+#: apps/jsonrpc/rpccfgsystem.py:108
 msgid "timezone ID is incorrect."
 msgstr "タイムゾーンIDが正しくありません。"
 
-#: apps/jsonrpc/rpccfgsystem.py:109
+#: apps/jsonrpc/rpccfgsystem.py:118
 #, python-format
 msgid "Timezone was changed to %s successfully"
 msgstr "タイムゾーンが %s に正常に変更されました"
 
-#: apps/jsonrpc/rpccfgsystem.py:159
+#: apps/jsonrpc/rpccfgsystem.py:168
 msgid "Time and NTP configuration was changed successfully"
 msgstr "時刻とNTP構成が正常に変更されました"
 
-#: apps/jsonrpc/rpccfgsystem.py:208
+#: apps/jsonrpc/rpccfgsystem.py:217
 msgid "Network interface "
 msgstr "ネットワークインターフェース "
 
-#: apps/jsonrpc/rpccfgsystem.py:244
+#: apps/jsonrpc/rpccfgsystem.py:253
 msgid "DNS configuration was successfully updated."
 msgstr "DNS設定が正常に更新されました。"
 
-#: apps/jsonrpc/rpccfgsystem.py:299
+#: apps/jsonrpc/rpccfgsystem.py:308
 msgid "Routing configuration was successfully updated."
 msgstr "ルーティング設定が正常に更新されました。"
 
-#: apps/jsonrpc/rpccfgsystem.py:306
+#: apps/jsonrpc/rpccfgsystem.py:315
 msgid "New routing configuration was successfully added."
 msgstr "新しいルーティング設定が正常に追加されました。"
 
-#: apps/jsonrpc/rpccfgsystem.py:313
+#: apps/jsonrpc/rpccfgsystem.py:322
 msgid "Routing configuration was deleted."
 msgstr "ルーティング設定が削除されました。"
 
-#: apps/jsonrpc/rpccfgsystem.py:422
+#: apps/jsonrpc/rpccfgsystem.py:471
 msgid "Administrators were successfully deleted."
 msgstr "管理者は正常に削除されました。"
 
-#: apps/jsonrpc/rpccfgsystem.py:443
+#: apps/jsonrpc/rpccfgsystem.py:492
 msgid "Administrators were successfully added."
 msgstr "管理者は正常に追加されました。"
 
-#: apps/jsonrpc/rpccfgsystem.py:467
+#: apps/jsonrpc/rpccfgsystem.py:516
 msgid "Administrators were successfully updated."
 msgstr "管理者は正常に更新されました。"
 
-#: apps/jsonrpc/rpccfgsystem.py:552
+#: apps/jsonrpc/rpccfgsystem.py:601
 msgid "New LDAP server was successfully added."
 msgstr "新しいLDAPサーバが正常に追加されました。"
 
-#: apps/jsonrpc/rpccfgsystem.py:554
+#: apps/jsonrpc/rpccfgsystem.py:603
 msgid "LDAP server information was successfully updated."
 msgstr "LDAPサーバの情報が正常に更新されました。"
 
-#: apps/jsonrpc/rpccfgsystem.py:559 apps/system/config.py:2103
+#: apps/jsonrpc/rpccfgsystem.py:608 apps/system/config.py:2128
 msgid "LDAP servers were successfully deleted."
 msgstr "LDAPサーバは正常に削除されました。"
 
-#: apps/jsonrpc/rpccfgsystem.py:610
+#: apps/jsonrpc/rpccfgsystem.py:659
 msgid "New RADIUS server was successfully added."
 msgstr "新しいRADIUSサーバが正常に追加されました。"
 
-#: apps/jsonrpc/rpccfgsystem.py:625
+#: apps/jsonrpc/rpccfgsystem.py:674
 msgid "RADIUS servers were successfully updated."
 msgstr "RADIUSサーバが正常に更新されました。"
 
-#: apps/jsonrpc/rpccfgsystem.py:630
+#: apps/jsonrpc/rpccfgsystem.py:679
 msgid "RADIUS servers were successfully deleted."
 msgstr "RADIUSサーバが正常に削除されました。"
 
-#: apps/jsonrpc/rpccfgsystem.py:712
+#: apps/jsonrpc/rpccfgsystem.py:761
 msgid "FortiGuard service were successfully updated."
 msgstr "FortiGuardサービスが正常に更新されました。"
 
-#: apps/jsonrpc/rpccfgsystem.py:790
+#: apps/jsonrpc/rpccfgsystem.py:839
 msgid "Mail configuration were successfully updated."
 msgstr "メール設定が正常に更新されました。"
 
-#: apps/jsonrpc/rpccfgsystem.py:858
+#: apps/jsonrpc/rpccfgsystem.py:907
 msgid "Log server configuration were successfully updated."
 msgstr "ログサーバの設定が正常に更新されました。"
 
-#: apps/jsonrpc/rpcfpn.py:90
+#: apps/jsonrpc/rpcfpn.py:97
 #, python-format
 msgid "Failed to set False Positive or False Negative for Job %s."
 msgstr ""
 "ジョブ %s に偽陽性(False Positive)、または偽陰性(False Negative)を設定できま"
 "せんでした。"
 
-#: apps/jsonrpc/rpcfpn.py:122
+#: apps/jsonrpc/rpcfpn.py:133
 msgid "Cloud Feedback submission failed."
 msgstr "クラウドフィードバックの送信に失敗しました。"
 
-#: apps/jsonrpc/rpcfpn.py:125
+#: apps/jsonrpc/rpcfpn.py:136
 msgid "Feedback was submitted successfully"
 msgstr "フィードバックのサブミットに成功しました"
 
-#: apps/logs/diagnostic_logs.py:177
+#: apps/logs/diagnostic_logs.py:178
 #, python-format
 msgid "Log file %s does not exist."
 msgstr "ログファイル %s は存在しません。"
@@ -2324,7 +2298,7 @@ msgstr "インフォメーションログ"
 msgid "Debug Logs"
 msgstr "デバッグログ"
 
-#: apps/logs/forms.py:29 apps/system/forms.py:699 apps/system/forms.py:1187
+#: apps/logs/forms.py:29 apps/system/forms.py:700 apps/system/forms.py:1188
 #: templates/logs/remote_servers.html:30
 #: templates/scan/config-networkshare.html:30
 #: templates/scan/config-quarantine.html:29
@@ -2346,7 +2320,7 @@ msgid "Log Server Address"
 msgstr "ログサーバアドレス"
 
 #: apps/logs/forms.py:35 apps/scan/forms.py:73 apps/snmp/forms.py:279
-#: apps/snmp/forms.py:286 apps/snmp/forms.py:492 apps/system/forms.py:1107
+#: apps/snmp/forms.py:286 apps/snmp/forms.py:492 apps/system/forms.py:1108
 #: templates/logs/remote_servers.html:33
 #: templates/scan/botnetpkg_res_table.html:117
 #: templates/scan/icap_config.html:44 templates/system/config-radius.html:29
@@ -2452,8 +2426,6 @@ msgid "Attack Name"
 msgstr "アタック名"
 
 #: apps/logs/logutils.py:239
-#, fuzzy
-#| msgid "Black List Name"
 msgid " Blocklist Name"
 msgstr "ブラックリスト名"
 
@@ -2515,8 +2487,6 @@ msgid "Malware Name"
 msgstr "マルウェア名"
 
 #: apps/logs/logutils.py:262
-#, fuzzy
-#| msgid "Malware Name"
 msgid "Malware Category"
 msgstr "マルウェアカテゴリ"
 
@@ -2634,8 +2604,6 @@ msgid "Virtual Machine Key"
 msgstr "VMキー"
 
 #: apps/logs/logutils.py:294
-#, fuzzy
-#| msgid "Host Name"
 msgid "Allowlist Name"
 msgstr "許可リスト名"
 
@@ -2663,40 +2631,36 @@ msgstr " が存在しません。"
 msgid ""
 "No valid job can be exported, only jobs with status Done can be exported. "
 msgstr ""
-"有効なジョブはエクスポートできません。ステータスがDoneのジョブのみをエクスポートできます。"
+"有効なジョブはエクスポートできません。ステータスがDoneのジョブのみをエクス"
+"ポートできます。"
 
-#: apps/report_center/pdf/contents/job_contents_base.py:223
-#: apps/widgets/utils/licenses.py:139
-#, fuzzy
-#| msgid "Active"
+#: apps/report_center/pdf/contents/job_contents_base.py:233
+#: apps/widgets/utils/licenses.py:140
 msgid "Activated"
 msgstr "アクティブ化"
 
-#: apps/report_center/pdf/contents/job_contents_base.py:226
+#: apps/report_center/pdf/contents/job_contents_base.py:236
 msgid "License will expired soon"
 msgstr "ライセンスがもうすぐ期限切れとなります"
 
-#: apps/report_center/pdf/contents/job_contents_base.py:229
-#: apps/widgets/utils/licenses.py:149 apps/widgets/utils/licenses.py:171
+#: apps/report_center/pdf/contents/job_contents_base.py:239
+#: apps/widgets/utils/licenses.py:150 apps/widgets/utils/licenses.py:190
 msgid "Not detected or activated"
 msgstr "検出またはアクティブ化されていません"
 
-#: apps/report_center/pdf/contents/job_contents_base.py:254
-#, fuzzy
-#| msgid "Network Is Accessible"
+#: apps/report_center/pdf/contents/job_contents_base.py:264
 msgid "Accessible"
 msgstr "アクセス可能"
 
-#: apps/report_center/pdf/contents/job_contents_base.py:256
-#, fuzzy
-#| msgid "Network Is Accessible"
+#: apps/report_center/pdf/contents/job_contents_base.py:266
 msgid "Inaccessible"
 msgstr "アクセス不可能"
 
-#: apps/report_center/pdf/job_report.py:206
+#: apps/report_center/pdf/job_report.py:192
 msgid ""
 "Another Report Generator instance is already running, please try latter."
-msgstr "他のレポート生成インスタンスが既に起動中です、後でもう一度お試しください。"
+msgstr ""
+"他のレポート生成インスタンスが既に起動中です、後でもう一度お試しください。"
 
 #: apps/report_center/views.py:60
 msgid "Report Size"
@@ -2723,8 +2687,6 @@ msgid "Stop the report generating successfully"
 msgstr "レポート生成を正常に停止する"
 
 #: apps/report_center/views.py:349
-#, fuzzy
-#| msgid "Report file %s does not exist."
 msgid "Report doesn't exist"
 msgstr "レポートが存在しません"
 
@@ -2788,28 +2750,21 @@ msgid "Generate Report"
 msgstr "レポート生成"
 
 #: apps/scan/adapter/config/bcc.py:34
-#, fuzzy
-#| msgid "Interface:SMTP Port has conflict with MTA"
 msgid "Interface:SMTP Port has conflict with other services"
 msgstr "インターフェース：SMTPポートが他のサービスと競合しています"
 
 #: apps/scan/adapter/config/icap.py:44
-#, fuzzy
-#| msgid "Interface:SMTP Port has conflict with MTA"
 msgid "Interface:Port has conflict with other service"
 msgstr "インターフェース：ポートが他のサービスと競合しています"
 
 #: apps/scan/adapter/config/icap.py:46
-#, fuzzy
-#| msgid "Interface:SMTP Port has conflict with MTA"
 msgid "Interface:SSL Port has conflict with other service"
 msgstr "インターフェース：SSLポートが他のサービスと競合しています"
 
 #: apps/scan/adapter/config/mta.py:36
-#, fuzzy
-#| msgid "Local Interface:Local SMTP Port has conflict with BCC"
 msgid "Local Interface:Local SMTP Port has conflict with other services"
-msgstr "ローカルインターフェース：ローカルSMTPポートが他のサービスと競合しています"
+msgstr ""
+"ローカルインターフェース：ローカルSMTPポートが他のサービスと競合しています"
 
 #: apps/scan/adapter/quarantine/defs.py:8
 msgid "Sender"
@@ -2908,7 +2863,8 @@ msgstr "カスタマイズレーティング"
 #: apps/scan/demand.py:86
 #, python-format
 msgid "Failed to move file %(full)s to %(dest)s in web folder."
-msgstr "ファイル %(full)s をWebフォルダー内の %(dest)s に移動できませんでした。"
+msgstr ""
+"ファイル %(full)s をWebフォルダー内の %(dest)s に移動できませんでした。"
 
 #: apps/scan/demand.py:158
 msgid "Failed to extract tar file."
@@ -3003,7 +2959,8 @@ msgstr ""
 #: apps/scan/demand.py:1279
 msgid ""
 "Submitted file is empty or doesn't exist, or you don't have read permission."
-msgstr "サブミットされたファイルが空であるか存在しないか、読み取り権限がありません."
+msgstr ""
+"サブミットされたファイルが空であるか存在しないか、読み取り権限がありません."
 
 #: apps/scan/demand.py:1326
 msgid "File upload error, The file name is too long."
@@ -3057,7 +3014,6 @@ msgstr "デバイス削除中にエラーが発生しました。 "
 
 #: apps/scan/devfgts.py:113 apps/scan/devfgts.py:133
 msgid "Error while deleting devices."
-#" msgstr "デバイス削除中にエラーが発生しました。"
 msgstr "デバイス削除中のエラー。"
 
 #: apps/scan/devfgts.py:125
@@ -3197,8 +3153,6 @@ msgid "Edit VDOM Settings"
 msgstr "VDOM設定の編集"
 
 #: apps/scan/devsniffer.py:130
-#, fuzzy
-#| msgid "Invalid netmask"
 msgid "Invalid Data"
 msgstr "無効なデータ"
 
@@ -3234,7 +3188,8 @@ msgstr "スニファー設定の更新に失敗しました"
 #: apps/scan/devsniffer.py:255
 msgid ""
 "Failed to update sniffer configuration. Check log for detailed information"
-msgstr "スニファー設定の更新に失敗しました。詳細についてはログを確認してください"
+msgstr ""
+"スニファー設定の更新に失敗しました。詳細についてはログを確認してください"
 
 #: apps/scan/fcont.py:142
 msgid "Error happened when set a change flags for adapter."
@@ -3257,8 +3212,6 @@ msgid "Error happened when getting adapter flags."
 msgstr "アダプターフラグを取得する時にでエラーが発生しました。"
 
 #: apps/scan/fcont.py:281
-#, fuzzy
-#| msgid "Error happened when getting adapter information."
 msgid "Error happened when getting adapter token."
 msgstr "アダプタトークンを取得する時にエラーが発生しました。"
 
@@ -3275,8 +3228,6 @@ msgid "Error happened when get adapter from database."
 msgstr "アダプター情報をデータベースから取得する時にエラーが発生しました。"
 
 #: apps/scan/fcont.py:461
-#, fuzzy
-#| msgid "Error happened when get adapter from database."
 msgid "Error happened when update flag to database."
 msgstr "データベースのフラグを更新する時にエラーが発生しました。"
 
@@ -3298,7 +3249,8 @@ msgstr "新しいアダプター"
 
 #: apps/scan/fcont.py:599
 msgid "Failed to update adapter information, check logs for details"
-msgstr "アダプター情報の更新に失敗しました。詳細についてはログを確認してください"
+msgstr ""
+"アダプター情報の更新に失敗しました。詳細についてはログを確認してください"
 
 #: apps/scan/fcont.py:606
 msgid "Adapter information was successfully updated"
@@ -3329,32 +3281,24 @@ msgid "Error occurred while deleting adapters."
 msgstr "アダプター削除中にエラーが発生しました。 "
 
 #: apps/scan/fcont.py:704 apps/scan/forms.py:717 apps/scan/forms.py:742
-#, fuzzy
-#| msgid "FQDN/IP"
 msgid "Invalid FQDN/IP."
 msgstr "無効なFQDN/IP"
 
 #: apps/scan/fcont.py:710 apps/scan/fcont.py:732
-#, fuzzy
-#| msgid "Error occurred while deleting adapters."
 msgid "Error occurred while test adapter connection."
 msgstr "アダプター接続のテスト中にエラーが発生しました。 "
 
 #: apps/scan/fcont.py:720
-#, fuzzy, python-format
-#| msgid "Adapter(s) were deleted successfully"
+#, python-format
 msgid "Adapter %s was connected successfully"
 msgstr "アダプター%sは正常に接続されました"
 
 #: apps/scan/fcont.py:726
-#, fuzzy, python-format
-#| msgid "Network share is inaccessible"
+#, python-format
 msgid "Adapter %s is inaccessible."
 msgstr "アダプタ%sにアクセスできません。"
 
 #: apps/scan/fcont.py:730
-#, fuzzy
-#| msgid "Error occurred while deleting adapters. "
 msgid "Error occurred while test adapter's connection. "
 msgstr "アダプターの接続テスト中にエラーが発生しました。 "
 
@@ -3363,26 +3307,18 @@ msgid "URL REGEX"
 msgstr "URL REGEX"
 
 #: apps/scan/filter_list/defs.py:26
-#, fuzzy
-#| msgid "Allowed"
 msgid "Allow"
 msgstr "許可"
 
 #: apps/scan/filter_list/defs.py:26
-#, fuzzy
-#| msgid "Allowed limit"
 msgid "Allowlists"
 msgstr "許可リスト"
 
 #: apps/scan/filter_list/defs.py:28
-#, fuzzy
-#| msgid "Block:"
 msgid "Block"
 msgstr "ブロック："
 
 #: apps/scan/filter_list/defs.py:28
-#, fuzzy
-#| msgid "Black Lists"
 msgid "Blocklists"
 msgstr "ブロックリスト"
 
@@ -3394,7 +3330,7 @@ msgstr "追加"
 msgid "Replace"
 msgstr "リプレース"
 
-#: apps/scan/filter_list/defs.py:47 templates/dashboard/index.html:125
+#: apps/scan/filter_list/defs.py:47 templates/dashboard/index.html:126
 #: templates/scan/global_network_page.html:92
 msgid "Clear"
 msgstr "クリア"
@@ -3413,20 +3349,15 @@ msgid "Delete"
 msgstr "削除"
 
 #: apps/scan/filter_list/filter_list.py:106
-#, fuzzy
-#| msgid "White/Black lists were updated successfully."
 msgid "Allowlist/Blocklist were updated successfully."
 msgstr "許可リスト/ブロックリストが正常に更新されました。"
 
 #: apps/scan/filter_list/filter_list.py:110
-#, fuzzy, python-format
-#| msgid "Failed to update White/Black lists: %s"
+#, python-format
 msgid "Failed to update Allowlist/Blocklists: %s"
 msgstr "許可リスト/ブロックリストの更新に失敗しました: %s"
 
 #: apps/scan/filter_list/filter_list.py:111
-#, fuzzy
-#| msgid "Failed to update White/Black lists:"
 msgid "Failed to update Allowlist/Blocklists:"
 msgstr "許可リスト/ブロックリストの更新に失敗しました："
 
@@ -3463,8 +3394,9 @@ msgid ""
 "The given file must be a valid CSV file, we support one column of value, or "
 "4 columns (value, comment, expiry_date_epoch_time_stamp, status)"
 msgstr ""
-"指定されたファイルは有効なCSVファイルである必要があります。"
-"1列の値または4列（値、コメント、expiry_date_epoch_time_stamp、ステータス）をサポートしています。"
+"指定されたファイルは有効なCSVファイルである必要があります。1列の値または4列"
+"（値、コメント、expiry_date_epoch_time_stamp、ステータス）をサポートしていま"
+"す。"
 
 #: apps/scan/filter_list/fl_file.py:85
 #, python-format
@@ -3472,143 +3404,97 @@ msgid "The record of line %s is invalid. Error: maximum of comment is 256"
 msgstr "行%sのレコードは無効です。エラー：コメントの最大数は256です"
 
 #: apps/scan/filter_list/fl_file.py:90
-#, fuzzy, python-format
-#| msgid ""
-#| "The record of line %s is invalid. Error: expiry date %s is not in integer "
-#| "of Epoch time"
+#, python-format
 msgid ""
 "The record of line %(index)s is invalid. Error: expiry date %(d2)s is not in "
 "integer of Epoch time"
 msgstr ""
-"行%（index）sのレコードが無効です。エラー：有効期限%（d2）sがエポック時間の整数ではありません"
+"行%(index)sのレコードが無効です。エラー：有効期限%(d2)sがエポック時間の整"
+"数ではありません"
 
 #: apps/scan/filter_list/fl_file.py:95
-#, fuzzy, python-format
-#| msgid ""
-#| "The record of line %s is invalid. Error: status must be 0 or 1, but it is "
-#| "%s"
+#, python-format
 msgid ""
 "The record of line %(index)s  is invalid. Error: status must be 0 or 1, but "
 "it is %(d3)s"
 msgstr ""
-"行%（index）sのレコードが無効です。エラー：ステータスは0または1である必要がありますが、%（d3）sです"
+"行%(index)sのレコードが無効です。エラー：ステータスは0または1である必要があ"
+"りますが、%(d3)sです"
 
 #: apps/scan/filter_list/fl_file.py:118
 msgid "The CSV file does not exists."
 msgstr "CSVファイルは存在しません。"
 
 #: apps/scan/filter_list/whitelist.py:24 apps/scan/forms.py:652
-#, fuzzy
-#| msgid "The submitted white list file is empty"
 msgid "The submitted allowlist file is empty"
 msgstr "サブミットされた許可リストファイルは空です"
 
 #: apps/scan/filter_list/whitelist.py:38
-#, fuzzy
-#| msgid "Processing white list DOMAIN/URL file failed. "
 msgid "Processing allowlist DOMAIN/URL file failed. "
-msgstr ""
-"許可リストのドメイン/URLファイルの処理に失敗しました。"
+msgstr "許可リストのドメイン/URLファイルの処理に失敗しました。"
 
 #: apps/scan/filter_list/whitelist.py:41
-#, fuzzy
-#| msgid "Processing white list URL REGEX file failed. "
 msgid "Processing allowlist URL REGEX file failed. "
-msgstr ""
-"許可リストURLREGEXファイルの処理に失敗しました。"
+msgstr "許可リストURLREGEXファイルの処理に失敗しました。"
 
 #: apps/scan/filter_list/whitelist.py:44
-#, fuzzy
-#| msgid "Processing white list file failed. "
 msgid "Processing allowlist file failed. "
-msgstr ""
-"許可リストファイルの処理に失敗しました。"
+msgstr "許可リストファイルの処理に失敗しました。"
 
 #: apps/scan/filter_list/whitelist.py:46
-#, fuzzy
-#| msgid "Black list was successfully processed. "
 msgid "Allowlist was successfully processed."
 msgstr "許可リストは正常に処理されました。"
 
 #: apps/scan/filter_list/whitelist.py:50
-#, fuzzy
-#| msgid "Black list was successfully processed. "
 msgid "Allowlist was successfully processed. "
 msgstr "許可リストは正常に処理されました。"
 
 #: apps/scan/filter_list/whitelist.py:56
-#, fuzzy
-#| msgid "Error happened when updating the white list"
 msgid "Error happened when updating the allowlist"
 msgstr "許可リストのアップデートでエラーが発生しました"
 
 #: apps/scan/filter_list/whitelist.py:75
-#, fuzzy
-#| msgid "Black List Upload"
 msgid "Allowlist Upload"
 msgstr "許可リストのアップロード"
 
 #: apps/scan/filter_list/whitelist.py:89 apps/scan/forms.py:668
-#, fuzzy
-#| msgid "The submitted black list file is empty"
 msgid "The submitted blocklist file is empty"
 msgstr "サブミットされたブロックリストファイルは空です"
 
 #: apps/scan/filter_list/whitelist.py:103
-#, fuzzy
-#| msgid "Processing black list DOMAIN/URL file failed. "
 msgid "Processing blocklist DOMAIN/URL file failed. "
-msgstr ""
-"ブロックリストのドメイン/URLファイルの処理に失敗しました。"
+msgstr "ブロックリストのドメイン/URLファイルの処理に失敗しました。"
 
 #: apps/scan/filter_list/whitelist.py:106
-#, fuzzy
-#| msgid "Processing black list URL REGEX file failed. "
 msgid "Processing blocklist URL REGEX file failed. "
-msgstr ""
-"ブロックリストURLREGEXファイルの処理に失敗しました。"
+msgstr "ブロックリストURLREGEXファイルの処理に失敗しました。"
 
 #: apps/scan/filter_list/whitelist.py:109
-#, fuzzy
-#| msgid "Processing black list file failed. "
 msgid "Processing blocklist file failed. "
-msgstr ""
-"ブロックリストファイルの処理に失敗しました。"
+msgstr "ブロックリストファイルの処理に失敗しました。"
 
 #: apps/scan/filter_list/whitelist.py:111
 #: apps/scan/filter_list/whitelist.py:115
-#, fuzzy
-#| msgid "Black list was successfully processed. "
 msgid "Blocklist was successfully processed. "
 msgstr "ブロックリストは正常に処理されました。"
 
 #: apps/scan/filter_list/whitelist.py:118
-#, fuzzy
-#| msgid "Error happened when updating the black list. "
 msgid "Error happened when updating the blocklist. "
 msgstr "ブロックリストのアップデートでエラーが発生しました"
 
 #: apps/scan/filter_list/whitelist.py:121
-#, fuzzy
-#| msgid "Error happened when updating the black list"
 msgid "Error happened when updating the blocklist"
 msgstr "ブロックリストのアップデートでエラーが発生しました"
 
 #: apps/scan/filter_list/whitelist.py:140
-#, fuzzy
-#| msgid "Black List Upload"
 msgid "Blocklist Upload"
 msgstr "ブロックリストのアップロード"
 
 #: apps/scan/filter_list/whitelist.py:153
-#, fuzzy
-#| msgid "Black list content does not exist."
 msgid "Allowlist content does not exist."
 msgstr "許可リストのコンテンツは存在しません。"
 
 #: apps/scan/filter_list/whitelist.py:155
-#, fuzzy
-#| msgid "Black list content does not exist."
 msgid "Blocklist content does not exist."
 msgstr "ブロックリストのコンテンツは存在しません。"
 
@@ -3678,7 +3564,7 @@ msgid "Proxy Type"
 msgstr "プロキシタイプ"
 
 #: apps/scan/forms.py:71 apps/scan/forms.py:197 apps/scan/forms.py:443
-#: apps/scan/forms.py:513 apps/system/forms.py:703 apps/system/forms.py:1103
+#: apps/scan/forms.py:513 apps/system/forms.py:704 apps/system/forms.py:1104
 msgid "Server Name/IP"
 msgstr "サーバ名/IP"
 
@@ -3708,8 +3594,7 @@ msgstr "PDF/Officeパスワード"
 
 #: apps/scan/forms.py:87 apps/scan/forms.py:93
 msgid "Only ONE ASCII format password is supported."
-msgstr ""
-"1つのASCII形式のパスワードのみがサポートされています。"
+msgstr "1つのASCII形式のパスワードのみがサポートされています。"
 
 #: apps/scan/forms.py:90
 msgid "Set customized password for original files"
@@ -3770,12 +3655,13 @@ msgid ""
 "Clean up schedule. If not set, all job information will be purged after 4 "
 "weeks"
 msgstr ""
-"スケジュールをクリーンアップします。"
-"スケジュールが設定されていない場合は、すべてのジョブ情報は4週間後に削除されます"
+"スケジュールをクリーンアップします。スケジュールが設定されていない場合は、す"
+"べてのジョブ情報は4週間後に削除されます"
 
 #: apps/scan/forms.py:137
 msgid "Delete original files of Clean or Other rating after"
-msgstr "下記の時間経過後にクリーンまたはその他の評価のオリジナルファイルを削除する"
+msgstr ""
+"下記の時間経過後にクリーンまたはその他の評価のオリジナルファイルを削除する"
 
 #: apps/scan/forms.py:139 apps/scan/forms.py:153
 msgid "Day (0-27)"
@@ -3803,12 +3689,15 @@ msgstr "日"
 
 #: apps/scan/forms.py:151
 msgid "Delete all traces of jobs of Clean or Other rating after"
-msgstr "下記の時間経過後にクリーンまたはその他の評価のジョブのトレースをすべて削除する"
+msgstr ""
+"下記の時間経過後にクリーンまたはその他の評価のジョブのトレースをすべて削除す"
+"る"
 
 #: apps/scan/forms.py:158
 msgid "Delete all traces of jobs of Malicious or Suspicious rating after"
 msgstr ""
-"下記の時間経過後に悪意のあるまたは疑わしい評価のジョブのトレースをすべて削除する"
+"下記の時間経過後に悪意のあるまたは疑わしい評価のジョブのトレースをすべて削除"
+"する"
 
 #: apps/scan/forms.py:187 apps/scan/nwshare.py:645
 msgid "This value may contain letters, numbers and ./_- characters only."
@@ -3841,7 +3730,7 @@ msgid "Put *.* for all files"
 msgstr "全ファイルの場合は、 *.* を入力"
 
 #: apps/scan/forms.py:205 apps/scan/forms.py:447 apps/scan/forms.py:517
-#: apps/snmp/forms.py:481 apps/system/forms.py:716 apps/system/forms.py:1113
+#: apps/snmp/forms.py:481 apps/system/forms.py:717 apps/system/forms.py:1114
 #: apps/widgets/utils/sysinfo.py:30
 #: templates/admin/extra/recovery/backup_restore.html:306
 #: templates/alert/byusers_filter_table.html:229
@@ -3850,8 +3739,8 @@ msgid "Username"
 msgstr "ユーザ名"
 
 #: apps/scan/forms.py:207 apps/scan/forms.py:449 apps/scan/forms.py:519
-#: apps/snmp/forms.py:469 apps/system/forms.py:102 apps/system/forms.py:671
-#: apps/system/forms.py:718 apps/system/forms.py:862 apps/system/forms.py:1115
+#: apps/snmp/forms.py:469 apps/system/forms.py:102 apps/system/forms.py:672
+#: apps/system/forms.py:719 apps/system/forms.py:863 apps/system/forms.py:1116
 #: templates/admin/extra/recovery/backup_restore.html:310
 #: templates/system/maintain-backup.html:25
 #: templates/system/maintain-backup.html:54
@@ -3859,12 +3748,12 @@ msgid "Password"
 msgstr "パスワード"
 
 #: apps/scan/forms.py:210 apps/scan/forms.py:452 apps/scan/forms.py:522
-#: apps/system/forms.py:107 apps/system/forms.py:863
+#: apps/system/forms.py:107 apps/system/forms.py:864
 msgid "Confirm Password"
 msgstr "パスワードの再入力"
 
 #: apps/scan/forms.py:211 apps/scan/forms.py:523 apps/system/forms.py:108
-#: apps/system/forms.py:864
+#: apps/system/forms.py:865
 msgid "Enter the same password as above, for verification"
 msgstr "確認のために上と同じパスワードを入力してください"
 
@@ -3922,8 +3811,8 @@ msgid ""
 "Create place holder files for Malicious/Suspicious/Other files in sanitized "
 "location"
 msgstr ""
-"無害化された場所に悪意のある/疑わしい/その他のファイルのプレースホルダー"
-"ファイルを作成する"
+"無害化された場所に悪意のある/疑わしい/その他のファイルのプレースホルダーファ"
+"イルを作成する"
 
 #: apps/scan/forms.py:231
 msgid "Enable Scheduled Scan"
@@ -3933,7 +3822,7 @@ msgstr "スケジュールスキャンを有効"
 msgid "Schedule Type"
 msgstr "スケジュールタイプ"
 
-#: apps/scan/forms.py:234 apps/system/forms.py:972
+#: apps/scan/forms.py:234 apps/system/forms.py:973
 msgid "Week Day"
 msgstr "曜日"
 
@@ -3941,12 +3830,12 @@ msgstr "曜日"
 msgid "Every (minute)"
 msgstr "毎(分)"
 
-#: apps/scan/forms.py:237 apps/system/forms.py:974
+#: apps/scan/forms.py:237 apps/system/forms.py:975
 msgid "Every (hour)"
 msgstr "毎(時)"
 
-#: apps/scan/forms.py:238 apps/scan/forms.py:239 apps/system/forms.py:975
-#: apps/system/forms.py:976
+#: apps/scan/forms.py:238 apps/scan/forms.py:239 apps/system/forms.py:976
+#: apps/system/forms.py:977
 msgid "At hour"
 msgstr "時刻"
 
@@ -3988,19 +3877,19 @@ msgid ""
 "To do quarantine, a valid quarantine name has to be set. If needed, please "
 "use Quarantine page to create new ones"
 msgstr ""
-"隔離を行うには、有効な隔離名を設定する必要があります。必要に応じて、"
-"隔離ページを使用して新しいものを作成してください"
+"隔離を行うには、有効な隔離名を設定する必要があります。必要に応じて、隔離ペー"
+"ジを使用して新しいものを作成してください"
 
 #: apps/scan/forms.py:308
 msgid ""
 "To do moving, a valid sanitized folder name has to be set. If needed, please "
 "use Quarantine page to create new ones"
 msgstr ""
-"移動するには、有効な無害化されたフォルダ名を設定する必要があります。必要に応じて、"
-"隔離ページを使用して新しいものを作成してください"
+"移動するには、有効な無害化されたフォルダ名を設定する必要があります。必要に応"
+"じて、隔離ページを使用して新しいものを作成してください"
 
 #: apps/scan/forms.py:313 apps/scan/forms.py:474 apps/scan/forms.py:558
-#: apps/scan/forms.py:560 apps/system/forms.py:260 apps/system/forms.py:1048
+#: apps/scan/forms.py:560 apps/system/forms.py:260 apps/system/forms.py:1049
 msgid "The supplied passwords do not match"
 msgstr "パスワードが一致しません"
 
@@ -4041,22 +3930,18 @@ msgid "Folder Structure"
 msgstr "フォルダ構造"
 
 #: apps/scan/forms.py:529
-#, fuzzy
-#| msgid "Archive Files"
 msgid "Password on Archive File"
 msgstr "アーカイブファイルのパスワード"
 
 #: apps/scan/forms.py:532
-#, fuzzy
-#| msgid "Confirm Password"
 msgid "Confirm Password on Archive File"
 msgstr "アーカイブファイルのパスワードを再入力"
 
 #: apps/scan/forms.py:533
-#, fuzzy
-#| msgid "Enter the same password as above, for verification"
 msgid "Enter the same password as Password on Archive File, for verification"
-msgstr "確認のために、アーカイブファイルのパスワードと同じパスワードを入力してください"
+msgstr ""
+"確認のために、アーカイブファイルのパスワードと同じパスワードを入力してくださ"
+"い"
 
 #: apps/scan/forms.py:534
 msgid "Save meta data"
@@ -4083,8 +3968,6 @@ msgid "Save Other rating jobs"
 msgstr "その他のレーティングのジョブを保存"
 
 #: apps/scan/forms.py:563 apps/scan/forms.py:565
-#, fuzzy
-#| msgid "The supplied passwords do not match"
 msgid "The supplied passwords on archive file do not match"
 msgstr "アーカイブファイルで提供されたパスワードが一致しません"
 
@@ -4125,29 +4008,22 @@ msgid ""
 "Put Files From Sniffer, Network Share And Devices Of The Following Types To "
 "Job Queue"
 msgstr ""
-"スニファー、ネットワーク共有、および次のタイプのデバイスからのファイルをジョブキューに配置します"
+"スニファー、ネットワーク共有、および次のタイプのデバイスからのファイルをジョ"
+"ブキューに配置します"
 
 #: apps/scan/forms.py:641
-#, fuzzy
-#| msgid "Black List Type"
 msgid "Allowlist Type"
 msgstr "許可リストタイプ"
 
 #: apps/scan/forms.py:645
-#, fuzzy
-#| msgid "Upload a File Containing Black List"
 msgid "Upload a File Containing Allowlist"
 msgstr "許可リストを含むファイルをアップロード"
 
 #: apps/scan/forms.py:657
-#, fuzzy
-#| msgid "Black List Type"
 msgid "Blocklist Type"
 msgstr "ブロックリストタイプ"
 
 #: apps/scan/forms.py:661
-#, fuzzy
-#| msgid "Upload a File Containing Black List"
 msgid "Upload a File Containing Blocklist"
 msgstr "ブロックリストを含むファイルをアップロード"
 
@@ -4181,7 +4057,8 @@ msgstr "タイムアウト (秒)"
 
 #: apps/scan/forms.py:699
 msgid "Timeout value for FortiSandbox cannot get file verdict back in time."
-msgstr "FortiSandboxのタイムアウト値は、ファイル判定を時間内に戻すことができません。"
+msgstr ""
+"FortiSandboxのタイムアウト値は、ファイル判定を時間内に戻すことができません。"
 
 #: apps/scan/forms.py:700 templates/admin/device_panel.html:60
 #: templates/scan/device_drilldown.html:103 templates/scan/device_main.html:33
@@ -4255,7 +4132,9 @@ msgid "Not Applied"
 msgstr "適用されない"
 
 #: apps/scan/forms.py:776
-msgid "URL whose return code is not 200"
+#, fuzzy
+#| msgid "URL whose return code is not 200"
+msgid "URL where response status code is not 200 OK"
 msgstr "リターンコードが200ではないURL"
 
 #: apps/scan/jobqueue.py:264
@@ -4323,7 +4202,9 @@ msgstr "指定された隔離は無効化されています。最初に有効に
 
 #: apps/scan/nwshare.py:448
 msgid "Failed to update network share information, check logs for details"
-msgstr "ネットワーク共有情報の更新に失敗しました。詳細についてはログを確認してください"
+msgstr ""
+"ネットワーク共有情報の更新に失敗しました。詳細についてはログを確認してくださ"
+"い"
 
 #: apps/scan/nwshare.py:452
 msgid "Network share information was successfully updated"
@@ -4390,7 +4271,8 @@ msgstr "新しい隔離ロケーション"
 msgid ""
 "The quarantine can not be disabled as it is being used by a network share"
 msgstr ""
-"ネットワーク共有によって使用されているため、隔離を無効にすることはできません。"
+"ネットワーク共有によって使用されているため、隔離を無効にすることはできませ"
+"ん。"
 
 #: apps/scan/nwshare.py:812
 msgid "Failed to update quarantine information, check logs for details"
@@ -4441,8 +4323,8 @@ msgid ""
 "Error happened when resetting archive server settings. Please check system "
 "log for details"
 msgstr ""
-"アーカイブサーバの設定をリセットするときにエラーが発生しました。"
-"詳細については、システムログを確認してください"
+"アーカイブサーバの設定をリセットするときにエラーが発生しました。詳細について"
+"は、システムログを確認してください"
 
 #: apps/scan/options.py:26
 msgid "Cloud upload setting was successfully updated."
@@ -4492,8 +4374,7 @@ msgstr "MTAからのログファイルサブミットの設定が正常に変更
 
 #: apps/scan/options.py:59
 msgid "Submit URL to WebFilter Service setting was successfully updated."
-msgstr ""
-"WebFilterサービスへのURLのサブミット設定が正常に更新されました。"
+msgstr "WebFilterサービスへのURLのサブミット設定が正常に更新されました。"
 
 #: apps/scan/options.py:62
 msgid ""
@@ -4509,7 +4390,8 @@ msgstr "クリーンなオリジナルファイルの削除設定が正常に更
 msgid ""
 "Delete malicious or suspicious original file setting was updated "
 "successfully."
-msgstr "悪意のあるまたは疑わしいオリジナルファイルの削除設定が正常に更新されました。"
+msgstr ""
+"悪意のあるまたは疑わしいオリジナルファイルの削除設定が正常に更新されました。"
 
 #: apps/scan/options.py:406
 msgid "Delete non-risk rating job traces setting was updated successfully."
@@ -4521,8 +4403,7 @@ msgstr "リスク評価ジョブトレースの削除設定が正常に更新さ
 
 #: apps/scan/options.py:451
 msgid "Only Ascii format password is supported"
-msgstr ""
-"アスキー形式のパスワードのみがサポートされています"
+msgstr "アスキー形式のパスワードのみがサポートされています"
 
 #: apps/scan/options.py:453
 msgid "Maximum password length should not be exceed 32"
@@ -4590,8 +4471,6 @@ msgid " Network configuration was successfully updated"
 msgstr "ネットワーク設定の更新に成功しました"
 
 #: apps/scan/que_pri.py:37 apps/scan/views.py:85
-#, fuzzy
-#| msgid "Slave units are readonly."
 msgid "Secondary units are readonly."
 msgstr "セカンダリユニットはリードオンリーです。"
 
@@ -4612,7 +4491,7 @@ msgstr "ジョブキューの優先度の保存に成功しました。"
 msgid "Failed to save job queue priority."
 msgstr "ジョブキューの優先度の保存に失敗しました。"
 
-#: apps/scan/scan_profile.py:108
+#: apps/scan/scan_profile.py:112
 msgid ""
 "The scan profile of current unit is being managed by scan profile manager."
 msgstr ""
@@ -4653,8 +4532,6 @@ msgid "Benign URL Category"
 msgstr "良性のURLカテゴリ"
 
 #: apps/scan/views.py:85
-#, fuzzy
-#| msgid "Slave units are readonly."
 msgid "Worker units are readonly."
 msgstr "ワーカーユニットはリードオンリーです。"
 
@@ -4771,7 +4648,7 @@ msgstr "不正なSNMPインスタンスが設定されました"
 msgid "Method"
 msgstr "メソッド"
 
-#: apps/snmp/forms.py:478 apps/system/forms.py:665
+#: apps/snmp/forms.py:478 apps/system/forms.py:666
 msgid "Key"
 msgstr "キー"
 
@@ -4837,7 +4714,9 @@ msgid "Memory usage is high"
 msgstr "メモリ不足"
 
 #: apps/snmp/models.py:53 apps/snmp/models.py:67
-msgid "Log disk usage is high"
+#, fuzzy
+#| msgid "Log disk usage is high"
+msgid "Hard disk usage is high"
 msgstr "ログディスク不足"
 
 #: apps/snmp/models.py:55 apps/snmp/models.py:69
@@ -4861,14 +4740,10 @@ msgid "Health check status for cluster has changed"
 msgstr "クラスターのヘルスチェックステータスが変更されます"
 
 #: apps/snmp/models.py:60 apps/snmp/models.py:75
-#, fuzzy
-#| msgid "Link Up"
 msgid "Link up"
 msgstr "リンクアップ"
 
 #: apps/snmp/models.py:61 apps/snmp/models.py:76
-#, fuzzy
-#| msgid "Link Down"
 msgid "Link down"
 msgstr "リンクダウン"
 
@@ -5109,7 +4984,7 @@ msgstr "メールサーバ設定"
 msgid "Notification email receivers list is empty"
 msgstr "通知メールの受信者リストは空です。"
 
-#: apps/system/config.py:1162 apps/system/forms.py:1057
+#: apps/system/config.py:1162 apps/system/forms.py:1058
 msgid ""
 "At least one email address in notification email receivers list is not valid"
 msgstr "通知メール受信者リストの少なくとも1つのメールアドレスが無効です"
@@ -5126,22 +5001,23 @@ msgstr "スケジュールされたサマリレポートの受信者リストが
 msgid "Scheduled detail report receivers list is empty"
 msgstr "スケジュールされた詳細レポートの受信者リストが空です"
 
-#: apps/system/config.py:1177 apps/system/forms.py:1081
+#: apps/system/config.py:1177 apps/system/forms.py:1082
 msgid ""
 "At least one email address in scheduled summary report receivers list is not "
 "valid"
 msgstr ""
-"スケジュールされたサマリレポートの受信者リストの少なくとも1つのメールアドレスが無効です"
+"スケジュールされたサマリレポートの受信者リストの少なくとも1つのメールアドレス"
+"が無効です"
 
-#: apps/system/config.py:1180 apps/system/forms.py:1083
+#: apps/system/config.py:1180 apps/system/forms.py:1084
 msgid ""
 "At least one email address in scheduled detail report receivers list is not "
 "valid"
-msgstr "スケジュールされた詳細レポートの受信者リストの少なくとも1つの電子メールアドレスが無効です"
+msgstr ""
+"スケジュールされた詳細レポートの受信者リストの少なくとも1つの電子メールアドレ"
+"スが無効です"
 
 #: apps/system/config.py:1185
-#, fuzzy
-#| msgid "Scheduled detail report receivers list is empty"
 msgid "System alert receivers list is empty"
 msgstr "システムアラート受信者リストが空です"
 
@@ -5150,14 +5026,13 @@ msgid "Error happened. Please check your mail server settings"
 msgstr "エラーが発生しました。メールサーバの設定を確認してください"
 
 #: apps/system/config.py:1263 apps/system/config.py:1317
-#, fuzzy
-#| msgid "Error happened. Please check your DNS settings"
 msgid "Error happened. Please check system log for details."
 msgstr "エラーが発生しました。詳細はシステムログを確認してください"
 
 #: apps/system/config.py:1269
 msgid "Cannot send out test email as there is no sending mail option selected"
-msgstr "メール送信オプションが選択されていないため、テストメールを送信できません"
+msgstr ""
+"メール送信オプションが選択されていないため、テストメールを送信できません"
 
 #: apps/system/config.py:1280
 msgid "Cannot send out test email as there is no email receiver"
@@ -5176,8 +5051,8 @@ msgid ""
 "Error happened when resetting mail server settings. Please check system log "
 "for details"
 msgstr ""
-"メールサーバの設定をリセットするときにエラーが発生しました。詳細について"
-"は、システムログを確認してください"
+"メールサーバの設定をリセットするときにエラーが発生しました。詳細については、"
+"システムログを確認してください"
 
 #: apps/system/config.py:1396
 msgid "Time Settings"
@@ -5208,10 +5083,6 @@ msgid "Error happened in changing system time zone setting"
 msgstr "システムタイムゾーンの変更でエラーが発生しました。"
 
 #: apps/system/config.py:1641
-#, fuzzy
-#| msgid ""
-#| "System time zone setting was changed. This change will takes effect after "
-#| "a few seconds."
 msgid ""
 "System time zone setting was changed. This change will take effect after a "
 "few seconds."
@@ -5283,70 +5154,70 @@ msgstr "アップデート"
 msgid "LDAP server information"
 msgstr "LDAPサーバ情報"
 
-#: apps/system/config.py:1960
+#: apps/system/config.py:1978
 msgid "Failed to create new LDAP server, check logs for details"
 msgstr "新規LDAPサーバを作成できません。詳細はログを確認してください。"
 
-#: apps/system/config.py:1971
+#: apps/system/config.py:1989
 msgid "Error happened while adding new LDAP server"
 msgstr "LDAPサーバの追加でエラーが発生しました。"
 
-#: apps/system/config.py:1982
+#: apps/system/config.py:2000
 msgid "New LDAP Server"
 msgstr "新規LDAPサーバ"
 
-#: apps/system/config.py:2000
+#: apps/system/config.py:2018
 msgid "Failed to update LDAP server information, check logs for details"
 msgstr "LDAPサーバ情報を更新できません。詳細はログを確認してください。"
 
-#: apps/system/config.py:2005
+#: apps/system/config.py:2023
 msgid "LDAP server information was successfully updated"
 msgstr "LDAPサーバの情報が更新されました。"
 
-#: apps/system/config.py:2011
+#: apps/system/config.py:2029
 msgid "Error happened when saving LDAP server information."
 msgstr "LDAPサーバ情報の保存でエラーが発生しました。"
 
-#: apps/system/config.py:2063 apps/system/config.py:2087
+#: apps/system/config.py:2088 apps/system/config.py:2112
 #, python-format
 msgid ""
 "LDAP server %(name)s is being used by certain user(s). Please delete those "
 "users or assign different LDAP server to them first."
 msgstr ""
-"LDAP サーバ %(name)s は特定のユーザが使用しています。それらのユーザを削除"
-"するか、最初にそれらに別のLDAPサーバを割り当ててください。"
+"LDAP サーバ %(name)s は特定のユーザが使用しています。それらのユーザを削除する"
+"か、最初にそれらに別のLDAPサーバを割り当ててください。"
 
-#: apps/system/config.py:2072 apps/system/config.py:2097
-#: apps/system/config.py:2111
+#: apps/system/config.py:2097 apps/system/config.py:2122
+#: apps/system/config.py:2136
 msgid "Error happened when deleting LDAP servers."
 msgstr "LDAPサーバの削除でエラーが発生しました。"
 
-#: apps/system/config.py:2160
+#: apps/system/config.py:2185
 msgid "Error happened when importing certificate. "
 msgstr "証明書のインポートでエラーが発生しました。 "
 
-#: apps/system/config.py:2165
+#: apps/system/config.py:2190
 msgid "CA Certificate was successfully imported"
 msgstr "CA証明書は正常にインポートされました。"
 
-#: apps/system/config.py:2176
+#: apps/system/config.py:2201
 msgid "Import Certificate"
 msgstr "証明書をインポート"
 
-#: apps/system/config.py:2194 apps/system/config.py:2196
+#: apps/system/config.py:2219 apps/system/config.py:2221
 #, python-format
 msgid "The certificate %s cannot sign with MD5."
-msgstr "証明書％sはMD5で署名できません。"
+msgstr "証明書%sはMD5で署名できません。"
 
-#: apps/system/config.py:2216
+#: apps/system/config.py:2241
 msgid "Configure Certificates for Features"
 msgstr "機能の証明書を構成する"
 
-#: apps/system/config.py:2229 apps/system/config.py:2249
+#: apps/system/config.py:2254 apps/system/config.py:2274
 msgid "Certificate Detail Information"
 msgstr "証明書の詳細情報"
 
-#: apps/system/config.py:2271
+#: apps/system/config.py:2296
 #, python-format
 msgid ""
 "Certificate '%(name)s' is being used by certain LDAP server(s). Please "
@@ -5355,7 +5226,7 @@ msgstr ""
 "証明書 '%(name)s' が特定のLDAPサーバで使用されています。これらのLDAPサーバを"
 "削除するか、最初にそれらに別の証明書を割り当ててください。"
 
-#: apps/system/config.py:2277
+#: apps/system/config.py:2302
 #, python-format
 msgid ""
 "Certificate '%(name)s' is being used by certain HTTPD/SSHD server(s). Please "
@@ -5364,57 +5235,57 @@ msgstr ""
 "証明書 '%(name)s' が特定のHTTPD / SSHDサーバで使用されています。最初にそれら"
 "に異なる証明書を割り当ててください。"
 
-#: apps/system/config.py:2287 apps/system/config.py:2301
+#: apps/system/config.py:2312 apps/system/config.py:2326
 msgid "Error happened when deleting certificates."
 msgstr "証明書の削除でエラーが発生しました。"
 
-#: apps/system/config.py:2293
+#: apps/system/config.py:2318
 msgid "Certificates were successfully deleted."
 msgstr "証明書が削除されました"
 
-#: apps/system/config.py:2315
+#: apps/system/config.py:2340
 #, python-format
 msgid "Total concurrently running Windows XP VM must be between 1 and %(max)d"
 msgstr "稼働するWindows XPの VM数は 1 と %(max)d の間にしてください。"
 
-#: apps/system/config.py:2318
+#: apps/system/config.py:2343
 #, python-format
 msgid "Total concurrently running Windows 7 VM must be between 1 and %(max)d"
 msgstr "稼働するWindows 7の VM数は 1 と %(max)d の間にしてください。"
 
-#: apps/system/config.py:2324
+#: apps/system/config.py:2349
 msgid "Number of concurrently running Windows VM were successfully updated."
 msgstr "稼働するWindows のVM数は更新されました。"
 
-#: apps/system/config.py:2329
+#: apps/system/config.py:2354
 msgid "Failed to update number of concurrently running Windows VM ."
 msgstr "稼働するWindows のVM数の更新に失敗しました。"
 
-#: apps/system/config.py:2347
+#: apps/system/config.py:2372
 msgid "Concurrently Running Windows VM"
 msgstr "稼働しているWindows VM"
 
-#: apps/system/config.py:2392
+#: apps/system/config.py:2434
 msgid "Failed to create new RADIUS server."
 msgstr "新しいRADIUSサーバの作成に失敗しました。"
 
-#: apps/system/config.py:2394
+#: apps/system/config.py:2436
 msgid "Failed to update a RADIUS server."
 msgstr "RADIUSサーバの更新に失敗しました。"
 
-#: apps/system/config.py:2449
+#: apps/system/config.py:2491
 msgid "New RADIUS Server / FortiAuthenticator"
 msgstr "新しいRAIDUSサーバ/ FortiAuthenticator"
 
-#: apps/system/config.py:2522
+#: apps/system/config.py:2571
 msgid ""
 "RADIUS server is being used by certain user(s). Please delete those users or "
 "assign different RADIUS server to them first."
 msgstr ""
-"RADIUSサーバは、特定のユーザが使用しています。まずそれらのユーザを削除するか、"
-"別のRADIUSサーバを割り当ててください。"
+"RADIUSサーバは、特定のユーザが使用しています。まずそれらのユーザを削除する"
+"か、別のRADIUSサーバを割り当ててください。"
 
-#: apps/system/config.py:2528
+#: apps/system/config.py:2577
 msgid "Error happened when deleting RADIUS servers."
 msgstr "RADIUSサーバを削除するときにエラーが発生しました。"
 
@@ -5470,7 +5341,8 @@ msgstr ""
 msgid ""
 "Interface cannot be shut down as it has static routing entry(s) configured."
 msgstr ""
-"スタティックルートが設定されているインターフェースはシャットダウンできません。"
+"スタティックルートが設定されているインターフェースはシャットダウンできませ"
+"ん。"
 
 #: apps/system/config_network.py:422
 msgid "IPv4 cannot be empty"
@@ -5485,8 +5357,9 @@ msgid ""
 "The IPv6 address cannot be empty when static IPv6 route exists for this "
 "address. Please delete the static routing in System Routing page first."
 msgstr ""
-"このアドレスにスタティックIPv6ルートが存在する場合、IPv6アドレスを空白にすることはできません。"
-"まず、システムルーティングページでスタティックルーティングを削除してください。"
+"このアドレスにスタティックIPv6ルートが存在する場合、IPv6アドレスを空白にする"
+"ことはできません。まず、システムルーティングページでスタティックルーティング"
+"を削除してください。"
 
 #: apps/system/config_network.py:445
 msgid "The address is not IPv6 "
@@ -5514,8 +5387,6 @@ msgid "Failed to retrieve user devices: "
 msgstr "ユーザデバイスの取得に失敗しました： "
 
 #: apps/system/device_user.py:96
-#, fuzzy
-#| msgid "Failed to retrieve user devices: "
 msgid "Failed to retrieve user defined devices: "
 msgstr "ユーザ定義のデバイスの取得に失敗しました： "
 
@@ -5593,8 +5464,8 @@ msgid ""
 "characters long. May contain upper-case letters, lower-case letters, numbers "
 "and the special character _-."
 msgstr ""
-"Radiusユーザの長さは1〜64文字で、他のユーザの長さは1〜30文字でなければな"
-"りません。大文字、小文字、数字、および特殊文字_-を含むことができます。"
+"Radiusユーザの長さは1〜64文字で、他のユーザの長さは1〜30文字でなければなりま"
+"せん。大文字、小文字、数字、および特殊文字_-を含むことができます。"
 
 #: apps/system/forms.py:99
 msgid "Old Password"
@@ -5687,7 +5558,7 @@ msgstr "IPv6 信頼できるホスト #2"
 msgid "IPv6 Trusted Host #3"
 msgstr "IPv6 信頼できるホスト #3"
 
-#: apps/system/forms.py:157 apps/system/forms.py:531
+#: apps/system/forms.py:157 apps/system/forms.py:532
 #: templates/job_detail/tree_view_details.html:362
 msgid "Language"
 msgstr "言語"
@@ -5713,8 +5584,6 @@ msgid "Trusted host1 value is not in a valid ip/mask format"
 msgstr "信頼できるホスト1の値は有効なIP/マスクのフォーマットではありません"
 
 #: apps/system/forms.py:218
-#, fuzzy
-#| msgid "Trusted Host #1"
 msgid "Trusted host1 "
 msgstr "信頼できるホスト1"
 
@@ -5723,8 +5592,6 @@ msgid "Trusted host2 value is not in a valid ip/mask format"
 msgstr "信頼できるホスト2の値は有効なIP/マスクのフォーマットではありません"
 
 #: apps/system/forms.py:226
-#, fuzzy
-#| msgid "Trusted Host #1"
 msgid "Trusted host2 "
 msgstr "信頼できるホスト2"
 
@@ -5733,8 +5600,6 @@ msgid "Trusted host3 value is not in a valid ip/mask format"
 msgstr "信頼できるホスト3の値は有効なIP/マスクのフォーマットではありません"
 
 #: apps/system/forms.py:234
-#, fuzzy
-#| msgid "Trusted Host #1"
 msgid "Trusted host3 "
 msgstr "信頼できるホスト3"
 
@@ -5774,8 +5639,7 @@ msgstr "LDAPタイプのユーザには、LDAPサーバを選択する必要が�
 
 #: apps/system/forms.py:275
 msgid "For Radius type user, a Radius server has to be selected"
-msgstr ""
-"Radiusタイプのユーザの場合は、Radiusサーバを選択する必要があります。"
+msgstr "Radiusタイプのユーザの場合は、Radiusサーバを選択する必要があります。"
 
 #: apps/system/forms.py:287
 msgid "The instance ID cannot be used as the password"
@@ -5818,169 +5682,169 @@ msgstr "セカンダリDNSサーバ"
 msgid "Destination IP/Mask"
 msgstr "宛先IP/ネットマスク"
 
-#: apps/system/forms.py:485
+#: apps/system/forms.py:486
 msgid "Error happened. The target interface is down"
 msgstr "エラーが発生しました。ターゲットインターフェースがダウンしています"
 
-#: apps/system/forms.py:519
+#: apps/system/forms.py:520
 msgid "Reason cannot be empty"
 msgstr "理由は空白にできません"
 
-#: apps/system/forms.py:521
+#: apps/system/forms.py:522
 msgid "Reason cannot be longer than 100 characters"
 msgstr "理由は100文字以上にできません"
 
-#: apps/system/forms.py:526
+#: apps/system/forms.py:527
 msgid "minutes (1-480 mins)"
 msgstr "分 (1-480分)"
 
-#: apps/system/forms.py:527
+#: apps/system/forms.py:528
 msgid "Idle timeout"
 msgstr "アイドルタイムアウト"
 
-#: apps/system/forms.py:528
+#: apps/system/forms.py:529
 msgid ""
 "User's login session will expire when there is no activity within the "
 "specified minutes"
 msgstr "ユーザのログインセッションは指定された時間に操作がなければ終了します。"
 
-#: apps/system/forms.py:529
+#: apps/system/forms.py:530
 msgid "Menu Type"
 msgstr "メニュータイプ"
 
-#: apps/system/forms.py:534
+#: apps/system/forms.py:535
 msgid "days (1-28 days)"
 msgstr "日(1〜28日)"
 
-#: apps/system/forms.py:535
+#: apps/system/forms.py:536
 msgid "Report Saving Days"
 msgstr "レポート保存日数"
 
-#: apps/system/forms.py:536
+#: apps/system/forms.py:537
 msgid "Report generated before given days will be removed automatically "
 msgstr "指定された日より前に生成されたレポートは自動的に削除されます"
 
-#: apps/system/forms.py:538
+#: apps/system/forms.py:539
 msgid "Show alarms of unprocessed detections on Dashboard"
 msgstr "ダッシュボードに未処理の検出のアラームを表示する"
 
-#: apps/system/forms.py:539
+#: apps/system/forms.py:540
 msgid "in period"
 msgstr "期間中"
 
-#: apps/system/forms.py:543
+#: apps/system/forms.py:544
 msgid "of ratings"
 msgstr "評価の"
 
-#: apps/system/forms.py:659 templates/system/cacert-info.html:24
+#: apps/system/forms.py:660 templates/system/cacert-info.html:24
 msgid "Certificate Name"
 msgstr "証明書名"
 
-#: apps/system/forms.py:660 apps/system/forms.py:1275 apps/system/forms.py:1307
+#: apps/system/forms.py:661 apps/system/forms.py:1276 apps/system/forms.py:1308
 msgid "May contain letters, numbers and ./_ characters only"
 msgstr "文字、数字と ./_ を含むことができます。"
 
-#: apps/system/forms.py:663
+#: apps/system/forms.py:664
 msgid "PKCS12 Format"
 msgstr "PKCS12フォーマット"
 
-#: apps/system/forms.py:664 utils/apilog.py:318
+#: apps/system/forms.py:665 utils/apilog.py:318
 msgid "Certificate"
 msgstr "証明書"
 
-#: apps/system/forms.py:666
+#: apps/system/forms.py:667
 msgid "Sub Certificate"
 msgstr "サブ証明書"
 
-#: apps/system/forms.py:669
+#: apps/system/forms.py:670
 msgid "PKCS12 File"
 msgstr "PKCS12ファイル"
 
-#: apps/system/forms.py:685 apps/system/forms.py:687
+#: apps/system/forms.py:686 apps/system/forms.py:688
 msgid "The submitted certificate file is empty"
 msgstr "サブミットされた証明書ファイルは空です"
 
-#: apps/system/forms.py:692 apps/system/forms.py:694
+#: apps/system/forms.py:693 apps/system/forms.py:695
 msgid "The submitted PKCS12 file is empty"
 msgstr "サブミットされたPKCS12ファイルは空です"
 
-#: apps/system/forms.py:709
+#: apps/system/forms.py:710
 msgid "Common Name Identifier"
 msgstr "共通名識別子"
 
-#: apps/system/forms.py:711 templates/system/config-ldap.html:29
+#: apps/system/forms.py:712 templates/system/config-ldap.html:29
 msgid "Distinguished Name"
 msgstr "識別名"
 
-#: apps/system/forms.py:713 templates/system/config-ldap.html:30
+#: apps/system/forms.py:714 templates/system/config-ldap.html:30
 msgid "Bind Type"
 msgstr "バインドタイプ"
 
-#: apps/system/forms.py:722 templates/about/fdn-update.html:714
+#: apps/system/forms.py:723 templates/about/fdn-update.html:714
 msgid "Secure Connection"
 msgstr "安全な接続"
 
-#: apps/system/forms.py:731
+#: apps/system/forms.py:732
 msgid "Advanced Options"
 msgstr "アドバンスオプション"
 
-#: apps/system/forms.py:733
+#: apps/system/forms.py:734
 msgid "Attributes"
 msgstr "属性"
 
-#: apps/system/forms.py:734
+#: apps/system/forms.py:735
 msgid "Connect timeout"
 msgstr "接続タイムアウト"
 
-#: apps/system/forms.py:736 templates/admin/change_list.html:68
+#: apps/system/forms.py:737 templates/admin/change_list.html:68
 msgid "Filter"
 msgstr "フィルタ"
 
-#: apps/system/forms.py:737
+#: apps/system/forms.py:738
 msgid "Group"
 msgstr "グループ"
 
-#: apps/system/forms.py:738
+#: apps/system/forms.py:739
 msgid "Memberof-attr"
 msgstr "メンバー属性"
 
-#: apps/system/forms.py:739
+#: apps/system/forms.py:740
 msgid "Profile-attr"
 msgstr "プロファイル属性"
 
-#: apps/system/forms.py:740
+#: apps/system/forms.py:741
 msgid "Secondary-server"
 msgstr "セカンダリサーバ"
 
-#: apps/system/forms.py:741
+#: apps/system/forms.py:742
 msgid "Tertiary-server"
 msgstr "三次サーバ"
 
-#: apps/system/forms.py:836
+#: apps/system/forms.py:837
 msgid "For Regular bind type, username and password cannot be empty"
 msgstr "レギュラーバインドタイプの場合、ユーザ名とパスワードは空白にできません"
 
-#: apps/system/forms.py:858
+#: apps/system/forms.py:859
 msgid "SMTP Server Address"
 msgstr "SMTPサーバアドレス"
 
-#: apps/system/forms.py:860
+#: apps/system/forms.py:861
 msgid "Email Account"
 msgstr "メールアカウント"
 
-#: apps/system/forms.py:860
+#: apps/system/forms.py:861
 msgid "The sender's address"
 msgstr "送信者のアドレス"
 
-#: apps/system/forms.py:861
+#: apps/system/forms.py:862
 msgid "Login Account"
 msgstr "ログインアカウント"
 
-#: apps/system/forms.py:861
+#: apps/system/forms.py:862
 msgid "This account is used as authentication account"
 msgstr "このアカウントは、認証アカウントとして使用されています"
 
-#: apps/system/forms.py:866
+#: apps/system/forms.py:867
 msgid ""
 "Send a notification email to the global email list when Files/URLs with "
 "selected rating are detected"
@@ -5988,11 +5852,11 @@ msgstr ""
 "選択したレーティングのファイル/ URLが検出されたときに、グローバルメールリスト"
 "に通知メールを送信する"
 
-#: apps/system/forms.py:869
+#: apps/system/forms.py:870
 msgid "Global notification email receivers list (separated by comma)"
 msgstr "グローバル通知メールを受信するメールアドレス (カンマ区切り)"
 
-#: apps/system/forms.py:871
+#: apps/system/forms.py:872
 msgid ""
 "Send a notification email to the Device/Domain/Vdom email list when Files/"
 "URLs with selected rating are detected"
@@ -6000,15 +5864,15 @@ msgstr ""
 "選択したレーティングのファイル/URLが検出されたときに、デバイス/ドメイン/Vdom"
 "に通知メールを送信する"
 
-#: apps/system/forms.py:875
+#: apps/system/forms.py:876
 msgid "What rating of job to send alert email"
 msgstr "アラートメールを送信するジョブのレーティング"
 
-#: apps/system/forms.py:879
+#: apps/system/forms.py:880
 msgid "Notification email subject template"
 msgstr "通知メールの件名テンプレート"
 
-#: apps/system/forms.py:881
+#: apps/system/forms.py:882
 msgid ""
 "Send a notification email to the email list when malicious/suspicious "
 "verdict is returned to client device"
@@ -6016,254 +5880,237 @@ msgstr ""
 "悪意のある/疑いのあるファイルがクライアントデバイスで発見されたときに通知メー"
 "ルをメールリストに送信する"
 
-#: apps/system/forms.py:884
+#: apps/system/forms.py:885
 msgid "Global verdict notification email receivers list (separated by comma)"
 msgstr "グローバル判定通知メールを受信するメールアドレス (カンマ区切り)"
 
-#: apps/system/forms.py:888
+#: apps/system/forms.py:889
 msgid ""
 "Use FQDN as unit address for job detail link (default is IP address of Port1)"
 msgstr ""
 "FQDNをジョブ詳細リンクのアドレスとして使用する(デフォルトはport1のIPアドレス)"
 
-#: apps/system/forms.py:890
+#: apps/system/forms.py:891
 msgid "FQDN Name"
 msgstr "FQDN名"
 
-#: apps/system/forms.py:891
+#: apps/system/forms.py:892
 msgid "Send alert about system abnormal status to the email list"
 msgstr "システム異常のステータスに関するアラートをメールリストに送信する"
 
-#: apps/system/forms.py:894 apps/system/forms.py:955
-#, fuzzy
-#| msgid "Global notification email receivers list (separated by comma)"
+#: apps/system/forms.py:895 apps/system/forms.py:956
 msgid "System status email receivers list (separated by comma)"
 msgstr "システムステータスのメール受信者リスト (カンマ区切り)"
 
-#: apps/system/forms.py:899
-#, fuzzy
-#| msgid "CPU Usage"
+#: apps/system/forms.py:900
 msgid "CPU Usage >"
 msgstr "CPU使用率 >"
 
-#: apps/system/forms.py:905
-#, fuzzy
-#| msgid "VM Usage: %s"
+#: apps/system/forms.py:906
 msgid "RAM Usage >"
 msgstr "RAM使用率 >"
 
-#: apps/system/forms.py:911
-#, fuzzy
-#| msgid "RAM Disk Usage:"
+#: apps/system/forms.py:912
 msgid "Disk Usage >"
 msgstr "ディスク使用率 >"
 
-#: apps/system/forms.py:917
-#, fuzzy
-#| msgid "RAM Disk Usage:"
+#: apps/system/forms.py:918
 msgid "Ramdisk Usage >"
 msgstr "Ramdisk使用率 >"
 
-#: apps/system/forms.py:923
-#, fuzzy
-#| msgid "VM Usage: %s"
+#: apps/system/forms.py:924
 msgid "VM Usage >"
 msgstr "VM使用率 >"
 
-#: apps/system/forms.py:929
-#, fuzzy
-#| msgid "Total scanning jobs"
+#: apps/system/forms.py:930
 msgid "Total Pending Jobs > "
 msgstr "ペンディングジョブ合計 >"
 
-#: apps/system/forms.py:935
-#, fuzzy
-#| msgid "Average scan time in last hour"
+#: apps/system/forms.py:936
 msgid "Average Scan Time >"
 msgstr "平均スキャン時間 >"
 
-#: apps/system/forms.py:939
-#, fuzzy
-#| msgid "Every (minute)"
+#: apps/system/forms.py:940
 msgid "System check every (minutes)"
 msgstr "システムチェック毎(分)"
 
-#: apps/system/forms.py:952
-#, fuzzy
-#| msgid "Send scheduled PDF report to global email receiver"
+#: apps/system/forms.py:953
 msgid "Send scheduled system resource status report to the email list"
-msgstr "スケジュールされたシステムリソースステータスレポートをメールリストに送信する"
+msgstr ""
+"スケジュールされたシステムリソースステータスレポートをメールリストに送信する"
 
-#: apps/system/forms.py:959
+#: apps/system/forms.py:960
 msgid "Send scheduled PDF report to global email receiver"
 msgstr "スケジュールされたPDFレポートをグローバルメール受信者に送信する"
 
-#: apps/system/forms.py:961
+#: apps/system/forms.py:962
 msgid ""
 "Global email list to receive scheduled summary report (separated by comma)"
 msgstr ""
-"スケジュールされたサマリレポートを受信するためのグローバルメールリスト"
-"（カンマ区切り）"
+"スケジュールされたサマリレポートを受信するためのグローバルメールリスト（カン"
+"マ区切り）"
 
-#: apps/system/forms.py:963
+#: apps/system/forms.py:964
 msgid ""
 "Global email list to receive scheduled detail report (separated by comma)"
-msgstr "スケジュールされた詳細レポートを受信するためのグローバルメールリスト(カンマ区切り):"
+msgstr ""
+"スケジュールされた詳細レポートを受信するためのグローバルメールリスト(カンマ区"
+"切り):"
 
-#: apps/system/forms.py:967
+#: apps/system/forms.py:968
 msgid "Send scheduled PDF report to Device/Domain/Vdom email address"
 msgstr ""
-"スケジュールされたPDFレポートをデバイス/ドメイン/Vdomのメールアドレ"
-"スに送信する"
+"スケジュールされたPDFレポートをデバイス/ドメイン/Vdomのメールアドレスに送信す"
+"る"
 
-#: apps/system/forms.py:970
+#: apps/system/forms.py:971
 msgid "Report Schedule Type"
 msgstr "レポートスケジュールタイプ"
 
-#: apps/system/forms.py:979
+#: apps/system/forms.py:980
 msgid "Include job data before: Days (0-28 days)"
 msgstr "以前のジョブデータを含む：日(0〜28日)"
 
-#: apps/system/forms.py:980
+#: apps/system/forms.py:981
 msgid ""
 "Only jobs from last x days and last y hours will be included in reports."
 msgstr "直近の x 日 y 時間のジョブのみがレポートに含まれます。"
 
-#: apps/system/forms.py:984
+#: apps/system/forms.py:985
 msgid " Hours (0-23 hours)"
 msgstr " 時間(0〜23時)："
 
-#: apps/system/forms.py:990
+#: apps/system/forms.py:991
 msgid "What rating of job to be included in the detail report"
 msgstr "詳細レポートに含めるジョブレーティング"
 
-#: apps/system/forms.py:1055
+#: apps/system/forms.py:1056
 msgid ""
 "To send out notification email, notification email receivers list cannot be "
 "empty"
-msgstr "通知メールを送信するには、通知メールの受信者リストを空にすることはできません"
+msgstr ""
+"通知メールを送信するには、通知メールの受信者リストを空にすることはできません"
 
-#: apps/system/forms.py:1061
+#: apps/system/forms.py:1062
 msgid ""
 "To send out verdict notification email, verdict notification email receivers "
 "list cannot be empty"
-msgstr "判定通知メールを送信するには、判定通知メールの受信者リストを空にすることはできません"
+msgstr ""
+"判定通知メールを送信するには、判定通知メールの受信者リストを空にすることはで"
+"きません"
 
-#: apps/system/forms.py:1063
+#: apps/system/forms.py:1064
 msgid ""
 "At least one email address in verdict notification email receivers list is "
 "not valid"
 msgstr "判定通知メール受信者リストの少なくとも1つのメールアドレスが無効です"
 
-#: apps/system/forms.py:1066
+#: apps/system/forms.py:1067
 msgid "To use FQDN as unit address, FQDN name cannot be empty"
 msgstr "FQDNをユニットアドレスとして使用するため、FQDN名を空白には出来ません"
 
-#: apps/system/forms.py:1070
+#: apps/system/forms.py:1071
 msgid ""
 "To send out scheduled report, at least one job rating for scheduled detail "
 "report be checked"
 msgstr ""
-"スケジュールされたレポートを送信するには、スケジュールされた詳細レポートの"
-"少なくとも1つのジョブ評価をチェックします"
+"スケジュールされたレポートを送信するには、スケジュールされた詳細レポートの少"
+"なくとも1つのジョブ評価をチェックします"
 
-#: apps/system/forms.py:1072
+#: apps/system/forms.py:1073
 msgid "Report period must be greater 0 hour."
 msgstr "レポート間隔は0時間より長くなくてはなりません"
 
-#: apps/system/forms.py:1074
+#: apps/system/forms.py:1075
 msgid "Report period must be less than 28 days and 0 hour."
 msgstr "レポート間隔は28日より短くなければなりません"
 
-#: apps/system/forms.py:1077
+#: apps/system/forms.py:1078
 msgid ""
 "To send out scheduled report, scheduled summary report receivers list cannot "
 "be empty"
 msgstr ""
-"スケジュールされたレポートを送信するために、スケジュールサマリレポート受信者リストは空"
-"に出来ません"
+"スケジュールされたレポートを送信するために、スケジュールサマリレポート受信者"
+"リストは空に出来ません"
 
-#: apps/system/forms.py:1079
+#: apps/system/forms.py:1080
 msgid ""
 "To send out scheduled report, scheduled detail report receivers list cannot "
 "be empty"
 msgstr ""
-"スケジュールされたレポートを送信するために、スケジュール詳細レポート受信者リストは空に出"
-"来ません"
+"スケジュールされたレポートを送信するために、スケジュール詳細レポート受信者リ"
+"ストは空に出来ません"
 
-#: apps/system/forms.py:1087
-#, fuzzy
-#| msgid ""
-#| "To send out notification email, notification email receivers list cannot "
-#| "be empty"
+#: apps/system/forms.py:1088
 msgid ""
 "To send out system usage notification email, system usage notification email "
 "receivers list cannot be empty"
 msgstr ""
-"システム使用状況通知メールを送信するには、システム使用状況通知メールの"
-"受信者リストを空にすることはできません"
+"システム使用状況通知メールを送信するには、システム使用状況通知メールの受信者"
+"リストを空にすることはできません"
 
-#: apps/system/forms.py:1089
-#, fuzzy
-#| msgid ""
-#| "At least one email address in notification email receivers list is not "
-#| "valid"
+#: apps/system/forms.py:1090
 msgid ""
 "At least one email address in system usage notification email receivers list "
 "is not valid"
-msgstr "システム使用状況通知のメール受信者リストの少なくとも1つのメールアドレスが無効です"
+msgstr ""
+"システム使用状況通知のメール受信者リストの少なくとも1つのメールアドレスが無効"
+"です"
 
-#: apps/system/forms.py:1096
+#: apps/system/forms.py:1097
 msgid ""
 "Only IP:port and comma is allowed. Make sure there is no space in between."
 msgstr ""
-"IPのみ：ポートとカンマは許可されます。間にスペースがないことを確認してください。"
+"IPのみ：ポートとカンマは許可されます。間にスペースがないことを確認してくださ"
+"い。"
 
-#: apps/system/forms.py:1100
+#: apps/system/forms.py:1101
 msgid "Enable sandbox VM to use proxy to access Internet"
 msgstr ""
 "サンドボックスVMにプロキシを使用してインターネットアクセスさせる事を有効化す"
 "る"
 
-#: apps/system/forms.py:1110
+#: apps/system/forms.py:1111
 msgid "Proxy type"
 msgstr "プロキシタイプ"
 
-#: apps/system/forms.py:1112
+#: apps/system/forms.py:1113
 msgid "Need authentication"
 msgstr "認証が必要"
 
-#: apps/system/forms.py:1123
+#: apps/system/forms.py:1124
 msgid ""
 "Use proxy to access the following addresses for TCP traffic (separated by "
 "comma)"
-msgstr "TCPトラフィックの次のアドレスにアクセスするためにロキシを使用(カンマ区切り)"
+msgstr ""
+"TCPトラフィックの次のアドレスにアクセスするためにロキシを使用(カンマ区切り)"
 
-#: apps/system/forms.py:1124
+#: apps/system/forms.py:1125
 msgid "For example, to use proxy server to access default FDN server, put "
 msgstr ""
-"たとえば、デフォルトのFDNサーバにアクセスするためにプロキシサーバを使用す"
-"るには、 "
+"たとえば、デフォルトのFDNサーバにアクセスするためにプロキシサーバを使用するに"
+"は、 "
 
-#: apps/system/forms.py:1127
+#: apps/system/forms.py:1128
 msgid ""
 "Use proxy to access the following addresses for UDP traffic (separated by "
 "comma)"
-msgstr "UDPトラフィックの次のアドレスにアクセスするためにプロキシを使用(カンマ区切り)"
+msgstr ""
+"UDPトラフィックの次のアドレスにアクセスするためにプロキシを使用(カンマ区切り)"
 
-#: apps/system/forms.py:1128
+#: apps/system/forms.py:1129
 msgid "Note: Only IP:port format is allowed."
 msgstr "注： IP：ポート形式のみが許可されます。"
 
-#: apps/system/forms.py:1147
+#: apps/system/forms.py:1148
 msgid "Server name and port cannot be empty when proxy is enabled"
 msgstr "プロキシが有効な時、サーバ名とポートは空にできません。"
 
-#: apps/system/forms.py:1153
+#: apps/system/forms.py:1154
 msgid "When authentication is needed, username and password cannot be empty"
 msgstr "認証が必要な場合、ユーザ名とパスワードは空白にできません"
 
-#: apps/system/forms.py:1159
+#: apps/system/forms.py:1160
 msgid ""
 "Concurrently running Windows VM value must be a number. Also make sure there "
 "is no space before and after the value"
@@ -6271,64 +6118,64 @@ msgstr ""
 "Windows仮想マシンの同時実行数の値は、数値でなければなりません。また、値の前後"
 "にスペースがないことを確認してください"
 
-#: apps/system/forms.py:1163 apps/system/forms.py:1173
-#: apps/system/forms.py:1179
+#: apps/system/forms.py:1164 apps/system/forms.py:1174
+#: apps/system/forms.py:1180
 msgid "Number of Concurrently Running Windows XP VM"
 msgstr "同時実行Windows XP VM 数"
 
-#: apps/system/forms.py:1165 apps/system/forms.py:1175
-#: apps/system/forms.py:1180
+#: apps/system/forms.py:1166 apps/system/forms.py:1176
+#: apps/system/forms.py:1181
 msgid "Number of Concurrently Running Windows 7 VM"
 msgstr "同時実行Windows 7 VM 数"
 
-#: apps/system/forms.py:1191
+#: apps/system/forms.py:1192
 msgid "Primary Server Name/IP"
 msgstr "プライマリサーバ名/IP"
 
-#: apps/system/forms.py:1192
+#: apps/system/forms.py:1193
 msgid "Secondary Server Name/IP"
 msgstr "セカンダリサーバ名/IP"
 
-#: apps/system/forms.py:1195 templates/system/config-radius.html:30
+#: apps/system/forms.py:1196 templates/system/config-radius.html:30
 msgid "Auth Type"
 msgstr "認証タイプ"
 
-#: apps/system/forms.py:1198
+#: apps/system/forms.py:1199
 msgid "Primary Secret"
 msgstr "プライマリシークレット"
 
-#: apps/system/forms.py:1203
+#: apps/system/forms.py:1204
 msgid "Secondary Secret"
 msgstr "セカンダリシークレット"
 
-#: apps/system/forms.py:1207
+#: apps/system/forms.py:1208
 msgid "NAS IP"
 msgstr "NAS IP"
 
-#: apps/system/forms.py:1256
+#: apps/system/forms.py:1257
 msgid "Any File"
 msgstr "任意のファイル"
 
-#: apps/system/forms.py:1274 apps/system/forms.py:1306
+#: apps/system/forms.py:1275 apps/system/forms.py:1307
 msgid "Yara Rule Name"
 msgstr "Yaraルール名"
 
-#: apps/system/forms.py:1277 apps/system/forms.py:1309
+#: apps/system/forms.py:1278 apps/system/forms.py:1310
 msgid "Default Description"
 msgstr "デフォルトの説明文"
 
-#: apps/system/forms.py:1278 apps/system/forms.py:1310
+#: apps/system/forms.py:1279 apps/system/forms.py:1311
 msgid ""
 "Default description for rules in case of there's no such field in the rule's "
 "meta section"
 msgstr ""
 "ルールのメタセクションに該当するフィールドが無い場合のデフォルトの説明文"
 
-#: apps/system/forms.py:1280 apps/system/forms.py:1312
+#: apps/system/forms.py:1281 apps/system/forms.py:1313
 msgid "Rules Risk Level"
 msgstr "ルールのリスクレベル"
 
-#: apps/system/forms.py:1281 apps/system/forms.py:1313
+#: apps/system/forms.py:1282 apps/system/forms.py:1314
 msgid ""
 "Rules risk level, between 0 to 10. As a guideline, 0~1:Clean; 2~4:Low Risk; "
 "5~7:Medium Risk; 8~10:High Risk"
@@ -6336,30 +6183,34 @@ msgstr ""
 "ルールのリスクレベルは0から10です。ガイドラインとして、0~1：クリーン; 2~4：低"
 "リス​​ク; 5~7：ミディアムリスク; 8~10：ハイリスク"
 
-#: apps/system/forms.py:1283 templates/system/yara-config.html:75
+#: apps/system/forms.py:1284 templates/system/yara-config.html:75
 msgid "Apply On"
 msgstr "適用する"
 
-#: apps/system/forms.py:1285 apps/system/forms.py:1317
+#: apps/system/forms.py:1286 apps/system/forms.py:1318
 msgid "If Process Memory is selected, no file type can be selected"
 msgstr "プロセスメモリが選択されている場合、ファイルタイプは選択できません"
 
-#: apps/system/forms.py:1287
+#: apps/system/forms.py:1288
 msgid "Yara Rule File"
 msgstr "Yaraルールファイル"
 
-#: apps/system/forms.py:1293 apps/system/forms.py:1343
-#: apps/system/forms.py:1345
+#: apps/system/forms.py:1294 apps/system/forms.py:1344
+#: apps/system/forms.py:1346
 msgid "The rule name value is not valid"
 msgstr "ルール名値が正しくありません"
 
-#: apps/system/forms.py:1295
+#: apps/system/forms.py:1296
 msgid "The rule name is not valid"
 msgstr "ルール名が正しくありません"
 
-#: apps/system/forms.py:1299 apps/system/forms.py:1301
+#: apps/system/forms.py:1300 apps/system/forms.py:1302
 msgid "The submitted Yara Rule file is empty"
 msgstr "サブミットされたYaraルールファイルは空です"
+
+#: apps/system/forms.py:1306 templates/alert/scan_job_details_sections.html:137
+msgid "ID"
+msgstr "ID"
 
 #: apps/system/pcap_api.py:185
 #, python-format
@@ -6412,8 +6263,8 @@ msgid ""
 " is being used by certain HTTPD/SSHD server(s). Please assign different "
 "certificates to them first."
 msgstr ""
-"が特定のHTTPD/SSHDサーバで使用されています。最初にそれら"
-"に異なる証明書を割り当ててください。"
+"が特定のHTTPD/SSHDサーバで使用されています。最初にそれらに異なる証明書を割り"
+"当ててください。"
 
 #: apps/system/system_config/helper.py:82
 #: apps/system/system_config/helper.py:94
@@ -6559,8 +6410,8 @@ msgid ""
 "Total count for Local vms (default VM + Android VM + customized VM) can not "
 "beyond local windows key count "
 msgstr ""
-"ローカルVMの合計数（デフォルトVM + Android VM +カスタマイズされたVM）は、"
-"ローカルWindowsキーの数を超えることはできません"
+"ローカルVMの合計数（デフォルトVM + Android VM +カスタマイズされたVM）は、ロー"
+"カルWindowsキーの数を超えることはできません"
 
 #: apps/vmimages/VMImages.py:335
 msgid " The key number of Remote VMs does not affect this result."
@@ -6609,8 +6460,7 @@ msgid "No Apps Installed"
 msgstr "アプリがインストールされていません"
 
 #: apps/vmimages/helper.py:16
-#, fuzzy, python-format
-#| msgid "Installed Apps: %s"
+#, python-format
 msgid "Installed Apps: %s"
 msgstr "インストール済みアプリ：%s"
 
@@ -6671,10 +6521,6 @@ msgid "not applicable"
 msgstr "適用されない"
 
 #: apps/vmimages/views.py:174
-#, fuzzy
-#| msgid ""
-#| "VM Images were successfully updated. It may take a while to intialize the "
-#| "VMs."
 msgid ""
 "VM Images were successfully updated. It may take a while to initialize the "
 "VMs."
@@ -6758,7 +6604,8 @@ msgid ""
 "Cannot initialize %(name)s if user or widget type                     id is "
 "not specified"
 msgstr ""
-"ユーザかウィジェットタイプｲIDが指定されていなければ、 %(name)s は初期化できません"
+"ユーザかウィジェットタイプｲIDが指定されていなければ、 %(name)s は初期化できま"
+"せん"
 
 #: apps/widgets/models.py:127 apps/widgets/models.py:134
 msgid ""
@@ -6807,48 +6654,40 @@ msgid "Clock"
 msgstr "クロック"
 
 #: apps/widgets/utils/conn_services.py:33
-#, fuzzy
-#| msgid "Community Cloud Query"
 msgid "Community Cloud"
 msgstr "コミュニティクラウド"
 
 #: apps/widgets/utils/conn_services.py:34
-#, fuzzy
-#| msgid "FDN Downloader"
 msgid "FDN Download"
 msgstr "FDNダウンロード"
 
 #: apps/widgets/utils/conn_services.py:35
-#, fuzzy
-#| msgid "VM Images"
 msgid "VM Image"
 msgstr "VMイメージ"
 
 #: apps/widgets/utils/conn_services.py:36
-#, fuzzy
-#| msgid "VM Internet Access"
 msgid "VM Internet"
 msgstr "VMインターネット"
 
-#: apps/widgets/utils/conn_services.py:37 apps/widgets/utils/licenses.py:33
-#, fuzzy
-#| msgid "Web Filtering Server"
+#: apps/widgets/utils/conn_services.py:37 apps/widgets/utils/licenses.py:34
 msgid "Web Filtering"
 msgstr "Webフィルタリング"
 
-#: apps/widgets/utils/conn_services.py:38 apps/widgets/utils/licenses.py:40
-#, fuzzy
-#| msgid "Windows Cloud VM Contract"
+#: apps/widgets/utils/conn_services.py:38 apps/widgets/utils/licenses.py:41
 msgid "Windows Cloud VM"
 msgstr "WindowsクラウドVM"
 
 #: apps/widgets/utils/conn_services.py:84
-msgid "Currently in AI Mode"
-msgstr "現在AIモードです"
+#, fuzzy
+#| msgid " RAID Enabled"
+msgid "AI is enabled"
+msgstr " RAID有効"
 
 #: apps/widgets/utils/conn_services.py:87
-msgid "Currently in Regular Mode"
-msgstr "現在レギュラモードです"
+#, fuzzy
+#| msgid "Disabled"
+msgid "AI is disabled"
+msgstr "無効"
 
 #: apps/widgets/utils/conn_services.py:101
 msgid "Sandbox VM is able to access Internet"
@@ -6883,21 +6722,16 @@ msgstr ""
 "ンロードされません"
 
 #: apps/widgets/utils/conn_services.py:159
-#, fuzzy
-#| msgid "Cloud server is accessible"
 msgid "VM Image Server is accessible"
 msgstr "VMイメージサーバにアクセスできます"
 
 #: apps/widgets/utils/conn_services.py:162
-#, fuzzy
-#| msgid ""
-#| "WARNING: FDN download server is inaccessible. No update package will be "
-#| "downloaded"
 msgid ""
 "WARNING: FDN download server is inaccessible. No new firmware image "
 "notification available"
 msgstr ""
-"警告：FDNダウンロードサーバにアクセスできません。新しいファームウェアイメージの通知は利用できません"
+"警告：FDNダウンロードサーバにアクセスできません。新しいファームウェアイメージ"
+"の通知は利用できません"
 
 #: apps/widgets/utils/conn_services.py:177
 msgid "Cloud server is accessible"
@@ -6908,26 +6742,20 @@ msgid ""
 "WARNING: Cloud server is inaccessible or the unit has no valid support "
 "contract. Cloud service will not be available"
 msgstr ""
-"警告：クラウドサーバにアクセスできないか、ユニットが有効なサポートコントラクトを"
-"持っていません。クラウドサービスは利用できません"
+"警告：クラウドサーバにアクセスできないか、ユニットが有効なサポートコントラク"
+"トを持っていません。クラウドサービスは利用できません"
 
 #: apps/widgets/utils/conn_services.py:200
-#, fuzzy
-#| msgid "Cloud server is accessible"
 msgid "Windows Cloud VM server is accessible"
 msgstr "Windows CloudVMサーバにアクセスできます"
 
 #: apps/widgets/utils/conn_services.py:205
-#, fuzzy
-#| msgid ""
-#| "WARNING: Cloud server is inaccessible or the unit has no valid support "
-#| "contract. Cloud service will not be available"
 msgid ""
 "WARNING: Windows Cloud VM server is inaccessible or the unit has no valid "
 "support contract. Windows VM Cloud service will not be available"
 msgstr ""
-"警告：Windows Cloud VMサーバにアクセスできないか、ユニットが有効なサポートコントラクトを持っていません。"
-"WindowsVMクラウドサービスは利用できなくなります"
+"警告：Windows Cloud VMサーバにアクセスできないか、ユニットが有効なサポートコ"
+"ントラクトを持っていません。WindowsVMクラウドサービスは利用できなくなります"
 
 #: apps/widgets/utils/conn_services.py:220
 msgid "Web filtering query server is accessible"
@@ -6942,18 +6770,18 @@ msgstr ""
 "ポートコントラクトをもっており、接続に問題がないことを確認してください。"
 
 #: apps/widgets/utils/dashboard_scanstats.py:38 apps/widgets/views.py:536
-#: templates/ha_cluster/hc_stat_table.html:103 utils/fdnstatsupd.py:386
+#: templates/ha_cluster/hc_stat_table.html:103 utils/fdnstatsupd.py:400
 msgid "Pending"
 msgstr "ペンディング"
 
 #: apps/widgets/utils/dashboard_scanstats.py:39 apps/widgets/views.py:537
-#: utils/fdnstatsupd.py:387
+#: utils/fdnstatsupd.py:401
 msgid "Processing"
 msgstr "処理中"
 
 #: apps/widgets/utils/dashboard_scanstats.py:46 apps/widgets/views.py:544
 #: templates/ha_cluster/hc_stat_table.html:107
-#: templates/scan/fcont_main.html:28 utils/fdnstatsupd.py:384
+#: templates/scan/fcont_main.html:28 utils/fdnstatsupd.py:398
 msgid "Other"
 msgstr "その他"
 
@@ -6962,7 +6790,7 @@ msgstr "その他"
 #: templates/scan/botnetpkg_rel_table.html:66
 #: templates/scan/filter_list/vue_templates.html:124
 #: templates/scan/malpkg_rel_table.html:98
-#: templates/scan/urlpkg_rel_table.html:66 utils/fdnstatsupd.py:388
+#: templates/scan/urlpkg_rel_table.html:66 utils/fdnstatsupd.py:402
 msgid "Total"
 msgstr "合計"
 
@@ -6978,206 +6806,184 @@ msgstr "ディスク"
 msgid "VM Disk"
 msgstr "VMディスク"
 
-#: apps/widgets/utils/licenses.py:32
-#, fuzzy
-#| msgid "Customized VMs"
+#: apps/widgets/utils/licenses.py:33
 msgid "Customized VM"
 msgstr "カスタムVM"
 
-#: apps/widgets/utils/licenses.py:34
-#, fuzzy
-#| msgid "AntiVirus Scanner"
+#: apps/widgets/utils/licenses.py:35
 msgid "Antivirus"
 msgstr "アンチウイルス"
 
-#: apps/widgets/utils/licenses.py:35
-#, fuzzy
-#| msgid "Industry Security Signature"
+#: apps/widgets/utils/licenses.py:36
 msgid "Industrial Security Service"
 msgstr "産業セキュリティサービス"
 
-#: apps/widgets/utils/licenses.py:36
+#: apps/widgets/utils/licenses.py:37
 msgid "MacOS Cloud VM"
 msgstr "MacOSクラウドVM"
 
-#: apps/widgets/utils/licenses.py:37
+#: apps/widgets/utils/licenses.py:38
 msgid "Microsoft Office"
 msgstr "マイクロソフトオフィス"
 
-#: apps/widgets/utils/licenses.py:38
+#: apps/widgets/utils/licenses.py:39
 msgid "Mail Transfer Agent Service"
 msgstr "Mail Transfer Agentサービス"
 
-#: apps/widgets/utils/licenses.py:39
-#, fuzzy
-#| msgid "FortiSandbox SNMP MIB"
+#: apps/widgets/utils/licenses.py:40
 msgid "FortiSandbox-VM"
 msgstr "FortiSandbox-VM"
 
-#: apps/widgets/utils/licenses.py:41 templates/about/submenu.html:8
+#: apps/widgets/utils/licenses.py:42 templates/about/submenu.html:8
 msgid "VM Status"
 msgstr "VMステータス"
 
-#: apps/widgets/utils/licenses.py:60
-#, fuzzy
-#| msgid "Sandbox VM Windows are activated and initialized successfully"
+#: apps/widgets/utils/licenses.py:61
 msgid "Sandbox VM is activated and initialized successfully"
 msgstr "サンドボックスVMはアクティベートと初期化に成功しました。"
 
-#: apps/widgets/utils/licenses.py:61
-#, fuzzy
-#| msgid "Sandbox VM is able to access Internet"
+#: apps/widgets/utils/licenses.py:62
 msgid "Sandbox VM is enabled but not activated"
 msgstr "サンドボックスVMは有効化されていますが、アクティブ化されていません"
 
-#: apps/widgets/utils/licenses.py:62
-#, fuzzy
-#| msgid "Sandbox VM is able to access Internet"
+#: apps/widgets/utils/licenses.py:63
 msgid "Sandbox VM is activated but not enabled"
 msgstr "サンドボックスVMはアクティブ化されていますが、有効化されていません"
 
-#: apps/widgets/utils/licenses.py:63
-#, fuzzy
-#| msgid "Sandbox VM is able to access Internet"
+#: apps/widgets/utils/licenses.py:64
 msgid "Sandbox VM is disabled and not activated"
 msgstr "サンドボックスVMは無効になっていて、アクティブ化されていません"
 
-#: apps/widgets/utils/licenses.py:136
-#, fuzzy
-#| msgid "Sandbox VM Windows are activated and initialized successfully"
+#: apps/widgets/utils/licenses.py:137
 msgid "Sandbox VMs are activated and initialized successfully"
 msgstr "サンドボックスVMがアクティブ化され、正常に初期化されます"
 
-#: apps/widgets/utils/licenses.py:145
-#, fuzzy
-#| msgid ""
-#| "WARNING: Sandbox VM Windows are not activated or initialized. Wait for a "
-#| "while or check network settings and reboot"
+#: apps/widgets/utils/licenses.py:146
 msgid ""
 "WARNING: Sandbox VMs are not activated or initialized. Wait for a while or "
 "check network settings and reboot"
 msgstr ""
-"警告：サンドボックスVMがアクティベートされていないか、初期化されてい"
-"ません。しばらく待つか、ネットワーク設定を確認して再起動してください"
+"警告：サンドボックスVMがアクティベートされていないか、初期化されていません。"
+"しばらく待つか、ネットワーク設定を確認して再起動してください"
 
-#: apps/widgets/utils/licenses.py:147
-#, fuzzy, python-format
-#| msgid ""
-#| "WARNING: Sandbox VM Windows are not activated or initialized. Wait for a "
-#| "while or check network settings and reboot. %(msg)s"
+#: apps/widgets/utils/licenses.py:148
+#, python-format
 msgid ""
 "WARNING: Sandbox VMs are not activated or initialized. Wait for a while or "
 "check network settings and reboot. %(msg)s"
 msgstr ""
-"警告：サンドボックスVMがアクティベートされていないか、初期化されてい"
-"ません。しばらく待つか、ネットワーク設定を確認して再起動してください。%(msg)s"
+"警告：サンドボックスVMがアクティベートされていないか、初期化されていません。"
+"しばらく待つか、ネットワーク設定を確認して再起動してください。%(msg)s"
 
-#: apps/widgets/utils/licenses.py:170
+#: apps/widgets/utils/licenses.py:163
+msgid "Upload License"
+msgstr "ライセンスアップロード"
+
+#: apps/widgets/utils/licenses.py:189
 msgid ""
 "WARNING: Support contract was not detected. Please wait untill the system is "
 "ready. Also make sure the connection to FDN server is good and the unit is "
 "registered"
 msgstr ""
-"警告：サポートコントラクトが検出されませんでした。システムの準備ができるまで待ってく"
-"ださい。また、FDNサーバへ接続が良好であり、ユニットが登録されていることを確認"
-"してください。"
+"警告：サポートコントラクトが検出されませんでした。システムの準備ができるまで"
+"待ってください。また、FDNサーバへ接続が良好であり、ユニットが登録されているこ"
+"とを確認してください。"
 
-#: apps/widgets/utils/licenses.py:261
+#: apps/widgets/utils/licenses.py:285
 #, python-format
 msgid "WARNING: Support contract will expire in %(days)s days"
 msgstr "警告：サポートコントラクトは%(days)s日後に期限切れになります"
 
-#: apps/widgets/utils/licenses.py:264
+#: apps/widgets/utils/licenses.py:288
 msgid "WARNING: Support contract has expired. Please renew it"
 msgstr "警告：サポートコントラクトの有効期限が切れています。更新してください"
 
-#: apps/widgets/utils/licenses.py:291
-#, fuzzy, python-brace-format
-#| msgid ", {0} available (Up to {1})"
+#: apps/widgets/utils/licenses.py:315
+#, python-brace-format
 msgid ", {0} available up to {1}"
 msgstr ", {0}は{1}まで利用可能"
 
-#: apps/widgets/utils/licenses.py:296
+#: apps/widgets/utils/licenses.py:320
 #, python-brace-format
 msgid ", maximum accounts: {0}"
 msgstr ", 最大アカウント：{0}"
 
-#: apps/widgets/utils/licenses.py:303
+#: apps/widgets/utils/licenses.py:327
 msgid "WARNING: No connection to WindowsCloudVM server"
 msgstr "警告：WindowsCloudVMサーバへの接続なし"
 
-#: apps/widgets/utils/licenses.py:307
+#: apps/widgets/utils/licenses.py:331
 msgid "WARNING: No connection to MACOS server"
 msgstr "警告：MACOSサーバへの接続なし"
 
-#: apps/widgets/utils/licenses.py:364 apps/widgets/utils/licenses.py:382
-#, fuzzy
-#| msgid "VM License"
+#: apps/widgets/utils/licenses.py:390 apps/widgets/utils/licenses.py:408
 msgid "Valid license"
 msgstr "有効なライセンス"
 
-#: apps/widgets/utils/licenses.py:367
+#: apps/widgets/utils/licenses.py:393
 msgid ""
 "WARNING: The ip4 address of management port (port1) does not match the one "
 "defined in license file"
-"WARNING: 管理用インターフェース(port1)のIPv4アドレスが、ライセンスファイルに"
-"定義されたものと一致しません"
 msgstr ""
-"警告： 管理ポート（port1）のip4アドレスが、ライセンスファイルで定義されているアドレスと一致しません"
 
-#: apps/widgets/utils/licenses.py:372
+#: apps/widgets/utils/licenses.py:398
 #, python-format
 msgid "WARNING: VM license will expire in %(days)s days"
 msgstr "警告： VMライセンスは %(days)s 日後に期限切れとなります"
 
-#: apps/widgets/utils/licenses.py:374
-#, fuzzy
-#| msgid "WARNING: VM license will expire in %(days)s days"
+#: apps/widgets/utils/licenses.py:400
 msgid "VM license will expire soon"
 msgstr "警告： VMライセンスはすぐに期限切れとなります"
 
-#: apps/widgets/utils/licenses.py:376
+#: apps/widgets/utils/licenses.py:402
 msgid "WARNING: VM license has expired. Please renew it"
 msgstr "警告：VMライセンスの有効期限が切れました。更新してください"
 
-#: apps/widgets/utils/licenses.py:378
-#, fuzzy
-#| msgid "This VM has expired."
+#: apps/widgets/utils/licenses.py:404
 msgid "VM license has expired"
 msgstr "VMライセンスの有効期限が切れました"
 
-#: apps/widgets/utils/licenses.py:380
+#: apps/widgets/utils/licenses.py:406
 #, python-format
 msgid "Valid license. VM license will expire in %(days)s days"
 msgstr "有効なライセンス。VMライセンスが %(days)s 日で有効期限が切れます"
 
-#: apps/widgets/utils/licenses.py:390 apps/widgets/utils/licenses.py:460
-msgid "Upload License"
+#: apps/widgets/utils/licenses.py:416
+#, fuzzy
+#| msgid "Upload License"
+msgid "Upload VM License"
 msgstr "ライセンスアップロード"
 
-#: apps/widgets/utils/licenses.py:400
+#: apps/widgets/utils/licenses.py:426
 msgid ""
 "VMs with Microsoft Office are disabled or no Microsoft Office products "
 "installed"
 msgstr ""
-"Microsoft Officeを搭載したVMが無効になっているか、Microsoft Office製品がインストールされていません"
+"Microsoft Officeを搭載したVMが無効になっているか、Microsoft Office製品がイン"
+"ストールされていません"
 
-#: apps/widgets/utils/licenses.py:412
+#: apps/widgets/utils/licenses.py:438
 msgid "Enabled VMs with Microsoft Office are activated"
 msgstr "Microsoft OfficeがアクティベイトされているVMを有効化"
 
-#: apps/widgets/utils/licenses.py:415 apps/widgets/utils/licenses.py:426
-#: apps/widgets/utils/licenses.py:433
+#: apps/widgets/utils/licenses.py:441 apps/widgets/utils/licenses.py:452
+#: apps/widgets/utils/licenses.py:459
 msgid " on "
 msgstr " on "
 
-#: apps/widgets/utils/licenses.py:424
+#: apps/widgets/utils/licenses.py:450
 msgid "WARNING: Some Microsoft Office products are not activated: "
 msgstr "警告：いくつかのMicrosoft　Office製品はアクティブ化されていません。 "
 
-#: apps/widgets/utils/licenses.py:431
+#: apps/widgets/utils/licenses.py:457
 msgid "Activated Microsoft Office products: "
 msgstr "アクティベートされたMicrosoft　Office製品："
+
+#: apps/widgets/utils/licenses.py:486 templates/about/officelicupload.html:126
+#, fuzzy
+#| msgid "Upload Microsoft VM License File"
+msgid "Upload Microsoft License"
+msgstr "MicrosoftVMライセンスファイルをアップロード"
 
 #: apps/widgets/utils/netdet_data.py:22
 msgid "Network Attack"
@@ -7204,8 +7010,6 @@ msgid "Office 2016"
 msgstr "Office 2016"
 
 #: apps/widgets/utils/office_info.py:15
-#, fuzzy
-#| msgid "Office 2013"
 msgid "Office 2019"
 msgstr "Office 2019"
 
@@ -7229,7 +7033,7 @@ msgstr "カウント"
 msgid "Suspicious"
 msgstr "疑わしい"
 
-#: apps/widgets/utils/scan_activity_data.py:220 utils/fdnstatsupd.py:385
+#: apps/widgets/utils/scan_activity_data.py:220 utils/fdnstatsupd.py:399
 msgid "Processed"
 msgstr "処理済み"
 
@@ -7272,19 +7076,19 @@ msgstr "%d 時間"
 msgid "%d minute(s)"
 msgstr "%d 分"
 
-#: apps/widgets/utils/sysinfo.py:130 apps/widgets/utils/sysinfo.py:174
+#: apps/widgets/utils/sysinfo.py:130 apps/widgets/utils/sysinfo.py:176
 msgid "Change"
 msgstr "変更"
 
-#: apps/widgets/utils/sysinfo.py:194
+#: apps/widgets/utils/sysinfo.py:196
 msgid "Upload local firmware file and update"
 msgstr "ローカルファームウェアファイルをアップロードして更新する"
 
-#: apps/widgets/utils/sysinfo.py:227
+#: apps/widgets/utils/sysinfo.py:229
 msgid "Last Backup"
 msgstr "最終バックアップ"
 
-#: apps/widgets/utils/sysinfo.py:237
+#: apps/widgets/utils/sysinfo.py:239
 msgid "Backup/Restore"
 msgstr "バックアップ/リストア"
 
@@ -7309,7 +7113,8 @@ msgid ""
 "Click on a widget to add it to this page (One type of widget can only be "
 "added once)"
 msgstr ""
-"ウィジェットをクリックしてこのページに追加します（1つのタイプのウィジェットは1回しか追加できません）"
+"ウィジェットをクリックしてこのページに追加します（1つのタイプのウィジェットは"
+"1回しか追加できません）"
 
 #: apps/widgets/views.py:265
 #, python-format
@@ -7325,8 +7130,6 @@ msgid "Database not ready."
 msgstr "データベースの準備が出来ていません"
 
 #: apps/widgets/views.py:605
-#, fuzzy
-#| msgid "Infomation is not available."
 msgid "Disk Infomation is not available."
 msgstr "ディスク情報は利用できません。"
 
@@ -7374,8 +7177,8 @@ msgstr "サーバ名/IPアドレス:"
 msgid "Socks5 Server Name/IP:"
 msgstr "Socks5サーバ名/IPアドレス:"
 
-#: templates/about/fdn-update.html:240 templates/about/officelicupload.html:20
-#: templates/about/vmlicupload.html:32
+#: templates/about/fdn-update.html:240 templates/about/officelicupload.html:52
+#: templates/about/vmlicupload.html:59
 msgid "Please select a valid file."
 msgstr "有効なファイルを選択してください"
 
@@ -7479,10 +7282,10 @@ msgstr "パッケージファイルをアップロード"
 
 #: templates/about/fdn-update.html:593
 #: templates/about/firmware/sysupgrade.html:87
-#: templates/about/officelicupload.html:108
-#: templates/about/vmlicupload.html:110
+#: templates/about/officelicupload.html:133
+#: templates/about/vmlicupload.html:140
 #: templates/alert/ondemand_submit_file.html:27 templates/azure/config.html:461
-#: templates/ha_cluster/hc_management_actions.html:46
+#: templates/ha_cluster/hc_management_actions.html:35
 #: templates/job_detail/verdict.html:37
 msgid "Submit"
 msgstr "サブミット"
@@ -7514,7 +7317,8 @@ msgstr "FortiGuardサーバ設定"
 #: templates/about/fdn-update.html:630
 msgid "Use override FDN server to download module updates (IP or FQDN)"
 msgstr ""
-"モジュールの更新をダウンロードするため、オーバライドFDNサーバを使用します（IPまたはFQDN）"
+"モジュールの更新をダウンロードするため、オーバライドFDNサーバを使用します（IP"
+"またはFQDN）"
 
 #: templates/about/fdn-update.html:649 templates/about/fdn-update.html:747
 #: templates/about/fdn-update.html:816
@@ -7560,7 +7364,8 @@ msgstr "FortiSandboxコミュニティクラウドと脅威インテリジェン
 #: templates/about/fdn-update.html:875
 msgid "Use override server for community cloud server query (IP or FQDN)"
 msgstr ""
-"コミュニティクラウドサーバクエリにオーバーライドサーバを使用する（IPまたはFQDN）"
+"コミュニティクラウドサーバクエリにオーバーライドサーバを使用する（IPまたは"
+"FQDN）"
 
 #: templates/about/fdn-update.html:936
 msgid "FortiSandbox WindowsCloudVM Settings"
@@ -7570,11 +7375,9 @@ msgstr "FortiSandbox WindowsCloudVM設定"
 msgid "Server Regions:"
 msgstr "サーバ地域："
 
-#: templates/about/fdn-update.html:969
-#: templates/ha_cluster/hc_management.html:161
-#: templates/scan/bcc_config.html:101 templates/scan/icap_config.html:152
-#: templates/scan/mta_config.html:240 templates/scan/que_pri.html:76
-#: templates/scan/scan-profile.html:356
+#: templates/about/fdn-update.html:969 templates/scan/bcc_config.html:101
+#: templates/scan/icap_config.html:152 templates/scan/mta_config.html:240
+#: templates/scan/que_pri.html:76 templates/scan/scan-profile.html:356
 #: templates/scheduler/settings/index.html:49
 #: templates/snmp/snmp_base_config.html:134
 #: templates/system/config-hctype.html:33
@@ -7586,7 +7389,7 @@ msgstr "適用"
 
 #: templates/about/firmware/index.html:52
 msgid "FortiSandbox Firmware Information:"
-msgstr "FortiSandboxファームウェア情報：
+msgstr "FortiSandboxファームウェア情報："
 
 #: templates/about/firmware/index.html:58
 msgid " Current Version "
@@ -7654,7 +7457,7 @@ msgstr "イメージファイルをアップロード"
 #: templates/base/base_form.html:59 templates/base/base_form.html:61
 #: templates/csearch/export_report.html:49
 #: templates/dashboard/settings/widget.html:66
-#: templates/ha_cluster/hc_management_actions.html:51
+#: templates/ha_cluster/hc_management_actions.html:39
 #: templates/ha_cluster/hconf_delconfirm.html:62
 #: templates/job_detail/verdict.html:38
 #: templates/logs/server_delconfirm.html:62
@@ -7697,32 +7500,26 @@ msgstr "新しいSandbox VMをインストールしています。中断しな�
 msgid "Note:"
 msgstr "注意："
 
-#: templates/about/officelicupload.html:26
-msgid "Are you sure you want to upload a Microsoft license file?"
-msgstr "Microsoftライセンスファイルをアップロードしてもよいですか？"
-
-#: templates/about/officelicupload.html:28
-msgid "Uploading Microsoft license file, please do not interrupt..."
-msgstr ""
-"Microsoftライセンスファイルをアップロードしています。作業は中断しない"
-"でください。"
-
-#: templates/about/officelicupload.html:95 templates/about/vmlicupload.html:101
-msgid "Note: The FortiSandbox will reboot after the license file is installed"
-msgstr ""
-"注意:ライセンスファイルのインストールが完了すると FortiSandbox はリブートしま"
-"す。"
-
-#: templates/about/officelicupload.html:100
+#: templates/about/officelicupload.html:11
 msgid "Upload Microsoft VM License File"
 msgstr "MicrosoftVMライセンスファイルをアップロード"
 
-#: templates/about/officelicupload.html:102
+#: templates/about/officelicupload.html:13
 msgid "Upload Microsoft Office License File"
 msgstr "Microsoft Officeライセンスファイルをアップロード"
 
-#: templates/about/officelicupload.html:109
-#: templates/about/vmlicupload.html:111
+#: templates/about/officelicupload.html:58
+msgid "Are you sure you want to upload a Microsoft license file?"
+msgstr "Microsoftライセンスファイルをアップロードしてもよいですか？"
+
+#: templates/about/officelicupload.html:60
+msgid "Uploading Microsoft license file, please do not interrupt..."
+msgstr ""
+"Microsoftライセンスファイルをアップロードしています。作業は中断しないでくださ"
+"い。"
+
+#: templates/about/officelicupload.html:134
+#: templates/about/vmlicupload.html:141
 #: templates/admin/change_list_controls.html:11
 #: templates/admin/extra/recovery/backup_restore.html:338
 #: templates/admin_profiles/backup.html:44
@@ -7780,17 +7577,23 @@ msgstr "ライセンスステータス"
 msgid "License Key"
 msgstr "ライセンスキー"
 
-#: templates/about/vmlicupload.html:38
+#: templates/about/vmlicupload.html:22 templates/about/vmlicupload.html:133
+msgid "Upload VM License File"
+msgstr "VMライセンスファイルをアップロード"
+
+#: templates/about/vmlicupload.html:65
 msgid "Are you sure you want to upload a new license file?"
 msgstr "新しいライセンスファイルをアップロードしてよいですか？"
 
-#: templates/about/vmlicupload.html:40
+#: templates/about/vmlicupload.html:67
 msgid "Uploading VM license file, please do not interrupt..."
 msgstr "VMライセンスファイルをアップロード中、中断しないでください..."
 
-#: templates/about/vmlicupload.html:105
-msgid "Upload VM License File"
-msgstr "VMライセンスファイルをアップロード"
+#: templates/about/vmlicupload.html:126
+msgid "Note: The FortiSandbox will reboot after the license file is installed"
+msgstr ""
+"注意:ライセンスファイルのインストールが完了すると FortiSandbox はリブートしま"
+"す。"
 
 #: templates/admin/base_site.html:4 templates/admin/base_site.html:7
 msgid "FortiSandbox Administration"
@@ -7806,7 +7609,7 @@ msgid "Exit Full Screen"
 msgstr "フルスクリーン解除"
 
 #: templates/admin/change_list_controls.html:21
-#: templates/dashboard/index.html:115
+#: templates/dashboard/index.html:116
 msgid "Add Widget"
 msgstr "ウィジェットの追加"
 
@@ -7855,7 +7658,7 @@ msgid "Export Data"
 msgstr "エクスポートデータ"
 
 #: templates/admin/change_list_controls.html:107
-#: templates/ha_cluster/hc_management.html:39
+#: templates/ha_cluster/hc_management.html:43
 msgid "Refresh"
 msgstr "リフレッシュ"
 
@@ -7870,7 +7673,6 @@ msgstr "インポート"
 
 #: templates/admin/change_list_controls.html:131
 #: templates/admin/change_list_controls.html:228
-#: templates/ha_cluster/hc_management.html:44
 msgid "View"
 msgstr "表示"
 
@@ -7962,8 +7764,8 @@ msgid ""
 "Do you want to restore the Administrators, Admin Profiles, Certificates, "
 "LDAP Servers and Radius Servers?"
 msgstr ""
-"管理者、管理者プロファイル、証明書、LDAPサーバ、およびRadiusサーバをリス"
-"トアしますか？"
+"管理者、管理者プロファイル、証明書、LDAPサーバ、およびRadiusサーバをリストア"
+"しますか？"
 
 #: templates/admin/extra/recovery/backup_restore.html:127
 msgid ""
@@ -7981,9 +7783,8 @@ msgid ""
 "take a few minutes or longer, depending on the size of your data, please "
 "wait..."
 msgstr ""
-"設定が復元中です。他のページに移動しないでください。データ"
-"のサイズにより、これには数分以上かかることがあります。しばらくお待ちくださ"
-"い..."
+"設定が復元中です。他のページに移動しないでください。データのサイズにより、こ"
+"れには数分以上かかることがあります。しばらくお待ちください..."
 
 #: templates/admin/extra/recovery/backup_restore.html:138
 #: templates/admin/extra/recovery/backup_restore.html:158
@@ -8045,7 +7846,8 @@ msgstr "ローカルバックアップ"
 msgid ""
 "You can backup your current system configuration to local PC and restore it "
 "at a later time."
-msgstr "現在のシステム構成をローカルPCにバックアップし、後で復元することができます。"
+msgstr ""
+"現在のシステム構成をローカルPCにバックアップし、後で復元することができます。"
 
 #: templates/admin/extra/recovery/backup_restore.html:278
 #: templates/admin/extra/recovery/backup_restore.html:319
@@ -8058,7 +7860,6 @@ msgstr "ここをクリックして、バックアップファイルを保存し
 
 #: templates/admin/extra/recovery/backup_restore.html:281
 #: templates/admin_profiles/backup.html:32
-#: templates/ha_cluster/hc_management.html:56
 #: templates/system/maintain-backup.html:13
 #: templates/system/maintain-backup.html:33 utils/apilog.py:334
 msgid "Backup"
@@ -8083,6 +7884,7 @@ msgid "Server Address"
 msgstr "サーバアドレス"
 
 #: templates/admin/extra/recovery/backup_restore.html:314
+#: templates/ha_cluster/hc_management.html:168
 msgid "Backup Schedule"
 msgstr "バックアップスケジュール"
 
@@ -8150,8 +7952,6 @@ msgid "Loading ..."
 msgstr "読み込み中..."
 
 #: templates/admin/widgets/widget/scan_stats.html:10
-#, fuzzy
-#| msgid "File Inputs"
 msgid "Inputs"
 msgstr "入力"
 
@@ -8259,7 +8059,7 @@ msgstr "リードライト"
 msgid "Control Access"
 msgstr "アクセス制御"
 
-#: templates/admin_profiles/config.html:92 templates/dashboard/index.html:122
+#: templates/admin_profiles/config.html:92 templates/dashboard/index.html:123
 #: templates/device_profiles/config.html:68
 #: templates/scheduler/settings/index.html:49
 #: templates/table/job_view_settings.html:98
@@ -8692,26 +8492,40 @@ msgstr "前"
 msgid "Save the config."
 msgstr "設定を保存します。"
 
-#: templates/base/base.html:101
+#: templates/base/base.html:100
 msgid "Click to refresh"
 msgstr "クリックして更新する"
 
-#: templates/base/base.html:125 templates/base/base.html:127
+#: templates/base/base.html:111 templates/main/console.html:31
+msgid "CLI Console"
+msgstr "CLIコンソール"
+
+#: templates/base/base.html:124 templates/base/base.html:126
 msgid "Change Password"
 msgstr "パスワードの変更"
 
-#: templates/base/base.html:131 templates/base/base.html:133
+#: templates/base/base.html:130 templates/base/base.html:132
 #: utils/apilog.py:331
 msgid "Logout"
 msgstr "ログアウト"
 
-#: templates/base/base.html:143 templates/base/base.html:145
+#: templates/base/base.html:137
+msgid "Help"
+msgstr "ヘルプ"
+
+#: templates/base/base.html:142 templates/base/base.html:144
 msgid "Online Help"
 msgstr "オンラインヘルプ"
 
-#: templates/base/base.html:148 templates/base/base.html:150
+#: templates/base/base.html:147 templates/base/base.html:149
 msgid "Video Tutorials"
 msgstr "ビデオチュートリアル"
+
+#: templates/base/notification.html:9
+#, fuzzy
+#| msgid "Notification"
+msgid "Notifications"
+msgstr "通知"
 
 #: templates/base/notification.html:25 templates/base/notification.html:26
 msgid "Scan Profile requires your action"
@@ -8756,8 +8570,9 @@ msgid ""
 "Center page after being finished. You can close this window now or wait till "
 "report is ready"
 msgstr ""
-"レポートの生成が予定されています。終了後、ログ＆レポート>レポートセンターページで確認できます。"
-"今すぐこのウィンドウを閉じるか、レポートの準備が完了するまで待つことができます"
+"レポートの生成が予定されています。終了後、ログ＆レポート>レポートセンターペー"
+"ジで確認できます。今すぐこのウィンドウを閉じるか、レポートの準備が完了するま"
+"で待つことができます"
 
 #: templates/dashboard/index.html:86
 #: templates/scan/filter_list/vue_templates.html:100
@@ -8768,13 +8583,13 @@ msgstr "メニュー"
 msgid "Back to Top"
 msgstr "TOPに戻る"
 
-#: templates/dashboard/index.html:118 templates/scan/que_pri.html:78
+#: templates/dashboard/index.html:119 templates/scan/que_pri.html:78
 #: templates/scheduler/settings/index.html:50
 #: templates/system/settings.html:102 templates/table/job_view_settings.html:99
 msgid "Reset"
 msgstr "リセット"
 
-#: templates/dashboard/index.html:128
+#: templates/dashboard/index.html:129
 msgid "Save As Default"
 msgstr "デフォルトとして保存"
 
@@ -8836,8 +8651,6 @@ msgid "Customized Widget Title"
 msgstr "カスタムウィジェットタイトル"
 
 #: templates/dashboard/settings/widget.html:42
-#, fuzzy
-#| msgid "Time Period: "
 msgid "Time Period:"
 msgstr "期間:"
 
@@ -8879,27 +8692,47 @@ msgstr "ファイルが存在しません。"
 msgid "Job Report"
 msgstr "ジョブレポート"
 
-#: templates/ha_cluster/hc_management.html:31
+#: templates/ha_cluster/hc_management.html:35
 #: templates/main/tree_menu_def.html:410
-#, fuzzy
-#| msgid "HA Cluster Members"
 msgid "Cluster Management"
 msgstr "クラスター管理"
 
-#: templates/ha_cluster/hc_management.html:48
+#: templates/ha_cluster/hc_management.html:45
+msgid "View dashboard of a cluster node"
+msgstr ""
+
+#: templates/ha_cluster/hc_management.html:47
 #, fuzzy
-#| msgid "Upload Firmware"
+#| msgid "Edit Dashboard"
+msgid "View Dashboard"
+msgstr "ダッシュボートの編集"
+
+#: templates/ha_cluster/hc_management.html:50
+msgid "Upgrade a firmware to selected cluster node"
+msgstr ""
+
+#: templates/ha_cluster/hc_management.html:52
 msgid "Upgrade Firmware"
 msgstr "ファームウェアを更新"
 
-#: templates/ha_cluster/hc_management.html:52
+#: templates/ha_cluster/hc_management.html:54
+msgid "Upload a FortiGuard Package to selected cluster node"
+msgstr ""
+
+#: templates/ha_cluster/hc_management.html:56
 #, fuzzy
-#| msgid "FortiGuard"
-msgid "Fortiguard"
+#| msgid "Fortiguard"
+msgid "Upload Fortiguard"
 msgstr "Fortiguard"
 
+#: templates/ha_cluster/hc_management.html:58
+msgid "Purge pending jobs on selected cluster node"
+msgstr ""
+
 #: templates/ha_cluster/hc_management.html:60
-msgid "Purge"
+#, fuzzy
+#| msgid "Purge"
+msgid "Purge Jobs"
 msgstr "消去"
 
 #: templates/ha_cluster/hc_management.html:68
@@ -8920,8 +8753,6 @@ msgid "IP Address"
 msgstr "IPアドレス"
 
 #: templates/ha_cluster/hc_management.html:74
-#, fuzzy
-#| msgid "Pending #"
 msgid "Pending Jobs"
 msgstr "ペンディングジョブ"
 
@@ -8935,55 +8766,87 @@ msgstr "ファームウェアバージョンはプライマリデバイスと互
 msgid "HA Cluster Members"
 msgstr "HAクラスタメンバー"
 
-#: templates/ha_cluster/hc_management.html:106
-msgid "Setting Synchronization To Worker Nodes"
-msgstr "Wokerノードへの同期設定"
-
-#: templates/ha_cluster/hc_management.html:115
-msgid "Users, LDAP/RADIUS Servers and Uploaded Certificats"
-msgstr "ユーザ、LDAP/RADIUSサーバ、およびアップロードされた証明書"
-
-#: templates/ha_cluster/hc_management.html:121
-msgid "Network settings (including DNS, proxy, and routing tables)"
-msgstr "ネットワーク設定（DNS、プロキシ、ルーティングテーブルを含む）"
-
-#: templates/ha_cluster/hc_management.html:127
-msgid "Log Server Settings and Local Log Settings"
-msgstr "ログサーバの設定とローカルログの設定"
-
-#: templates/ha_cluster/hc_management.html:133
+#: templates/ha_cluster/hc_management.html:108
 #, fuzzy
-#| msgid "System Recovery"
-msgid "System Recovery settings"
-msgstr "システムリカバリー設定"
+#| msgid "BCC Settings"
+msgid "Backup Settings"
+msgstr "BCC設定"
 
-#: templates/ha_cluster/hc_management.html:139
+#: templates/ha_cluster/hc_management.html:112
+#, fuzzy
+#| msgid "Backup configuration to"
+msgid "Backup configuration from all cluster nodes"
+msgstr "に設定をバックアップ"
+
+#: templates/ha_cluster/hc_management.html:116
+#, fuzzy
+#| msgid "Backup"
+msgid "Backup All"
+msgstr "バックアップ"
+
+#: templates/ha_cluster/hc_management.html:123
+msgid "Synchronize Settings In Real-Time From Primary To Other Nodes"
+msgstr ""
+
+#: templates/ha_cluster/hc_management.html:132
+#, fuzzy
+#| msgid ""
+#| "Restore Administrators, Admin Profiles, Certificates, LDAP Servers and "
+#| "Radius Servers"
+msgid ""
+"Administrators, Admin Profiles, Device Groups, LDAP/RADIUS Servers and "
+"Certificates"
+msgstr ""
+"管理者、管理者プロファイル、証明書、LDAPサーバおよびRadiusサーバをリストアし"
+"てください"
+
+#: templates/ha_cluster/hc_management.html:138
 #, fuzzy
 #| msgid "Settings"
-msgid "SNMP settings"
-msgstr "SNMP設定"
+msgid "DNS Settings"
+msgstr "設定"
 
-#: templates/ha_cluster/hc_management.html:145
+#: templates/ha_cluster/hc_management.html:144
+#, fuzzy
+#| msgid "FortiGuard Server Settings"
+msgid "Fortiguard Settings"
+msgstr "FortiGuardサーバ設定"
+
+#: templates/ha_cluster/hc_management.html:150
 #, fuzzy
 #| msgid "Login Disclaimer"
-msgid "Login disclaimers"
+msgid "Login Disclaimers"
 msgstr "ログイン免責事項"
 
-#: templates/ha_cluster/hc_management.html:151
+#: templates/ha_cluster/hc_management.html:156
 #, fuzzy
-#| msgid "Diagnostic Logs"
-msgid "Diagnostic Logs > CLI Logs settings"
-msgstr "診断ログ> CLIログ設定"
+#| msgid "Log Server Settings and Local Log Settings"
+msgid "Log Servers and Log Settings"
+msgstr "ログサーバの設定とローカルログの設定"
+
+#: templates/ha_cluster/hc_management.html:162
+#, fuzzy
+#| msgid "SNMP settings"
+msgid "SNMP Settings"
+msgstr "SNMP設定"
+
+#: templates/ha_cluster/hc_management.html:174
+#, fuzzy
+#| msgid "VM Settings"
+msgid "VM Network Settings"
+msgstr "VM設定"
+
+#: templates/ha_cluster/hc_management.html:184
+#, fuzzy
+#| msgid "Synchronize with NTP Server"
+msgid "Synchronize Now"
+msgstr "NTPサーバと同期"
 
 #: templates/ha_cluster/hc_management_actions.html:11
-msgid " Selected Secondaries "
-msgstr "選択されたセカンダリ"
-
-#: templates/ha_cluster/hc_management_actions.html:19
 #, fuzzy
-#| msgid "HA-Cluster Events"
-msgid "All Cluster Units"
-msgstr "全てのクラスターユニット"
+#| msgid " Selected Secondaries "
+msgid " Selected nodes "
+msgstr "選択されたセカンダリ"
 
 #: templates/ha_cluster/hc_stat_table.html:19 templates/scan/sandbox.html:115
 msgid "File"
@@ -9075,7 +8938,9 @@ msgstr "レポートをダウンロード"
 
 #: templates/job_detail/error.html:8
 msgid "Failed to load job detail data, job might be deleted."
-msgstr "ジョブ詳細データの読み込みに失敗しました、ジョブは削除された可能性があります。"
+msgstr ""
+"ジョブ詳細データの読み込みに失敗しました、ジョブは削除された可能性がありま"
+"す。"
 
 #: templates/job_detail/header.html:23
 msgid "Export job detail page to PDF"
@@ -9090,8 +8955,6 @@ msgid "Loading..."
 msgstr "読み込み中..."
 
 #: templates/job_detail/tracer_behavior_detail.html:52
-#, fuzzy
-#| msgid "Tracer Log"
 msgid "Tracer Error:"
 msgstr "トレーサーエラー："
 
@@ -9226,8 +9089,6 @@ msgid "Embedded Urls"
 msgstr "埋め込まれたURL"
 
 #: templates/job_detail/tracer_behavior_detail.html:390
-#, fuzzy
-#| msgid "IPS signature"
 msgid " IPS signature"
 msgstr "IPSシグネチャ"
 
@@ -9336,10 +9197,6 @@ msgid "No Data Available"
 msgstr "利用可能なデータはありません"
 
 #: templates/job_detail/verdict.html:12
-#, fuzzy
-#| msgid ""
-#| "Submit feedback to cloud (includes tracer json, new verdict and original "
-#| "file)"
 msgid ""
 "Submit feedback to cloud (includes tracer json, new verdict, detailed PDF "
 "report and original file)"
@@ -9356,14 +9213,10 @@ msgid "Maximum comment length is 256 bytes"
 msgstr "最大コメント長は256バイトです"
 
 #: templates/job_detail/verdict.html:21
-#, fuzzy
-#| msgid "Contact"
 msgid "Contact Email: "
 msgstr "連絡先メールアドレス："
 
 #: templates/job_detail/verdict.html:27
-#, fuzzy
-#| msgid "Subject"
 msgid "Subject:"
 msgstr "サブジェクト"
 
@@ -9398,6 +9251,10 @@ msgstr "ログ設定"
 #: templates/logs/config.html:33
 msgid "Enabled Log Level"
 msgstr "ログレベルを有効化"
+
+#: templates/logs/diagnostic_logs.html:41
+msgid "Diagnostic Logs"
+msgstr "診断ログ"
 
 #: templates/logs/diagnostic_logs.html:46
 msgid "Kernel Logs"
@@ -9446,10 +9303,6 @@ msgstr " リモートログサーバが削除されました"
 #: templates/logs/server_delconfirm.html:52
 msgid "Are you sure you want to delete the following remote log server(s)"
 msgstr "以下のリモートログサーバを削除してよいですか?"
-
-#: templates/main/console.html:31
-msgid "CLI Console"
-msgstr "CLIコンソール"
 
 #: templates/main/console.html:41
 msgid "Connect"
@@ -9521,14 +9374,10 @@ msgid "File/URL Scan Search"
 msgstr "ファイル/URLスキャン検索"
 
 #: templates/main/tree_menu_def.html:122
-#, fuzzy
-#| msgid "File Scan Search"
 msgid "File Job Search"
 msgstr "ファイルジョブの検索"
 
 #: templates/main/tree_menu_def.html:126
-#, fuzzy
-#| msgid "URL Scan Search"
 msgid "URL Job Search"
 msgstr "URLジョブの検索"
 
@@ -9554,14 +9403,10 @@ msgid "Global Scan Profile"
 msgstr "グローバルスキャンプロファイル"
 
 #: templates/main/tree_menu_def.html:180
-#, fuzzy
-#| msgid "General Options"
 msgid "General Settings"
 msgstr "一般的設定"
 
 #: templates/main/tree_menu_def.html:184
-#, fuzzy
-#| msgid "Scan Job Priority"
 msgid "Job Priority"
 msgstr "ジョブ優先度"
 
@@ -9578,14 +9423,10 @@ msgid "Allowlist/Blocklist"
 msgstr "許可リスト/ブロックリスト"
 
 #: templates/main/tree_menu_def.html:204
-#, fuzzy
-#| msgid "Category"
 msgid "Web Category"
 msgstr "Webカテゴリ"
 
 #: templates/main/tree_menu_def.html:217
-#, fuzzy
-#| msgid "Yara Hits"
 msgid "Yara"
 msgstr "Yara"
 
@@ -9602,8 +9443,6 @@ msgid "URL Package"
 msgstr "URLパッケージ"
 
 #: templates/main/tree_menu_def.html:238
-#, fuzzy
-#| msgid "Threat Timeline Chart"
 msgid "Threat Intelligence"
 msgstr "脅威インテリジェンス"
 
@@ -9621,8 +9460,6 @@ msgid "Interfaces"
 msgstr "インターフェース"
 
 #: templates/main/tree_menu_def.html:284
-#, fuzzy
-#| msgid "New Static Route"
 msgid "Static Route"
 msgstr "スタティックルート"
 
@@ -9647,8 +9484,6 @@ msgid "RADIUS Servers"
 msgstr "RADIUSサーバ"
 
 #: templates/main/tree_menu_def.html:335
-#, fuzzy
-#| msgid "Mail Server"
 msgid "Mail Servers"
 msgstr "メールサーバ"
 
@@ -9657,8 +9492,6 @@ msgid "ftguard"
 msgstr "ftguard"
 
 #: templates/main/tree_menu_def.html:351
-#, fuzzy
-#| msgid "Settings"
 msgid "OtherSetting"
 msgstr "その他の設定"
 
@@ -9676,14 +9509,10 @@ msgid "Event Calendar Settings"
 msgstr "イベントカレンダーの設定"
 
 #: templates/main/tree_menu_def.html:388
-#, fuzzy
-#| msgid "CLI Console"
 msgid "GUIConsole"
 msgstr "CLIコンソール"
 
 #: templates/main/tree_menu_def.html:391
-#, fuzzy
-#| msgid "CLI Console"
 msgid "Console"
 msgstr "コンソール"
 
@@ -9736,44 +9565,28 @@ msgid "Report"
 msgstr "レポート"
 
 #: templates/main/tree_menu_def.html:509
-#, fuzzy
-#| msgid "Scan Results"
 msgid "Scan Reports"
 msgstr "スキャンレポート"
 
 #: templates/main/tree_menu_def.html:512
-#, fuzzy
-#| msgid "Scanning Statistics"
 msgid "File Statistics"
 msgstr "ファイル統計"
 
 #: templates/main/tree_menu_def.html:516
-#, fuzzy
-#| msgid "Scanning Statistics"
 msgid "URL Statistics"
 msgstr "URL統計"
 
 #: templates/main/tree_menu_def.html:521
-#, fuzzy
-#| msgid "Network Alerts Signature"
 msgid "Network Alerts Statistics"
 msgstr "ネットワークアラート統計"
 
 #: templates/main/tree_menu_def.html:528
-#, fuzzy
-#| msgid "Scanning Statistics"
 msgid "Statistics"
 msgstr "統計"
 
 #: templates/main/tree_menu_def.html:535 utils/apilog.py:304
 msgid "URL Scan"
 msgstr "URLスキャン"
-
-#: templates/main/tree_menu_def.html:554
-#, fuzzy
-#| msgid "Settings"
-msgid "Log Settings"
-msgstr "ログ設定"
 
 #: templates/netdet/download.html:25
 msgid "Callback DB File"
@@ -9930,7 +9743,8 @@ msgstr "of"
 msgid ""
 "Displaying %(rs_t)s to %(re_t)s of %(total_t)s malicious URL released "
 "packages"
-msgstr "%(rs_t)sから%(total_t)sの悪意のあるURLリリースパッケージの%(re_t)sを表示する"
+msgstr ""
+"%(rs_t)sから%(total_t)sの悪意のあるURLリリースパッケージの%(re_t)sを表示する"
 
 #: templates/scan/botnetpkg_res_table.html:32
 #: templates/scan/malpkg_res_table.html:30
@@ -10005,8 +9819,7 @@ msgstr "選択したアダプターを削除してもよいですか?"
 #: templates/scan/connector-del-confirm.html:62
 msgid ""
 "All of the following items and their related references will be deleted. "
-msgstr ""
-"以下の項目とそれに関連する参照情報すべてが削除されます"
+msgstr "以下の項目とそれに関連する参照情報すべてが削除されます"
 
 #: templates/scan/devfgts.html:114
 msgid "Serial Number : Domain/Vdom"
@@ -10227,7 +10040,7 @@ msgstr "%(total_t)s 中 %(rs_t)s から %(re_t)s のFortiClientを表示"
 #: templates/scan/device_main.html:79
 msgid "Reached Limit"
 msgstr "到達した上限"
- 
+
 #: templates/scan/device_main.html:82
 msgid "Allowed Limit"
 msgstr "許可された上限"
@@ -10267,7 +10080,7 @@ msgstr "不完全なファイルを保持"
 
 #: templates/scan/devsniffer.html:50
 msgid "Enable conserve mode if disk usage is too high"
-msgstr "ディスク使用率が高くなるとConserveモードになります
+msgstr "ディスク使用率が高くなるとConserveモードになります"
 
 #: templates/scan/devsniffer.html:50
 msgid "Enable conserve mode"
@@ -10278,8 +10091,6 @@ msgid "The maximum size of files captured by sniffer"
 msgstr "スニファーでキャプチャする最大ファイルサイズ"
 
 #: templates/scan/devsniffer.html:53
-#, fuzzy
-#| msgid "Max file size"
 msgid "max file size"
 msgstr "最大ファイルサイズ"
 
@@ -10339,19 +10150,16 @@ msgstr "スニファーの設定を更新しました。"
 msgid ""
 "Error: Sniffer configuration failed. Make sure all the interfaces are up."
 msgstr ""
-"エラー：スニファーの設定に失敗しました。すべてのインターフェースがアップしてい"
-"ることを確認してください。"
+"エラー：スニファーの設定に失敗しました。すべてのインターフェースがアップして"
+"いることを確認してください。"
 
 #: templates/scan/devsniffer.html:347
-#, fuzzy
-#| msgid ""
-#| "Error: Missing configurable ports, please config ports at Network "
-#| "Interface."
 msgid ""
 "Error: No configurable interface for sniffer, please config interface at "
 "Network > Interfaces."
 msgstr ""
-"エラー：スニファーに設定可能なポートがありません。インターフェースを設定してください。"
+"エラー：スニファーに設定可能なポートがありません。インターフェースを設定して"
+"ください。"
 
 #: templates/scan/edit_devfgts.html:156
 #: templates/scan/global_network_page.html:48
@@ -10483,8 +10291,7 @@ msgstr "グルーバルネットワークオプション"
 
 #: templates/scan/global_network_page.html:29
 msgid "Join global network to share threat information and manage scan profile"
-msgstr ""
-"グローバルネットワークに参加して脅威情報を共有"
+msgstr "グローバルネットワークに参加して脅威情報を共有"
 
 #: templates/scan/global_network_page.html:39
 msgid "Work as threat information collector and scan profile manager"
@@ -10495,7 +10302,8 @@ msgstr "脅威情報コレクタかつスキャンプロファイルマネージ
 msgid ""
 "Work as threat information contributor. Scan profile is managed by manager"
 msgstr ""
-"脅威情報提コントリビュータとして機能する。スキャンプロファイルはマネージャが管理する。"
+"脅威情報提コントリビュータとして機能する。スキャンプロファイルはマネージャが"
+"管理する。"
 
 #: templates/scan/global_network_page.html:44
 msgid "Collector Configuration"
@@ -10728,14 +10536,16 @@ msgid ""
 "The unit has joined the threat information global network and is working as "
 "a collector."
 msgstr ""
-"このユニットは脅威情報のグローバルネットワークに参加し、コレクタとして動いています。"
+"このユニットは脅威情報のグローバルネットワークに参加し、コレクタとして動いて"
+"います。"
 
 #: templates/scan/malpkg_config.html:38
 msgid ""
 "The unit has joined the threat information global network and is working as "
 "a contributor."
 msgstr ""
-"このユニットは、脅威情報のグローバルネットワークに参加し、コントリビュータとして動いています。"
+"このユニットは、脅威情報のグローバルネットワークに参加し、コントリビュータと"
+"して動いています。"
 
 #: templates/scan/malpkg_config.html:40
 msgid "To configure settings, please go to the"
@@ -10946,15 +10756,16 @@ msgid ""
 "Note: Quarantined files will be kept at the deleted quarantine location. Are "
 "you sure you want to move on"
 msgstr ""
-"注：隔離されたファイルは隔離ロケーションを削除しても残ります。続けてもよいですか？"
+"注：隔離されたファイルは隔離ロケーションを削除しても残ります。続けてもよいで"
+"すか？"
 
 #: templates/scan/que_pri.html:36
 msgid ""
 "Drag to sort the Job Queue Priority. Press Ctrl to select multiple items in "
 "a time."
 msgstr ""
-"優先度を並べ替えるにはドラッグ&ドロップします。複数の項目を一度に選択する"
-"には、Ctrlキーを押します。"
+"優先度を並べ替えるにはドラッグ&ドロップします。複数の項目を一度に選択するに"
+"は、Ctrlキーを押します。"
 
 #: templates/scan/que_pri.html:37 utils/apilog.py:343
 msgid "Job Queue Priority"
@@ -10964,8 +10775,7 @@ msgstr "ジョブキュー優先度"
 msgid ""
 "Drag to sort the Scan Queue Priority, make sure the cursour in the blink red "
 "box."
-msgstr ""
-"優先度を並べ替えるにはドラッグ&ドロップします。"
+msgstr "優先度を並べ替えるにはドラッグ&ドロップします。"
 
 #: templates/scan/que_pri.html:80
 msgid "Reset the Job Queue Priority to default."
@@ -11009,15 +10819,10 @@ msgid "Maximum URL:"
 msgstr "最大URL数:"
 
 #: templates/scan/scan-profile.html:81
-#, fuzzy
-#| msgid ""
-#| "Maximum allowed URL number in one submission must be an integer in range "
-#| "-1 to 10000. -1 means unlimited. 0 means original URL page"
 msgid ""
 "Maximum allowed URL number in one submission must be an integer in range 1 "
 "to 10000, or equal -1 (-1 means unlimited)."
-msgstr ""
-"-1〜10000の整数でなければなりません。-1は無制限を意味します。"
+msgstr "-1〜10000の整数でなければなりません。-1は無制限を意味します。"
 
 #: templates/scan/scan-profile.html:86
 msgid "Default Depth:"
@@ -11047,8 +10852,6 @@ msgid ""
 msgstr "スキャンを停止するまでの時間（60〜180秒）"
 
 #: templates/scan/scan-profile.html:131
-#, fuzzy
-#| msgid "All (the following file types and any other file type) "
 msgid "Enable the following Sandboxing Prefilter types"
 msgstr "以下のプレフィルタを有効化します"
 
@@ -11061,8 +10864,6 @@ msgid "Allow parallel VM scan"
 msgstr "パラレルVMスキャン"
 
 #: templates/scan/scan-profile.html:191
-#, fuzzy
-#| msgid "Set customized password for original files"
 msgid "Set customized sandboxing ratio"
 msgstr "サンドボックス率を設定する(%)"
 
@@ -11273,7 +11074,7 @@ msgid ""
 "Update this unit to be standalone unit will affect the data on this unit, "
 "are you sure to continue"
 msgstr ""
-"このユニットをスタンドアロンへ変更すると、このユニット内のデータに影響があり
+"このユニットをスタンドアロンへ変更すると、このユニット内のデータに影響があり "
 "ます。続けますか？ "
 
 #: templates/system/config-hostname.html:28
@@ -11390,8 +11191,6 @@ msgstr "VMの外部接続ポート"
 
 #: templates/system/config-network-intf.html:33
 #: templates/system/edit-network-intf.html:194
-#, fuzzy
-#| msgid "Import"
 msgid "API port"
 msgstr "インポート"
 
@@ -11539,29 +11338,25 @@ msgid ""
 "Error: Empty IPv6 Address is not allowed when there is static IPv6 route "
 "exists for this address"
 msgstr ""
-"エラー：このアドレス宛にIPv6スタティックルートが存在する場合、"
-"空のIPv6アドレスは許可されません"
+"エラー：このアドレス宛にIPv6スタティックルートが存在する場合、空のIPv6アドレ"
+"スは許可されません"
 
 #: templates/system/edit-network-intf.html:74
-#, fuzzy
-#| msgid ""
-#| "Are you sure you want to set your network interface with this IP (changes "
-#| "may impact currently running services)?"
 msgid ""
 "Are you sure you want to set your network interface with this IP (changes "
 "may impact currently running services, the static route will be deleted when "
 "the port interface is changed)?"
 msgstr ""
-"IPアドレスを変更してよいですか？(この変更は現在稼働しているサービスに影響"
-"があるかもしれません)"
+"IPアドレスを変更してよいですか？(この変更は現在稼働しているサービスに影響があ"
+"るかもしれません)"
 
 #: templates/system/edit-network-intf.html:82
 msgid ""
 "Are you sure you want to set your network interface with this IP (changes "
 "may impact currently running services)?"
 msgstr ""
-"IPアドレスを変更してよいですか？(この変更は現在稼働しているサービスに影響"
-"があるかもしれません)"
+"IPアドレスを変更してよいですか？(この変更は現在稼働しているサービスに影響があ"
+"るかもしれません)"
 
 #: templates/system/edit-network-intf.html:166
 msgid ""
@@ -11571,10 +11366,10 @@ msgid ""
 "the intranet. It is recommended to place this interface on an isolated "
 "network behind a firewall."
 msgstr ""
-"注意：FortiSandbox VMのサンドボックスは、分析中のファイル実行時にport3を使"
-"用して外部通信を行います。イントラネット内で感染ファイルが広がらないようにす"
-"るためにこのインターフェースをファイアウォール背後の隔離されたネットワーク上"
-"に配置することを推奨します。"
+"注意：FortiSandbox VMのサンドボックスは、分析中のファイル実行時にport3を使用"
+"して外部通信を行います。イントラネット内で感染ファイルが広がらないようにする"
+"ためにこのインターフェースをファイアウォール背後の隔離されたネットワーク上に"
+"配置することを推奨します。"
 
 #: templates/system/edit-network-intf.html:169
 msgid ""
@@ -11589,9 +11384,9 @@ msgid ""
 "Any incorrect settings may lead job assignment/malware detection to be "
 "failed on this unit"
 msgstr ""
-"注意：このインターフェースは、クラスタ内部通信用に設定されています。誤った設定"
-"により、このユニットによるジョブの割り当て/マルウェアの検出が失敗する可能性が"
-"あります"
+"注意：このインターフェースは、クラスタ内部通信用に設定されています。誤った設"
+"定により、このユニットによるジョブの割り当て/マルウェアの検出が失敗する可能性"
+"があります"
 
 #: templates/system/edit-network-intf.html:256
 #: templates/system/edit-network-intf.html:258
@@ -11696,8 +11491,8 @@ msgid ""
 "Are you sure you want to delete the selected static route? All of the "
 "following items and their related references will be deleted"
 msgstr ""
-"選択したスタティックルートを削除してもよいですか？以下の項目とそれに関連"
-"するすべてが削除されます"
+"選択したスタティックルートを削除してもよいですか？以下の項目とそれに関連する"
+"すべてが削除されます"
 
 #: templates/system/radius-delconfirm.html:52
 msgid "Are you sure you want to delete the following RADIUS servers"
@@ -11708,12 +11503,8 @@ msgid "Reset all widgets"
 msgstr "すべてのウィジェットをリセット"
 
 #: templates/system/settings.html:99
-msgid ""
-"You can reset all widgets in Dashboard,  File Detection > Summary Report, "
-"Network Alerts > Summary Report, URL Detection > Summary Report."
+msgid "You can reset all widgets to their default layout and parameters."
 msgstr ""
-"これら全てのウィジェットをリセットできます：ファイルベース検知 > サマリレ"
-"ポート、ネットワークアラート > サマリレポート、URL検知 > サマリレポート."
 
 #: templates/system/vm_activate.html:56
 msgid ""
@@ -12014,7 +11805,7 @@ msgstr "jsonの書き込みでエラーが発生しました: "
 msgid "Failed to cancel submission %(sid)s"
 msgstr "サブミッションをキャンセルできませんでした %(sid)s"
 
-#: utils/apifile.py:1093
+#: utils/apifile.py:1105
 msgid "Data cannot be displayed"
 msgstr "データを表示できません"
 
@@ -12093,6 +11884,10 @@ msgstr "Microsoft Office ライセンスファイルをアップロード"
 #: utils/apilog.py:339
 msgid "Dashboard Widget Setting Change"
 msgstr "ダッシュボードウィジェットを変更"
+
+#: utils/apilog.py:342
+msgid "Scan Policy"
+msgstr "スキャンポリシー"
 
 #: utils/apilog.py:349
 msgid "Rescan Job"
@@ -12279,8 +12074,6 @@ msgid "The same certificate name has been used."
 msgstr "証明書名が重複しています。"
 
 #: utils/cert/cert.py:482 utils/cert/cert.py:495
-#, fuzzy
-#| msgid "The same certificate has been imported."
 msgid "The certificate cannot sign with MD5."
 msgstr "証明書はMD5で署名できません。"
 
@@ -12321,15 +12114,15 @@ msgid ""
 "etc)"
 msgstr "圧縮ファイル (.7z, .xz, .bz2, .gz, .tar, .zip, .rar, .Z 等)"
 
-#: utils/filetype.py:10 utils/prescandef.py:43
+#: utils/filetype.py:10
 msgid "PDF files"
 msgstr "PDFファイル"
 
-#: utils/filetype.py:11 utils/prescandef.py:40
+#: utils/filetype.py:11
 msgid "Microsoft Office files (Word, Excel, PowerPoint files etc)"
 msgstr "Microsoft Officeファイル(Word、Excel、PowerPoint 等)"
 
-#: utils/filetype.py:12 utils/prescandef.py:41
+#: utils/filetype.py:12
 msgid "Adobe Flash files"
 msgstr "Adobe Flashファイル"
 
@@ -12356,37 +12149,39 @@ msgstr "ネットマスクビットは指定しないでください"
 #: utils/network.py:144
 #, python-format
 msgid "Invalid network, did you mean %s?"
-msgstr "無効なネットワーク、％sのことですか？"
+msgstr "無効なネットワーク、%sのことですか？"
 
-#: utils/network.py:806 utils/network.py:808
+#: utils/network.py:812 utils/network.py:814
 msgid "Duplicate static route definition exists"
 msgstr "スタティックルートが重複しています"
 
-#: utils/network.py:810 utils/network.py:879
+#: utils/network.py:816 utils/network.py:885
 msgid "Empty value is not allowed"
 msgstr "値を入力してください"
 
-#: utils/network.py:818
+#: utils/network.py:824
 msgid "IP address/mask is not in a valid format"
 msgstr "IPアドレス/マスクの形式が無効です"
 
-#: utils/network.py:839
+#: utils/network.py:845
 msgid "Gateway and Network IP's must be the same version"
 msgstr "ゲートウェイとIPは同じバージョンである必要があります"
 
-#: utils/network.py:859
+#: utils/network.py:865
 msgid "Gateway must be within device's subnet "
 msgstr "ゲートウェイはデバイスのサブネット内になければなりません "
 
-#: utils/network.py:862
+#: utils/network.py:868
 msgid "Gateway cannot be the netowrk|broadcast IP of device's subnet"
-msgstr "ネットワークアドレス、ブロードキャストアドレスはゲートウェイとして指定できません"
+msgstr ""
+"ネットワークアドレス、ブロードキャストアドレスはゲートウェイとして指定できま"
+"せん"
 
-#: utils/network.py:871
+#: utils/network.py:877
 msgid "You may not set the interface's own IP as the gateway"
 msgstr "ゲートウェイとしてインターフェースのIPを設定できません"
 
-#: utils/network.py:876
+#: utils/network.py:882
 msgid "Link-local IPs ('fe80::/10') are not routable"
 msgstr "リンクローカルIP( 'fe80 :: / 10')はルーティングできません"
 
@@ -12472,6 +12267,7 @@ msgstr "新規ジョブ"
 
 #: utils/networkshare.py:75
 msgid "Job file loaded"
+msgstr ""
 
 #: utils/networkshare.py:76
 msgid "Running"
@@ -12516,7 +12312,8 @@ msgstr "LDAPサーバ情報の更新時にエラーが発生しました。"
 #: utils/networkshare.py:772
 msgid "Network share inaccessible - IP address or FQDN not found."
 msgstr ""
-"ネットワーク共有にアクセスできません -  IPアドレスまたはFQDNが見つかりません。"
+"ネットワーク共有にアクセスできません -  IPアドレスまたはFQDNが見つかりませ"
+"ん。"
 
 #: utils/networkshare.py:788
 msgid "Network share inaccessible - "
@@ -12525,92 +12322,6 @@ msgstr "ネットワーク共有にアクセスできません - "
 #: utils/networkshare.py:810 utils/networkshare.py:812
 msgid "Network share is inaccessible"
 msgstr "ネットワーク共有にアクセスできません"
-
-#: utils/prescandef.py:23
-msgid "Executables"
-msgstr "実行ファイル"
-
-#: utils/prescandef.py:24
-#, fuzzy
-#| msgid "PDF documents"
-msgid "Office documents"
-msgstr "Office文書"
-
-#: utils/prescandef.py:25
-msgid "Flash files"
-msgstr "Flashファイル"
-
-#: utils/prescandef.py:26
-msgid "Compressed archives"
-msgstr "圧縮ファイル"
-
-#: utils/prescandef.py:27
-msgid "PDF documents"
-msgstr "PDF文書"
-
-#: utils/prescandef.py:28
-#, fuzzy
-#| msgid "page"
-msgid "Web pages"
-msgstr "ウェブページ"
-
-#: utils/prescandef.py:29 utils/prescandef.py:45
-msgid "Android files"
-msgstr "Androidファイル"
-
-#: utils/prescandef.py:30 utils/prescandef.py:46
-#, fuzzy
-#| msgid "Flash files"
-msgid "Mac files"
-msgstr "Macファイル"
-
-#: utils/prescandef.py:31 utils/prescandef.py:47
-#, fuzzy
-#| msgid "Admin Profiles"
-msgid "Linux files"
-msgstr "Linuxファイル"
-
-#: utils/prescandef.py:32
-msgid "URL detection"
-msgstr "URL検知"
-
-#: utils/prescandef.py:33 utils/prescandef.py:49
-msgid "User defined extensions"
-msgstr "ユーザ定義の拡張子"
-
-#: utils/prescandef.py:34 utils/prescandef.py:50
-msgid "Job Queue Assignment Pending files"
-msgstr "ジョブキュー割り当て保留中のファイル"
-
-#: utils/prescandef.py:35 utils/prescandef.py:51
-#, fuzzy
-#| msgid "Sandboxing"
-msgid "Non Sandboxing files"
-msgstr "サンドボックスファイルがありません"
-
-#: utils/prescandef.py:39
-msgid "Executables/DLL/VBS/BAT/PS1/JAR/MSI/WSF/JS files"
-msgstr "実行可能ファイル　DLL / VBS / BAT / PS1 / JAR / MSI / WSF / JSファイル"
-
-#: utils/prescandef.py:42
-#, fuzzy
-#| msgid ""
-#| "Archive files (with extension of .7z, .xz, .bz2, .gz, .tar, .zip, .rar, ."
-#| "Z, .kgb, .ace etc)"
-msgid ""
-"アーカイブファイル(.7z, .xz, .bz2, .gz, .tar, .zip, .rar, .Z, ."
-"kgb, .ace, .arj etc)"
-msgstr ""
-"圧縮ファイル (.7z, .xz, .bz2, .gz, .tar, .zip, .rar, .Z, .kgb, .ace "
-"等)"
-
-#: utils/prescandef.py:44
-msgid "Static Web files"
-msgstr "静的なウェブファイル"
-
-#: utils/prescandef.py:48
-msgid "URL detection (exclude the On-Demand submission)"
-msgstr "URL検出（オンデマンド送信を除く）"
 
 #: utils/rescan.py:308
 msgid "Failed to perform rescan"
@@ -12676,7 +12387,6 @@ msgstr "無効なネットマスク"
 
 #: utils/validators.py:141
 msgid "Invalid IP for empty netmask"
-msgstr "空のネットマスクの無効なIP"
 msgstr "無効なIP。ネットマスクを入力してください"
 
 #: utils/validators.py:147
@@ -12690,6 +12400,127 @@ msgstr "有効なホスト名を入力してください。"
 #: utils/validators.py:255
 msgid "Enter valid domain."
 msgstr "有効なドメインを入力してください。"
+
+#~ msgid "Microsoft "
+#~ msgstr "マイクロソフト"
+
+#~ msgid " License Upload"
+#~ msgstr "ライセンスのアップロード"
+
+#~ msgid "Failed to import new "
+#~ msgstr "新規インポートに失敗しました"
+
+#~ msgid " file was successfully imported. Rebooting system."
+#~ msgstr " ファイルは正常にインポートされました。システムを再起動しています"
+
+#~ msgid "Cluster"
+#~ msgstr "クラスタ"
+
+#~ msgid "File Detection"
+#~ msgstr "ファイルベース検知"
+
+#~ msgid "URL Detections"
+#~ msgstr "URL検知"
+
+#~ msgid "Local Log Config"
+#~ msgstr "ローカルログ設定"
+
+#~ msgid "Currently in AI Mode"
+#~ msgstr "現在AIモードです"
+
+#~ msgid "Currently in Regular Mode"
+#~ msgstr "現在レギュラモードです"
+
+#~ msgid ""
+#~ "WARNING: The ip4 address of management port (port1) does not match the "
+#~ "one defined in license fileWARNING: 管理用インターフェース(port1)のIPv4ア"
+#~ "ドレスが、ライセンスファイルに定義されたものと一致しません"
+#~ msgstr ""
+#~ "警告： 管理ポート（port1）のip4アドレスが、ライセンスファイルで定義されて"
+#~ "いるアドレスと一致しません"
+
+#~ msgid "Setting Synchronization To Worker Nodes"
+#~ msgstr "Wokerノードへの同期設定"
+
+#~ msgid "Users, LDAP/RADIUS Servers and Uploaded Certificats"
+#~ msgstr "ユーザ、LDAP/RADIUSサーバ、およびアップロードされた証明書"
+
+#~ msgid "Network settings (including DNS, proxy, and routing tables)"
+#~ msgstr "ネットワーク設定（DNS、プロキシ、ルーティングテーブルを含む）"
+
+#~ msgid "System Recovery settings"
+#~ msgstr "システムリカバリー設定"
+
+#~ msgid "Login disclaimers"
+#~ msgstr "ログイン免責事項"
+
+#~ msgid "Diagnostic Logs > CLI Logs settings"
+#~ msgstr "診断ログ> CLIログ設定"
+
+#~ msgid "All Cluster Units"
+#~ msgstr "全てのクラスターユニット"
+
+#~ msgid ""
+#~ "You can reset all widgets in Dashboard,  File Detection > Summary Report, "
+#~ "Network Alerts > Summary Report, URL Detection > Summary Report."
+#~ msgstr ""
+#~ "これら全てのウィジェットをリセットできます：ファイルベース検知 > サマリレ"
+#~ "ポート、ネットワークアラート > サマリレポート、URL検知 > サマリレポート."
+
+#~ msgid "Executables"
+#~ msgstr "実行ファイル"
+
+#~ msgid "Office documents"
+#~ msgstr "Office文書"
+
+#~ msgid "Flash files"
+#~ msgstr "Flashファイル"
+
+#~ msgid "Compressed archives"
+#~ msgstr "圧縮ファイル"
+
+#~ msgid "PDF documents"
+#~ msgstr "PDF文書"
+
+#~ msgid "Web pages"
+#~ msgstr "ウェブページ"
+
+#~ msgid "Android files"
+#~ msgstr "Androidファイル"
+
+#~ msgid "Mac files"
+#~ msgstr "Macファイル"
+
+#~ msgid "Linux files"
+#~ msgstr "Linuxファイル"
+
+#~ msgid "URL detection"
+#~ msgstr "URL検知"
+
+#~ msgid "User defined extensions"
+#~ msgstr "ユーザ定義の拡張子"
+
+#~ msgid "Job Queue Assignment Pending files"
+#~ msgstr "ジョブキュー割り当て保留中のファイル"
+
+#~ msgid "Non Sandboxing files"
+#~ msgstr "サンドボックスファイルがありません"
+
+#~ msgid "Executables/DLL/VBS/BAT/PS1/JAR/MSI/WSF/JS files"
+#~ msgstr ""
+#~ "実行可能ファイル　DLL / VBS / BAT / PS1 / JAR / MSI / WSF / JSファイル"
+
+#~ msgid ""
+#~ "アーカイブファイル(.7z, .xz, .bz2, .gz, .tar, .zip, .rar, .Z, .kgb, ."
+#~ "ace, .arj etc)"
+#~ msgstr ""
+#~ "圧縮ファイル (.7z, .xz, .bz2, .gz, .tar, .zip, .rar, .Z, .kgb, .ace 等)"
+
+#~ msgid "Static Web files"
+#~ msgstr "静的なウェブファイル"
+
+#~ msgid "URL detection (exclude the On-Demand submission)"
+#~ msgstr "URL検出（オンデマンド送信を除く）"
 
 #~ msgid "On-Demand"
 #~ msgstr "オンデマンド"
@@ -12772,8 +12603,8 @@ msgstr "有効なドメインを入力してください。"
 
 #~ msgid " is down. Please make sure sniffering interface is up"
 #~ msgstr ""
-#~ "ダウンしています。スニファーリングインターフェースがアップしていることを確認"
-#~ "してください"
+#~ "ダウンしています。スニファーリングインターフェースがアップしていることを確"
+#~ "認してください"
 
 #~ msgid "White"
 #~ msgstr "ホワイト"
@@ -12996,8 +12827,8 @@ msgstr "有効なドメインを入力してください。"
 #~ "Use override server for community cloud server query (address or address:"
 #~ "port)"
 #~ msgstr ""
-#~ "コミュニティクラウドサーバのクエリ（アドレスまたはアドレス：ポート）に上"
-#~ "書きサーバを使用する"
+#~ "コミュニティクラウドサーバのクエリ（アドレスまたはアドレス：ポート）に上書"
+#~ "きサーバを使用する"
 
 #~ msgid ""
 #~ "Note: The FortiSandbox will reboot after the new Sandbox VM is installed."
@@ -13057,9 +12888,6 @@ msgstr "有効なドメインを入力してください。"
 
 #~ msgid "Submission ID"
 #~ msgstr "サブミッションID"
-
-#~ msgid "Microsoft %s License Upload"
-#~ msgstr "Microsoft %s ライセンスのアップロード"
 
 #~ msgid "VMスキャン開始時刻"
 #~ msgstr "開始日時"
@@ -13204,8 +13032,8 @@ msgstr "有効なドメインを入力してください。"
 #~ "Put files / URLs from sniffer, network share and devices of the following "
 #~ "types to job queue"
 #~ msgstr ""
-#~ "ジョブキューに、スニファー、ネットワーク共有、次のタイプのデバイスからファイ"
-#~ "ル/URLを入れてください。"
+#~ "ジョブキューに、スニファー、ネットワーク共有、次のタイプのデバイスからファ"
+#~ "イル/URLを入れてください。"
 
 #~ msgid "Local Limit:"
 #~ msgstr "ローカル制限："
@@ -13564,9 +13392,6 @@ msgstr "有効なドメインを入力してください。"
 #~ msgid "Top Infectious URLs"
 #~ msgstr "上位脅威URL"
 
-#~ msgid " RAID Enabled"
-#~ msgstr " RAID有効"
-
 #~ msgid "day(s) of data. (The limit of max days is 365)"
 #~ msgstr "day(s) of data. (最大日数の上限は365です)"
 
@@ -13841,8 +13666,8 @@ msgstr "有効なドメインを入力してください。"
 #~ "Error happened when resetting proxy server settings. Please check system "
 #~ "log for details"
 #~ msgstr ""
-#~ "プロキシサーバの設定のリセットでエラーが発生しました。詳細はシステムログ"
-#~ "を確認してください。"
+#~ "プロキシサーバの設定のリセットでエラーが発生しました。詳細はシステムログを"
+#~ "確認してください。"
 
 #~ msgid "Data is not available now."
 #~ msgstr "データは利用できません"
@@ -13879,9 +13704,6 @@ msgstr "有効なドメインを入力してください。"
 
 #~ msgid "Device/Username"
 #~ msgstr "デバイス/ユーザ名"
-
-#~ msgid "Help"
-#~ msgstr "ヘルプ"
 
 #~ msgid "Logged in as"
 #~ msgstr "Logged in as"
@@ -14084,9 +13906,6 @@ msgstr "有効なドメインを入力してください。"
 
 #~ msgid "Add Dashboard"
 #~ msgstr "ダッシュボートの追加"
-
-#~ msgid "Edit Dashboard"
-#~ msgstr "ダッシュボートの編集"
 
 #~ msgid "Delete Dashboard"
 #~ msgstr "ダッシュボードの削除"
